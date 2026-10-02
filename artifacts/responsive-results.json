@@ -1,0 +1,722 @@
+[
+  {
+    "route": "/",
+    "width": 1440,
+    "client": 1425,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1425,
+    "viewport": 1440
+  },
+  {
+    "route": "/about",
+    "width": 1440,
+    "client": 1425,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1425,
+    "viewport": 1440
+  },
+  {
+    "route": "/our-work",
+    "width": 1440,
+    "client": 1425,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1425,
+    "viewport": 1440
+  },
+  {
+    "route": "/oem-products",
+    "width": 1440,
+    "client": 1425,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1425,
+    "viewport": 1440
+  },
+  {
+    "route": "/oem-journey",
+    "width": 1440,
+    "client": 1425,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1425,
+    "viewport": 1440
+  },
+  {
+    "route": "/technical-insights",
+    "width": 1440,
+    "client": 1425,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1425,
+    "viewport": 1440
+  },
+  {
+    "route": "/start-your-project",
+    "width": 1440,
+    "client": 1425,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1425,
+    "viewport": 1440
+  },
+  {
+    "route": "/contact",
+    "width": 1440,
+    "client": 1425,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1425,
+    "viewport": 1440
+  },
+  {
+    "route": "/",
+    "width": 1280,
+    "client": 1265,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1265,
+    "viewport": 1280
+  },
+  {
+    "route": "/about",
+    "width": 1280,
+    "client": 1265,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1265,
+    "viewport": 1280
+  },
+  {
+    "route": "/our-work",
+    "width": 1280,
+    "client": 1265,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1265,
+    "viewport": 1280
+  },
+  {
+    "route": "/oem-products",
+    "width": 1280,
+    "client": 1265,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1265,
+    "viewport": 1280
+  },
+  {
+    "route": "/oem-journey",
+    "width": 1280,
+    "client": 1265,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1265,
+    "viewport": 1280
+  },
+  {
+    "route": "/technical-insights",
+    "width": 1280,
+    "client": 1265,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1265,
+    "viewport": 1280
+  },
+  {
+    "route": "/start-your-project",
+    "width": 1280,
+    "client": 1265,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1265,
+    "viewport": 1280
+  },
+  {
+    "route": "/contact",
+    "width": 1280,
+    "client": 1265,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1265,
+    "viewport": 1280
+  },
+  {
+    "route": "/",
+    "width": 1241,
+    "client": 1226,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1226,
+    "viewport": 1242
+  },
+  {
+    "route": "/about",
+    "width": 1241,
+    "client": 1226,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1226,
+    "viewport": 1242
+  },
+  {
+    "route": "/our-work",
+    "width": 1241,
+    "client": 1226,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1226,
+    "viewport": 1242
+  },
+  {
+    "route": "/oem-products",
+    "width": 1241,
+    "client": 1226,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1226,
+    "viewport": 1242
+  },
+  {
+    "route": "/oem-journey",
+    "width": 1241,
+    "client": 1226,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1226,
+    "viewport": 1242
+  },
+  {
+    "route": "/technical-insights",
+    "width": 1241,
+    "client": 1226,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1226,
+    "viewport": 1242
+  },
+  {
+    "route": "/start-your-project",
+    "width": 1241,
+    "client": 1226,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1226,
+    "viewport": 1242
+  },
+  {
+    "route": "/contact",
+    "width": 1241,
+    "client": 1226,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1226,
+    "viewport": 1242
+  },
+  {
+    "route": "/",
+    "width": 1240,
+    "client": 1225,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1225,
+    "viewport": 1240
+  },
+  {
+    "route": "/about",
+    "width": 1240,
+    "client": 1225,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1225,
+    "viewport": 1240
+  },
+  {
+    "route": "/our-work",
+    "width": 1240,
+    "client": 1225,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1225,
+    "viewport": 1240
+  },
+  {
+    "route": "/oem-products",
+    "width": 1240,
+    "client": 1225,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1225,
+    "viewport": 1240
+  },
+  {
+    "route": "/oem-journey",
+    "width": 1240,
+    "client": 1225,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1225,
+    "viewport": 1240
+  },
+  {
+    "route": "/technical-insights",
+    "width": 1240,
+    "client": 1225,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1225,
+    "viewport": 1240
+  },
+  {
+    "route": "/start-your-project",
+    "width": 1240,
+    "client": 1225,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1225,
+    "viewport": 1240
+  },
+  {
+    "route": "/contact",
+    "width": 1240,
+    "client": 1225,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1225,
+    "viewport": 1240
+  },
+  {
+    "route": "/",
+    "width": 1170,
+    "client": 1155,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1155,
+    "viewport": 1170
+  },
+  {
+    "route": "/about",
+    "width": 1170,
+    "client": 1155,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1155,
+    "viewport": 1170
+  },
+  {
+    "route": "/our-work",
+    "width": 1170,
+    "client": 1155,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1155,
+    "viewport": 1170
+  },
+  {
+    "route": "/oem-products",
+    "width": 1170,
+    "client": 1155,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1155,
+    "viewport": 1170
+  },
+  {
+    "route": "/oem-journey",
+    "width": 1170,
+    "client": 1155,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1155,
+    "viewport": 1170
+  },
+  {
+    "route": "/technical-insights",
+    "width": 1170,
+    "client": 1155,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1155,
+    "viewport": 1170
+  },
+  {
+    "route": "/start-your-project",
+    "width": 1170,
+    "client": 1155,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1155,
+    "viewport": 1170
+  },
+  {
+    "route": "/contact",
+    "width": 1170,
+    "client": 1155,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1155,
+    "viewport": 1170
+  },
+  {
+    "route": "/",
+    "width": 1024,
+    "client": 1009,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1009,
+    "viewport": 1024
+  },
+  {
+    "route": "/about",
+    "width": 1024,
+    "client": 1009,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1009,
+    "viewport": 1024
+  },
+  {
+    "route": "/our-work",
+    "width": 1024,
+    "client": 1009,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1009,
+    "viewport": 1024
+  },
+  {
+    "route": "/oem-products",
+    "width": 1024,
+    "client": 1009,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1009,
+    "viewport": 1024
+  },
+  {
+    "route": "/oem-journey",
+    "width": 1024,
+    "client": 1009,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1009,
+    "viewport": 1024
+  },
+  {
+    "route": "/technical-insights",
+    "width": 1024,
+    "client": 1009,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1009,
+    "viewport": 1024
+  },
+  {
+    "route": "/start-your-project",
+    "width": 1024,
+    "client": 1009,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1009,
+    "viewport": 1024
+  },
+  {
+    "route": "/contact",
+    "width": 1024,
+    "client": 1009,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 1009,
+    "viewport": 1024
+  },
+  {
+    "route": "/",
+    "width": 1000,
+    "client": 985,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 985,
+    "viewport": 1000
+  },
+  {
+    "route": "/about",
+    "width": 1000,
+    "client": 985,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 985,
+    "viewport": 1000
+  },
+  {
+    "route": "/our-work",
+    "width": 1000,
+    "client": 985,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 985,
+    "viewport": 1000
+  },
+  {
+    "route": "/oem-products",
+    "width": 1000,
+    "client": 985,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 985,
+    "viewport": 1000
+  },
+  {
+    "route": "/oem-journey",
+    "width": 1000,
+    "client": 985,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 985,
+    "viewport": 1000
+  },
+  {
+    "route": "/technical-insights",
+    "width": 1000,
+    "client": 985,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 985,
+    "viewport": 1000
+  },
+  {
+    "route": "/start-your-project",
+    "width": 1000,
+    "client": 985,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 985,
+    "viewport": 1000
+  },
+  {
+    "route": "/contact",
+    "width": 1000,
+    "client": 985,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 985,
+    "viewport": 1000
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "client": 753,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 753,
+    "viewport": 768
+  },
+  {
+    "route": "/about",
+    "width": 768,
+    "client": 753,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 753,
+    "viewport": 768
+  },
+  {
+    "route": "/our-work",
+    "width": 768,
+    "client": 753,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 753,
+    "viewport": 768
+  },
+  {
+    "route": "/oem-products",
+    "width": 768,
+    "client": 753,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 753,
+    "viewport": 768
+  },
+  {
+    "route": "/oem-journey",
+    "width": 768,
+    "client": 753,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 753,
+    "viewport": 768
+  },
+  {
+    "route": "/technical-insights",
+    "width": 768,
+    "client": 753,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 753,
+    "viewport": 768
+  },
+  {
+    "route": "/start-your-project",
+    "width": 768,
+    "client": 753,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 753,
+    "viewport": 768
+  },
+  {
+    "route": "/contact",
+    "width": 768,
+    "client": 753,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 753,
+    "viewport": 768
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "client": 375,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 375,
+    "viewport": 390
+  },
+  {
+    "route": "/about",
+    "width": 390,
+    "client": 375,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 375,
+    "viewport": 390
+  },
+  {
+    "route": "/our-work",
+    "width": 390,
+    "client": 375,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 375,
+    "viewport": 390
+  },
+  {
+    "route": "/oem-products",
+    "width": 390,
+    "client": 375,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 375,
+    "viewport": 390
+  },
+  {
+    "route": "/oem-journey",
+    "width": 390,
+    "client": 375,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 375,
+    "viewport": 390
+  },
+  {
+    "route": "/technical-insights",
+    "width": 390,
+    "client": 375,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 375,
+    "viewport": 390
+  },
+  {
+    "route": "/start-your-project",
+    "width": 390,
+    "client": 375,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 375,
+    "viewport": 390
+  },
+  {
+    "route": "/contact",
+    "width": 390,
+    "client": 375,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 375,
+    "viewport": 390
+  },
+  {
+    "route": "/",
+    "width": 320,
+    "client": 305,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 305,
+    "viewport": 320
+  },
+  {
+    "route": "/about",
+    "width": 320,
+    "client": 305,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 305,
+    "viewport": 320
+  },
+  {
+    "route": "/our-work",
+    "width": 320,
+    "client": 305,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 305,
+    "viewport": 320
+  },
+  {
+    "route": "/oem-products",
+    "width": 320,
+    "client": 305,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 305,
+    "viewport": 320
+  },
+  {
+    "route": "/oem-journey",
+    "width": 320,
+    "client": 305,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 305,
+    "viewport": 320
+  },
+  {
+    "route": "/technical-insights",
+    "width": 320,
+    "client": 305,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 305,
+    "viewport": 320
+  },
+  {
+    "route": "/start-your-project",
+    "width": 320,
+    "client": 305,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 305,
+    "viewport": 320
+  },
+  {
+    "route": "/contact",
+    "width": 320,
+    "client": 305,
+    "h1Count": 1,
+    "overflow": [],
+    "scroll": 305,
+    "viewport": 320
+  }
+]

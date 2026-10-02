@@ -1,0 +1,7 @@
+node_modules
+.next
+.design
+.tools
+.npm-cache
+public
+package-lock.json

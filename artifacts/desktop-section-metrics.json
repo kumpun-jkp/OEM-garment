@@ -1,0 +1,245 @@
+[
+  {
+    "route": "/",
+    "client": 1265,
+    "height": 5593,
+    "sections": [
+      {
+        "height": 376,
+        "name": "home-hero",
+        "y": 80
+      },
+      {
+        "height": 1014,
+        "name": "why-section",
+        "y": 456
+      },
+      {
+        "height": 145,
+        "name": "home-facts",
+        "y": 1470
+      },
+      {
+        "height": 798,
+        "name": "section gateways",
+        "y": 1615
+      },
+      {
+        "height": 717,
+        "name": "section manufacturing ",
+        "y": 2414
+      },
+      {
+        "height": 946,
+        "name": "section selected-work",
+        "y": 3131
+      },
+      {
+        "height": 515,
+        "name": "customers section",
+        "y": 4077
+      },
+      {
+        "height": 501,
+        "name": "cta-section",
+        "y": 4592
+      }
+    ],
+    "viewport": 1280
+  },
+  {
+    "route": "/about",
+    "client": 1265,
+    "height": 7302,
+    "sections": [
+      {
+        "height": 689,
+        "name": "about-hero dark",
+        "y": 80
+      },
+      {
+        "height": 528,
+        "name": "facility-cards section",
+        "y": 769
+      },
+      {
+        "height": 1223,
+        "name": "section production-process",
+        "y": 1297
+      },
+      {
+        "height": 650,
+        "name": "section manufacturing ",
+        "y": 2520
+      },
+      {
+        "height": 650,
+        "name": "section manufacturing ",
+        "y": 3170
+      },
+      {
+        "height": 938,
+        "name": "section compliance",
+        "y": 3820
+      },
+      {
+        "height": 799,
+        "name": "section stewardship",
+        "y": 4758
+      },
+      {
+        "height": 743,
+        "name": "section team-section",
+        "y": 5558
+      },
+      {
+        "height": 501,
+        "name": "cta-section",
+        "y": 6301
+      }
+    ],
+    "viewport": 1280
+  },
+  {
+    "route": "/our-work",
+    "client": 1265,
+    "height": 4639,
+    "sections": [
+      {
+        "height": 665,
+        "name": "work-hero",
+        "y": 80
+      },
+      {
+        "height": 515,
+        "name": "customers section",
+        "y": 745
+      },
+      {
+        "height": 579,
+        "name": "section work-capabilities",
+        "y": 1260
+      },
+      {
+        "height": 1799,
+        "name": "section work-projects",
+        "y": 1839
+      },
+      {
+        "height": 501,
+        "name": "cta-section",
+        "y": 3638
+      }
+    ],
+    "viewport": 1280
+  },
+  {
+    "route": "/oem-products",
+    "client": 1265,
+    "height": 4702,
+    "sections": [
+      {
+        "height": 4122,
+        "name": "section products-page",
+        "y": 80
+      }
+    ],
+    "viewport": 1280
+  },
+  {
+    "route": "/oem-journey",
+    "client": 1265,
+    "height": 4442,
+    "sections": [
+      {
+        "height": 578,
+        "name": "journey-hero",
+        "y": 80
+      },
+      {
+        "height": 692,
+        "name": "section process-stages",
+        "y": 658
+      },
+      {
+        "height": 1694,
+        "name": "section journey-quality dark",
+        "y": 1350
+      },
+      {
+        "height": 397,
+        "name": "section faq-section",
+        "y": 3043
+      },
+      {
+        "height": 501,
+        "name": "cta-section",
+        "y": 3440
+      }
+    ],
+    "viewport": 1280
+  },
+  {
+    "route": "/technical-insights",
+    "client": 1265,
+    "height": 4635,
+    "sections": [
+      {
+        "height": 886,
+        "name": "featured-bulletin",
+        "y": 357
+      },
+      {
+        "height": 1648,
+        "name": "section article-compendium",
+        "y": 1328
+      },
+      {
+        "height": 658,
+        "name": "section toolkit",
+        "y": 2976
+      },
+      {
+        "height": 501,
+        "name": "cta-section",
+        "y": 3634
+      }
+    ],
+    "viewport": 1280
+  },
+  {
+    "route": "/start-your-project",
+    "client": 1265,
+    "height": 3034,
+    "sections": [],
+    "viewport": 1280
+  },
+  {
+    "route": "/contact",
+    "client": 1265,
+    "height": 2810,
+    "sections": [
+      {
+        "height": 270,
+        "name": "contact-intro",
+        "y": 80
+      },
+      {
+        "height": 1406,
+        "name": "section contact-content",
+        "y": 350
+      },
+      {
+        "height": 192,
+        "name": "contact-schedule",
+        "y": 1756
+      },
+      {
+        "height": 362,
+        "name": "contact-photos",
+        "y": 1948
+      }
+    ],
+    "viewport": 1280
+  }
+]

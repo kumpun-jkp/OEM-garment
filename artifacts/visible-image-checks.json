@@ -1,0 +1,114 @@
+[
+  {
+    "route": "/about",
+    "images": []
+  },
+  {
+    "route": "/our-work",
+    "images": [
+      {
+        "alt": "Garment fabric cutting",
+        "complete": true,
+        "naturalWidth": 319
+      },
+      {
+        "alt": "Beige polo shirt",
+        "complete": true,
+        "naturalWidth": 319
+      },
+      {
+        "alt": "Black T-shirt",
+        "complete": true,
+        "naturalWidth": 319
+      }
+    ]
+  },
+  {
+    "route": "/oem-products",
+    "images": [
+      {
+        "alt": "Black embroidered garment",
+        "complete": true,
+        "naturalWidth": 319
+      },
+      {
+        "alt": "Blue workwear shirt",
+        "complete": true,
+        "naturalWidth": 319
+      },
+      {
+        "alt": "Blue garment detail",
+        "complete": true,
+        "naturalWidth": 319
+      },
+      {
+        "alt": "Garment fabric cutting",
+        "complete": true,
+        "naturalWidth": 319
+      },
+      {
+        "alt": "Beige polo shirt",
+        "complete": true,
+        "naturalWidth": 319
+      },
+      {
+        "alt": "Black T-shirt",
+        "complete": true,
+        "naturalWidth": 319
+      }
+    ]
+  },
+  {
+    "route": "/oem-journey",
+    "images": [
+      {
+        "alt": "Fabric laid out for production cutting",
+        "complete": true,
+        "naturalWidth": 272
+      },
+      {
+        "alt": "Fabric laid out for production cutting",
+        "complete": true,
+        "naturalWidth": 272
+      },
+      {
+        "alt": "Fabric laid out for production cutting",
+        "complete": true,
+        "naturalWidth": 272
+      },
+      {
+        "alt": "Fabric laid out for production cutting",
+        "complete": true,
+        "naturalWidth": 272
+      }
+    ]
+  },
+  {
+    "route": "/technical-insights",
+    "images": []
+  },
+  {
+    "route": "/start-your-project",
+    "images": []
+  },
+  {
+    "route": "/contact",
+    "images": [
+      {
+        "alt": "Laser cutting suite 02 · BKK plant",
+        "complete": true,
+        "naturalWidth": 272
+      },
+      {
+        "alt": "Materials testing & QC bay · AQL 1.5 calibration",
+        "complete": true,
+        "naturalWidth": 272
+      },
+      {
+        "alt": "Container dispatch gate 02 · Daily port shuttle",
+        "complete": true,
+        "naturalWidth": 272
+      }
+    ]
+  }
+]
