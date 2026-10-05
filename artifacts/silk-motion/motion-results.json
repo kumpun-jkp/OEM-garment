@@ -1,0 +1,208 @@
+{
+  "events": [
+    {
+      "name": "normal-motion-start",
+      "reduced": false,
+      "active": 4,
+      "states": [
+        "entering",
+        "entering",
+        "entering",
+        "entering"
+      ],
+      "opacity": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "restart",
+      "reduced": false,
+      "active": 4,
+      "states": [
+        "entering",
+        "entering",
+        "entering",
+        "entering"
+      ],
+      "opacity": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "normal-motion-settled",
+      "reduced": false,
+      "active": 4,
+      "states": [
+        "entering",
+        "entering",
+        "entering",
+        "entering"
+      ],
+      "opacity": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "focused-control-settled",
+      "reduced": false,
+      "active": 3,
+      "states": [
+        "settled",
+        "entering",
+        "entering",
+        "entering"
+      ],
+      "opacity": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "restart-settled",
+      "reduced": false,
+      "active": 3,
+      "states": [
+        "settled",
+        "entering",
+        "entering",
+        "entering"
+      ],
+      "opacity": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "reduced-motion-cancelled",
+      "reduced": true,
+      "active": 0,
+      "states": [
+        "settled",
+        "settled",
+        "settled",
+        "settled"
+      ],
+      "opacity": [
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "restart",
+      "reduced": false,
+      "active": 4,
+      "states": [
+        "entering",
+        "entering",
+        "entering",
+        "entering"
+      ],
+      "opacity": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "restart-settled",
+      "reduced": false,
+      "active": 0,
+      "states": [
+        "entering",
+        "entering",
+        "entering",
+        "entering"
+      ],
+      "opacity": [
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "reduced-motion-cancelled",
+      "reduced": true,
+      "active": 0,
+      "states": [
+        "settled",
+        "settled",
+        "settled",
+        "settled",
+        "settled"
+      ],
+      "opacity": [
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "restart",
+      "reduced": false,
+      "active": 0,
+      "states": [
+        "settled",
+        "settled",
+        "settled",
+        "settled",
+        "settled"
+      ],
+      "opacity": [
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "restart-settled",
+      "reduced": false,
+      "active": 0,
+      "states": [
+        "settled",
+        "settled",
+        "settled",
+        "settled",
+        "settled"
+      ],
+      "opacity": [
+        "1",
+        "1",
+        "1"
+      ]
+    }
+  ],
+  "settled": [
+    {
+      "opacity": "1",
+      "state": "settled",
+      "transform": "none"
+    },
+    {
+      "opacity": "1",
+      "state": "settled",
+      "transform": "none"
+    },
+    {
+      "opacity": "1",
+      "state": "settled",
+      "transform": "none"
+    }
+  ],
+  "dynamic": {
+    "opacity": "1",
+    "state": "settled"
+  },
+  "scrollReveal": {
+    "opacity": "1",
+    "state": "settled"
+  }
+}

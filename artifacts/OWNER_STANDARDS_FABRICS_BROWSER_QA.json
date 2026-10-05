@@ -1,0 +1,98 @@
+[
+  {
+    "fabricCards": 8,
+    "lang": "th",
+    "overflow": false,
+    "path": "/th/about",
+    "thaiScript": true,
+    "width": 390
+  },
+  {
+    "fabricCards": 0,
+    "lang": "th",
+    "overflow": false,
+    "path": "/th/our-work",
+    "thaiScript": true,
+    "width": 390
+  },
+  {
+    "fabricCards": 0,
+    "lang": "th",
+    "overflow": false,
+    "path": "/th/technical-insights",
+    "thaiScript": true,
+    "width": 390
+  },
+  {
+    "fabricCards": 8,
+    "lang": "en",
+    "overflow": false,
+    "path": "/en/about",
+    "thaiScript": false,
+    "width": 390
+  },
+  {
+    "fabricCards": 0,
+    "lang": "en",
+    "overflow": false,
+    "path": "/en/our-work",
+    "thaiScript": false,
+    "width": 390
+  },
+  {
+    "fabricCards": 0,
+    "lang": "en",
+    "overflow": false,
+    "path": "/en/technical-insights",
+    "thaiScript": false,
+    "width": 390
+  },
+  {
+    "fabricCards": 8,
+    "lang": "th",
+    "overflow": false,
+    "path": "/th/about",
+    "thaiScript": true,
+    "width": 1280
+  },
+  {
+    "fabricCards": 0,
+    "lang": "th",
+    "overflow": false,
+    "path": "/th/our-work",
+    "thaiScript": true,
+    "width": 1280
+  },
+  {
+    "fabricCards": 0,
+    "lang": "th",
+    "overflow": false,
+    "path": "/th/technical-insights",
+    "thaiScript": true,
+    "width": 1280
+  },
+  {
+    "fabricCards": 8,
+    "lang": "en",
+    "overflow": false,
+    "path": "/en/about",
+    "thaiScript": false,
+    "width": 1280
+  },
+  {
+    "fabricCards": 0,
+    "lang": "en",
+    "overflow": false,
+    "path": "/en/our-work",
+    "thaiScript": false,
+    "width": 1280
+  },
+  {
+    "fabricCards": 0,
+    "lang": "en",
+    "overflow": false,
+    "path": "/en/technical-insights",
+    "thaiScript": false,
+    "width": 1280
+  }
+]

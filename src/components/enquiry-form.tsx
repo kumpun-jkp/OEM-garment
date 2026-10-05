@@ -1,4 +1,5 @@
 "use client";
+import { useLocale } from "@/components/locale-provider";
 
 import Link from "next/link";
 import {
@@ -15,6 +16,7 @@ import {
   type HTMLAttributes,
 } from "react";
 import { enquiryTypes, fileError, type EnquiryKind } from "@/lib/enquiries";
+import { AppIcon, type AppIconName } from "./app-icon";
 
 const FieldErrors = createContext<Record<string, string>>({});
 function Field({
@@ -28,26 +30,30 @@ function Field({
   required?: boolean;
   children: ReactNode;
 }) {
+  const { t } = useLocale();
+
   const error = useContext(FieldErrors)[name];
   return (
     <div className="form-field">
       <label htmlFor={name}>
-        {label}
-        {required && <span aria-hidden="true"> *</span>}
+        {t(label)}
+        {required && <span aria-hidden="true">{t("*")}</span>}
       </label>
-      {Children.map(children, (child) =>
-        isValidElement(child) &&
-        typeof child.type === "string" &&
-        ["input", "select", "textarea"].includes(child.type)
-          ? cloneElement(child as ReactElement<HTMLAttributes<HTMLElement>>, {
-              "aria-invalid": error ? true : undefined,
-              "aria-describedby": error ? `${name}-error` : undefined,
-            })
-          : child,
+      {t(
+        Children.map(children, (child) =>
+          isValidElement(child) &&
+          typeof child.type === "string" &&
+          ["input", "select", "textarea"].includes(child.type)
+            ? cloneElement(child as ReactElement<HTMLAttributes<HTMLElement>>, {
+                "aria-invalid": error ? true : undefined,
+                "aria-describedby": error ? `${name}-error` : undefined,
+              })
+            : child,
+        ),
       )}
       {error && (
         <p className="field-error" id={`${name}-error`}>
-          {error}
+          {t(error)}
         </p>
       )}
     </div>
@@ -58,20 +64,29 @@ function FormSection({
   title,
   aside,
   children,
+  icon,
 }: {
   number: string;
   title: string;
   aside: string;
   children: ReactNode;
+  icon?: AppIconName;
 }) {
+  const { t } = useLocale();
+
   return (
     <fieldset className="form-section">
       <legend>
-        <span className="stage-number">{number}</span>
-        {title}
+        <span className="stage-number">{t(number)}</span>
+        {icon && (
+          <span className="context-icon-badge">
+            <AppIcon name={icon} size={32} />
+          </span>
+        )}
+        {t(title)}
       </legend>
-      <span className="form-section-aside micro">{aside}</span>
-      {children}
+      <span className="form-section-aside micro">{t(aside)}</span>
+      {t(children)}
     </fieldset>
   );
 }
@@ -89,6 +104,8 @@ export function EnquiryForm({
   initialInquiry?: string;
   subject?: string;
 }) {
+  const { t, href: localHref } = useLocale();
+
   const [stage, setStage] = useState(
     initialStage === "reference" ? "reference" : "concept",
   );
@@ -154,19 +171,19 @@ export function EnquiryForm({
   }
   const identity = (
     <div className="form-grid">
-      <Field name="name" label="Full name" required>
+      <Field name="name" label={t("Full name")} required>
         <input
           id="name"
           name="name"
           autoComplete="name"
           required
           maxLength={160}
-          placeholder="e.g. Marcus Vance"
+          placeholder={t("e.g. Marcus Vance")}
         />
       </Field>
       <Field
         name="company"
-        label={project ? "Brand / company" : "Company / registered entity"}
+        label={t(project ? "Brand / company" : "Company / registered entity")}
         required={!preincorporation}
       >
         <input
@@ -175,7 +192,7 @@ export function EnquiryForm({
           autoComplete="organization"
           required={!preincorporation}
           maxLength={200}
-          placeholder="e.g. Vance Studios Co."
+          placeholder={t("e.g. Vance Studios Co.")}
         />
         {project && (
           <label className="check-label preincorporation">
@@ -185,11 +202,11 @@ export function EnquiryForm({
               checked={preincorporation}
               onChange={(event) => setPreincorporation(event.target.checked)}
             />
-            Pre-incorporation / studio
+            {t("Pre-incorporation / studio")}
           </label>
         )}
       </Field>
-      <Field name="email" label="Official work email" required>
+      <Field name="email" label={t("Official work email")} required>
         <input
           id="email"
           name="email"
@@ -197,12 +214,12 @@ export function EnquiryForm({
           autoComplete="email"
           required
           maxLength={254}
-          placeholder="marcus@brand.com"
+          placeholder={t("marcus@brand.com")}
         />
       </Field>
       <Field
         name="phone"
-        label="Direct phone / WhatsApp (with country code)"
+        label={t("Direct phone / WhatsApp (with country code)")}
         required
       >
         <input
@@ -213,12 +230,16 @@ export function EnquiryForm({
           required
           maxLength={40}
           minLength={6}
-          placeholder="+66 81 123 4567"
+          placeholder={t("+66 81 123 4567")}
         />
       </Field>
       {project && (
         <>
-          <Field name="country" label="Country of brand headquarters" required>
+          <Field
+            name="country"
+            label={t("Country of brand headquarters")}
+            required
+          >
             <select
               id="country"
               name="country"
@@ -227,7 +248,7 @@ export function EnquiryForm({
               required
             >
               <option value="" disabled>
-                Select country / operational jurisdiction
+                {t("Select country / operational jurisdiction")}
               </option>
               {[
                 "Thailand",
@@ -241,16 +262,18 @@ export function EnquiryForm({
                 "United States",
                 "Other",
               ].map((item) => (
-                <option key={item}>{item}</option>
+                <option key={item} value={item}>
+                  {t(item)}
+                </option>
               ))}
             </select>
           </Field>
-          <Field name="line" label="LINE ID (optional)">
+          <Field name="line" label={t("LINE ID (optional)")}>
             <input
               id="line"
               name="line"
               maxLength={160}
-              placeholder="Enter your LINE ID"
+              placeholder={t("Enter your LINE ID")}
             />
           </Field>
         </>
@@ -261,11 +284,16 @@ export function EnquiryForm({
     <label className="check-label consent">
       <input id="consent" name="consent" type="checkbox" required />
       <span>
-        {project
-          ? "B2B manufacturing data policy: I consent to processing my contact details and project specifications for feasibility review."
-          : "I consent to processing my corporate contact details and this message to respond to my enquiry."}{" "}
-        <Link href="/contact?inquiry=policy&subject=Privacy%20Policy">
-          Request privacy policy
+        {t(
+          project
+            ? "B2B manufacturing data policy: I consent to processing my contact details and project specifications for feasibility review."
+            : "I consent to processing my corporate contact details and this message to respond to my enquiry.",
+        )}
+        {t(" ")}
+        <Link
+          href={localHref("/contact?inquiry=policy&subject=Privacy%20Policy")}
+        >
+          {t("Request privacy policy")}
         </Link>
       </span>
     </label>
@@ -275,21 +303,49 @@ export function EnquiryForm({
       <form
         className={`enquiry-form ${project ? "project-form" : "contact-form"}`}
         onSubmit={submit}
+        onInvalid={(event) => {
+          const field = event.target;
+          if (!(
+            field instanceof HTMLInputElement ||
+            field instanceof HTMLSelectElement ||
+            field instanceof HTMLTextAreaElement
+          ))
+            return;
+          field.setCustomValidity(
+            t(
+              field.validity.valueMissing
+                ? "This field is required."
+                : field instanceof HTMLInputElement && field.type === "email"
+                  ? "Enter a valid email address."
+                  : "Enter a valid value.",
+            ),
+          );
+        }}
+        onInput={(event) => {
+          const field = event.target;
+          if (
+            field instanceof HTMLInputElement ||
+            field instanceof HTMLSelectElement ||
+            field instanceof HTMLTextAreaElement
+          )
+            field.setCustomValidity("");
+        }}
       >
         <div className="honeypot" aria-hidden="true">
-          <label htmlFor="website">Leave this field empty</label>
+          <label htmlFor="website">{t("Leave this field empty")}</label>
           <input id="website" name="website" tabIndex={-1} autoComplete="off" />
         </div>
         {project ? (
           <>
             <FormSection
               number="01"
-              title="About you & your brand"
-              aside="Required credentials"
+              title={t("About you & your brand")}
+              icon="person"
+              aside={t("Required credentials")}
             >
-              {identity}
+              {t(identity)}
               <fieldset className="communication">
-                <legend>Preferred communication protocol</legend>
+                <legend>{t("Preferred communication protocol")}</legend>
                 {["Email", "LINE", "Call"].map((item, i) => (
                   <label key={item}>
                     <input
@@ -298,17 +354,22 @@ export function EnquiryForm({
                       value={item}
                       defaultChecked={i === 0}
                     />
-                    <span>{item}</span>
+                    <span>{t(item)}</span>
                   </label>
                 ))}
               </fieldset>
             </FormSection>
             <FormSection
               number="02"
-              title="Product details & project stage"
-              aside="Categorisation"
+              title={t("Product details & project stage")}
+              icon="shirts"
+              aside={t("Categorisation")}
             >
-              <Field name="category" label="Primary apparel category" required>
+              <Field
+                name="category"
+                label={t("Primary apparel category")}
+                required
+              >
                 <select
                   id="category"
                   name="category"
@@ -316,8 +377,9 @@ export function EnquiryForm({
                   required
                 >
                   <option value="" disabled>
-                    Select a category: T-shirt / Polo / Uniform / Sportswear /
-                    Other
+                    {t(
+                      "Select a category: T-shirt / Polo / Uniform / Sportswear / Other",
+                    )}
                   </option>
                   {[
                     "T-shirt",
@@ -327,12 +389,16 @@ export function EnquiryForm({
                     "Streetwear",
                     "Other",
                   ].map((item) => (
-                    <option key={item}>{item}</option>
+                    <option key={item} value={item}>
+                      {t(item)}
+                    </option>
                   ))}
                 </select>
               </Field>
               <fieldset className="readiness">
-                <legend>Technical readiness / current starting point *</legend>
+                <legend>
+                  {t("Technical readiness / current starting point *")}
+                </legend>
                 <div className="grid-two">
                   {[
                     [
@@ -360,37 +426,44 @@ export function EnquiryForm({
                         onChange={() => setStage(value)}
                         required
                       />
-                      <span className="eyebrow">{label}</span>
-                      <strong>{title}</strong>
-                      <span>{body}</span>
+                      <span className="eyebrow">{t(label)}</span>
+                      <strong>{t(title)}</strong>
+                      <span>{t(body)}</span>
                     </label>
                   ))}
                 </div>
               </fieldset>
-              <Field name="message" label="Tell us about your product" required>
+              <Field
+                name="message"
+                label={t("Tell us about your product")}
+                required
+              >
                 <textarea
                   id="message"
                   name="message"
                   rows={5}
                   required
                   maxLength={8000}
-                  placeholder="Describe the product style, intended use, preferred fabric or colour, sizing, and any important details."
+                  placeholder={t(
+                    "Describe the product style, intended use, preferred fabric or colour, sizing, and any important details.",
+                  )}
                 />
               </Field>
             </FormSection>
             <FormSection
               number="03"
-              title="Requirements"
-              aside="BOM parameters"
+              title={t("Requirements")}
+              icon="brief"
+              aside={t("BOM parameters")}
             >
               <Field
                 name="volume"
-                label="Estimated production volume (per style / colourway)"
+                label={t("Estimated production volume (per style / colourway)")}
                 required
               >
                 <select id="volume" name="volume" defaultValue="" required>
                   <option value="" disabled>
-                    Select pilot or mass run capacity
+                    {t("Select pilot or mass run capacity")}
                   </option>
                   {[
                     ["under-800", "Under 800 pieces"],
@@ -401,17 +474,20 @@ export function EnquiryForm({
                     ["unsure", "Not sure yet"],
                   ].map(([value, label]) => (
                     <option key={value} value={value}>
-                      {label}
+                      {t(label)}
                     </option>
                   ))}
                 </select>
               </Field>
-              <Field name="handover" label="Target handover / on-port window">
+              <Field
+                name="handover"
+                label={t("Target handover / on-port window")}
+              >
                 <input
                   id="handover"
                   name="handover"
                   maxLength={160}
-                  placeholder="e.g. Q3 2027 (July – September)"
+                  placeholder={t("e.g. Q3 2027 (July – September)")}
                 />
               </Field>
               <div
@@ -423,15 +499,17 @@ export function EnquiryForm({
                 }}
               >
                 <span className="upload-symbol" aria-hidden="true">
-                  ↥
+                  <AppIcon name="upload" size={36} />
                 </span>
-                <h3>Drag &amp; drop specification assets</h3>
+                <h3>{t("Drag & drop specification assets")}</h3>
                 <p className="micro" id="file-hint">
-                  PDF, AI, DXF, ZIP, XLSX, PNG · 50 MB per file · 5 files / 100
-                  MB total
+                  {t(
+                    "PDF, AI, DXF, ZIP, XLSX, PNG · 50 MB per file · 5 files / 100 MB total",
+                  )}
                 </p>
                 <label className="upload-button" htmlFor="files">
-                  Browse machine directory ↗
+                  {t("Browse machine directory")}
+                  <AppIcon name="upload" />
                 </label>
                 <input
                   id="files"
@@ -447,28 +525,31 @@ export function EnquiryForm({
                 />
               </div>
               <p id="file-error" className="field-error" role="status">
-                {attachmentError}
+                {t(attachmentError)}
               </p>
               {files.length > 0 && (
                 <div className="attachment-list">
                   <p className="micro">
-                    Attached technical documentation [{files.length} files]
+                    {t("Attached technical documentation [{count} files]", {
+                      count: files.length,
+                    })}
                   </p>
                   {files.map((file, i) => (
                     <div key={`${file.name}-${i}`}>
                       <span>
-                        {file.name}
+                        {t(file.name)}
                         <small>{(file.size / 1024 / 1024).toFixed(2)} MB</small>
                       </span>
                       <button
                         type="button"
-                        aria-label={`Remove ${file.name}`}
+                        aria-label={t("Remove {file}", { file: file.name })}
                         onClick={() => {
                           setFiles(files.filter((_, index) => index !== i));
                           setAttachmentError("");
                         }}
                       >
-                        Remove
+                        {t("Remove")}
+                        <AppIcon name="close" size={16} />
                       </button>
                     </div>
                   ))}
@@ -478,46 +559,57 @@ export function EnquiryForm({
                 <label className="check-label">
                   <input type="checkbox" name="nda" />
                   <span>
-                    <strong>Request bilateral mutual NDA:</strong> I request an
-                    NDA before sharing confidential pattern engineering
-                    specifications.
+                    <strong>{t("Request bilateral mutual NDA:")}</strong>{" "}
+                    {t(
+                      "I request an NDA before sharing confidential pattern engineering specifications.",
+                    )}
                   </span>
                 </label>
-                {consent}
+                {t(consent)}
               </div>
             </FormSection>
             <div className="submission-panel">
-              <h2>Ready for feasibility audit</h2>
+              <h2>{t("Ready for feasibility audit")}</h2>
               <p className="micro">
-                Production engineering review · Project brief intake
+                {t("Production engineering review · Project brief intake")}
               </p>
               <button
                 type="submit"
                 className="button button--primary"
                 disabled={status === "sending"}
               >
-                {status === "sending"
-                  ? "Submitting…"
-                  : "Submit project brief for feasibility review ↗"}
+                {t(
+                  status === "sending"
+                    ? "Submitting…"
+                    : "Submit project brief for feasibility review",
+                )}
+                <AppIcon name="send" />
               </button>
-              <p className="micro">Human pattern engineers only</p>
+              <p className="micro">{t("Human pattern engineers only")}</p>
             </div>
           </>
         ) : (
           <>
             <div className="split-label">
-              <h2 className="micro">Desk transmission terminal</h2>
-              <span className="eyebrow">Form ref: OEM-BKK-09</span>
+              <h2 className="micro">{t("Desk transmission terminal")}</h2>
+              <span className="eyebrow">{t("Form ref: OEM-BKK-09")}</span>
             </div>
             <div className="form-info">
-              For detailed BOM evaluations and CAD uploads, please use the
-              structured{" "}
-              <Link href="/start-your-project">Start Your Project ↗</Link> brief
-              terminal. Use this desk form for commercial inquiries, factory
-              visit requests, and general partnership dialog.
+              {t(
+                "For detailed BOM evaluations and CAD uploads, please use the structured",
+              )}
+              {t(" ")}
+              <Link href={localHref("/start-your-project")}>
+                {t("Start Your Project")}
+                <AppIcon name="outward" size={16} />
+              </Link>
+              {t(" ")}
+              {t(
+                "brief terminal. Use this desk form for commercial inquiries, factory visit requests, and general partnership dialog.",
+              )}
             </div>
-            {identity}
-            <Field name="inquiry" label="Inquiry type" required>
+            {t(identity)}
+            <Field name="inquiry" label={t("Inquiry type")} required>
               <select
                 id="inquiry"
                 name="inquiry"
@@ -530,18 +622,22 @@ export function EnquiryForm({
                     : "general"
                 }
               >
-                <option value="general">General partnership inquiry</option>
-                <option value="quote">Commercial quotation</option>
-                <option value="visit">Factory visit</option>
-                <option value="audit">
-                  Buyer audit / certification binder
+                <option value="general">
+                  {t("General partnership inquiry")}
                 </option>
-                <option value="policy">Legal / privacy policy request</option>
+                <option value="quote">{t("Commercial quotation")}</option>
+                <option value="visit">{t("Factory visit")}</option>
+                <option value="audit">
+                  {t("Buyer audit / certification binder")}
+                </option>
+                <option value="policy">
+                  {t("Legal / privacy policy request")}
+                </option>
               </select>
             </Field>
             <Field
               name="message"
-              label="Detailed message / specification notes"
+              label={t("Detailed message / specification notes")}
               required
             >
               <textarea
@@ -551,18 +647,21 @@ export function EnquiryForm({
                 required
                 maxLength={8000}
                 defaultValue={subject}
-                placeholder="Specify estimated production volumes, technical requirements (e.g., GSM, fibre blend, seam sealing), or desired audit schedule…"
+                placeholder={t(
+                  "Specify estimated production volumes, technical requirements (e.g., GSM, fibre blend, seam sealing), or desired audit schedule…",
+                )}
               />
             </Field>
-            <div className="consent-box">{consent}</div>
+            <div className="consent-box">{t(consent)}</div>
             <button
               type="submit"
               className="button button--dark"
               disabled={status === "sending"}
             >
-              {status === "sending"
-                ? "Dispatching…"
-                : "Dispatch desk message ↗"}
+              {t(
+                status === "sending" ? "Dispatching…" : "Dispatch desk message",
+              )}
+              <AppIcon name="send" />
             </button>
           </>
         )}
@@ -573,13 +672,13 @@ export function EnquiryForm({
           role={status === "error" ? "alert" : "status"}
           aria-live="polite"
         >
-          {notice && <p>{notice}</p>}
+          {notice && <p>{t(notice)}</p>}
           {Object.entries(errors).length > 0 && (
             <ul>
               {Object.entries(errors).map(([field, message]) => (
                 <li key={field}>
-                  <a href={`#${field}`}>
-                    {field}: {message}
+                  <a href={localHref(`#${field}`)}>
+                    {t(field)}: {t(message)}
                   </a>
                 </li>
               ))}

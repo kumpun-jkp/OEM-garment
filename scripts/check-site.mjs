@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 const base = process.env.SITE_URL ?? "http://127.0.0.1:3000";
-const routes = [
+const paths = [
   "/",
   "/about",
   "/our-work",
@@ -10,6 +10,9 @@ const routes = [
   "/start-your-project",
   "/contact",
 ];
+const routes = ["th", "en"].flatMap((locale) =>
+  paths.map((path) => `/${locale}${path === "/" ? "" : path}`),
+);
 const pages = await Promise.all(
   routes.map(async (route) => {
     const response = await fetch(base + route);
@@ -26,9 +29,9 @@ const pages = await Promise.all(
 const links = new Set();
 const media = new Set();
 for (const { html } of pages) {
-  for (const [, href] of html.matchAll(/href="(\/[^" ]*)"/g))
+  for (const [, href] of html.matchAll(/<a\b[^>]*\bhref="(\/[^" ]*)"/g))
     if (!href.startsWith("/_next/")) links.add(href.replaceAll("&amp;", "&"));
-  for (const [, src] of html.matchAll(/src="(\/[^" ]*)"/g))
+  for (const [, src] of html.matchAll(/(?:\bsrc|data-icon-src)="(\/[^" ]*)"/g))
     media.add(src.replaceAll("&amp;", "&"));
 }
 for (const href of links) {

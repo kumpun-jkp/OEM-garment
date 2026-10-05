@@ -1,0 +1,851 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   Smooth as Silk — Motion, Transition & Visual Flow Layer
+   Retain the CI palette, geometry and type roles.
+   Content stays visible without JavaScript; movement is an enhancement.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+:root {
+  --silk-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --silk-ease-out: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --silk-ease-fabric: cubic-bezier(0.33, 1, 0.68, 1);
+  --silk-time: 420ms;
+  --silk-time-slow: 720ms;
+  --silk-time-reveal: 800ms;
+  --site-header-height: 80px;
+  --journey-height: 0px;
+}
+
+/* ─── Scroll padding & header anchoring ─────────────────────────────── */
+
+html:has(.home-journey) {
+  --journey-height: 52px;
+}
+html:root {
+  scroll-padding-top: calc(
+    var(--site-header-height) + var(--journey-height) + 16px
+  );
+}
+main section[id] {
+  scroll-margin-top: 8px;
+}
+
+/* ─── Site header — sticky with subtle gradient ─────────────────────── */
+
+.site-header.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: linear-gradient(
+    165deg,
+    var(--brand-white),
+    var(--brand-info-subtle)
+  );
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: box-shadow 0.4s var(--silk-ease);
+}
+/* Add shadow on scroll via a thin bottom border glow */
+.site-header.site-header::before {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  inset-inline: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 10%,
+    var(--brand-line) 50%,
+    transparent 90%
+  );
+}
+.site-header .mobile-nav {
+  max-height: calc(100dvh - var(--site-header-height));
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+}
+
+/* ─── Journey navigation — sticky section progress ─────────────────── */
+
+.home-journey {
+  position: sticky;
+  top: var(--site-header-height);
+  z-index: 20;
+  color: var(--brand-navy);
+  background: linear-gradient(
+    100deg,
+    var(--brand-white),
+    var(--brand-info-subtle)
+  );
+  border-bottom: 1px solid var(--brand-line);
+}
+.journey-links {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  gap: 28px;
+  min-height: var(--journey-height);
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--brand-line-strong) transparent;
+}
+.journey-links a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 auto;
+  gap: 9px;
+  min-height: 48px;
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: color var(--silk-time) var(--silk-ease);
+}
+.journey-number {
+  font: 10px var(--font-technical);
+  color: var(--brand-copy);
+  transition: color var(--silk-time) var(--silk-ease);
+}
+.journey-links a[aria-current="location"] .journey-number {
+  color: var(--brand-navy);
+}
+.journey-links a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  inset-inline: 0;
+  height: 2px;
+  background: var(--brand-gold);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 600ms var(--silk-ease);
+}
+.journey-links a[aria-current="location"]::after,
+.journey-links a:hover::after,
+.journey-links a:focus-visible::after {
+  transform: scaleX(1);
+}
+.journey-links a:hover {
+  text-decoration: none;
+}
+.journey-links a:focus-visible {
+  outline-offset: -4px;
+}
+
+/* Journey progress bar — scroll-linked horizontal indicator */
+.journey-progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    var(--brand-gold),
+    color-mix(in srgb, var(--brand-gold) 60%, var(--brand-blue))
+  );
+  transform-origin: left;
+  transform: scaleX(0);
+  opacity: 0.35;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* ─── Section-level scroll reveals ──────────────────────────────────── */
+
+.silk-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity var(--silk-time-reveal) var(--silk-ease),
+    transform var(--silk-time-reveal) var(--silk-ease);
+  will-change: opacity, transform;
+}
+.silk-section-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ─── Hero section — enhanced depth & motion ────────────────────────── */
+
+.home-hero.home-hero {
+  overflow: clip;
+}
+.home-hero.home-hero::after {
+  background: linear-gradient(
+    180deg,
+    rgb(0 35 81 / 72%) 0%,
+    rgb(1 5 11 / 80%) 55%,
+    var(--brand-deep) 100%
+  );
+}
+/* Hero background parallax support — extra scale to prevent gaps */
+.home-hero .hero-background {
+  transform: scale(1.05);
+  will-change: transform;
+}
+.home-hero .hero-scroll-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  align-self: flex-start;
+  min-height: 44px;
+  margin-top: 20px;
+  color: var(--brand-white);
+}
+.hero-scroll-link .app-icon {
+  transition: transform var(--silk-time) var(--silk-ease);
+}
+.hero-scroll-link:is(:hover, :focus-visible) .app-icon {
+  transform: translateY(3px);
+}
+/* Gentle pulse on the scroll-link to invite interaction */
+@keyframes silk-breathe {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+.hero-scroll-link {
+  animation: silk-breathe 3.5s var(--silk-ease-out) 2s 3;
+}
+
+/* ─── Section background gradients (subtle tonal depth) ─────────────── */
+
+.why-section.why-section,
+.cta-section.cta-section {
+  background: linear-gradient(
+    145deg,
+    color-mix(in srgb, var(--brand-navy) 20%, var(--brand-deep)),
+    var(--brand-deep) 68%
+  );
+}
+.home-partner.home-partner {
+  background: linear-gradient(
+    180deg,
+    var(--brand-deep),
+    color-mix(in srgb, var(--brand-navy) 22%, var(--brand-deep))
+  );
+}
+.home-facts.home-facts {
+  background: linear-gradient(
+    110deg,
+    var(--brand-navy),
+    color-mix(in srgb, var(--brand-navy) 80%, var(--brand-deep))
+  );
+}
+.customers.customers {
+  background: linear-gradient(
+    180deg,
+    var(--brand-white),
+    var(--brand-info-subtle)
+  );
+}
+.product-showcase.product-showcase {
+  background: linear-gradient(
+    180deg,
+    var(--brand-info-subtle),
+    var(--brand-info)
+  );
+}
+.work-editorial.work-editorial,
+.capability-card.capability-card {
+  background: linear-gradient(
+    145deg,
+    var(--brand-white) 55%,
+    var(--brand-info-subtle)
+  );
+}
+.home-process.home-process {
+  background: linear-gradient(
+    180deg,
+    var(--brand-info),
+    var(--brand-white) 35%,
+    var(--brand-info-subtle)
+  );
+}
+.home-quality.home-quality {
+  background: linear-gradient(
+    150deg,
+    var(--brand-dark-surface),
+    color-mix(in srgb, var(--brand-navy) 20%, var(--brand-dark-surface))
+  );
+}
+.home-contact.home-contact {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--brand-navy) 12%, var(--brand-deep)),
+    var(--brand-deep)
+  );
+}
+
+/* ─── Section edge connectors — continuous visual flow ──────────────── */
+
+.home-reasons,
+.home-quality,
+.home-contact {
+  position: relative;
+}
+/* Gold accent line between dark sections */
+.home-reasons::after,
+.home-quality::after {
+  content: "";
+  position: absolute;
+  inset-inline: var(--gutter);
+  bottom: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, var(--brand-gold) 40%, transparent),
+    transparent
+  );
+  pointer-events: none;
+}
+
+/* Cross-section overlap connectors — soft gradient bleeds between sections */
+.home-partner::before,
+.home-facts::before,
+.customers::before,
+.product-showcase::before,
+.home-process::before,
+.home-quality::before,
+.home-contact::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 0;
+  right: 0;
+  height: 40px;
+  pointer-events: none;
+  z-index: 1;
+}
+.home-partner,
+.home-facts,
+.customers,
+.product-showcase,
+.home-process,
+.home-quality,
+.home-contact {
+  position: relative;
+}
+/* Overlap: dark → dark transitions use shared deep tone */
+.home-partner::before {
+  background: linear-gradient(180deg, var(--brand-deep), transparent);
+}
+/* Overlap: navy → white transitions */
+.customers::before {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--brand-navy) 6%, var(--brand-white)),
+    transparent
+  );
+}
+/* Overlap: white → info transitions */
+.product-showcase::before {
+  background: linear-gradient(180deg, var(--brand-info-subtle), transparent);
+}
+/* Overlap: info → white transitions */
+.home-process::before {
+  background: linear-gradient(180deg, var(--brand-info), transparent);
+}
+/* Overlap: white → dark transitions */
+.home-quality::before {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--brand-info-subtle) 15%, var(--brand-dark-surface)),
+    transparent
+  );
+}
+/* Overlap: dark → deep transitions */
+.home-contact::before {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--brand-navy) 10%, var(--brand-deep)),
+    transparent
+  );
+}
+
+/* ─── Showcase visual enhancement (SVG area) ────────────────────────── */
+
+.showcase-visual.showcase-visual {
+  background: linear-gradient(
+    140deg,
+    var(--brand-info-subtle),
+    var(--brand-info)
+  );
+}
+
+/* ─── Screen framing — viewport-aware sections ─────────────────────── */
+
+@media (min-width: 1001px) and (min-height: 650px) {
+  .home-hero.home-hero {
+    min-height: clamp(
+      480px,
+      calc(100svh - var(--site-header-height) - 52px),
+      880px
+    );
+  }
+  .home-hero.home-hero > .container {
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    padding-block: 32px 36px;
+  }
+  .home-hero .hero-columns {
+    margin-block: auto;
+    padding-block: 48px;
+  }
+  .home-partner.home-partner,
+  .home-reasons.home-reasons,
+  .home-quality.home-quality,
+  .home-contact.home-contact {
+    min-height: clamp(
+      440px,
+      calc(86svh - var(--site-header-height) - 52px),
+      800px
+    );
+    display: flex;
+    align-items: center;
+    padding-block: clamp(64px, 8svh, 96px);
+  }
+  .home-partner .why-copy {
+    max-width: 900px;
+  }
+}
+
+/* ─── Button interactions — silk-smooth state changes ───────────────── */
+
+.button.button {
+  transition:
+    transform var(--silk-time) var(--silk-ease),
+    box-shadow var(--silk-time) var(--silk-ease),
+    border-color var(--silk-time) var(--silk-ease),
+    background-color var(--silk-time) var(--silk-ease),
+    color var(--silk-time) var(--silk-ease),
+    filter var(--silk-time) var(--silk-ease);
+}
+.button--primary.button--primary {
+  background: linear-gradient(
+    120deg,
+    color-mix(in srgb, var(--brand-gold) 94%, white),
+    var(--brand-gold)
+  );
+}
+.button--dark.button--dark {
+  background: linear-gradient(
+    130deg,
+    color-mix(in srgb, var(--brand-navy) 25%, var(--brand-deep)),
+    var(--brand-deep)
+  );
+}
+
+/* ─── Interactive element micro-interactions ────────────────────────── */
+
+.button .button-icon,
+.showcase-action .app-icon,
+.showcase-copy h4 .app-icon,
+.showcase-symbol,
+.photo img {
+  transition: transform 700ms var(--silk-ease);
+}
+.button:is(:hover, :focus-visible) .button-icon {
+  transform: translate(2px, -2px);
+}
+.button:active {
+  transform: translateY(1px);
+}
+
+/* Navigation underline reveals */
+.desktop-nav > :is(a, button)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  inset-inline: 0;
+  height: 3px;
+  background: var(--brand-gold);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--silk-time) var(--silk-ease);
+}
+.desktop-nav > :is(:hover, :focus-visible, [aria-current="page"])::after {
+  transform: scaleX(1);
+}
+.desktop-nav > :is(a, button):hover {
+  text-decoration: none;
+}
+
+/* Disclosure arrows */
+.disclosure-icon,
+.faq-arrow {
+  transition: transform var(--silk-time) var(--silk-ease);
+}
+details[open] > summary :is(.disclosure-icon, .faq-arrow) {
+  transform: rotate(180deg);
+}
+
+/* FAQ, filter, language, product directory, showcase — tonal transitions */
+.faq-list summary,
+.filter-tabs button,
+.taxonomy-filters a,
+.language-control button,
+.product-directory a,
+.showcase-children {
+  transition:
+    background-color var(--silk-time) var(--silk-ease),
+    border-color var(--silk-time) var(--silk-ease),
+    color var(--silk-time) var(--silk-ease),
+    transform var(--silk-time) var(--silk-ease),
+    box-shadow var(--silk-time) var(--silk-ease);
+}
+.faq-list summary:is(:hover, :focus-visible) {
+  background-color: color-mix(in srgb, var(--brand-blue) 7%, transparent);
+}
+
+/* Card lift and shadow — silk-smooth hover response */
+.showcase-card.showcase-card,
+.project-card,
+.capability-card {
+  transition:
+    border-color var(--silk-time) var(--silk-ease),
+    box-shadow var(--silk-time) var(--silk-ease),
+    transform var(--silk-time) var(--silk-ease);
+}
+.showcase-card:focus-visible {
+  border-color: var(--brand-blue);
+}
+.showcase-card:is(:hover, :focus-visible) .showcase-action .app-icon {
+  transform: translateX(4px);
+}
+.showcase-card:is(:hover, :focus-visible) h4 .app-icon {
+  transform: translate(2px, -2px);
+}
+
+/* Showcase-children link hover */
+.showcase-children:is(:hover, :focus-visible) {
+  box-shadow: 0 4px 16px rgb(0 35 81 / 8%);
+  transform: translateY(-2px);
+  border-color: var(--brand-blue);
+}
+
+/* ─── Pointer-device enhancements ──────────────────────────────────── */
+
+@media (hover: hover) and (pointer: fine) {
+  .button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 16px rgb(0 35 81 / 12%);
+  }
+  .showcase-card:hover,
+  .project-card:hover {
+    transform: translateY(-4px);
+    text-decoration: none;
+    box-shadow: 0 12px 26px rgb(0 35 81 / 10%);
+  }
+  .showcase-card:hover .showcase-symbol {
+    transform: translateY(-3px) scale(1.035);
+  }
+  .photo:hover img,
+  .capability-card:hover .photo img,
+  .project-card:hover .photo img {
+    transform: scale(1.035);
+  }
+  /* Customer logos — gentle brightness lift */
+  .customer-logos img {
+    transition:
+      filter 600ms var(--silk-ease),
+      transform 600ms var(--silk-ease);
+    filter: grayscale(0.2);
+  }
+  .customer-logos img:hover {
+    filter: grayscale(0);
+    transform: scale(1.04);
+  }
+  /* Stage grid items — subtle rise */
+  .stage-grid > li {
+    transition:
+      transform var(--silk-time) var(--silk-ease),
+      box-shadow var(--silk-time) var(--silk-ease),
+      border-color var(--silk-time) var(--silk-ease);
+  }
+  .stage-grid > li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgb(0 35 81 / 8%);
+    border-color: var(--brand-blue);
+  }
+  /* Reason / quality articles — border accent on hover */
+  .home-reason-grid > article,
+  .home-quality-grid > article {
+    transition:
+      border-color var(--silk-time) var(--silk-ease),
+      transform var(--silk-time) var(--silk-ease);
+  }
+  .home-reason-grid > article:hover,
+  .home-quality-grid > article:hover {
+    border-color: var(--brand-gold);
+    transform: translateY(-2px);
+  }
+  /* Capability card lift */
+  .capability-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgb(0 35 81 / 10%);
+  }
+  /* Facts section — number emphasis */
+  .home-facts > div {
+    transition:
+      background-color 600ms var(--silk-ease),
+      transform var(--silk-time) var(--silk-ease);
+  }
+  .home-facts > div:hover {
+    background-color: color-mix(in srgb, var(--brand-gold) 6%, transparent);
+  }
+  /* Contact block hover */
+  .contact-block {
+    transition:
+      box-shadow var(--silk-time) var(--silk-ease),
+      transform var(--silk-time) var(--silk-ease);
+  }
+  .contact-block:hover {
+    box-shadow: 0 8px 24px rgb(0 0 0 / 25%);
+    transform: translateY(-2px);
+  }
+  /* FAQ details hover */
+  .faq-list details {
+    transition:
+      border-color var(--silk-time) var(--silk-ease),
+      box-shadow var(--silk-time) var(--silk-ease);
+  }
+  .faq-list details:hover {
+    border-color: var(--brand-blue);
+  }
+}
+
+/* ─── Reveal / unfold animations ───────────────────────────────────── */
+
+@keyframes silk-unfold {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes silk-slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes silk-scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.work-mega-menu:not([hidden]),
+.site-header .mobile-nav,
+.faq-list details[open] > p,
+.calculator[open] > .calculator-content,
+.mobile-work-directory[open] > .product-directory {
+  animation: silk-unfold 320ms var(--silk-ease) both;
+}
+
+/* FAQ answer reveal — slightly more dramatic unfold */
+.faq-list details[open] > p {
+  animation: silk-unfold 400ms var(--silk-ease) both;
+}
+
+/* ─── Shelf controls & draggable scroll ────────────────────────────── */
+
+.shelf-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.shelf-controls > div {
+  display: flex;
+  gap: 8px;
+}
+.shelf-controls button {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid var(--brand-line-strong);
+  background: transparent;
+  color: inherit;
+  transition:
+    background-color var(--silk-time) var(--silk-ease),
+    border-color var(--silk-time) var(--silk-ease),
+    transform var(--silk-time) var(--silk-ease);
+}
+.shelf-controls button:not(:disabled):is(:hover, :focus-visible) {
+  background: color-mix(in srgb, var(--brand-blue) 12%, transparent);
+  transform: scale(1.05);
+}
+.shelf-controls button:disabled {
+  cursor: default;
+  opacity: 0.35;
+}
+.shelf-previous {
+  transform: rotate(180deg);
+}
+.shelf-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: clamp(250px, 25vw, 290px);
+  gap: 24px;
+  overflow-x: auto;
+  padding: 4px 4px 20px;
+  margin: -4px;
+  scroll-snap-type: x proximity;
+  scroll-padding-inline: 4px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--brand-line-strong) transparent;
+  cursor: grab;
+}
+.shelf-track > * {
+  min-width: 0;
+  scroll-snap-align: start;
+}
+.shelf-track[data-dragging] {
+  cursor: grabbing;
+  user-select: none;
+  scroll-snap-type: none;
+}
+.shelf-track img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+.manufacturing:has(.scroll-shelf) {
+  min-height: 0;
+}
+
+/* ─── Footer approach — subtle rise from darkness ──────────────────── */
+
+.site-footer {
+  position: relative;
+}
+.site-footer::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background: linear-gradient(180deg, transparent, var(--brand-board));
+  pointer-events: none;
+}
+
+/* ─── Responsive adjustments ───────────────────────────────────────── */
+
+@media (max-width: 1000px) {
+  .journey-links {
+    gap: 20px;
+  }
+  .journey-links a {
+    font-size: 14px;
+  }
+  .journey-number {
+    display: none;
+  }
+  /* Reduce section transition overlaps */
+  .home-partner::before,
+  .home-facts::before,
+  .customers::before,
+  .product-showcase::before,
+  .home-process::before,
+  .home-quality::before,
+  .home-contact::before {
+    height: 24px;
+  }
+}
+@media (max-width: 700px) {
+  :root {
+    --site-header-height: 72px;
+  }
+  .journey-links {
+    width: 100%;
+    padding-inline: var(--gutter);
+    gap: 22px;
+  }
+  .journey-links a {
+    flex-grow: 0;
+  }
+  .home-journey {
+    border-top: 1px solid var(--brand-line);
+  }
+  .shelf-track {
+    grid-auto-columns: calc(100% - 28px);
+    gap: 16px;
+  }
+  /* Reduce section overlaps on mobile */
+  .home-partner::before,
+  .home-facts::before,
+  .customers::before,
+  .product-showcase::before,
+  .home-process::before,
+  .home-quality::before,
+  .home-contact::before {
+    height: 16px;
+  }
+  /* Less dramatic section reveals on mobile */
+  .silk-section {
+    transform: translateY(12px);
+  }
+}
+
+/* ─── Reduced motion — respect user preference ─────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  html:root {
+    scroll-behavior: auto;
+  }
+  .button.button,
+  .showcase-card.showcase-card,
+  .project-card,
+  .showcase-symbol,
+  .photo img,
+  .button .button-icon,
+  .showcase-action .app-icon,
+  .showcase-copy h4 .app-icon,
+  .hero-scroll-link .app-icon,
+  .capability-card,
+  .contact-block,
+  .stage-grid > li,
+  .home-reason-grid > article,
+  .home-quality-grid > article,
+  .home-facts > div,
+  .showcase-children,
+  .customer-logos img {
+    transform: none !important;
+    animation: none !important;
+  }
+  .silk-section {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .journey-progress {
+    display: none;
+  }
+  .hero-scroll-link {
+    animation: none;
+  }
+}

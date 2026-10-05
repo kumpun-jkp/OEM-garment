@@ -1,0 +1,191 @@
+- application: ⁨⁩
+- status: Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press Ctrl+K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter Ctrl+Shift+Question mark .
+- status
+- region "Left sidebar":
+  - toolbar "Navigation Bar":
+    - button "Main menu":
+    - separator
+    - button "File":
+      - generic: File
+    - button "Agents":
+      - generic: Agents
+    - button "Assets":
+      - generic: Assets
+    - button "Tools":
+      - generic: Tools
+    - separator
+    - button "Variables" [expanded]:
+      - generic: Variables
+    - button "Missing fonts":
+  - button "Thonburi Master":
+    - heading "Thonburi Master" [level=2]
+  - button "Hide panel":
+  - navigation:
+    - region "Variable collections":
+      - generic: Collections
+      - button "Collections options":
+      - button "Create collection":
+      - grid:
+        - row "CI / Primitives 54 variables":
+          - gridcell "CI / Primitives 54 variables":
+            - button "CI / Primitives 54 variables":
+              - generic "CI / Primitives"
+              - generic: 54 variables
+              - text: "54"
+        - row "CI / Semantic 16 variables":
+          - gridcell "CI / Semantic 16 variables":
+            - button "CI / Semantic 16 variables":
+              - generic "CI / Semantic"
+              - generic: 16 variables
+              - text: "16"
+        - row "Color 60 variables":
+          - gridcell "Color 60 variables":
+            - button "Color 60 variables":
+              - generic "Color"
+              - generic: 60 variables
+              - text: "60"
+        - row "Control 5 variables":
+          - gridcell "Control 5 variables":
+            - button "Control 5 variables":
+              - generic "Control"
+              - generic: 5 variables
+              - text: "5"
+        - row "Spacing 11 variables":
+          - gridcell "Spacing 11 variables":
+            - button "Spacing 11 variables" [active]:
+              - generic "Spacing"
+              - generic: 11 variables
+              - text: "11"
+    - button "Groups" [expanded]:
+      - generic: Groups
+    - grid:
+      - row "All 11 variables":
+        - gridcell "All 11 variables":
+          - button "All":
+            - generic "All"
+          - generic: 11 variables
+          - text: "11"
+  - slider "Resize handle"
+- heading "Spacing" [level=2]:
+  - button "Spacing":
+    - generic: Spacing
+- group "Search and filter":
+  - textbox "Search"
+  - button "Filter":
+- checkbox "Minimize"
+- generic: Minimize
+- button "Share"
+- table:
+  - rowgroup:
+    - row "Name Default New variable mode":
+      - columnheader "Name": Name
+      - columnheader "Default":
+        - generic "Default"
+      - cell
+      - cell "New variable mode":
+        - button "New variable mode":
+    - row
+    - row "gutter 24 Edit variable":
+      - rowheader "gutter":
+        - generic "gutter"
+      - cell "24":
+        - textbox: "24"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "gutter-sm 16 Edit variable":
+      - rowheader "gutter-sm":
+        - generic "gutter-sm"
+      - cell "16":
+        - textbox: "16"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "margin 48 Edit variable":
+      - rowheader "margin":
+        - generic "margin"
+      - cell "48":
+        - textbox: "48"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "margin-mobile 20 Edit variable":
+      - rowheader "margin-mobile":
+        - generic "margin-mobile"
+      - cell "20":
+        - textbox: "20"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "space-xs 4 Edit variable":
+      - rowheader "space-xs":
+        - generic "space-xs"
+      - cell "4":
+        - textbox: "4"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "space-sm 8 Edit variable":
+      - rowheader "space-sm":
+        - generic "space-sm"
+      - cell "8":
+        - textbox: "8"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "space-md 16 Edit variable":
+      - rowheader "space-md":
+        - generic "space-md"
+      - cell "16":
+        - textbox: "16"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "space-lg 24 Edit variable":
+      - rowheader "space-lg":
+        - generic "space-lg"
+      - cell "24":
+        - textbox: "24"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "space-xl 40 Edit variable":
+      - rowheader "space-xl":
+        - generic "space-xl"
+      - cell "40":
+        - textbox: "40"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "space-2xl 64 Edit variable":
+      - rowheader "space-2xl":
+        - generic "space-2xl"
+      - cell "64":
+        - textbox: "64"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "space-3xl 96 Edit variable":
+      - rowheader "space-3xl":
+        - generic "space-3xl"
+      - cell "96":
+        - textbox: "96"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+- button "Create variable button":
+  - generic: Create variable
+- region "Help/zoom toolbar":
+  - toolbar "Help/zoom toolbar":
+    - button "Help":
+- alert
+- alert
+- dialog "Control opacity at scale":
+  - heading "Control opacity at scale" [level=2]
+  - button "Close":
+  - generic: Easily apply and adjust opacity in the variables modal to a linked color without needing to detach.
+  - link "Learn more":
+    - /url: https://help.figma.com/hc/en-us/articles/14506821864087#colorvar
+    - generic: Learn more
+  - button "Got it":
+    - generic: Got it

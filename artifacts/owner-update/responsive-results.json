@@ -1,0 +1,413 @@
+{
+  "date": "2026-10-04",
+  "routes": 8,
+  "widths": [
+    1280,
+    1000,
+    768,
+    390,
+    320
+  ],
+  "results": [
+    {
+      "route": "/",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 15,
+      "width": 1280
+    },
+    {
+      "route": "/about",
+      "clipped": [],
+      "fabrics": 8,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 15,
+      "width": 1280
+    },
+    {
+      "route": "/our-work",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 1280
+    },
+    {
+      "route": "/oem-products",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 1280
+    },
+    {
+      "route": "/oem-journey",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 6,
+      "techniques": 0,
+      "width": 1280
+    },
+    {
+      "route": "/technical-insights",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 1280
+    },
+    {
+      "route": "/start-your-project",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 1280
+    },
+    {
+      "route": "/contact",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 1280
+    },
+    {
+      "route": "/",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 15,
+      "width": 1000
+    },
+    {
+      "route": "/about",
+      "clipped": [],
+      "fabrics": 8,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 15,
+      "width": 1000
+    },
+    {
+      "route": "/our-work",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 1000
+    },
+    {
+      "route": "/oem-products",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 1000
+    },
+    {
+      "route": "/oem-journey",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 6,
+      "techniques": 0,
+      "width": 1000
+    },
+    {
+      "route": "/technical-insights",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 1000
+    },
+    {
+      "route": "/start-your-project",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 1000
+    },
+    {
+      "route": "/contact",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 1000
+    },
+    {
+      "route": "/",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 15,
+      "width": 768
+    },
+    {
+      "route": "/about",
+      "clipped": [],
+      "fabrics": 8,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 15,
+      "width": 768
+    },
+    {
+      "route": "/our-work",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 768
+    },
+    {
+      "route": "/oem-products",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 768
+    },
+    {
+      "route": "/oem-journey",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 6,
+      "techniques": 0,
+      "width": 768
+    },
+    {
+      "route": "/technical-insights",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 768
+    },
+    {
+      "route": "/start-your-project",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 768
+    },
+    {
+      "route": "/contact",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 768
+    },
+    {
+      "route": "/",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 15,
+      "width": 390
+    },
+    {
+      "route": "/about",
+      "clipped": [],
+      "fabrics": 8,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 15,
+      "width": 390
+    },
+    {
+      "route": "/our-work",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 390
+    },
+    {
+      "route": "/oem-products",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 390
+    },
+    {
+      "route": "/oem-journey",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 6,
+      "techniques": 0,
+      "width": 390
+    },
+    {
+      "route": "/technical-insights",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 390
+    },
+    {
+      "route": "/start-your-project",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 390
+    },
+    {
+      "route": "/contact",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 390
+    },
+    {
+      "route": "/",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 15,
+      "width": 320
+    },
+    {
+      "route": "/about",
+      "clipped": [],
+      "fabrics": 8,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 15,
+      "width": 320
+    },
+    {
+      "route": "/our-work",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 320
+    },
+    {
+      "route": "/oem-products",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 320
+    },
+    {
+      "route": "/oem-journey",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 6,
+      "techniques": 0,
+      "width": 320
+    },
+    {
+      "route": "/technical-insights",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 320
+    },
+    {
+      "route": "/start-your-project",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 320
+    },
+    {
+      "route": "/contact",
+      "clipped": [],
+      "fabrics": 0,
+      "h1": 1,
+      "overflow": 0,
+      "stages": 0,
+      "techniques": 0,
+      "width": 320
+    }
+  ]
+}

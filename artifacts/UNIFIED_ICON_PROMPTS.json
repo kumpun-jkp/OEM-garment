@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-05",
+  "method": "Built-in image generation; original PNG sources copied unchanged. CSS alpha masks apply CI foreground colours.",
+  "assets": [
+    {
+      "name": "trousers",
+      "prompt": "Use case: logo-brand. Asset type: ONE isolated PNG UI icon, genuine transparent alpha background, square canvas. Design a pure monochrome SOLID FILLED PICTOGRAM matching Material Design Sharp filled icons: flat opaque black (#000000) filled geometric shapes, sharp garment edges, consistent heavy silhouette, simple broad negative-space cutouts for critical seams, NO thin outlines, NO grey, NO white paint, NO colours, NO gold accents, NO gradients, NO light effects, NO shadows, NO realistic folds, NO stitches, NO decorative detail, NO text, NO frame, NO badge, NO backdrop. Recognisable at 24px and coherent with 24x24 Material Sharp filled icons. Front view, geometrically centred, generous equal padding of about 12% each edge; icon occupies about 76% of square. All visible ink is completely opaque black, background and cutouts are transparent. Subject: one pair of LONG STRAIGHT TROUSERS: single black solid garment silhouette with waistband and two separate long legs. One simple transparent slit for pockets is enough.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-e324b098-e5ce-4cae-b77a-911a951a020c.png",
+      "destination": "public/icons/unified/trousers.png"
+    },
+    {
+      "name": "shirts",
+      "prompt": "Use case: logo-brand. Asset type: ONE isolated PNG UI icon, genuine transparent alpha background, square canvas. Design a pure monochrome SOLID FILLED PICTOGRAM matching Material Design Sharp filled icons: flat opaque black (#000000) filled geometric shapes, sharp garment edges, consistent heavy silhouette, simple broad negative-space cutouts for critical seams, NO thin outlines, NO grey, NO white paint, NO colours, NO gold accents, NO gradients, NO light effects, NO shadows, NO realistic folds, NO stitches, NO decorative detail, NO text, NO frame, NO badge, NO backdrop. Recognisable at 24px and coherent with 24x24 Material Sharp filled icons. Front view, geometrically centred, generous equal padding of about 12% each edge; icon occupies about 76% of square. All visible ink is completely opaque black, background and cutouts are transparent. Subject: one short-sleeve COLLARED BUTTON-UP SHIRT: solid black silhouette with two clear sleeves and collar, a broad transparent centre placket and at most three simple button cutouts.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-831a40e6-0051-49ed-9d83-a632c7b38f81.png",
+      "destination": "public/icons/unified/shirts.png"
+    },
+    {
+      "name": "elephant-sets",
+      "prompt": "Use case: logo-brand. Asset type: ONE isolated PNG UI icon, genuine transparent alpha background, square canvas. Design a pure monochrome SOLID FILLED PICTOGRAM matching Material Design Sharp filled icons: flat opaque black (#000000) filled geometric shapes, sharp garment edges, consistent heavy silhouette, simple broad negative-space cutouts for critical seams, NO thin outlines, NO grey, NO white paint, NO colours, NO gold accents, NO gradients, NO light effects, NO shadows, NO realistic folds, NO stitches, NO decorative detail, NO text, NO frame, NO badge, NO backdrop. Recognisable at 24px and coherent with 24x24 Material Sharp filled icons. Front view, geometrically centred, generous equal padding of about 12% each edge; icon occupies about 76% of square. All visible ink is completely opaque black, background and cutouts are transparent. Subject: a compact collared shirt and matching loose long trousers SIDE BY SIDE as solid black clothing silhouettes. One simple recognisable elephant silhouette cut out from the shirt in transparent negative space, no other patterns. Clothing is the main symbol.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-14770d72-2d2a-4fac-9181-52530d09e748.png",
+      "destination": "public/icons/unified/elephant-sets.png"
+    },
+    {
+      "name": "sleepwear",
+      "prompt": "Use case: logo-brand. Asset type: ONE isolated PNG UI icon, genuine transparent alpha background, square canvas. Design a pure monochrome SOLID FILLED PICTOGRAM matching Material Design Sharp filled icons: flat opaque black (#000000) filled geometric shapes, sharp garment edges, consistent heavy silhouette, simple broad negative-space cutouts for critical seams, NO thin outlines, NO grey, NO white paint, NO colours, NO gold accents, NO gradients, NO light effects, NO shadows, NO realistic folds, NO stitches, NO decorative detail, NO text, NO frame, NO badge, NO backdrop. Recognisable at 24px and coherent with 24x24 Material Sharp filled icons. Front view, geometrically centred, generous equal padding of about 12% each edge; icon occupies about 76% of square. All visible ink is completely opaque black, background and cutouts are transparent. Subject: a LONG-SLEEVE PYJAMA TOP beside loose long PYJAMA TROUSERS, solid black garment silhouettes, a broad transparent lapel/placket cutout. No moon or person.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-097af0b8-66e0-4cf7-b4c1-7da575b188ed.png",
+      "destination": "public/icons/unified/sleepwear.png"
+    },
+    {
+      "name": "dresses",
+      "prompt": "Use case: logo-brand. Asset type: ONE isolated PNG UI icon, genuine transparent alpha background, square canvas. Design a pure monochrome SOLID FILLED PICTOGRAM matching Material Design Sharp filled icons: flat opaque black (#000000) filled geometric shapes, sharp garment edges, consistent heavy silhouette, simple broad negative-space cutouts for critical seams, NO thin outlines, NO grey, NO white paint, NO colours, NO gold accents, NO gradients, NO light effects, NO shadows, NO realistic folds, NO stitches, NO decorative detail, NO text, NO frame, NO badge, NO backdrop. Recognisable at 24px and coherent with 24x24 Material Sharp filled icons. Front view, geometrically centred, generous equal padding of about 12% each edge; icon occupies about 76% of square. All visible ink is completely opaque black, background and cutouts are transparent. Subject: one SLEEVELESS DRESS, solid black silhouette with shoulder straps, narrow waist and flared hem. Transparent neck opening, one broad waist cutout. No human figure.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-5c94f23c-1558-428d-924d-844772467c0e.png",
+      "destination": "public/icons/unified/dresses.png"
+    },
+    {
+      "name": "skirts",
+      "prompt": "Use case: logo-brand. Asset type: ONE isolated PNG UI icon, genuine transparent alpha background, square canvas. Design a pure monochrome SOLID FILLED PICTOGRAM matching Material Design Sharp filled icons: flat opaque black (#000000) filled geometric shapes, sharp garment edges, consistent heavy silhouette, simple broad negative-space cutouts for critical seams, NO thin outlines, NO grey, NO white paint, NO colours, NO gold accents, NO gradients, NO light effects, NO shadows, NO realistic folds, NO stitches, NO decorative detail, NO text, NO frame, NO badge, NO backdrop. Recognisable at 24px and coherent with 24x24 Material Sharp filled icons. Front view, geometrically centred, generous equal padding of about 12% each edge; icon occupies about 76% of square. All visible ink is completely opaque black, background and cutouts are transparent. Subject: one A-LINE SKIRT, solid black silhouette with horizontal waistband and flared hem; only two broad transparent pleat cutouts. No tag or hanger.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-69d89258-e395-4f2b-990c-7b2cae758a60.png",
+      "destination": "public/icons/unified/skirts.png"
+    },
+    {
+      "name": "adults",
+      "prompt": "Use case: logo-brand. Asset type: ONE isolated PNG UI icon, genuine transparent alpha background, square canvas. Design a pure monochrome SOLID FILLED PICTOGRAM matching Material Design Sharp filled icons: flat opaque black (#000000) filled geometric shapes, sharp garment edges, consistent heavy silhouette, simple broad negative-space cutouts for critical seams, NO thin outlines, NO grey, NO white paint, NO colours, NO gold accents, NO gradients, NO light effects, NO shadows, NO realistic folds, NO stitches, NO decorative detail, NO text, NO frame, NO badge, NO backdrop. Recognisable at 24px and coherent with 24x24 Material Sharp filled icons. Front view, geometrically centred, generous equal padding of about 12% each edge; icon occupies about 76% of square. All visible ink is completely opaque black, background and cutouts are transparent. Subject: an adult sized T-SHIRT beside LONG TROUSERS, two simple solid black garment silhouettes with tiny transparent neck opening. No person or face.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-11b61794-7ef2-4799-8add-bcb4923f3965.png",
+      "destination": "public/icons/unified/adults.png"
+    },
+    {
+      "name": "children",
+      "prompt": "Use case: logo-brand. Asset type: ONE isolated PNG UI icon, genuine transparent alpha background, square canvas. Design a pure monochrome SOLID FILLED PICTOGRAM matching Material Design Sharp filled icons: flat opaque black (#000000) filled geometric shapes, sharp garment edges, consistent heavy silhouette, simple broad negative-space cutouts for critical seams, NO thin outlines, NO grey, NO white paint, NO colours, NO gold accents, NO gradients, NO light effects, NO shadows, NO realistic folds, NO stitches, NO decorative detail, NO text, NO frame, NO badge, NO backdrop. Recognisable at 24px and coherent with 24x24 Material Sharp filled icons. Front view, geometrically centred, generous equal padding of about 12% each edge; icon occupies about 76% of square. All visible ink is completely opaque black, background and cutouts are transparent. Subject: a small children's T-SHIRT beside SHORTS, simple solid black garment silhouettes with a transparent neckline. Absolutely no face, person, animal, monkey, toy or baby head.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-3246e5f2-b3fe-4eae-b573-19504dd877ac.png",
+      "destination": "public/icons/unified/children.png"
+    },
+    {
+      "name": "fabric",
+      "prompt": "Use case: logo-brand. Asset type: ONE isolated PNG UI icon, genuine transparent alpha background, square canvas. Design a pure monochrome SOLID FILLED PICTOGRAM matching Material Design Sharp filled icons: flat opaque black (#000000) filled geometric shapes, sharp garment edges, consistent heavy silhouette, simple broad negative-space cutouts for critical seams, NO thin outlines, NO grey, NO white paint, NO colours, NO gold accents, NO gradients, NO light effects, NO shadows, NO realistic folds, NO stitches, NO decorative detail, NO text, NO frame, NO badge, NO backdrop. Recognisable at 24px and coherent with 24x24 Material Sharp filled icons. Front view, geometrically centred, generous equal padding of about 12% each edge; icon occupies about 76% of square. All visible ink is completely opaque black, background and cutouts are transparent. Subject: one FABRIC ROLL with a draped corner as one solid black compact pictogram; only one broad transparent curved opening indicating rolled cloth.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-6ec0abd5-6124-4759-b346-42ebffeb3f7c.png",
+      "destination": "public/icons/unified/fabric.png"
+    },
+    {
+      "name": "sewing",
+      "prompt": "Use case: logo-brand. Asset type: ONE isolated PNG UI icon, genuine transparent alpha background, square canvas. Design a pure monochrome SOLID FILLED PICTOGRAM matching Material Design Sharp filled icons: flat opaque black (#000000) filled geometric shapes, sharp garment edges, consistent heavy silhouette, simple broad negative-space cutouts for critical seams, NO thin outlines, NO grey, NO white paint, NO colours, NO gold accents, NO gradients, NO light effects, NO shadows, NO realistic folds, NO stitches, NO decorative detail, NO text, NO frame, NO badge, NO backdrop. Recognisable at 24px and coherent with 24x24 Material Sharp filled icons. Front view, geometrically centred, generous equal padding of about 12% each edge; icon occupies about 76% of square. All visible ink is completely opaque black, background and cutouts are transparent. Subject: one SEWING MACHINE as a solid black geometric pictogram with broad transparent arm opening, clear needle and work base, no texture or realistic details.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-6d788400-8233-4630-8430-c923d9e52df0.png",
+      "destination": "public/icons/unified/sewing.png"
+    },
+    {
+      "name": "quality",
+      "prompt": "Use case: logo-brand. Asset type: ONE isolated PNG UI icon, genuine transparent alpha background, square canvas. Design a pure monochrome SOLID FILLED PICTOGRAM matching Material Design Sharp filled icons: flat opaque black (#000000) filled geometric shapes, sharp garment edges, consistent heavy silhouette, simple broad negative-space cutouts for critical seams, NO thin outlines, NO grey, NO white paint, NO colours, NO gold accents, NO gradients, NO light effects, NO shadows, NO realistic folds, NO stitches, NO decorative detail, NO text, NO frame, NO badge, NO backdrop. Recognisable at 24px and coherent with 24x24 Material Sharp filled icons. Front view, geometrically centred, generous equal padding of about 12% each edge; icon occupies about 76% of square. All visible ink is completely opaque black, background and cutouts are transparent. Subject: a solid black MAGNIFYING GLASS over a compact T-SHIRT, with a CHECK MARK cutout in transparent negative space. Bold simple shapes, clearly garment inspection, not a certification seal.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-5973a6f6-cc10-4d7c-a287-e9873693dccf.png",
+      "destination": "public/icons/unified/quality.png"
+    },
+    {
+      "name": "brief",
+      "prompt": "Use case: logo-brand. Asset type: ONE isolated PNG UI icon, genuine transparent alpha background, square canvas. Design a pure monochrome SOLID FILLED PICTOGRAM matching Material Design Sharp filled icons: flat opaque black (#000000) filled geometric shapes, sharp garment edges, consistent heavy silhouette, simple broad negative-space cutouts for critical seams, NO thin outlines, NO grey, NO white paint, NO colours, NO gold accents, NO gradients, NO light effects, NO shadows, NO realistic folds, NO stitches, NO decorative detail, NO text, NO frame, NO badge, NO backdrop. Recognisable at 24px and coherent with 24x24 Material Sharp filled icons. Front view, geometrically centred, generous equal padding of about 12% each edge; icon occupies about 76% of square. All visible ink is completely opaque black, background and cutouts are transparent. Subject: a solid black CLIPBOARD AND PENCIL, with only two broad horizontal transparent specification line cutouts, no letters or numbers.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-a2910daf-7832-4e80-8877-edbf522b2d66.png",
+      "destination": "public/icons/unified/brief.png"
+    }
+  ]
+}

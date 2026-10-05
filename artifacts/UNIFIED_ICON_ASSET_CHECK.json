@@ -1,0 +1,206 @@
+[
+  {
+    "name": "adults.png",
+    "format": "png",
+    "width": 1254,
+    "height": 1254,
+    "hasAlpha": true,
+    "bytes": 181254,
+    "transparent": 1140379,
+    "opaque": 3917,
+    "partial": 428220,
+    "bounds": {
+      "minX": 122,
+      "minY": 287,
+      "maxX": 1116,
+      "maxY": 982
+    }
+  },
+  {
+    "name": "brief.png",
+    "format": "png",
+    "width": 1254,
+    "height": 1254,
+    "hasAlpha": true,
+    "bytes": 243040,
+    "transparent": 992198,
+    "opaque": 5527,
+    "partial": 574791,
+    "bounds": {
+      "minX": 97,
+      "minY": 120,
+      "maxX": 1193,
+      "maxY": 1179
+    }
+  },
+  {
+    "name": "children.png",
+    "format": "png",
+    "width": 1254,
+    "height": 1254,
+    "hasAlpha": true,
+    "bytes": 204833,
+    "transparent": 1101917,
+    "opaque": 3684,
+    "partial": 466915,
+    "bounds": {
+      "minX": 110,
+      "minY": 233,
+      "maxX": 1207,
+      "maxY": 1211
+    }
+  },
+  {
+    "name": "dresses.png",
+    "format": "png",
+    "width": 1254,
+    "height": 1254,
+    "hasAlpha": true,
+    "bytes": 296108,
+    "transparent": 1215823,
+    "opaque": 1307,
+    "partial": 355386,
+    "bounds": {
+      "minX": 210,
+      "minY": 53,
+      "maxX": 1193,
+      "maxY": 1103
+    }
+  },
+  {
+    "name": "elephant-sets.png",
+    "format": "png",
+    "width": 1254,
+    "height": 1254,
+    "hasAlpha": true,
+    "bytes": 242740,
+    "transparent": 1034782,
+    "opaque": 6654,
+    "partial": 531080,
+    "bounds": {
+      "minX": 105,
+      "minY": 245,
+      "maxX": 1152,
+      "maxY": 1020
+    }
+  },
+  {
+    "name": "fabric.png",
+    "format": "png",
+    "width": 1254,
+    "height": 1254,
+    "hasAlpha": true,
+    "bytes": 254815,
+    "transparent": 1147747,
+    "opaque": 2423,
+    "partial": 422346,
+    "bounds": {
+      "minX": 110,
+      "minY": 53,
+      "maxX": 1159,
+      "maxY": 973
+    }
+  },
+  {
+    "name": "quality.png",
+    "format": "png",
+    "width": 1254,
+    "height": 1254,
+    "hasAlpha": true,
+    "bytes": 220359,
+    "transparent": 1102099,
+    "opaque": 4100,
+    "partial": 466317,
+    "bounds": {
+      "minX": 141,
+      "minY": 223,
+      "maxX": 1111,
+      "maxY": 1149
+    }
+  },
+  {
+    "name": "sewing.png",
+    "format": "png",
+    "width": 1254,
+    "height": 1254,
+    "hasAlpha": true,
+    "bytes": 191467,
+    "transparent": 1039424,
+    "opaque": 3873,
+    "partial": 529219,
+    "bounds": {
+      "minX": 84,
+      "minY": 53,
+      "maxX": 1182,
+      "maxY": 1062
+    }
+  },
+  {
+    "name": "shirts.png",
+    "format": "png",
+    "width": 1254,
+    "height": 1254,
+    "hasAlpha": true,
+    "bytes": 219550,
+    "transparent": 1066451,
+    "opaque": 4399,
+    "partial": 501666,
+    "bounds": {
+      "minX": 115,
+      "minY": 185,
+      "maxX": 1207,
+      "maxY": 1149
+    }
+  },
+  {
+    "name": "skirts.png",
+    "format": "png",
+    "width": 1254,
+    "height": 1254,
+    "hasAlpha": true,
+    "bytes": 227624,
+    "transparent": 1029746,
+    "opaque": 3245,
+    "partial": 539525,
+    "bounds": {
+      "minX": 115,
+      "minY": 221,
+      "maxX": 1139,
+      "maxY": 1032
+    }
+  },
+  {
+    "name": "sleepwear.png",
+    "format": "png",
+    "width": 1254,
+    "height": 1254,
+    "hasAlpha": true,
+    "bytes": 244904,
+    "transparent": 995353,
+    "opaque": 5586,
+    "partial": 571577,
+    "bounds": {
+      "minX": 63,
+      "minY": 248,
+      "maxX": 1185,
+      "maxY": 1021
+    }
+  },
+  {
+    "name": "trousers.png",
+    "format": "png",
+    "width": 1254,
+    "height": 1254,
+    "hasAlpha": true,
+    "bytes": 189207,
+    "transparent": 1100008,
+    "opaque": 3464,
+    "partial": 469044,
+    "bounds": {
+      "minX": 210,
+      "minY": 122,
+      "maxX": 960,
+      "maxY": 1131
+    }
+  }
+]

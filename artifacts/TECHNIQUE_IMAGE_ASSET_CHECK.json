@@ -1,0 +1,167 @@
+[
+  {
+    "slug": "embroidery",
+    "title": "Embroidery",
+    "path": "public/media/techniques/embroidery-reference.png",
+    "format": "png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2004077,
+    "sha256": "271aa88b81c0f875fb996c440751b1965d85be9ef2e8eea373dd991b9fcaf5f2",
+    "sourceUnchanged": true
+  },
+  {
+    "slug": "rubber-screen-print",
+    "title": "Rubber screen print",
+    "path": "public/media/techniques/rubber-screen-print-reference.png",
+    "format": "png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2413755,
+    "sha256": "7556291cdadaa09ec80d634084821fbbe0d4f06524951b64a36fdc3f7b545040",
+    "sourceUnchanged": true
+  },
+  {
+    "slug": "water-based-print",
+    "title": "Water-based print",
+    "path": "public/media/techniques/water-based-print-reference.png",
+    "format": "png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2587731,
+    "sha256": "fa790134304d8c9c6cc465b66b5a9a54c39d7725c127503de045ed5a828eacbf",
+    "sourceUnchanged": true
+  },
+  {
+    "slug": "dtf-printing",
+    "title": "DTF printing",
+    "path": "public/media/techniques/dtf-printing-reference.png",
+    "format": "png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2251253,
+    "sha256": "b6d0e3700d0b8b33b62b6996f20052c05b2a2d7a4844e04afd0b5d62a2782944",
+    "sourceUnchanged": true
+  },
+  {
+    "slug": "sublimation",
+    "title": "Sublimation",
+    "path": "public/media/techniques/sublimation-reference.png",
+    "format": "png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2702077,
+    "sha256": "d16fe3e11835f244b0e373d2613786e18417fb61bdf07bb262c36746ff15f5f3",
+    "sourceUnchanged": true
+  },
+  {
+    "slug": "garment-washing",
+    "title": "Garment washing",
+    "path": "public/media/techniques/garment-washing-reference.png",
+    "format": "png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2529444,
+    "sha256": "ce77ccd5e7f4200b5e27e234ea2dbf09001998a1a1510b839f289f9374824a24",
+    "sourceUnchanged": true
+  },
+  {
+    "slug": "pleating",
+    "title": "Pleating",
+    "path": "public/media/techniques/pleating-reference.png",
+    "format": "png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3056384,
+    "sha256": "0a7ac210d3b5a25fb78c04b1f83ce4a5ea635ae25b7b0a6020a0e9d84716dca0",
+    "sourceUnchanged": true
+  },
+  {
+    "slug": "decorative-stitching",
+    "title": "Decorative stitching",
+    "path": "public/media/techniques/decorative-stitching-reference.png",
+    "format": "png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2631112,
+    "sha256": "c0be1d778d097395c8f6a03023e5e07b13cf9e8d93f10d3be71f8bbeb47ce64a",
+    "sourceUnchanged": true
+  },
+  {
+    "slug": "decorative-trims",
+    "title": "Decorative trims",
+    "path": "public/media/techniques/decorative-trims-reference.png",
+    "format": "png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2540946,
+    "sha256": "4d6eefe2eaa9430d537ef1a588bff4ebef7f03505508b34f637ca48eb077a1c1",
+    "sourceUnchanged": true
+  },
+  {
+    "slug": "elastic-application",
+    "title": "Elastic application",
+    "path": "public/media/techniques/elastic-application-reference.png",
+    "format": "png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2549661,
+    "sha256": "281824ce378c6c68351ceeb651227340f2fc1216dca839a1d14bcb5d93918dc8",
+    "sourceUnchanged": true
+  },
+  {
+    "slug": "smocking",
+    "title": "Smocking",
+    "path": "public/media/techniques/smocking-reference.png",
+    "format": "png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2658950,
+    "sha256": "02ce31f3f00f72db6b40a9f7d2b954563fcacec4598408398f9d9f2d9a9f76ed",
+    "sourceUnchanged": true
+  },
+  {
+    "slug": "bar-tacking",
+    "title": "Bar tacking",
+    "path": "public/media/techniques/bar-tacking-reference.png",
+    "format": "png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2960021,
+    "sha256": "768caf3aa07e9ff2f782cdad1d3ebc87432e6ef81a1accab87f5b766f97e9244",
+    "sourceUnchanged": true
+  },
+  {
+    "slug": "pockets-zips",
+    "title": "Pockets & zips",
+    "path": "public/media/techniques/pockets-zips-reference.png",
+    "format": "png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2677302,
+    "sha256": "1e0de8dad2e8fa512399f3fdb1e8c0a458c80855cf37a7f2d84ecd12f8ddfa88",
+    "sourceUnchanged": true
+  },
+  {
+    "slug": "buttons-holes",
+    "title": "Buttons & holes",
+    "path": "public/media/techniques/buttons-holes-reference.png",
+    "format": "png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 3089166,
+    "sha256": "fec0b9928111e4d21df19ca09a6416561601dece5ffd3e30c0fd84dcb15f543a",
+    "sourceUnchanged": true
+  },
+  {
+    "slug": "garment-labels",
+    "title": "Garment labels",
+    "path": "public/media/techniques/garment-labels-reference.png",
+    "format": "png",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 2526217,
+    "sha256": "a9221547f8cd9d8ef0fed228c1563705b71790086a26bdadd6f00813838269c8",
+    "sourceUnchanged": true
+  }
+]

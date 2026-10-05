@@ -1,0 +1,98 @@
+[
+  {
+    "route": "/th",
+    "status": 200,
+    "nativeScriptMatches": 341,
+    "internalLinks": 63
+  },
+  {
+    "route": "/th/about",
+    "status": 200,
+    "nativeScriptMatches": 842,
+    "internalLinks": 51
+  },
+  {
+    "route": "/th/our-work",
+    "status": 200,
+    "nativeScriptMatches": 331,
+    "internalLinks": 70
+  },
+  {
+    "route": "/th/oem-products",
+    "status": 200,
+    "nativeScriptMatches": 321,
+    "internalLinks": 69
+  },
+  {
+    "route": "/th/oem-journey",
+    "status": 200,
+    "nativeScriptMatches": 325,
+    "internalLinks": 54
+  },
+  {
+    "route": "/th/technical-insights",
+    "status": 200,
+    "nativeScriptMatches": 289,
+    "internalLinks": 52
+  },
+  {
+    "route": "/th/start-your-project",
+    "status": 200,
+    "nativeScriptMatches": 281,
+    "internalLinks": 46
+  },
+  {
+    "route": "/th/contact",
+    "status": 200,
+    "nativeScriptMatches": 242,
+    "internalLinks": 49
+  },
+  {
+    "route": "/en",
+    "status": 200,
+    "nativeScriptMatches": 0,
+    "internalLinks": 63
+  },
+  {
+    "route": "/en/about",
+    "status": 200,
+    "nativeScriptMatches": 0,
+    "internalLinks": 51
+  },
+  {
+    "route": "/en/our-work",
+    "status": 200,
+    "nativeScriptMatches": 0,
+    "internalLinks": 70
+  },
+  {
+    "route": "/en/oem-products",
+    "status": 200,
+    "nativeScriptMatches": 0,
+    "internalLinks": 69
+  },
+  {
+    "route": "/en/oem-journey",
+    "status": 200,
+    "nativeScriptMatches": 0,
+    "internalLinks": 54
+  },
+  {
+    "route": "/en/technical-insights",
+    "status": 200,
+    "nativeScriptMatches": 0,
+    "internalLinks": 52
+  },
+  {
+    "route": "/en/start-your-project",
+    "status": 200,
+    "nativeScriptMatches": 0,
+    "internalLinks": 46
+  },
+  {
+    "route": "/en/contact",
+    "status": 200,
+    "nativeScriptMatches": 0,
+    "internalLinks": 49
+  }
+]

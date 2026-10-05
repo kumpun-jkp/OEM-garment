@@ -1,0 +1,58 @@
+[
+  {
+    "section": "Hero",
+    "originalTH": "TM Apparel รับผลิตเสื้อผ้า OEM\nกางเกงเด็กและผู้ใหญ่ กระโปรง เสื้อฮาวาย เสื้อช้าง กางเกงช้าง ชุดเดรส ชุดนอน เสื้อผ้ากีฬา อื่นๆ ดูแลตั้งแต่ทำตัวอย่างจนส่งมอบ [ยืนยัน]\n[เริ่มโปรเจกต์ของคุณ] [นัดเยี่ยมชมโรงงาน]",
+    "originalEN": "Apparel OEM manufacturing\nT-shirts, polos, uniforms and sportswear — from sampling to delivery.\n[Start Your Project] [Request a Factory Visit]",
+    "keys": ["hero", "intro", "project", "visit"],
+    "reason": "ใช้รายการสินค้าในร่าง TH ให้ตรงกันทั้งสองภาษาและกับหมวดสินค้าปัจจุบัน รักษาคำ Sampling ใน TH และใช้คำ elephant-print ใน EN ให้เข้าใจลักษณะสินค้าได้ทันที ปุ่มนำไปยังหน้าเริ่มโปรเจกต์และแบบฟอร์มนัดเยี่ยมชม"
+  },
+  {
+    "section": "Factory figures",
+    "originalTH": "28 ปี ประสบการณ์ผลิตเสื้อผ้า\n50,000 ตัว กำลังผลิตเฉลี่ยต่อเดือน\n[X] ล้าน+ ตัว ผลิตมาแล้ว\n[X]+ คน ทีมงานในโรงงาน",
+    "originalEN": "28 years in apparel manufacturing\n50,000 pcs average monthly capacity\n[X]M+ pcs produced to date\n[X]+ people on our factory team",
+    "keys": ["years", "experience", "capacity", "monthly", "total", "produced", "people", "team"],
+    "reason": "แทน placeholder ด้วยข้อมูลเจ้าของที่ให้ไว้ก่อนหน้า: ผลิตสะสมประมาณ 20 ล้านตัวและทีมงาน 60 คน ไม่เติมเครื่องหมาย + เพราะข้อมูลเดิมไม่ได้ระบุว่าเป็นจำนวนขั้นต่ำ ใช้ 28 ปีตาม revision นี้"
+  },
+  {
+    "section": "Retail partners",
+    "originalTH": "ซัพพลายเออร์เสื้อผ้าให้ห้างค้าปลีกชั้นนำ\nLotus's ตั้งแต่ปี 2542 และ Big C ตั้งแต่ปี 2555\n[แถบโลโก้]",
+    "originalEN": "Apparel supplier to leading retailers\nLotus's since 1999 and Big C since 2012",
+    "keys": ["retail", "retailSince"],
+    "reason": "คงสาระที่ชัดเจนอยู่แล้ว ใช้ปี พ.ศ. ใน TH และ ค.ศ. ใน EN แสดงโลโก้ลูกค้า Lotus’s และ Big C ในส่วนลูกค้าค้าปลีก โดยแยกจากส่วน Audit ซึ่งไม่มีโลโก้หรือ PDF"
+  },
+  {
+    "section": "Why brands choose us",
+    "originalTH": "ทำไมแบรนด์เลือกผลิตกับเรา\n1) ทีมช่างที่อยู่กับเรามานาน ช่างหลายคนอายุงานเกิน 30 ปี งานจึงสม่ำเสมอทุกล็อต\n2) ตรงสเปก ตรงเวลา [หลักฐาน เช่น % ส่งตรงกำหนด]\n3) เริ่มได้ตั้งแต่ 800 ตัวต่อแบบ เหมาะกับแบรนด์ที่กำลังเติบโต\n4) ดูแลใกล้ชิดทุกโปรเจกต์ มีผู้ประสานงานตั้งแต่ตัวอย่างจนส่งมอบ [ยืนยัน]",
+    "originalEN": "Why brands manufacture with us\n1) A long-serving team many craftsmen with [X]+ years, so every lot stays consistent\n2) On spec, on time [proof]\n3) Start from 800 pcs per style built for growing brands\n4) Hands-on project care one coordinator from sample to delivery [confirm]",
+    "keys": ["why", "skilled", "skilledBody", "spec", "specBody", "moq", "moqBody", "care", "careBody"],
+    "reason": "อธิบายวิธีทำงานและประโยชน์ที่ลูกค้าได้รับ ไม่รับประกันความสม่ำเสมอทุกล็อตหรือการส่งตรงเวลาทุกงาน ใช้ทีมที่มีประสบการณ์และการประสานงานโดยยังไม่ระบุอายุงาน 30 ปีหรือผู้ประสานงานคนเดียว รอความหมายและการยืนยันจากเจ้าของ ระบุ MOQ 800 ตัวต่อแบบพร้อมยืนยันตามผ้าและรายละเอียดโปรเจกต์"
+  },
+  {
+    "section": "Products",
+    "originalTH": "สินค้าที่เราผลิต\nเลือกประเภท ดูงานที่เคยผลิต แล้วขอใบเสนอราคาได้ทันที\nดูผลงานทั้งหมด",
+    "originalEN": "What we make\nPick a category, browse past work, request a quote.\nView all work",
+    "keys": ["products", "productIntro", "work"],
+    "reason": "ใช้คำว่าแบบอ้างอิงให้ตรงกับภาพและข้อมูลใน Product Showcase ไม่ตีความภาพประกอบทั้งหมดเป็นงานลูกค้าที่ผลิตจริง และทำให้ชัดว่าต้องส่งรายละเอียดเพื่อขอใบเสนอราคา CTA ดูผลงานทั้งหมดไปยังหน้า Our Work ส่วนการ์ดหมวดสินค้ายังไปยัง Garment Style References ตามหมวดเดิม"
+  },
+  {
+    "section": "Process",
+    "originalTH": "จากไอเดียสู่สินค้าพร้อมขาย ใน 8 ขั้นตอน\n[แถบชื่อ 6 ขั้น]\nดูขั้นตอนทั้งหมด",
+    "originalEN": "From idea to shelf in 6 steps\nSee our process",
+    "keys": ["process", "processIntro", "processCta"],
+    "reason": "แก้จำนวนขั้นตอนที่ขัดกันให้เป็น 6 ทั้งสองภาษา ใช้ stage data เดียวกับหน้า OEM Journey เพื่อให้ชื่อ ลำดับ และสาระตรงกัน: Brief & reference, Review & quotation, Sample & approval, Bulk production, Quality control, Pack & deliver"
+  },
+  {
+    "section": "Quality Control",
+    "originalTH": "ตรวจคุณภาพก่อนถึงมือคุณ\nตรวจผ้าก่อนตัด เครื่องตรวจผ้า\nคุมสีให้ตรง ห้องตรวจสีผ้า\nตรวจเข็มก่อนแพ็ก เครื่องตรวจเข็ม [ยืนยัน: ทุกตัวหรือสุ่ม]\nตรวจเข็ม ทุกตัว\nก่อนผลิต - ตรวจสีผ้า ตรวจผ้า\nระหว่างผลิต - QC in line\nหลังการผลิต - QC end line",
+    "originalEN": "Quality checked before it reaches you\nFabric inspected before cutting\nColour matched in our colour room\nNeedle-detected before packing [confirm]",
+    "keys": ["quality", "qualityIntro", "before", "beforeBody", "during", "duringBody", "after", "afterBody"],
+    "reason": "นำการยืนยันตรวจเข็มทุกตัวมาใช้ทั้ง TH และ EN จัดเนื้อหาตามก่อน ระหว่าง และหลังผลิต แยก In-line QC แบบสุ่มตรวจออกจาก End-line QC และการตรวจเข็มทุกตัวชัดเจน อัปเดตการ์ด Needle & packing ที่ใช้ร่วมกันในหน้า OEM Journey ด้วย"
+  },
+  {
+    "section": "Contact and FAQ",
+    "originalTH": "มีตัวอย่างแล้ว หรือยังเป็นแค่ไอเดีย เริ่มคุยกับเราได้เลย\nส่งรายละเอียดสั้นๆ ทีมงานจะติดต่อกลับ\nFAQ: ใช้เวลาผลิตกี่วัน? / ต้องมีแบบก่อนไหม? / ทำตัวอย่างก่อนได้ไหม?\n[เริ่มโปรเจกต์ของคุณ] [นัดเยี่ยมชมโรงงาน]",
+    "originalEN": "Have a sample, or just an idea? Let's talk.\nSend a quick brief and our team will get back to you.\nFAQ: How long does production take? / Do I need a design first? / Can I get a sample first?",
+    "keys": ["contact", "contactIntro", "timeQuestion", "timeAnswer", "designQuestion", "designAnswer", "sampleQuestion", "sampleAnswer", "project", "visit"],
+    "reason": "คงคำเชิญที่เข้าถึงง่ายและให้ขั้นตอนถัดไปชัดเจน เติมคำตอบ FAQ จากข้อมูลเดิมเรื่อง Sampling และ Bulk Production โดยระบุว่าเวลาเป็นประมาณการและต้องยืนยันแผนโปรเจกต์ ไม่เพิ่มเวลารับประกันการตอบกลับ ใช้ native details ที่เปิดอ่านด้วยเมาส์และคีย์บอร์ดได้"
+  }
+]

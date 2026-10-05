@@ -1,0 +1,186 @@
+[
+  {
+    "page": "home",
+    "sections": [
+      8,
+      8
+    ],
+    "fabricCards": [
+      0,
+      0
+    ],
+    "techniqueCards": [
+      4,
+      15
+    ],
+    "journeyCards": [
+      0,
+      0
+    ],
+    "tableRows": [
+      0,
+      0
+    ]
+  },
+  {
+    "page": "about",
+    "sections": [
+      9,
+      9
+    ],
+    "fabricCards": [
+      4,
+      8
+    ],
+    "techniqueCards": [
+      4,
+      15
+    ],
+    "journeyCards": [
+      0,
+      0
+    ],
+    "tableRows": [
+      5,
+      5
+    ]
+  },
+  {
+    "page": "our-work",
+    "sections": [
+      5,
+      5
+    ],
+    "fabricCards": [
+      0,
+      0
+    ],
+    "techniqueCards": [
+      0,
+      0
+    ],
+    "journeyCards": [
+      0,
+      0
+    ],
+    "tableRows": [
+      0,
+      0
+    ]
+  },
+  {
+    "page": "oem-products",
+    "sections": [
+      1,
+      1
+    ],
+    "fabricCards": [
+      0,
+      0
+    ],
+    "techniqueCards": [
+      0,
+      0
+    ],
+    "journeyCards": [
+      0,
+      0
+    ],
+    "tableRows": [
+      0,
+      0
+    ]
+  },
+  {
+    "page": "oem-journey",
+    "sections": [
+      5,
+      5
+    ],
+    "fabricCards": [
+      0,
+      0
+    ],
+    "techniqueCards": [
+      0,
+      0
+    ],
+    "journeyCards": [
+      8,
+      6
+    ],
+    "tableRows": [
+      0,
+      0
+    ]
+  },
+  {
+    "page": "technical-insights",
+    "sections": [
+      4,
+      4
+    ],
+    "fabricCards": [
+      0,
+      0
+    ],
+    "techniqueCards": [
+      0,
+      0
+    ],
+    "journeyCards": [
+      0,
+      0
+    ],
+    "tableRows": [
+      0,
+      0
+    ]
+  },
+  {
+    "page": "start-your-project",
+    "sections": [
+      0,
+      0
+    ],
+    "fabricCards": [
+      0,
+      0
+    ],
+    "techniqueCards": [
+      0,
+      0
+    ],
+    "journeyCards": [
+      0,
+      0
+    ],
+    "tableRows": [
+      0,
+      0
+    ]
+  },
+  {
+    "page": "contact",
+    "sections": [
+      4,
+      4
+    ],
+    "fabricCards": [
+      0,
+      0
+    ],
+    "techniqueCards": [
+      0,
+      0
+    ],
+    "journeyCards": [
+      0,
+      0
+    ],
+    "tableRows": [
+      0,
+      0
+    ]
+  }
+]

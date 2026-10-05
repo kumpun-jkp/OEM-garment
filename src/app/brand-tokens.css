@@ -1,0 +1,52 @@
+/* Thonburi Master CI, supplied concept-board CSS, 4 October 2026.
+ * Keep the export's sRGB fallbacks and Display-P3 values together. */
+:root {
+  --brand-deep: #01050b;
+  --brand-navy: #002351;
+  --brand-blue: #2f78b0;
+  --brand-gold: #ffbc00;
+  --brand-white: #ffffff;
+  --brand-muted: #9198a4;
+  --brand-board: #0a0f18;
+  --brand-graphite: #333a46;
+  --brand-dark-surface: #1b1e23;
+  --brand-dark-copy: #cccdce;
+  --brand-copy: #66676b;
+  --brand-info: #ebf2f7;
+  --brand-info-subtle: #f5f8fb;
+  --brand-highlight: #fdf2d9;
+  --brand-line: #d9e4ee;
+  --brand-line-strong: #4d6483;
+  --brand-dark-line: #67696c;
+  --icon-ink: var(--brand-navy);
+  --font-editorial: Athiti, Arial, sans-serif;
+  /* SF Pro is a system face on Apple devices; Segoe UI is the Windows fallback. */
+  --font-technical:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Athiti, sans-serif;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 64px;
+  --space-3xl: 96px;
+  --radius-action: 2px;
+  --radius-control: 0;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  :root {
+    --brand-deep: color(display-p3 0.008 0.02 0.039);
+    --brand-navy: color(display-p3 0 0.133 0.306);
+    --brand-blue: color(display-p3 0.263 0.463 0.671);
+    --brand-gold: color(display-p3 0.965 0.749 0.255);
+    --brand-muted: color(display-p3 0.573 0.596 0.639);
+    --brand-board: color(display-p3 0.043 0.059 0.09);
+    --brand-graphite: color(display-p3 0.204 0.227 0.271);
+    --brand-dark-surface: color(display-p3 0.106 0.118 0.137);
+    --brand-dark-copy: color(display-p3 0.8 0.804 0.808);
+    --brand-info: color(display-p3 0.925 0.945 0.969);
+    --brand-info-subtle: color(display-p3 0.965 0.973 0.984);
+    --brand-dark-line: color(display-p3 0.404 0.412 0.424);
+  }
+}

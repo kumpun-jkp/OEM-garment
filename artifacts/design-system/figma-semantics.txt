@@ -1,0 +1,358 @@
+- application: ⁨⁩
+- status: Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press Ctrl+K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter Ctrl+Shift+Question mark .
+- status
+- region "Left sidebar":
+  - toolbar "Navigation Bar":
+    - button "Main menu":
+    - separator
+    - button "File":
+      - generic: File
+    - button "Agents":
+      - generic: Agents
+    - button "Assets":
+      - generic: Assets
+    - button "Tools":
+      - generic: Tools
+    - separator
+    - button "Variables" [expanded]:
+      - generic: Variables
+    - button "Missing fonts":
+  - button "Thonburi Master":
+    - heading "Thonburi Master" [level=2]
+  - button "Hide panel":
+  - navigation:
+    - region "Variable collections":
+      - generic: Collections
+      - button "Collections options":
+      - button "Create collection":
+      - grid:
+        - row "CI / Primitives 54 variables":
+          - gridcell "CI / Primitives 54 variables":
+            - button "CI / Primitives 54 variables":
+              - generic "CI / Primitives"
+              - generic: 54 variables
+              - text: "54"
+        - row "CI / Semantic 16 variables":
+          - gridcell "CI / Semantic 16 variables":
+            - button "CI / Semantic 16 variables" [active]:
+              - generic "CI / Semantic"
+              - generic: 16 variables
+              - text: "16"
+        - row "Color 60 variables":
+          - gridcell "Color 60 variables":
+            - button "Color 60 variables":
+              - generic "Color"
+              - generic: 60 variables
+              - text: "60"
+        - row "Control 5 variables":
+          - gridcell "Control 5 variables":
+            - button "Control 5 variables":
+              - generic "Control"
+              - generic: 5 variables
+              - text: "5"
+        - row "Spacing 11 variables":
+          - gridcell "Spacing 11 variables":
+            - button "Spacing 11 variables":
+              - generic "Spacing"
+              - generic: 11 variables
+              - text: "11"
+    - button "Groups" [expanded]:
+      - generic: Groups
+    - button "Collapse groups":
+    - grid:
+      - row "All 16 variables":
+        - gridcell "All 16 variables":
+          - button "All":
+            - generic "All"
+          - generic: 16 variables
+          - text: "16"
+      - row "background 2 variables":
+        - gridcell "background 2 variables":
+          - button "background":
+            - generic "background"
+          - generic: 2 variables
+          - text: "2"
+      - row "surface 5 variables":
+        - gridcell "surface 5 variables":
+          - button "surface":
+            - generic "surface"
+          - generic: 5 variables
+          - text: "5"
+      - row "text 5 variables":
+        - gridcell "text 5 variables":
+          - button "text":
+            - generic "text"
+          - generic: 5 variables
+          - text: "5"
+      - row "accent 1 variable":
+        - gridcell "accent 1 variable":
+          - button "accent":
+            - generic "accent"
+          - generic: 1 variable
+          - text: "1"
+      - row "border 2 variables":
+        - gridcell "border 2 variables":
+          - button "border":
+            - generic "border"
+          - generic: 2 variables
+          - text: "2"
+      - row "material 1 variable":
+        - gridcell "material 1 variable":
+          - button "material":
+            - generic "material"
+          - generic: 1 variable
+          - text: "1"
+  - slider "Resize handle"
+- heading "CI / Semantic" [level=2]:
+  - button "CI / Semantic":
+    - generic: CI / Semantic
+- group "Search and filter":
+  - textbox "Search"
+  - button "Filter":
+- checkbox "Minimize"
+- generic: Minimize
+- button "Share"
+- table:
+  - rowgroup:
+    - row "Name Light Dark New variable mode":
+      - columnheader "Name": Name
+      - columnheader "Light":
+        - generic "Light"
+      - columnheader "Dark":
+        - generic "Dark"
+      - cell
+      - cell "New variable mode":
+        - button "New variable mode":
+    - row
+    - row "background":
+      - cell "background":
+        - button "background":
+          - generic: background
+    - 'row "base neutral/white, variable pill with value #FFFFFF brand/deep/100, variable pill with value #02050A Edit variable"':
+      - rowheader "base":
+        - generic "base"
+      - 'cell "neutral/white, variable pill with value #FFFFFF"':
+        - 'button "neutral/white, variable pill with value #FFFFFF"':
+          - generic "neutral/white"
+      - 'cell "brand/deep/100, variable pill with value #02050A"':
+        - 'button "brand/deep/100, variable pill with value #02050A"':
+          - generic "brand/deep/100"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "inverse brand/deep/100, variable pill with value #02050A neutral/white, variable pill with value #FFFFFF Edit variable"':
+      - rowheader "inverse":
+        - generic "inverse"
+      - 'cell "brand/deep/100, variable pill with value #02050A"':
+        - 'button "brand/deep/100, variable pill with value #02050A"':
+          - generic "brand/deep/100"
+      - 'cell "neutral/white, variable pill with value #FFFFFF"':
+        - 'button "neutral/white, variable pill with value #FFFFFF"':
+          - generic "neutral/white"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "surface":
+      - cell "surface":
+        - button "surface":
+          - generic: surface
+    - 'row "raised neutral/white, variable pill with value #FFFFFF brand/navy/100, variable pill with value #00224E Edit variable"':
+      - rowheader "raised":
+        - generic "raised"
+      - 'cell "neutral/white, variable pill with value #FFFFFF"':
+        - 'button "neutral/white, variable pill with value #FFFFFF"':
+          - generic "neutral/white"
+      - 'cell "brand/navy/100, variable pill with value #00224E"':
+        - 'button "brand/navy/100, variable pill with value #00224E"':
+          - generic "brand/navy/100"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "subtle brand/blue/10, variable pill with value #ECF1F7 brand/deep/90, variable pill with value #1B1E23 Edit variable"':
+      - rowheader "subtle":
+        - generic "subtle"
+      - 'cell "brand/blue/10, variable pill with value #ECF1F7"':
+        - 'button "brand/blue/10, variable pill with value #ECF1F7"':
+          - generic "brand/blue/10"
+      - 'cell "brand/deep/90, variable pill with value #1B1E23"':
+        - 'button "brand/deep/90, variable pill with value #1B1E23"':
+          - generic "brand/deep/90"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "dark brand/navy/100, variable pill with value #00224E brand/navy/100, variable pill with value #00224E Edit variable"':
+      - rowheader "dark":
+        - generic "dark"
+      - 'cell "brand/navy/100, variable pill with value #00224E"':
+        - 'button "brand/navy/100, variable pill with value #00224E"':
+          - generic "brand/navy/100"
+      - 'cell "brand/navy/100, variable pill with value #00224E"':
+        - 'button "brand/navy/100, variable pill with value #00224E"':
+          - generic "brand/navy/100"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "highlight brand/gold/20, variable pill with value #FDF2D9 brand/gold/90, variable pill with value #F7C554 Edit variable"':
+      - rowheader "highlight":
+        - generic "highlight"
+      - 'cell "brand/gold/20, variable pill with value #FDF2D9"':
+        - 'button "brand/gold/20, variable pill with value #FDF2D9"':
+          - generic "brand/gold/20"
+      - 'cell "brand/gold/90, variable pill with value #F7C554"':
+        - 'button "brand/gold/90, variable pill with value #F7C554"':
+          - generic "brand/gold/90"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "info brand/blue/10, variable pill with value #ECF1F7 brand/blue/90, variable pill with value #5684B3 Edit variable"':
+      - rowheader "info":
+        - generic "info"
+      - 'cell "brand/blue/10, variable pill with value #ECF1F7"':
+        - 'button "brand/blue/10, variable pill with value #ECF1F7"':
+          - generic "brand/blue/10"
+      - 'cell "brand/blue/90, variable pill with value #5684B3"':
+        - 'button "brand/blue/90, variable pill with value #5684B3"':
+          - generic "brand/blue/90"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "text":
+      - cell "text":
+        - button "text":
+          - generic: text
+    - 'row "primary brand/deep/100, variable pill with value #02050A neutral/white, variable pill with value #FFFFFF Edit variable"':
+      - rowheader "primary":
+        - generic "primary"
+      - 'cell "brand/deep/100, variable pill with value #02050A"':
+        - 'button "brand/deep/100, variable pill with value #02050A"':
+          - generic "brand/deep/100"
+      - 'cell "neutral/white, variable pill with value #FFFFFF"':
+        - 'button "neutral/white, variable pill with value #FFFFFF"':
+          - generic "neutral/white"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "inverse neutral/white, variable pill with value #FFFFFF brand/deep/100, variable pill with value #02050A Edit variable"':
+      - rowheader "inverse":
+        - generic "inverse"
+      - 'cell "neutral/white, variable pill with value #FFFFFF"':
+        - 'button "neutral/white, variable pill with value #FFFFFF"':
+          - generic "neutral/white"
+      - 'cell "brand/deep/100, variable pill with value #02050A"':
+        - 'button "brand/deep/100, variable pill with value #02050A"':
+          - generic "brand/deep/100"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "secondary brand/navy/80, variable pill with value #334E71 brand/deep/20, variable pill with value #CCCDCE Edit variable"':
+      - rowheader "secondary":
+        - generic "secondary"
+      - 'cell "brand/navy/80, variable pill with value #334E71"':
+        - 'button "brand/navy/80, variable pill with value #334E71"':
+          - generic "brand/navy/80"
+      - 'cell "brand/deep/20, variable pill with value #CCCDCE"':
+        - 'button "brand/deep/20, variable pill with value #CCCDCE"':
+          - generic "brand/deep/20"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "muted brand/blue/100, variable pill with value #4376AB brand/deep/40, variable pill with value #9A9B9D Edit variable"':
+      - rowheader "muted":
+        - generic "muted"
+      - 'cell "brand/blue/100, variable pill with value #4376AB"':
+        - 'button "brand/blue/100, variable pill with value #4376AB"':
+          - generic "brand/blue/100"
+      - 'cell "brand/deep/40, variable pill with value #9A9B9D"':
+        - 'button "brand/deep/40, variable pill with value #9A9B9D"':
+          - generic "brand/deep/40"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "on-accent brand/deep/100, variable pill with value #02050A brand/deep/100, variable pill with value #02050A Edit variable"':
+      - rowheader "on-accent":
+        - generic "on-accent"
+      - 'cell "brand/deep/100, variable pill with value #02050A"':
+        - 'button "brand/deep/100, variable pill with value #02050A"':
+          - generic "brand/deep/100"
+      - 'cell "brand/deep/100, variable pill with value #02050A"':
+        - 'button "brand/deep/100, variable pill with value #02050A"':
+          - generic "brand/deep/100"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "accent":
+      - cell "accent":
+        - button "accent":
+          - generic: accent
+    - 'row "signal brand/gold/100, variable pill with value #F6BF41 brand/gold/100, variable pill with value #F6BF41 Edit variable"':
+      - rowheader "signal":
+        - generic "signal"
+      - 'cell "brand/gold/100, variable pill with value #F6BF41"':
+        - 'button "brand/gold/100, variable pill with value #F6BF41"':
+          - generic "brand/gold/100"
+      - 'cell "brand/gold/100, variable pill with value #F6BF41"':
+        - 'button "brand/gold/100, variable pill with value #F6BF41"':
+          - generic "brand/gold/100"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "border":
+      - cell "border":
+        - button "border":
+          - generic: border
+    - 'row "subtle brand/blue/20, variable pill with value #D9E4EE brand/deep/60, variable pill with value #67696C Edit variable"':
+      - rowheader "subtle":
+        - generic "subtle"
+      - 'cell "brand/blue/20, variable pill with value #D9E4EE"':
+        - 'button "brand/blue/20, variable pill with value #D9E4EE"':
+          - generic "brand/blue/20"
+      - 'cell "brand/deep/60, variable pill with value #67696C"':
+        - 'button "brand/deep/60, variable pill with value #67696C"':
+          - generic "brand/deep/60"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "strong brand/navy/70, variable pill with value #4D6483 brand/deep/30, variable pill with value #B3B4B5 Edit variable"':
+      - rowheader "strong":
+        - generic "strong"
+      - 'cell "brand/navy/70, variable pill with value #4D6483"':
+        - 'button "brand/navy/70, variable pill with value #4D6483"':
+          - generic "brand/navy/70"
+      - 'cell "brand/deep/30, variable pill with value #B3B4B5"':
+        - 'button "brand/deep/30, variable pill with value #B3B4B5"':
+          - generic "brand/deep/30"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "material":
+      - cell "material":
+        - button "material":
+          - generic: material
+    - 'row "canvas brand/blue/100, variable pill with value #4376AB brand/blue/80, variable pill with value #6991BC Edit variable"':
+      - rowheader "canvas":
+        - generic "canvas"
+      - 'cell "brand/blue/100, variable pill with value #4376AB"':
+        - 'button "brand/blue/100, variable pill with value #4376AB"':
+          - generic "brand/blue/100"
+      - 'cell "brand/blue/80, variable pill with value #6991BC"':
+        - 'button "brand/blue/80, variable pill with value #6991BC"':
+          - generic "brand/blue/80"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+- button "Create variable button":
+  - generic: Create variable
+- region "Help/zoom toolbar":
+  - toolbar "Help/zoom toolbar":
+    - button "Help":
+- alert
+- alert
+- dialog "Control opacity at scale":
+  - heading "Control opacity at scale" [level=2]
+  - button "Close":
+  - generic: Easily apply and adjust opacity in the variables modal to a linked color without needing to detach.
+  - link "Learn more":
+    - /url: https://help.figma.com/hc/en-us/articles/14506821864087#colorvar
+    - generic: Learn more
+  - button "Got it":
+    - generic: Got it

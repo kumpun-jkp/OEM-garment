@@ -1,20 +1,72 @@
 "use client";
+import { useLocale } from "@/components/locale-provider";
 
 import Link from "next/link";
-import Image from "next/image";
-import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useRouter, usePathname } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
 import { navigation } from "@/content/site";
+import { ProductDirectory } from "./product-directory";
+import { AppIcon } from "./app-icon";
+import { persistLocale, localeHref, type Locale } from "@/lib/locale";
 
 export function Header() {
+  const { t, href: localHref, locale, isThai } = useLocale();
+
+  const router = useRouter();
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-  const [thai, setThai] = useState(false);
+  const currentPage = pathname.replace(/^\/(th|en)/, "") || "/";
+  function switchLocale(nextLocale: Locale) {
+    if (nextLocale === locale) return;
+    persistLocale(nextLocale);
+    closeMenus();
+    router.push(
+      localeHref(`${pathname}${location.search}${location.hash}`, nextLocale),
+      { scroll: false },
+    );
+  }
+  const [workOpen, setWorkOpen] = useState(false);
+  const headerRef = useRef<HTMLElement>(null);
+  const workTrigger = useRef<HTMLButtonElement>(null);
+  const focusDirectory = useRef(false);
+  const closeMenus = () => {
+    setOpen(false);
+    setWorkOpen(false);
+  };
+  useEffect(() => {
+    if (workOpen && focusDirectory.current) {
+      headerRef.current
+        ?.querySelector<HTMLAnchorElement>("#work-mega-menu a")
+        ?.focus();
+      focusDirectory.current = false;
+    }
+  }, [workOpen]);
+  useEffect(() => {
+    if (!workOpen && !open) return;
+    const dismiss = (event: PointerEvent) => {
+      if (
+        event.target instanceof Node &&
+        !headerRef.current?.contains(event.target)
+      ) {
+        setOpen(false);
+        setWorkOpen(false);
+      }
+    };
+    document.addEventListener("pointerdown", dismiss);
+    return () => document.removeEventListener("pointerdown", dismiss);
+  }, [workOpen, open]);
   return (
     <header
+      ref={headerRef}
       className="site-header"
+      onBlur={(event) => {
+        if (!event.currentTarget.contains(event.relatedTarget)) closeMenus();
+      }}
       onKeyDown={(event) => {
-        if (open && event.key === "Escape") {
+        if (workOpen && event.key === "Escape") {
+          setWorkOpen(false);
+          workTrigger.current?.focus();
+        } else if (open && event.key === "Escape") {
           setOpen(false);
           document.querySelector<HTMLButtonElement>(".menu-toggle")?.focus();
         }
@@ -23,95 +75,165 @@ export function Header() {
       <div className="header-inner">
         <Link
           className="wordmark"
-          href="/"
-          aria-label="Thonburi Master home"
-          onClick={() => setOpen(false)}
+          href={localHref(`/${locale || "th"}`)}
+          aria-label={t("Thonburi Master home")}
+          onClick={closeMenus}
         >
           <strong>
-            THONBURI MASTER <span>/ TH</span>
+            {t("THONBURI MASTER")}
+            <span>{t("THAILAND")}</span>
           </strong>
-          <span className="wordmark-tagline">Garment manufacturing</span>
+          <span className="wordmark-tagline">{t("Garment manufacturing")}</span>
         </Link>
-        <nav className="desktop-nav" aria-label="Main navigation">
-          {navigation.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              aria-current={pathname === item.href ? "page" : undefined}
-            >
-              {thai ? item.th : item.label}
-            </Link>
-          ))}
+        <nav className="desktop-nav" aria-label={t("Main navigation")}>
+          {navigation.map((item) =>
+            item.href === "/our-work" ? (
+              <button
+                key={item.href}
+                ref={workTrigger}
+                className="work-menu-trigger"
+                type="button"
+                aria-expanded={workOpen}
+                aria-controls="work-mega-menu"
+                aria-current={
+                  currentPage === "/our-work" || currentPage === "/oem-products"
+                    ? "page"
+                    : undefined
+                }
+                onClick={() => setWorkOpen(!workOpen)}
+                onKeyDown={(event) => {
+                  if (event.key === "ArrowDown") {
+                    event.preventDefault();
+                    if (workOpen) {
+                      headerRef.current
+                        ?.querySelector<HTMLAnchorElement>("#work-mega-menu a")
+                        ?.focus();
+                    } else {
+                      focusDirectory.current = true;
+                      setWorkOpen(true);
+                    }
+                  }
+                }}
+              >
+                {t(isThai ? item.th : item.label)}
+                {t(" ")}
+                <AppIcon name="expand" size={16} className="disclosure-icon" />
+              </button>
+            ) : (
+              <Link
+                key={item.href}
+                href={localHref(
+                  `/${locale || "th"}${item.href === "/" ? "" : item.href}`,
+                )}
+                aria-current={currentPage === item.href ? "page" : undefined}
+                onClick={closeMenus}
+              >
+                {t(isThai ? item.th : item.label)}
+              </Link>
+            ),
+          )}
+        </nav>
+        <nav
+          id="work-mega-menu"
+          className="work-mega-menu"
+          aria-label={t(isThai ? "ประเภทสินค้า" : "Our work garment directory")}
+          hidden={!workOpen}
+        >
+          <ProductDirectory onNavigate={closeMenus} />
         </nav>
         <div className="header-actions">
-          <div className="language-control" aria-label="Navigation language">
+          <div
+            className="language-control"
+            aria-label={t("Navigation language")}
+          >
             <button
               type="button"
-              onClick={() => setThai(false)}
-              aria-pressed={!thai}
-              aria-label="Display navigation in English"
+              onClick={() => switchLocale("en")}
+              aria-pressed={!isThai}
+              aria-label={t("Switch to English")}
             >
-              EN
+              {t("EN")}
             </button>
             <button
               type="button"
-              onClick={() => setThai(true)}
-              aria-pressed={thai}
-              aria-label="แสดงเมนูภาษาไทย"
+              onClick={() => switchLocale("th")}
+              aria-pressed={isThai}
+              aria-label={t("Switch to Thai")}
             >
-              ไทย
+              {t("TH")}
             </button>
           </div>
           <Link
             className="button button--primary header-cta"
-            href="/start-your-project"
+            href={localHref(`/${locale || "th"}/start-your-project`)}
           >
-            {thai ? "เริ่มโปรเจกต์" : "Start your project"}
+            {t(isThai ? "เริ่มโปรเจกต์" : "Start your project")}
+            <AppIcon name="outward" className="button-icon" />
           </Link>
           <Link
             className="account-link"
-            href="/start-your-project"
-            aria-label="Project enquiry"
+            href={localHref(`/${locale || "th"}/start-your-project`)}
+            aria-label={t("Project enquiry")}
           >
-            <Image src="/icons/account.svg" alt="" width={12} height={12} />
+            <AppIcon name="person" size={20} />
           </Link>
           <button
             className="menu-toggle"
             type="button"
-            aria-label={open ? "Close menu" : "Open menu"}
+            aria-label={t(open ? "Close menu" : "Open menu")}
             aria-controls={open ? "mobile-navigation" : undefined}
             aria-expanded={open}
-            onClick={() => setOpen(!open)}
+            onClick={() => {
+              setOpen(!open);
+              setWorkOpen(false);
+            }}
           >
-            {open ? "Close" : "Menu"}
-            <span aria-hidden="true">{open ? "×" : "☰"}</span>
+            {t(open ? "Close" : "Menu")}
+            <AppIcon name={open ? "close" : "menu"} size={20} />
           </button>
         </div>
         {open && (
           <nav
             id="mobile-navigation"
             className="mobile-nav"
-            aria-label="Mobile navigation"
+            aria-label={t("Mobile navigation")}
           >
             {[
               ...navigation,
               {
                 href: "/oem-products",
-                label: "OEM Products",
-                th: "สินค้า OEM",
+                label: "Garment Style References",
+                th: "แบบเสื้อผ้าอ้างอิง",
               },
-            ].map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                aria-current={pathname === item.href ? "page" : undefined}
-                onClick={() => setOpen(false)}
-              >
-                {thai ? item.th : item.label}
-              </Link>
-            ))}
-            <Link href="/start-your-project" onClick={() => setOpen(false)}>
-              Start your project →
+            ].map((item) =>
+              item.href === "/our-work" ? (
+                <details key={item.href} className="mobile-work-directory">
+                  <summary>
+                    <AppIcon name="work" />
+                    {t(isThai ? item.th : item.label)}
+                    <AppIcon name="expand" className="disclosure-icon" />
+                  </summary>
+                  <ProductDirectory compact onNavigate={closeMenus} />
+                </details>
+              ) : (
+                <Link
+                  key={item.href}
+                  href={localHref(
+                    `/${locale || "th"}${item.href === "/" ? "" : item.href}`,
+                  )}
+                  aria-current={currentPage === item.href ? "page" : undefined}
+                  onClick={closeMenus}
+                >
+                  {t(isThai ? item.th : item.label)}
+                </Link>
+              ),
+            )}
+            <Link
+              href={localHref(`/${locale || "th"}/start-your-project`)}
+              onClick={() => setOpen(false)}
+            >
+              {t("Start your project")}
+              <AppIcon name="forward" />
             </Link>
           </nav>
         )}

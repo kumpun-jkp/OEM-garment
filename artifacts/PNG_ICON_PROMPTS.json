@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-05",
+  "method": "Built-in image_gen",
+  "transparent_background": true,
+  "assets": [
+    {
+      "name": "children",
+      "prompt": "Use case: logo-brand. Asset type: one transparent PNG pictogram for Thonburi garment OEM website. Professional flat vector-like illustration with bold clean navy #002351 contours and restrained gold #FFBC00 accents, no gradients, shadows, texture, lettering, labels or watermark. Front view. Consistent uniform weight, squared garment edges, readable at 24px. One isolated compact symbol centred in a square canvas, artwork filling approximately 80% with even transparent padding. Genuine transparent background, no white backdrop. Subject: children's clothing represented by a SMALL SHORT-SLEEVED T-SHIRT AND SHORTS side by side, simple garments with navy body/contours and gold seam details. Clear kidswear clothes, absolutely no face, person, animal, monkey, toy, hanger or baby head.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-36a17eab-0c78-45b4-979a-c021eaf06896.png"
+    },
+    {
+      "name": "trousers",
+      "prompt": "Use case: logo-brand. Asset type: one transparent PNG pictogram for Thonburi garment OEM website. Professional flat vector-like illustration with bold clean navy #002351 contours and restrained gold #FFBC00 accents, no gradients, shadows, texture, lettering, labels or watermark. Front view. Consistent uniform weight, squared garment edges, readable at 24px. One isolated compact symbol centred in a square canvas, artwork filling approximately 80% with even transparent padding. Genuine transparent background, no white backdrop. Subject: one pair of LONG TROUSERS with two distinct straight legs, clear waist band and small pockets, navy outlined shape and gold waistband seam. No hanger, no skirt, no person.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-460867dc-fe15-426d-97a6-55265b9c30ed.png"
+    },
+    {
+      "name": "shirts",
+      "prompt": "Use case: logo-brand. Asset type: one transparent PNG pictogram for Thonburi garment OEM website. Professional flat vector-like illustration with bold clean navy #002351 contours and restrained gold #FFBC00 accents, no gradients, shadows, texture, lettering, labels or watermark. Front view. Consistent uniform weight, squared garment edges, readable at 24px. One isolated compact symbol centred in a square canvas, artwork filling approximately 80% with even transparent padding. Genuine transparent background, no white backdrop. Subject: one SHORT-SLEEVED BUTTON-UP SHIRT with a clear collar and front placket, navy outline/shape with gold buttons and collar detail. No hanger or person.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-3e9f64ff-ebb4-4eb9-979d-289f0cf0dd13.png"
+    },
+    {
+      "name": "elephant-sets",
+      "prompt": "Use case: logo-brand. Asset type: one transparent PNG pictogram for Thonburi garment OEM website. Professional flat vector-like illustration with bold clean navy #002351 contours and restrained gold #FFBC00 accents, no gradients, shadows, texture, lettering, labels or watermark. Front view. Consistent uniform weight, squared garment edges, readable at 24px. One isolated compact symbol centred in a square canvas, artwork filling approximately 80% with even transparent padding. Genuine transparent background, no white backdrop. Subject: a SHORT-SLEEVED SHIRT AND LONG LOOSE TROUSERS together, with two small gold elephant motifs on the fabric, recognisable elephant-print garment set. Garments are main symbol, no standalone animal, no stacked layers.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-a19ba9ea-157d-4f53-b47e-436ef0ff11fe.png"
+    },
+    {
+      "name": "sleepwear",
+      "prompt": "Use case: logo-brand. Asset type: one transparent PNG pictogram for Thonburi garment OEM website. Professional flat vector-like illustration with bold clean navy #002351 contours and restrained gold #FFBC00 accents, no gradients, shadows, texture, lettering, labels or watermark. Front view. Consistent uniform weight, squared garment edges, readable at 24px. One isolated compact symbol centred in a square canvas, artwork filling approximately 80% with even transparent padding. Genuine transparent background, no white backdrop. Subject: a LONG-SLEEVED BUTTON PYJAMA TOP AND MATCHING TROUSERS together, clear cosy sleepwear set with gold piping. No moon, person or hanger.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-06bf4971-f3a3-43ac-8f46-7cb33ec06df4.png"
+    },
+    {
+      "name": "dresses",
+      "prompt": "Use case: logo-brand. Asset type: one transparent PNG pictogram for Thonburi garment OEM website. Professional flat vector-like illustration with bold clean navy #002351 contours and restrained gold #FFBC00 accents, no gradients, shadows, texture, lettering, labels or watermark. Front view. Consistent uniform weight, squared garment edges, readable at 24px. One isolated compact symbol centred in a square canvas, artwork filling approximately 80% with even transparent padding. Genuine transparent background, no white backdrop. Subject: one SLEEVELESS DRESS with shoulder straps, shaped waist and flared knee-length hem, navy outline/shape and gold waist seam. No female bathroom sign or human figure.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-1564a775-80d2-4263-ada5-0227d267fc5a.png"
+    },
+    {
+      "name": "skirts",
+      "prompt": "Use case: logo-brand. Asset type: one transparent PNG pictogram for Thonburi garment OEM website. Professional flat vector-like illustration with bold clean navy #002351 contours and restrained gold #FFBC00 accents, no gradients, shadows, texture, lettering, labels or watermark. Front view. Consistent uniform weight, squared garment edges, readable at 24px. One isolated compact symbol centred in a square canvas, artwork filling approximately 80% with even transparent padding. Genuine transparent background, no white backdrop. Subject: one A-LINE SKIRT with a clear waistband, flared hem and three simple pleat lines, navy outline/shape and gold waistband. No price tag or hanger.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-7f3084ff-c74c-461d-abb2-fc6d858640a2.png"
+    },
+    {
+      "name": "adults",
+      "prompt": "Use case: logo-brand. Asset type: one transparent PNG pictogram for Thonburi garment OEM website. Professional flat vector-like illustration with bold clean navy #002351 contours and restrained gold #FFBC00 accents, no gradients, shadows, texture, lettering, labels or watermark. Front view. Consistent uniform weight, squared garment edges, readable at 24px. One isolated compact symbol centred in a square canvas, artwork filling approximately 80% with even transparent padding. Genuine transparent background, no white backdrop. Subject: an ADULT-SIZED T-SHIRT AND LONG TROUSERS side by side, simple recognisable garment collection with navy shape/contours and small gold seam details. No person, face or hanger.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-2c402cf1-223c-425b-ab2f-30ad142ce32c.png"
+    },
+    {
+      "name": "fabric",
+      "prompt": "Use case: logo-brand. Asset type: one transparent PNG pictogram for Thonburi garment OEM website. Professional flat vector-like illustration with bold clean navy #002351 contours and restrained gold #FFBC00 accents, no gradients, shadows, texture, lettering, labels or watermark. Front view. Consistent uniform weight, squared garment edges, readable at 24px. One isolated compact symbol centred in a square canvas, artwork filling approximately 80% with even transparent padding. Genuine transparent background, no white backdrop. Subject: a ROLLED FABRIC BOLT with a loose draped corner and simple gold woven seam detail, recognisable cloth material symbol. No text.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-55fa4740-e756-4461-8417-65836729b928.png"
+    },
+    {
+      "name": "sewing",
+      "prompt": "Use case: logo-brand. Asset type: one transparent PNG pictogram for Thonburi garment OEM website. Professional flat vector-like illustration with bold clean navy #002351 contours and restrained gold #FFBC00 accents, no gradients, shadows, texture, lettering, labels or watermark. Front view. Consistent uniform weight, squared garment edges, readable at 24px. One isolated compact symbol centred in a square canvas, artwork filling approximately 80% with even transparent padding. Genuine transparent background, no white backdrop. Subject: one PROFESSIONAL SEWING MACHINE with a clear needle, presser foot and small piece of fabric on the work plate, bold navy silhouette/contours, gold thread/needle accent.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-e8931404-80a8-48b4-86ac-4b51e8368154.png"
+    },
+    {
+      "name": "quality",
+      "prompt": "Use case: logo-brand. Asset type: one transparent PNG pictogram for Thonburi garment OEM website. Professional flat vector-like illustration with bold clean navy #002351 contours and restrained gold #FFBC00 accents, no gradients, shadows, texture, lettering, labels or watermark. Front view. Consistent uniform weight, squared garment edges, readable at 24px. One isolated compact symbol centred in a square canvas, artwork filling approximately 80% with even transparent padding. Genuine transparent background, no white backdrop. Subject: a MAGNIFYING GLASS over a small T-SHIRT with a gold CHECK MARK beside it, clearly garment inspection/quality checking, navy lines and restrained gold. No shield or seal certification.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-bbbad106-332a-4817-82bc-5eb51fc0e22d.png"
+    },
+    {
+      "name": "brief",
+      "prompt": "Use case: logo-brand. Asset type: one transparent PNG pictogram for Thonburi garment OEM website. Professional flat vector-like illustration with bold clean navy #002351 contours and restrained gold #FFBC00 accents, no gradients, shadows, texture, lettering, labels or watermark. Front view. Consistent uniform weight, squared garment edges, readable at 24px. One isolated compact symbol centred in a square canvas, artwork filling approximately 80% with even transparent padding. Genuine transparent background, no white backdrop. Subject: a CLIPBOARD with three blank navy horizontal specification lines and a GOLD PENCIL across its lower right corner, clearly design brief/project planning, no letters or numbers.",
+      "source": "C:\\Users\\jakka\\.codex\\generated_images\\01a10a9b-e4c5-70e3-ac05-09326711df16\\exec-d34a6361-ba16-407d-ab1f-9897cdc56037.png"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+[
+  {
+    "customers": "ลูกค้าของเรา",
+    "englishScriptPass": true,
+    "hero": "เปลี่ยนไอเดียของคุณ ให้เป็นสินค้าพร้อมขาย",
+    "heroLinks": [
+      "/th/about",
+      "/th/our-work"
+    ],
+    "locale": "th",
+    "logos": [
+      "Big C",
+      "Lotus’s",
+      "The Mall"
+    ],
+    "overflow": false,
+    "partner": "เราเป็นพาร์ตเนอร์การผลิต ตั้งแต่รับบรีฟจนถึงส่งมอบ",
+    "partnerLinks": [
+      "/th/about",
+      "/th/our-work"
+    ],
+    "steps": 6,
+    "width": 320
+  },
+  {
+    "customers": "Our customers",
+    "englishScriptPass": true,
+    "hero": "Turn your ideas into retail-ready garments",
+    "heroLinks": [
+      "/en/about",
+      "/en/our-work"
+    ],
+    "locale": "en",
+    "logos": [
+      "Big C",
+      "Lotus’s",
+      "The Mall"
+    ],
+    "overflow": false,
+    "partner": "Your manufacturing partner from brief to delivery",
+    "partnerLinks": [
+      "/en/about",
+      "/en/our-work"
+    ],
+    "steps": 6,
+    "width": 320
+  },
+  {
+    "customers": "ลูกค้าของเรา",
+    "englishScriptPass": true,
+    "hero": "เปลี่ยนไอเดียของคุณ ให้เป็นสินค้าพร้อมขาย",
+    "heroLinks": [
+      "/th/about",
+      "/th/our-work"
+    ],
+    "locale": "th",
+    "logos": [
+      "Big C",
+      "Lotus’s",
+      "The Mall"
+    ],
+    "overflow": false,
+    "partner": "เราเป็นพาร์ตเนอร์การผลิต ตั้งแต่รับบรีฟจนถึงส่งมอบ",
+    "partnerLinks": [
+      "/th/about",
+      "/th/our-work"
+    ],
+    "steps": 6,
+    "width": 390
+  },
+  {
+    "customers": "Our customers",
+    "englishScriptPass": true,
+    "hero": "Turn your ideas into retail-ready garments",
+    "heroLinks": [
+      "/en/about",
+      "/en/our-work"
+    ],
+    "locale": "en",
+    "logos": [
+      "Big C",
+      "Lotus’s",
+      "The Mall"
+    ],
+    "overflow": false,
+    "partner": "Your manufacturing partner from brief to delivery",
+    "partnerLinks": [
+      "/en/about",
+      "/en/our-work"
+    ],
+    "steps": 6,
+    "width": 390
+  },
+  {
+    "customers": "ลูกค้าของเรา",
+    "englishScriptPass": true,
+    "hero": "เปลี่ยนไอเดียของคุณ ให้เป็นสินค้าพร้อมขาย",
+    "heroLinks": [
+      "/th/about",
+      "/th/our-work"
+    ],
+    "locale": "th",
+    "logos": [
+      "Big C",
+      "Lotus’s",
+      "The Mall"
+    ],
+    "overflow": false,
+    "partner": "เราเป็นพาร์ตเนอร์การผลิต ตั้งแต่รับบรีฟจนถึงส่งมอบ",
+    "partnerLinks": [
+      "/th/about",
+      "/th/our-work"
+    ],
+    "steps": 6,
+    "width": 1280
+  },
+  {
+    "customers": "Our customers",
+    "englishScriptPass": true,
+    "hero": "Turn your ideas into retail-ready garments",
+    "heroLinks": [
+      "/en/about",
+      "/en/our-work"
+    ],
+    "locale": "en",
+    "logos": [
+      "Big C",
+      "Lotus’s",
+      "The Mall"
+    ],
+    "overflow": false,
+    "partner": "Your manufacturing partner from brief to delivery",
+    "partnerLinks": [
+      "/en/about",
+      "/en/our-work"
+    ],
+    "steps": 6,
+    "width": 1280
+  }
+]

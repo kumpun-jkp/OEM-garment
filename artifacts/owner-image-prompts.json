@@ -1,0 +1,83 @@
+{
+  "created": "2026-10-04",
+  "generator": "Built-in imagegen tool",
+  "notice": "Illustrative material references; not photographs of factory stock or evidence of material certification.",
+  "images": [
+    {
+      "id": "cotton",
+      "path": "public/media/fabrics/cotton-reference.png",
+      "prompt": "Use case: precise-object-edit. Asset type: individual fabric category reference card for a garment OEM website. Edit target: the supplied paired-fabric photograph. Change the composition to show ONLY a single ivory cotton fabric swatch, soft plain cotton texture and gentle folds. Remove the other fabric completely. Preserve the reference's warm paper backdrop, soft window side light, tactile editorial macro photography, quiet premium mood and natural colour balance. Framing: landscape 3:2, one fabric occupies most of the frame, composition works with a 1.4:1 card crop. No people, machines, logos, text, labels or watermarks. This is a generic illustrative material reference, not evidence of factory stock, performance or certification.",
+      "kind": "AI-generated material illustration"
+    },
+    {
+      "id": "woven",
+      "path": "public/media/fabrics/woven-reference.png",
+      "prompt": "Use case: precise-object-edit. Asset type: individual fabric category reference card for a garment OEM website. Edit target: the supplied paired-fabric photograph. Change the composition to show ONLY a single warm sand plain woven shirting swatch, visible fine over-under weave. Remove the other fabric completely. Preserve the reference's warm paper backdrop, soft window side light, tactile editorial macro photography, quiet premium mood and natural colour balance. Framing: landscape 3:2, one fabric occupies most of the frame, composition works with a 1.4:1 card crop. No people, machines, logos, text, labels or watermarks. This is a generic illustrative material reference, not evidence of factory stock, performance or certification.",
+      "kind": "AI-generated material illustration"
+    },
+    {
+      "id": "twill",
+      "path": "public/media/fabrics/twill-reference.png",
+      "prompt": "Use case: precise-object-edit. Asset type: individual fabric category reference card for a garment OEM website. Edit target: the supplied paired-fabric photograph. Change the composition to show ONLY a single muted olive twill swatch, visible diagonal twill ribs and gentle folds. Remove the other fabric completely. Preserve the reference's warm paper backdrop, soft window side light, tactile editorial macro photography, quiet premium mood and natural colour balance. Framing: landscape 3:2, one fabric occupies most of the frame, composition works with a 1.4:1 card crop. No people, machines, logos, text, labels or watermarks. This is a generic illustrative material reference, not evidence of factory stock, performance or certification.",
+      "kind": "AI-generated material illustration"
+    },
+    {
+      "id": "knit",
+      "path": "public/media/fabrics/knit-reference.png",
+      "prompt": "Use case: precise-object-edit. Asset type: individual fabric category reference card for a garment OEM website. Edit target: the supplied paired-fabric photograph. Change the composition to show ONLY a single oat coloured fine knit swatch, clearly visible knitted loops and gentle folds. Remove the other fabric completely. Preserve the reference's warm paper backdrop, soft window side light, tactile editorial macro photography, quiet premium mood and natural colour balance. Framing: landscape 3:2, one fabric occupies most of the frame, composition works with a 1.4:1 card crop. No people, machines, logos, text, labels or watermarks. This is a generic illustrative material reference, not evidence of factory stock, performance or certification.",
+      "kind": "AI-generated material illustration"
+    },
+    {
+      "id": "sports",
+      "path": "public/media/fabrics/sports-reference.png",
+      "prompt": "Use case: precise-object-edit. Asset type: individual fabric category reference card for a garment OEM website. Edit target: the supplied paired-fabric photograph. Change the composition to show ONLY a single deep charcoal sports mesh swatch, visible small mesh holes and gentle folds. Remove the other fabric completely. Preserve the reference's warm paper backdrop, soft window side light, tactile editorial macro photography, quiet premium mood and natural colour balance. Framing: landscape 3:2, one fabric occupies most of the frame, composition works with a 1.4:1 card crop. No people, machines, logos, text, labels or watermarks. This is a generic illustrative material reference, not evidence of factory stock, performance or certification.",
+      "kind": "AI-generated material illustration"
+    },
+    {
+      "id": "ottoman",
+      "path": "public/media/fabrics/ottoman-reference.png",
+      "prompt": "Use case: precise-object-edit. Asset type: individual fabric category reference card for a garment OEM website. Edit target: the supplied paired-fabric photograph. Change the composition to show ONLY a single warm stone Ottoman fabric swatch, clearly visible subtle raised horizontal ribs. Remove the other fabric completely. Preserve the reference's warm paper backdrop, soft window side light, tactile editorial macro photography, quiet premium mood and natural colour balance. Framing: landscape 3:2, one fabric occupies most of the frame, composition works with a 1.4:1 card crop. No people, machines, logos, text, labels or watermarks. This is a generic illustrative material reference, not evidence of factory stock, performance or certification.",
+      "kind": "AI-generated material illustration"
+    },
+    {
+      "id": "stretch",
+      "path": "public/media/fabrics/stretch-reference.png",
+      "prompt": "Use case: precise-object-edit. Asset type: individual fabric category reference card for a garment OEM website. Edit target: the supplied paired-fabric photograph. Change the composition to show ONLY a single slate blue smooth stretch jersey swatch, visible fine knit texture and gently curved folds. Remove the other fabric completely. Preserve the reference's warm paper backdrop, soft window side light, tactile editorial macro photography, quiet premium mood and natural colour balance. Framing: landscape 3:2, one fabric occupies most of the frame, composition works with a 1.4:1 card crop. No people, machines, logos, text, labels or watermarks. This is a generic illustrative material reference, not evidence of factory stock, performance or certification.",
+      "kind": "AI-generated material illustration"
+    },
+    {
+      "id": "rayon",
+      "path": "public/media/fabrics/rayon-reference.png",
+      "prompt": "Use case: precise-object-edit. Asset type: individual fabric category reference card for a garment OEM website. Edit target: the supplied paired-fabric photograph. Change the composition to show ONLY a single muted burgundy rayon fabric swatch, fluid soft draped folds. Remove the other fabric completely. Preserve the reference's warm paper backdrop, soft window side light, tactile editorial macro photography, quiet premium mood and natural colour balance. Framing: landscape 3:2, one fabric occupies most of the frame, composition works with a 1.4:1 card crop. No people, machines, logos, text, labels or watermarks. This is a generic illustrative material reference, not evidence of factory stock, performance or certification.",
+      "kind": "AI-generated material illustration"
+    },
+    {
+      "id": "cotton-knit",
+      "path": "public/media/fabrics/cotton-knit-reference.png",
+      "prompt": "Use case: product-mockup. Asset type: editorial fabric reference image for a premium garment OEM website. Primary request: two gently folded textile swatches, natural ivory cotton jersey and muted oat fine knit; clearly visible soft fibres and fine knitted loops. Scene: close-up tabletop composition on a warm neutral paper surface. Style: tasteful photorealistic macro product photography with natural tactile detail, soft window side light, quiet industrial editorial mood. Framing: landscape 3:2, fabric occupies most of the frame, simple generous composition suitable for a 1.4:1 card crop. Constraints: only fabric, no people, no equipment, no logos, no text, no watermarks, no labels, no claims of provenance or certification. It is a generic illustrative material reference, not a photograph of a specific factory or customer's product.",
+      "kind": "AI-generated material illustration",
+      "used": true
+    },
+    {
+      "id": "woven-twill",
+      "path": "public/media/fabrics/woven-twill-reference.png",
+      "prompt": "Use case: product-mockup. Asset type: editorial fabric reference image for a premium garment OEM website. Primary request: two gently folded textile swatches, warm sand plain-weave shirting and muted olive cotton twill; clearly visible fine weave and diagonal twill ribs. Scene: close-up tabletop composition on a warm neutral paper surface. Style: tasteful photorealistic macro product photography with natural tactile detail, soft window side light, quiet industrial editorial mood. Framing: landscape 3:2, fabric occupies most of the frame, simple generous composition suitable for a 1.4:1 card crop. Constraints: only fabric, no people, no equipment, no logos, no text, no watermarks, no labels, no claims of provenance or certification. It is a generic illustrative material reference, not a photograph of a specific factory or customer's product.",
+      "kind": "AI-generated material illustration",
+      "used": false
+    },
+    {
+      "id": "sports-stretch",
+      "path": "public/media/fabrics/sports-stretch-reference.png",
+      "prompt": "Use case: product-mockup. Asset type: editorial fabric reference image for a premium garment OEM website. Primary request: two gently folded textile swatches, deep charcoal sports mesh and slate blue smooth stretch jersey; clearly visible small mesh holes and smooth flexible knit. Scene: close-up tabletop composition on a warm neutral paper surface. Style: tasteful photorealistic macro product photography with natural tactile detail, soft window side light, quiet industrial editorial mood. Framing: landscape 3:2, fabric occupies most of the frame, simple generous composition suitable for a 1.4:1 card crop. Constraints: only fabric, no people, no equipment, no logos, no text, no watermarks, no labels, no claims of provenance or certification. It is a generic illustrative material reference, not a photograph of a specific factory or customer's product.",
+      "kind": "AI-generated material illustration",
+      "used": false
+    },
+    {
+      "id": "ottoman-rayon",
+      "path": "public/media/fabrics/ottoman-rayon-reference.png",
+      "prompt": "Use case: product-mockup. Asset type: editorial fabric reference image for a premium garment OEM website. Primary request: two gently folded textile swatches, warm stone Ottoman fabric with subtle raised horizontal ribs and muted burgundy flowing rayon; clearly visible rib texture and fluid soft folds. Scene: close-up tabletop composition on a warm neutral paper surface. Style: tasteful photorealistic macro product photography with natural tactile detail, soft window side light, quiet industrial editorial mood. Framing: landscape 3:2, fabric occupies most of the frame, simple generous composition suitable for a 1.4:1 card crop. Constraints: only fabric, no people, no equipment, no logos, no text, no watermarks, no labels, no claims of provenance or certification. It is a generic illustrative material reference, not a photograph of a specific factory or customer's product.",
+      "kind": "AI-generated material illustration",
+      "used": false
+    }
+  ]
+}

@@ -1,0 +1,719 @@
+- application: ⁨⁩
+- status: Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press Ctrl+K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter Ctrl+Shift+Question mark .
+- status
+- region "Left sidebar":
+  - toolbar "Navigation Bar":
+    - button "Main menu":
+    - separator
+    - button "File":
+      - generic: File
+    - button "Agents":
+      - generic: Agents
+    - button "Assets":
+      - generic: Assets
+    - button "Tools":
+      - generic: Tools
+    - separator
+    - button "Variables" [expanded]:
+      - generic: Variables
+    - button "Missing fonts":
+  - button "Thonburi Master":
+    - heading "Thonburi Master" [level=2]
+  - button "Hide panel":
+  - navigation:
+    - region "Variable collections":
+      - generic: Collections
+      - button "Collections options":
+      - button "Create collection":
+      - grid:
+        - row "CI / Primitives 54 variables":
+          - gridcell "CI / Primitives 54 variables":
+            - button "CI / Primitives 54 variables":
+              - generic "CI / Primitives"
+              - generic: 54 variables
+              - text: "54"
+        - row "CI / Semantic 16 variables":
+          - gridcell "CI / Semantic 16 variables":
+            - button "CI / Semantic 16 variables":
+              - generic "CI / Semantic"
+              - generic: 16 variables
+              - text: "16"
+        - row "Color 60 variables":
+          - gridcell "Color 60 variables":
+            - button "Color 60 variables":
+              - generic "Color"
+              - generic: 60 variables
+              - text: "60"
+        - row "Control 5 variables":
+          - gridcell "Control 5 variables":
+            - button "Control 5 variables":
+              - generic "Control"
+              - generic: 5 variables
+              - text: "5"
+        - row "Spacing 11 variables":
+          - gridcell "Spacing 11 variables":
+            - button "Spacing 11 variables":
+              - generic "Spacing"
+              - generic: 11 variables
+              - text: "11"
+    - button "Groups" [expanded]:
+      - generic: Groups
+    - button "Collapse groups":
+    - grid:
+      - row "All 54 variables":
+        - gridcell "All 54 variables":
+          - button "All":
+            - generic "All"
+          - generic: 54 variables
+          - text: "54"
+      - row "brand 44 variables":
+        - gridcell "brand 44 variables":
+          - button "brand":
+            - generic "brand"
+          - generic: 44 variables
+          - text: "44"
+      - row "deep 11 variables":
+        - gridcell "deep 11 variables":
+          - button "deep":
+            - generic "deep"
+          - generic: 11 variables
+          - text: "11"
+      - row "navy 11 variables":
+        - gridcell "navy 11 variables":
+          - button "navy":
+            - generic "navy"
+          - generic: 11 variables
+          - text: "11"
+      - row "blue 11 variables":
+        - gridcell "blue 11 variables":
+          - button "blue":
+            - generic "blue"
+          - generic: 11 variables
+          - text: "11"
+      - row "gold 11 variables":
+        - gridcell "gold 11 variables":
+          - button "gold":
+            - generic "gold"
+          - generic: 11 variables
+          - text: "11"
+      - row "paper 2 variables":
+        - gridcell "paper 2 variables":
+          - button "paper":
+            - generic "paper"
+          - generic: 2 variables
+          - text: "2"
+      - row "neutral 6 variables":
+        - gridcell "neutral 6 variables":
+          - button "neutral":
+            - generic "neutral"
+          - generic: 6 variables
+          - text: "6"
+      - row "line 2 variables":
+        - gridcell "line 2 variables":
+          - button "line":
+            - generic "line"
+          - generic: 2 variables
+          - text: "2"
+  - slider "Resize handle"
+- heading "CI / Primitives" [level=2]:
+  - button "CI / Primitives":
+    - generic: CI / Primitives
+- group "Search and filter":
+  - textbox "Search"
+  - button "Filter":
+- checkbox "Minimize"
+- generic: Minimize
+- button "Share"
+- table:
+  - rowgroup:
+    - row "Name Default New variable mode":
+      - columnheader "Name": Name
+      - columnheader "Default":
+        - generic "Default"
+      - cell
+      - cell "New variable mode":
+        - button "New variable mode":
+    - row
+    - row "brand / deep":
+      - cell "brand / deep":
+        - generic "brand"
+        - button "/ deep":
+          - text: /
+          - generic: deep
+    - 'row "100 Solid color hex: 02050A 02050A Edit variable"':
+      - rowheader "100":
+        - generic "100"
+      - 'cell "Solid color hex: 02050A 02050A"':
+        - 'button "Solid color hex: 02050A"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 02050A
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "90 Solid color hex: 1B1E23 1B1E23 Edit variable"':
+      - rowheader "90":
+        - generic "90"
+      - 'cell "Solid color hex: 1B1E23 1B1E23"':
+        - 'button "Solid color hex: 1B1E23"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 1B1E23
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "80 Solid color hex: 35373B 35373B Edit variable"':
+      - rowheader "80":
+        - generic "80"
+      - 'cell "Solid color hex: 35373B 35373B"':
+        - 'button "Solid color hex: 35373B"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 35373B
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "70 Solid color hex: 4E5054 4E5054 Edit variable"':
+      - rowheader "70":
+        - generic "70"
+      - 'cell "Solid color hex: 4E5054 4E5054"':
+        - 'button "Solid color hex: 4E5054"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: "4E5054"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "60 Solid color hex: 67696C 67696C Edit variable"':
+      - rowheader "60":
+        - generic "60"
+      - 'cell "Solid color hex: 67696C 67696C"':
+        - 'button "Solid color hex: 67696C"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 67696C
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "50 Solid color hex: 808284 808284 Edit variable"':
+      - rowheader "50":
+        - generic "50"
+      - 'cell "Solid color hex: 808284 808284"':
+        - 'button "Solid color hex: 808284"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: "808284"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "40 Solid color hex: 9A9B9D 9A9B9D Edit variable"':
+      - rowheader "40":
+        - generic "40"
+      - 'cell "Solid color hex: 9A9B9D 9A9B9D"':
+        - 'button "Solid color hex: 9A9B9D"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 9A9B9D
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "30 Solid color hex: B3B4B5 B3B4B5 Edit variable"':
+      - rowheader "30":
+        - generic "30"
+      - 'cell "Solid color hex: B3B4B5 B3B4B5"':
+        - 'button "Solid color hex: B3B4B5"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: B3B4B5
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "20 Solid color hex: CCCDCE CCCDCE Edit variable"':
+      - rowheader "20":
+        - generic "20"
+      - 'cell "Solid color hex: CCCDCE CCCDCE"':
+        - 'button "Solid color hex: CCCDCE"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: CCCDCE
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "10 Solid color hex: E6E6E6 E6E6E6 Edit variable"':
+      - rowheader "10":
+        - generic "10"
+      - 'cell "Solid color hex: E6E6E6 E6E6E6"':
+        - 'button "Solid color hex: E6E6E6"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: E6E6E6
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "5 Solid color hex: F2F2F3 F2F2F3 Edit variable"':
+      - rowheader "5":
+        - generic "5"
+      - 'cell "Solid color hex: F2F2F3 F2F2F3"':
+        - 'button "Solid color hex: F2F2F3"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: F2F2F3
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "brand / navy":
+      - cell "brand / navy":
+        - generic "brand"
+        - button "/ navy":
+          - text: /
+          - generic: navy
+    - 'row "100 Solid color hex: 00224E 00224E Edit variable"':
+      - rowheader "100":
+        - generic "100"
+      - 'cell "Solid color hex: 00224E 00224E"':
+        - 'button "Solid color hex: 00224E"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 00224E
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "90 Solid color hex: 1A3860 1A3860 Edit variable"':
+      - rowheader "90":
+        - generic "90"
+      - 'cell "Solid color hex: 1A3860 1A3860"':
+        - 'button "Solid color hex: 1A3860"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 1A3860
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "80 Solid color hex: 334E71 334E71 Edit variable"':
+      - rowheader "80":
+        - generic "80"
+      - 'cell "Solid color hex: 334E71 334E71"':
+        - 'button "Solid color hex: 334E71"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: "334E71"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "70 Solid color hex: 4D6483 4D6483 Edit variable"':
+      - rowheader "70":
+        - generic "70"
+      - 'cell "Solid color hex: 4D6483 4D6483"':
+        - 'button "Solid color hex: 4D6483"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 4D6483
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "60 Solid color hex: 667A95 667A95 Edit variable"':
+      - rowheader "60":
+        - generic "60"
+      - 'cell "Solid color hex: 667A95 667A95"':
+        - 'button "Solid color hex: 667A95"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 667A95
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "50 Solid color hex: 8090A6 8090A6 Edit variable"':
+      - rowheader "50":
+        - generic "50"
+      - 'cell "Solid color hex: 8090A6 8090A6"':
+        - 'button "Solid color hex: 8090A6"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 8090A6
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "40 Solid color hex: 99A7B8 99A7B8 Edit variable"':
+      - rowheader "40":
+        - generic "40"
+      - 'cell "Solid color hex: 99A7B8 99A7B8"':
+        - 'button "Solid color hex: 99A7B8"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 99A7B8
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "30 Solid color hex: B2BDCA B2BDCA Edit variable"':
+      - rowheader "30":
+        - generic "30"
+      - 'cell "Solid color hex: B2BDCA B2BDCA"':
+        - 'button "Solid color hex: B2BDCA"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: B2BDCA
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "20 Solid color hex: CCD3DC CCD3DC Edit variable"':
+      - rowheader "20":
+        - generic "20"
+      - 'cell "Solid color hex: CCD3DC CCD3DC"':
+        - 'button "Solid color hex: CCD3DC"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: CCD3DC
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "10 Solid color hex: E5E9ED E5E9ED Edit variable"':
+      - rowheader "10":
+        - generic "10"
+      - 'cell "Solid color hex: E5E9ED E5E9ED"':
+        - 'button "Solid color hex: E5E9ED"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: E5E9ED
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "5 Solid color hex: F2F4F6 F2F4F6 Edit variable"':
+      - rowheader "5":
+        - generic "5"
+      - 'cell "Solid color hex: F2F4F6 F2F4F6"':
+        - 'button "Solid color hex: F2F4F6"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: F2F4F6
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "brand / blue":
+      - cell "brand / blue":
+        - generic "brand"
+        - button "/ blue":
+          - text: /
+          - generic: blue
+    - 'row "100 Solid color hex: 4376AB 4376AB Edit variable"':
+      - rowheader "100":
+        - generic "100"
+      - 'cell "Solid color hex: 4376AB 4376AB"':
+        - 'button "Solid color hex: 4376AB"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 4376AB
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "90 Solid color hex: 5684B3 5684B3 Edit variable"':
+      - rowheader "90":
+        - generic "90"
+      - 'cell "Solid color hex: 5684B3 5684B3"':
+        - 'button "Solid color hex: 5684B3"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 5684B3
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "80 Solid color hex: 6991BC 6991BC Edit variable"':
+      - rowheader "80":
+        - generic "80"
+      - 'cell "Solid color hex: 6991BC 6991BC"':
+        - 'button "Solid color hex: 6991BC"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 6991BC
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "70 Solid color hex: 7B9FC4 7B9FC4 Edit variable"':
+      - rowheader "70":
+        - generic "70"
+      - 'cell "Solid color hex: 7B9FC4 7B9FC4"':
+        - 'button "Solid color hex: 7B9FC4"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 7B9FC4
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "60 Solid color hex: 8EADCD 8EADCD Edit variable"':
+      - rowheader "60":
+        - generic "60"
+      - 'cell "Solid color hex: 8EADCD 8EADCD"':
+        - 'button "Solid color hex: 8EADCD"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 8EADCD
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "50 Solid color hex: A1BAD5 A1BAD5 Edit variable"':
+      - rowheader "50":
+        - generic "50"
+      - 'cell "Solid color hex: A1BAD5 A1BAD5"':
+        - 'button "Solid color hex: A1BAD5"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: A1BAD5
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "40 Solid color hex: B4C8DD B4C8DD Edit variable"':
+      - rowheader "40":
+        - generic "40"
+      - 'cell "Solid color hex: B4C8DD B4C8DD"':
+        - 'button "Solid color hex: B4C8DD"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: B4C8DD
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "30 Solid color hex: C7D6E6 C7D6E6 Edit variable"':
+      - rowheader "30":
+        - generic "30"
+      - 'cell "Solid color hex: C7D6E6 C7D6E6"':
+        - 'button "Solid color hex: C7D6E6"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: C7D6E6
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "20 Solid color hex: D9E4EE D9E4EE Edit variable"':
+      - rowheader "20":
+        - generic "20"
+      - 'cell "Solid color hex: D9E4EE D9E4EE"':
+        - 'button "Solid color hex: D9E4EE"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: D9E4EE
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "10 Solid color hex: ECF1F7 ECF1F7 Edit variable"':
+      - rowheader "10":
+        - generic "10"
+      - 'cell "Solid color hex: ECF1F7 ECF1F7"':
+        - 'button "Solid color hex: ECF1F7"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: ECF1F7
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "5 Solid color hex: F6F8FB F6F8FB Edit variable"':
+      - rowheader "5":
+        - generic "5"
+      - 'cell "Solid color hex: F6F8FB F6F8FB"':
+        - 'button "Solid color hex: F6F8FB"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: F6F8FB
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "brand / gold":
+      - cell "brand / gold":
+        - generic "brand"
+        - button "/ gold":
+          - text: /
+          - generic: gold
+    - 'row "100 Solid color hex: F6BF41 F6BF41 Edit variable"':
+      - rowheader "100":
+        - generic "100"
+      - 'cell "Solid color hex: F6BF41 F6BF41"':
+        - 'button "Solid color hex: F6BF41"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: F6BF41
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "90 Solid color hex: F7C554 F7C554 Edit variable"':
+      - rowheader "90":
+        - generic "90"
+      - 'cell "Solid color hex: F7C554 F7C554"':
+        - 'button "Solid color hex: F7C554"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: F7C554
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "80 Solid color hex: F8CC67 F8CC67 Edit variable"':
+      - rowheader "80":
+        - generic "80"
+      - 'cell "Solid color hex: F8CC67 F8CC67"':
+        - 'button "Solid color hex: F8CC67"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: F8CC67
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "70 Solid color hex: F9D27A F9D27A Edit variable"':
+      - rowheader "70":
+        - generic "70"
+      - 'cell "Solid color hex: F9D27A F9D27A"':
+        - 'button "Solid color hex: F9D27A"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: F9D27A
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "60 Solid color hex: FAD98D FAD98D Edit variable"':
+      - rowheader "60":
+        - generic "60"
+      - 'cell "Solid color hex: FAD98D FAD98D"':
+        - 'button "Solid color hex: FAD98D"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: FAD98D
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "50 Solid color hex: FADFA0 FADFA0 Edit variable"':
+      - rowheader "50":
+        - generic "50"
+      - 'cell "Solid color hex: FADFA0 FADFA0"':
+        - 'button "Solid color hex: FADFA0"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: FADFA0
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "40 Solid color hex: FBE5B3 FBE5B3 Edit variable"':
+      - rowheader "40":
+        - generic "40"
+      - 'cell "Solid color hex: FBE5B3 FBE5B3"':
+        - 'button "Solid color hex: FBE5B3"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: FBE5B3
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "30 Solid color hex: FCECC6 FCECC6 Edit variable"':
+      - rowheader "30":
+        - generic "30"
+      - 'cell "Solid color hex: FCECC6 FCECC6"':
+        - 'button "Solid color hex: FCECC6"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: FCECC6
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "20 Solid color hex: FDF2D9 FDF2D9 Edit variable"':
+      - rowheader "20":
+        - generic "20"
+      - 'cell "Solid color hex: FDF2D9 FDF2D9"':
+        - 'button "Solid color hex: FDF2D9"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: FDF2D9
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "10 Solid color hex: FEF9EC FEF9EC Edit variable"':
+      - rowheader "10":
+        - generic "10"
+      - 'cell "Solid color hex: FEF9EC FEF9EC"':
+        - 'button "Solid color hex: FEF9EC"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: FEF9EC
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "5 Solid color hex: FFFCF5 FFFCF5 Edit variable"':
+      - rowheader "5":
+        - generic "5"
+      - 'cell "Solid color hex: FFFCF5 FFFCF5"':
+        - 'button "Solid color hex: FFFCF5"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: FFFCF5
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "paper":
+      - cell "paper":
+        - button "paper":
+          - generic: paper
+    - 'row "warm Solid color hex: EFEAE2 EFEAE2 Edit variable"':
+      - rowheader "warm":
+        - generic "warm"
+      - 'cell "Solid color hex: EFEAE2 EFEAE2"':
+        - 'button "Solid color hex: EFEAE2"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: EFEAE2
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "optic Solid color hex: FAF9F6 FAF9F6 Edit variable"':
+      - rowheader "optic":
+        - generic "optic"
+      - 'cell "Solid color hex: FAF9F6 FAF9F6"':
+        - 'button "Solid color hex: FAF9F6"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: FAF9F6
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "neutral":
+      - cell "neutral":
+        - button "neutral":
+          - generic: neutral
+    - 'row "white Solid color hex: FFFFFF FFFFFF Edit variable"':
+      - rowheader "white":
+        - generic "white"
+      - 'cell "Solid color hex: FFFFFF FFFFFF"':
+        - 'button "Solid color hex: FFFFFF"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: FFFFFF
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "muted Solid color hex: 9298A3 9298A3 Edit variable"':
+      - rowheader "muted":
+        - generic "muted"
+      - 'cell "Solid color hex: 9298A3 9298A3"':
+        - 'button "Solid color hex: 9298A3"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 9298A3
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "graphite Solid color hex: 343A45 343A45 Edit variable"':
+      - rowheader "graphite":
+        - generic "graphite"
+      - 'cell "Solid color hex: 343A45 343A45"':
+        - 'button "Solid color hex: 343A45"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 343A45
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "copy Solid color hex: 66676B 66676B Edit variable"':
+      - rowheader "copy":
+        - generic "copy"
+      - 'cell "Solid color hex: 66676B 66676B"':
+        - 'button "Solid color hex: 66676B"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 66676B
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "black Solid color hex: 000000 000000 Edit variable"':
+      - rowheader "black":
+        - generic "black"
+      - 'cell "Solid color hex: 000000 000000"':
+        - 'button "Solid color hex: 000000"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: "000000"
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - 'row "board Solid color hex: 45474B 45474B Edit variable"':
+      - rowheader "board":
+        - generic "board"
+      - 'cell "Solid color hex: 45474B 45474B"':
+        - 'button "Solid color hex: 45474B"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: 45474B
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+    - row "line":
+      - cell "line":
+        - button "line":
+          - generic: line
+    - 'row "warm Solid color hex: C9C5BD C9C5BD Edit variable"':
+      - rowheader "warm":
+        - generic "warm"
+      - 'cell "Solid color hex: C9C5BD C9C5BD"':
+        - 'button "Solid color hex: C9C5BD"'
+        - generic: Autofill available. Type to see suggestions.
+        - combobox: C9C5BD
+      - cell
+      - cell "Edit variable":
+        - button "Edit variable":
+- button "Create variable button":
+  - generic: Create variable
+- region "Help/zoom toolbar":
+  - toolbar "Help/zoom toolbar":
+    - button "Help":
+- alert
+- alert
+- paragraph: Close
+- dialog "Control opacity at scale":
+  - heading "Control opacity at scale" [level=2]
+  - button "Close" [active]:
+  - generic: Easily apply and adjust opacity in the variables modal to a linked color without needing to detach.
+  - link "Learn more":
+    - /url: https://help.figma.com/hc/en-us/articles/14506821864087#colorvar
+    - generic: Learn more
+  - button "Got it":
+    - generic: Got it
