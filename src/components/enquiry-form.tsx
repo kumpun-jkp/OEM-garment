@@ -17,6 +17,7 @@ import {
 } from "react";
 import { enquiryTypes, fileError, type EnquiryKind } from "@/lib/enquiries";
 import { AppIcon, type AppIconName } from "./app-icon";
+import { company } from "@/content/site";
 
 const FieldErrors = createContext<Record<string, string>>({});
 function Field({
@@ -97,12 +98,20 @@ export function EnquiryForm({
   initialCategory = "",
   initialInquiry = "general",
   subject = "",
+  available = false,
+  mock = false,
+  privacyHref,
+  productReference,
 }: {
   kind: EnquiryKind;
   initialStage?: string;
   initialCategory?: string;
   initialInquiry?: string;
   subject?: string;
+  available?: boolean;
+  mock?: boolean;
+  privacyHref?: string;
+  productReference?: { id: string; title: string };
 }) {
   const { t, href: localHref } = useLocale();
 
@@ -112,9 +121,9 @@ export function EnquiryForm({
   const [preincorporation, setPreincorporation] = useState(false);
   const [files, setFiles] = useState<File[]>([]);
   const [attachmentError, setAttachmentError] = useState("");
-  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">(
-    "idle",
-  );
+  const [status, setStatus] = useState<
+    "idle" | "sending" | "sent" | "mock" | "error"
+  >("idle");
   const [notice, setNotice] = useState("");
   const [errors, setErrors] = useState<Record<string, string>>({});
   const summaryRef = useRef<HTMLDivElement>(null);
@@ -153,12 +162,23 @@ export function EnquiryForm({
             "Your enquiry could not be delivered. Please try again.",
         );
       }
-      setStatus("sent");
-      setNotice(
-        "Your enquiry has been delivered. The team will contact you using the details provided.",
-      );
-      form.reset();
-      setFiles([]);
+      if (result.mock === true && result.delivered === false) {
+        setStatus("mock");
+        setNotice("Mock submission checked. No enquiry has been sent.");
+      } else if (result.delivered === true) {
+        setStatus("sent");
+        setNotice(
+          "Your enquiry has been delivered. The team will contact you using the details provided.",
+        );
+        form.reset();
+        setFiles([]);
+        setStage(initialStage === "reference" ? "reference" : "concept");
+        setPreincorporation(false);
+      } else {
+        throw new Error(
+          "Your enquiry could not be delivered. Please try again.",
+        );
+      }
     } catch (error) {
       setStatus("error");
       setNotice(
@@ -168,6 +188,32 @@ export function EnquiryForm({
       );
     }
     requestAnimationFrame(() => summaryRef.current?.focus());
+  }
+  if (!mock && (!available || !privacyHref)) {
+    return (
+      <div
+        className={`enquiry-form ${project ? "project-form" : "contact-form"}`}
+      >
+        <h2>{t("Talk to our team")}</h2>
+        <p>
+          {t(
+            "Online enquiries are temporarily unavailable. Please call our team to discuss your project, arrange a visit or request policy information.",
+          )}
+        </p>
+        {productReference && (
+          <p className="micro">
+            {t("Product reference")}: {productReference.title} (
+            {productReference.id})
+          </p>
+        )}
+        <a className="button button--primary" href={company.telephoneHref}>
+          {t("Call our team")} · {company.telephone}
+          <AppIcon name="forward" />
+        </a>
+        <p className="micro">{t(company.hours)}</p>
+        {privacyHref && <Link href={privacyHref}>{t("Privacy Policy")}</Link>}
+      </div>
+    );
   }
   const identity = (
     <div className="form-grid">
@@ -230,6 +276,7 @@ export function EnquiryForm({
           required
           maxLength={40}
           minLength={6}
+          pattern={"(?=(?:[^0-9]*[0-9]){6,15}[^0-9]*$)[+\\(\\)0-9 .\\-]{6,40}"}
           placeholder={t("+66 81 123 4567")}
         />
       </Field>
@@ -285,16 +332,18 @@ export function EnquiryForm({
       <input id="consent" name="consent" type="checkbox" required />
       <span>
         {t(
-          project
-            ? "B2B manufacturing data policy: I consent to processing my contact details and project specifications for feasibility review."
-            : "I consent to processing my corporate contact details and this message to respond to my enquiry.",
+          mock
+            ? "I understand that this is a mock submission and no enquiry will be sent."
+            : project
+              ? "B2B manufacturing data policy: I consent to processing my contact details and project specifications for feasibility review."
+              : "I consent to processing my corporate contact details and this message to respond to my enquiry.",
         )}
-        {t(" ")}
-        <Link
-          href={localHref("/contact?inquiry=policy&subject=Privacy%20Policy")}
-        >
-          {t("Request privacy policy")}
-        </Link>
+        {privacyHref && (
+          <>
+            {t(" ")}
+            <Link href={privacyHref}>{t("Privacy Policy")}</Link>
+          </>
+        )}
       </span>
     </label>
   );
@@ -302,6 +351,10 @@ export function EnquiryForm({
     <FieldErrors.Provider value={errors}>
       <form
         className={`enquiry-form ${project ? "project-form" : "contact-form"}`}
+        method="post"
+        action="/api/enquiries"
+        encType="multipart/form-data"
+        aria-busy={status === "sending"}
         onSubmit={submit}
         onInvalid={(event) => {
           const field = event.target;
@@ -331,6 +384,32 @@ export function EnquiryForm({
             field.setCustomValidity("");
         }}
       >
+        <input type="hidden" name="kind" value={kind} />
+        {mock && (
+          <p className="micro">
+            <strong>{t("Mock preview")}</strong>
+            {t(" ")}
+            {t(
+              "Use test details only. Submissions are validated without sending an enquiry.",
+            )}
+          </p>
+        )}
+        {productReference && (
+          <>
+            <input type="hidden" name="productId" value={productReference.id} />
+            <p id="productId" tabIndex={-1} className="micro">
+              {t("Product reference")}: {productReference.title} (
+              {productReference.id})
+            </p>
+          </>
+        )}
+        <noscript>
+          <p>
+            {t(
+              "Without JavaScript, submitting this form opens the delivery response on a new page. Please call our team if you need help.",
+            )}
+          </p>
+        </noscript>
         <div className="honeypot" aria-hidden="true">
           <label htmlFor="website">{t("Leave this field empty")}</label>
           <input id="website" name="website" tabIndex={-1} autoComplete="off" />
@@ -373,7 +452,18 @@ export function EnquiryForm({
                 <select
                   id="category"
                   name="category"
-                  defaultValue={initialCategory}
+                  defaultValue={
+                    [
+                      "T-shirt",
+                      "Polo",
+                      "Uniform",
+                      "Sportswear",
+                      "Streetwear",
+                      "Other",
+                    ].includes(initialCategory)
+                      ? initialCategory
+                      : ""
+                  }
                   required
                 >
                   <option value="" disabled>

@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-06",
+  "timeZone": "Asia/Bangkok",
+  "base": "http://127.0.0.1:3003",
+  "fixture": "http://127.0.0.1:3004",
+  "checks": [
+    {
+      "locale": "th",
+      "path": "contact",
+      "state": "unconfigured",
+      "forms": 0,
+      "telephoneFallback": true,
+      "referenceRetained": false
+    },
+    {
+      "locale": "th",
+      "path": "contact",
+      "state": "render-only-fixture",
+      "form": "<form class=\"enquiry-form contact-form\" action=\"/api/enquiries\" encType=\"multipart/form-data\" method=\"post\">",
+      "privacyLink": true,
+      "nativeKind": "contact",
+      "clientPhonePattern": "valid"
+    },
+    {
+      "locale": "th",
+      "path": "start-your-project",
+      "state": "unconfigured",
+      "forms": 0,
+      "telephoneFallback": true,
+      "referenceRetained": true
+    },
+    {
+      "locale": "th",
+      "path": "start-your-project",
+      "state": "render-only-fixture",
+      "form": "<form class=\"enquiry-form project-form\" action=\"/api/enquiries\" encType=\"multipart/form-data\" method=\"post\">",
+      "privacyLink": true,
+      "nativeKind": "project",
+      "clientPhonePattern": "valid"
+    },
+    {
+      "locale": "th",
+      "path": "technical-insights",
+      "correctedCount": 1
+    },
+    {
+      "locale": "en",
+      "path": "contact",
+      "state": "unconfigured",
+      "forms": 0,
+      "telephoneFallback": true,
+      "referenceRetained": false
+    },
+    {
+      "locale": "en",
+      "path": "contact",
+      "state": "render-only-fixture",
+      "form": "<form class=\"enquiry-form contact-form\" action=\"/api/enquiries\" encType=\"multipart/form-data\" method=\"post\">",
+      "privacyLink": true,
+      "nativeKind": "contact",
+      "clientPhonePattern": "valid"
+    },
+    {
+      "locale": "en",
+      "path": "start-your-project",
+      "state": "unconfigured",
+      "forms": 0,
+      "telephoneFallback": true,
+      "referenceRetained": true
+    },
+    {
+      "locale": "en",
+      "path": "start-your-project",
+      "state": "render-only-fixture",
+      "form": "<form class=\"enquiry-form project-form\" action=\"/api/enquiries\" encType=\"multipart/form-data\" method=\"post\">",
+      "privacyLink": true,
+      "nativeKind": "project",
+      "clientPhonePattern": "valid"
+    },
+    {
+      "locale": "en",
+      "path": "technical-insights",
+      "correctedCount": 1
+    },
+    {
+      "api": "punctuation-only phone",
+      "status": 422
+    },
+    {
+      "api": "known product reference",
+      "status": 503,
+      "notes": "Validated reference; delivery remains unconfigured"
+    },
+    {
+      "api": "unknown product reference",
+      "status": 422
+    },
+    {
+      "asset": "/icon.svg",
+      "status": 200,
+      "bytes": 285
+    },
+    {
+      "asset": "/favicon.ico",
+      "status": 200,
+      "bytes": 447
+    },
+    {
+      "asset": "/robots.txt",
+      "status": 200,
+      "bytes": 27
+    },
+    {
+      "asset": "/sitemap.xml",
+      "status": 200,
+      "bytes": 110
+    }
+  ],
+  "passed": 17,
+  "browserCoverage": "Not run; Chrome connection pending",
+  "releaseDecision": "NO_GO_PENDING_CONFIGURATION_AND_CHROME"
+}

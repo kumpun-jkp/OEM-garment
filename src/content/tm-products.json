@@ -1,0 +1,2045 @@
+[
+  {
+    "id": "tm-skirt-01",
+    "audience": "adults",
+    "category": "skirts",
+    "shape": "skirt",
+    "title": "Black dotted tiered skirt",
+    "th": "กระโปรงระบายลายจุดสีดำ",
+    "description": "A long tiered skirt with a small dotted print.",
+    "descriptionTh": "กระโปรงยาวต่อระบาย พิมพ์ลายจุดขนาดเล็ก",
+    "images": [
+      {
+        "src": "/media/products/tm/skirt-01.webp",
+        "alt": "Black dotted tiered skirt — full product view",
+        "th": "กระโปรงระบายลายจุดสีดำ — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-skirt-02",
+    "audience": "adults",
+    "category": "skirts",
+    "shape": "skirt",
+    "title": "Gingham tiered skirt",
+    "th": "กระโปรงระบายลายตาราง",
+    "description": "A long tiered skirt with a black and white gingham print.",
+    "descriptionTh": "กระโปรงยาวต่อระบาย ลายตารางสีดำและขาว",
+    "images": [
+      {
+        "src": "/media/products/tm/skirt-02.webp",
+        "alt": "Gingham tiered skirt — full product view",
+        "th": "กระโปรงระบายลายตาราง — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-skirt-03",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Pink plaid pocket skorts",
+    "th": "กางเกงกระโปรงลายตารางสีชมพู",
+    "description": "Skorts with a front overlay, side buckle and two flap pockets.",
+    "descriptionTh": "กางเกงกระโปรงมีผ้าปิดด้านหน้า หัวเข็มขัดด้านข้าง และกระเป๋าฝาสองข้าง",
+    "images": [
+      {
+        "src": "/media/products/tm/skirt-03.webp",
+        "alt": "Pink plaid pocket skorts — full product view",
+        "th": "กางเกงกระโปรงลายตารางสีชมพู — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-skirt-04",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Beige wrap skorts",
+    "th": "กางเกงกระโปรงแบบป้ายสีเบจ",
+    "description": "Wrap-style skorts with a side tie.",
+    "descriptionTh": "กางเกงกระโปรงแบบป้าย มีเชือกผูกด้านข้าง",
+    "images": [
+      {
+        "src": "/media/products/tm/skirt-04.webp",
+        "alt": "Beige wrap skorts — full product view",
+        "th": "กางเกงกระโปรงแบบป้ายสีเบจ — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/skirt-05.webp",
+        "alt": "Beige wrap skorts — additional view 2",
+        "th": "กางเกงกระโปรงแบบป้ายสีเบจ — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-skirt-06",
+    "audience": "adults",
+    "category": "skirts",
+    "shape": "skirt",
+    "title": "Blue pocket skirt",
+    "th": "กระโปรงกระเป๋าสีฟ้า",
+    "description": "A short A-line skirt with two front flap pockets.",
+    "descriptionTh": "กระโปรงสั้นทรงเอ มีกระเป๋าฝาด้านหน้าสองข้าง",
+    "images": [
+      {
+        "src": "/media/products/tm/skirt-06.webp",
+        "alt": "Blue pocket skirt — full product view",
+        "th": "กระโปรงกระเป๋าสีฟ้า — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/skirt-07.webp",
+        "alt": "Blue pocket skirt — additional view 2",
+        "th": "กระโปรงกระเป๋าสีฟ้า — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-skirt-08",
+    "audience": "adults",
+    "category": "skirts",
+    "shape": "skirt",
+    "title": "Polka-dot pocket skirt",
+    "th": "กระโปรงกระเป๋าลายจุด",
+    "description": "A short white skirt with black dots and two front flap pockets.",
+    "descriptionTh": "กระโปรงสั้นสีขาวลายจุดสีดำ มีกระเป๋าฝาด้านหน้าสองข้าง",
+    "images": [
+      {
+        "src": "/media/products/tm/skirt-08.webp",
+        "alt": "Polka-dot pocket skirt — full product view",
+        "th": "กระโปรงกระเป๋าลายจุด — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/skirt-09.webp",
+        "alt": "Polka-dot pocket skirt — additional view 2",
+        "th": "กระโปรงกระเป๋าลายจุด — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-long-01",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Striped drawstring trousers",
+    "th": "กางเกงขายาวลายทางผูกเชือก",
+    "description": "Striped trousers with an elastic drawstring waist and side pockets.",
+    "descriptionTh": "กางเกงขายาวลายทาง เอวยางยืดผูกเชือกและกระเป๋าด้านข้าง",
+    "images": [
+      {
+        "src": "/media/products/tm/long-01.webp",
+        "alt": "Striped drawstring trousers — full product view",
+        "th": "กางเกงขายาวลายทางผูกเชือก — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/long-02.webp",
+        "alt": "Striped drawstring trousers — additional view 2",
+        "th": "กางเกงขายาวลายทางผูกเชือก — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/long-03.webp",
+        "alt": "Striped drawstring trousers — additional view 3",
+        "th": "กางเกงขายาวลายทางผูกเชือก — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-long-04",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "White drawstring trousers",
+    "th": "กางเกงขายาวสีขาวผูกเชือก",
+    "description": "White straight-leg trousers with an elastic drawstring waist.",
+    "descriptionTh": "กางเกงขายาวสีขาวทรงตรง เอวยางยืดผูกเชือก",
+    "images": [
+      {
+        "src": "/media/products/tm/long-04.webp",
+        "alt": "White drawstring trousers — full product view",
+        "th": "กางเกงขายาวสีขาวผูกเชือก — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/long-05.webp",
+        "alt": "White drawstring trousers — additional view 2",
+        "th": "กางเกงขายาวสีขาวผูกเชือก — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-long-06",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Black contrast-tip drawstring trousers",
+    "th": "กางเกงขายาวสีดำเชือกปลายสีตัด",
+    "description": "Black trousers with a drawstring waist and contrasting cord tips.",
+    "descriptionTh": "กางเกงขายาวสีดำ เอวผูกเชือกพร้อมปลายเชือกสีตัด",
+    "images": [
+      {
+        "src": "/media/products/tm/long-06.webp",
+        "alt": "Black contrast-tip drawstring trousers — full product view",
+        "th": "กางเกงขายาวสีดำเชือกปลายสีตัด — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/long-07.webp",
+        "alt": "Black contrast-tip drawstring trousers — additional view 2",
+        "th": "กางเกงขายาวสีดำเชือกปลายสีตัด — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-long-08",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Medallion-print trousers",
+    "th": "กางเกงขายาวลายเมดัลเลียน",
+    "description": "Printed trousers with an elastic waist and a repeating medallion pattern.",
+    "descriptionTh": "กางเกงขายาวเอวยางยืด พิมพ์ลายเมดัลเลียนซ้ำ",
+    "images": [
+      {
+        "src": "/media/products/tm/long-08.webp",
+        "alt": "Medallion-print trousers — full product view",
+        "th": "กางเกงขายาวลายเมดัลเลียน — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/long-09.webp",
+        "alt": "Medallion-print trousers — additional view 2",
+        "th": "กางเกงขายาวลายเมดัลเลียน — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-long-10",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Navy elastic-waist trousers",
+    "th": "กางเกงขายาวเอวยางยืดสีกรมท่า",
+    "description": "Navy trousers with a gathered elastic waist.",
+    "descriptionTh": "กางเกงขายาวสีกรมท่า เอวยางยืด",
+    "images": [
+      {
+        "src": "/media/products/tm/long-10.webp",
+        "alt": "Navy elastic-waist trousers — full product view",
+        "th": "กางเกงขายาวเอวยางยืดสีกรมท่า — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/long-11.webp",
+        "alt": "Navy elastic-waist trousers — additional view 2",
+        "th": "กางเกงขายาวเอวยางยืดสีกรมท่า — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-long-12",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Black elastic-waist trousers",
+    "th": "กางเกงขายาวเอวยางยืดสีดำ",
+    "description": "Black trousers with a gathered elastic waist and drawstring.",
+    "descriptionTh": "กางเกงขายาวสีดำ เอวยางยืดพร้อมเชือกผูก",
+    "images": [
+      {
+        "src": "/media/products/tm/long-12.webp",
+        "alt": "Black elastic-waist trousers — full product view",
+        "th": "กางเกงขายาวเอวยางยืดสีดำ — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/long-13.webp",
+        "alt": "Black elastic-waist trousers — additional view 2",
+        "th": "กางเกงขายาวเอวยางยืดสีดำ — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-long-14",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Navy striped easy linen trousers",
+    "th": "กางเกงขายาวอีซี่ลินินลายทางสีกรมท่า",
+    "description": "Navy pinstriped trousers with a drawstring waist, labelled Easy Linen Pants in the supplied images.",
+    "descriptionTh": "กางเกงขายาวลายทางสีกรมท่า เอวผูกเชือก ระบุชื่อ Easy Linen Pants ในภาพต้นฉบับ",
+    "images": [
+      {
+        "src": "/media/products/tm/long-14.webp",
+        "alt": "Navy striped easy linen trousers — full product view",
+        "th": "กางเกงขายาวอีซี่ลินินลายทางสีกรมท่า — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/long-15.webp",
+        "alt": "Navy striped easy linen trousers — additional view 2",
+        "th": "กางเกงขายาวอีซี่ลินินลายทางสีกรมท่า — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-long-16",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Beige striped easy linen trousers",
+    "th": "กางเกงขายาวอีซี่ลินินลายทางสีเบจ",
+    "description": "Beige pinstriped trousers with a drawstring waist, labelled Easy Linen Pants in the supplied images.",
+    "descriptionTh": "กางเกงขายาวลายทางสีเบจ เอวผูกเชือก ระบุชื่อ Easy Linen Pants ในภาพต้นฉบับ",
+    "images": [
+      {
+        "src": "/media/products/tm/long-16.webp",
+        "alt": "Beige striped easy linen trousers — full product view",
+        "th": "กางเกงขายาวอีซี่ลินินลายทางสีเบจ — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/long-17.webp",
+        "alt": "Beige striped easy linen trousers — additional view 2",
+        "th": "กางเกงขายาวอีซี่ลินินลายทางสีเบจ — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-long-18",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Beige unisex trousers",
+    "th": "กางเกงขายาวยูนิเซ็กซ์สีเบจ",
+    "description": "Beige trousers with side pockets and an elastic waist, labelled Unisex in the supplied images.",
+    "descriptionTh": "กางเกงขายาวสีเบจ มีกระเป๋าข้างและเอวยางยืด ระบุ Unisex ในภาพต้นฉบับ",
+    "images": [
+      {
+        "src": "/media/products/tm/long-18.webp",
+        "alt": "Beige unisex trousers — full product view",
+        "th": "กางเกงขายาวยูนิเซ็กซ์สีเบจ — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/long-19.webp",
+        "alt": "Beige unisex trousers — additional view 2",
+        "th": "กางเกงขายาวยูนิเซ็กซ์สีเบจ — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/long-20.webp",
+        "alt": "Beige unisex trousers — additional view 3",
+        "th": "กางเกงขายาวยูนิเซ็กซ์สีเบจ — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-long-21",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Ivory pleated trousers",
+    "th": "กางเกงขายาวจับจีบสีงาช้าง",
+    "description": "Ivory straight-leg trousers with front pleats and a button waist.",
+    "descriptionTh": "กางเกงขายาวสีงาช้างทรงตรง จับจีบด้านหน้าและเอวติดกระดุม",
+    "images": [
+      {
+        "src": "/media/products/tm/long-21.webp",
+        "alt": "Ivory pleated trousers — full product view",
+        "th": "กางเกงขายาวจับจีบสีงาช้าง — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/long-22.webp",
+        "alt": "Ivory pleated trousers — additional view 2",
+        "th": "กางเกงขายาวจับจีบสีงาช้าง — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-long-23",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Beige straight-leg trousers",
+    "th": "กางเกงขายาวทรงตรงสีเบจ",
+    "description": "Beige straight-leg trousers with front pleats and side pockets.",
+    "descriptionTh": "กางเกงขายาวสีเบจทรงตรง จับจีบด้านหน้าและมีกระเป๋าข้าง",
+    "images": [
+      {
+        "src": "/media/products/tm/long-23.webp",
+        "alt": "Beige straight-leg trousers — full product view",
+        "th": "กางเกงขายาวทรงตรงสีเบจ — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/long-24.webp",
+        "alt": "Beige straight-leg trousers — additional view 2",
+        "th": "กางเกงขายาวทรงตรงสีเบจ — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-long-25",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Camel pleated trousers",
+    "th": "กางเกงขายาวจับจีบสีน้ำตาลอ่อน",
+    "description": "Camel-coloured trousers with front pleats and a button waist.",
+    "descriptionTh": "กางเกงขายาวสีน้ำตาลอ่อน จับจีบด้านหน้าและเอวติดกระดุม",
+    "images": [
+      {
+        "src": "/media/products/tm/long-25.webp",
+        "alt": "Camel pleated trousers — full product view",
+        "th": "กางเกงขายาวจับจีบสีน้ำตาลอ่อน — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/long-26.webp",
+        "alt": "Camel pleated trousers — additional view 2",
+        "th": "กางเกงขายาวจับจีบสีน้ำตาลอ่อน — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-long-27",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Charcoal pinstriped trousers",
+    "th": "กางเกงขายาวลายทางสีเทาเข้ม",
+    "description": "Charcoal pinstriped trousers with a tailored front waist.",
+    "descriptionTh": "กางเกงขายาวลายทางสีเทาเข้ม เอวด้านหน้าแบบเรียบ",
+    "images": [
+      {
+        "src": "/media/products/tm/long-27.webp",
+        "alt": "Charcoal pinstriped trousers — full product view",
+        "th": "กางเกงขายาวลายทางสีเทาเข้ม — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/long-28.webp",
+        "alt": "Charcoal pinstriped trousers — additional view 2",
+        "th": "กางเกงขายาวลายทางสีเทาเข้ม — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-long-29",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Brown formal trousers",
+    "th": "กางเกงขายาวแบบทางการสีน้ำตาล",
+    "description": "Brown formal trousers with belt loops and a button fastening.",
+    "descriptionTh": "กางเกงขายาวแบบทางการสีน้ำตาล มีหูเข็มขัดและกระดุมเอว",
+    "images": [
+      {
+        "src": "/media/products/tm/long-29.webp",
+        "alt": "Brown formal trousers — full product view",
+        "th": "กางเกงขายาวแบบทางการสีน้ำตาล — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/long-30.webp",
+        "alt": "Brown formal trousers — additional view 2",
+        "th": "กางเกงขายาวแบบทางการสีน้ำตาล — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-long-31",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Charcoal formal trousers",
+    "th": "กางเกงขายาวแบบทางการสีเทาเข้ม",
+    "description": "Charcoal formal trousers with belt loops and a button fastening.",
+    "descriptionTh": "กางเกงขายาวแบบทางการสีเทาเข้ม มีหูเข็มขัดและกระดุมเอว",
+    "images": [
+      {
+        "src": "/media/products/tm/long-31.webp",
+        "alt": "Charcoal formal trousers — full product view",
+        "th": "กางเกงขายาวแบบทางการสีเทาเข้ม — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/long-32.webp",
+        "alt": "Charcoal formal trousers — additional view 2",
+        "th": "กางเกงขายาวแบบทางการสีเทาเข้ม — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-short-01",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Cuffed denim shorts",
+    "th": "กางเกงขาสั้นเดนิมพับปลายขา",
+    "description": "Indigo denim shorts with turned-up hems, shown flat and on a model.",
+    "descriptionTh": "กางเกงขาสั้นเดนิมสีคราม พับปลายขา มีภาพวางสินค้าและภาพสวมใส่",
+    "images": [
+      {
+        "src": "/media/products/tm/short-01.webp",
+        "alt": "Cuffed denim shorts — full product view",
+        "th": "กางเกงขาสั้นเดนิมพับปลายขา — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/short-02.webp",
+        "alt": "Cuffed denim shorts — additional view 2",
+        "th": "กางเกงขาสั้นเดนิมพับปลายขา — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/short-03.webp",
+        "alt": "Cuffed denim shorts — additional view 3",
+        "th": "กางเกงขาสั้นเดนิมพับปลายขา — ภาพเพิ่มเติม 3"
+      },
+      {
+        "src": "/media/products/tm/short-04.webp",
+        "alt": "Cuffed denim shorts — additional view 4",
+        "th": "กางเกงขาสั้นเดนิมพับปลายขา — ภาพเพิ่มเติม 4"
+      },
+      {
+        "src": "/media/products/tm/short-05.webp",
+        "alt": "Cuffed denim shorts — additional view 5",
+        "th": "กางเกงขาสั้นเดนิมพับปลายขา — ภาพเพิ่มเติม 5"
+      },
+      {
+        "src": "/media/products/tm/short-06.webp",
+        "alt": "Cuffed denim shorts — additional view 6",
+        "th": "กางเกงขาสั้นเดนิมพับปลายขา — ภาพเพิ่มเติม 6"
+      }
+    ]
+  },
+  {
+    "id": "tm-short-07",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Navy patch-pocket shorts",
+    "th": "กางเกงขาสั้นกระเป๋าปะสีกรมท่า",
+    "description": "Navy shorts with an elastic waist and front patch pockets.",
+    "descriptionTh": "กางเกงขาสั้นสีกรมท่า เอวยางยืดและกระเป๋าปะด้านหน้า",
+    "images": [
+      {
+        "src": "/media/products/tm/short-07.webp",
+        "alt": "Navy patch-pocket shorts — full product view",
+        "th": "กางเกงขาสั้นกระเป๋าปะสีกรมท่า — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/short-08.webp",
+        "alt": "Navy patch-pocket shorts — additional view 2",
+        "th": "กางเกงขาสั้นกระเป๋าปะสีกรมท่า — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/short-09.webp",
+        "alt": "Navy patch-pocket shorts — additional view 3",
+        "th": "กางเกงขาสั้นกระเป๋าปะสีกรมท่า — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-short-10",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Mustard patch-pocket shorts",
+    "th": "กางเกงขาสั้นกระเป๋าปะสีมัสตาร์ด",
+    "description": "Mustard shorts with an elastic waist and patch pockets.",
+    "descriptionTh": "กางเกงขาสั้นสีมัสตาร์ด เอวยางยืดและกระเป๋าปะ",
+    "images": [
+      {
+        "src": "/media/products/tm/short-10.webp",
+        "alt": "Mustard patch-pocket shorts — full product view",
+        "th": "กางเกงขาสั้นกระเป๋าปะสีมัสตาร์ด — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/short-11.webp",
+        "alt": "Mustard patch-pocket shorts — additional view 2",
+        "th": "กางเกงขาสั้นกระเป๋าปะสีมัสตาร์ด — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/short-12.webp",
+        "alt": "Mustard patch-pocket shorts — additional view 3",
+        "th": "กางเกงขาสั้นกระเป๋าปะสีมัสตาร์ด — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-short-13",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Cream pinstriped shorts",
+    "th": "กางเกงขาสั้นลายทางสีครีม",
+    "description": "Cream pinstriped shorts with an elastic waist.",
+    "descriptionTh": "กางเกงขาสั้นลายทางสีครีม เอวยางยืด",
+    "images": [
+      {
+        "src": "/media/products/tm/short-13.webp",
+        "alt": "Cream pinstriped shorts — full product view",
+        "th": "กางเกงขาสั้นลายทางสีครีม — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/short-14.webp",
+        "alt": "Cream pinstriped shorts — additional view 2",
+        "th": "กางเกงขาสั้นลายทางสีครีม — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/short-15.webp",
+        "alt": "Cream pinstriped shorts — additional view 3",
+        "th": "กางเกงขาสั้นลายทางสีครีม — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-short-16",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Ivory tailored shorts",
+    "th": "กางเกงขาสั้นจับจีบสีงาช้าง",
+    "description": "Ivory shorts with front pleats and a button waist.",
+    "descriptionTh": "กางเกงขาสั้นสีงาช้าง จับจีบด้านหน้าและเอวติดกระดุม",
+    "images": [
+      {
+        "src": "/media/products/tm/short-16.webp",
+        "alt": "Ivory tailored shorts — full product view",
+        "th": "กางเกงขาสั้นจับจีบสีงาช้าง — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/short-17.webp",
+        "alt": "Ivory tailored shorts — additional view 2",
+        "th": "กางเกงขาสั้นจับจีบสีงาช้าง — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/short-18.webp",
+        "alt": "Ivory tailored shorts — additional view 3",
+        "th": "กางเกงขาสั้นจับจีบสีงาช้าง — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-short-19",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Ivory longline shorts",
+    "th": "กางเกงขาสั้นทรงยาวสีงาช้าง",
+    "description": "Longer-cut ivory shorts with pleats and belt loops.",
+    "descriptionTh": "กางเกงขาสั้นทรงยาวสีงาช้าง จับจีบและมีหูเข็มขัด",
+    "images": [
+      {
+        "src": "/media/products/tm/short-19.webp",
+        "alt": "Ivory longline shorts — full product view",
+        "th": "กางเกงขาสั้นทรงยาวสีงาช้าง — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/short-20.webp",
+        "alt": "Ivory longline shorts — additional view 2",
+        "th": "กางเกงขาสั้นทรงยาวสีงาช้าง — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-short-21",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Olive pleated shorts",
+    "th": "กางเกงขาสั้นจับจีบสีเขียวมะกอก",
+    "description": "Olive shorts with front pleats and a button waist.",
+    "descriptionTh": "กางเกงขาสั้นสีเขียวมะกอก จับจีบด้านหน้าและเอวติดกระดุม",
+    "images": [
+      {
+        "src": "/media/products/tm/short-21.webp",
+        "alt": "Olive pleated shorts — full product view",
+        "th": "กางเกงขาสั้นจับจีบสีเขียวมะกอก — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-short-22",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Navy tie-belt shorts",
+    "th": "กางเกงขาสั้นผูกเอวสีกรมท่า",
+    "description": "Navy shorts with a matching tie belt.",
+    "descriptionTh": "กางเกงขาสั้นสีกรมท่า พร้อมสายผูกเอวสีเดียวกัน",
+    "images": [
+      {
+        "src": "/media/products/tm/short-22.webp",
+        "alt": "Navy tie-belt shorts — full product view",
+        "th": "กางเกงขาสั้นผูกเอวสีกรมท่า — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-short-23",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Pastel striped shorts",
+    "th": "กางเกงขาสั้นลายทางสีพาสเทล",
+    "description": "Pastel striped shorts with an elastic waist and front patch pockets.",
+    "descriptionTh": "กางเกงขาสั้นลายทางสีพาสเทล เอวยางยืดและกระเป๋าปะด้านหน้า",
+    "images": [
+      {
+        "src": "/media/products/tm/short-23.webp",
+        "alt": "Pastel striped shorts — full product view",
+        "th": "กางเกงขาสั้นลายทางสีพาสเทล — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/short-24.webp",
+        "alt": "Pastel striped shorts — additional view 2",
+        "th": "กางเกงขาสั้นลายทางสีพาสเทล — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/short-25.webp",
+        "alt": "Pastel striped shorts — additional view 3",
+        "th": "กางเกงขาสั้นลายทางสีพาสเทล — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-short-26",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Geometric printed shorts",
+    "th": "กางเกงขาสั้นพิมพ์ลายเรขาคณิต",
+    "description": "Geometric printed shorts shown in blue and purple colourways.",
+    "descriptionTh": "กางเกงขาสั้นพิมพ์ลายเรขาคณิต มีภาพสีฟ้าและสีม่วง",
+    "images": [
+      {
+        "src": "/media/products/tm/short-26.webp",
+        "alt": "Geometric printed shorts — full product view",
+        "th": "กางเกงขาสั้นพิมพ์ลายเรขาคณิต — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/short-27.webp",
+        "alt": "Geometric printed shorts — additional view 2",
+        "th": "กางเกงขาสั้นพิมพ์ลายเรขาคณิต — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/short-28.webp",
+        "alt": "Geometric printed shorts — additional view 3",
+        "th": "กางเกงขาสั้นพิมพ์ลายเรขาคณิต — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-short-29",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Slate-blue drawstring shorts",
+    "th": "กางเกงขาสั้นผูกเชือกสีฟ้าเทา",
+    "description": "Slate-blue shorts with front pleats and a drawstring waist.",
+    "descriptionTh": "กางเกงขาสั้นสีฟ้าเทา จับจีบด้านหน้าและเอวผูกเชือก",
+    "images": [
+      {
+        "src": "/media/products/tm/short-29.webp",
+        "alt": "Slate-blue drawstring shorts — full product view",
+        "th": "กางเกงขาสั้นผูกเชือกสีฟ้าเทา — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/short-30.webp",
+        "alt": "Slate-blue drawstring shorts — additional view 2",
+        "th": "กางเกงขาสั้นผูกเชือกสีฟ้าเทา — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-short-31",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Grey plaid cargo shorts",
+    "th": "กางเกงขาสั้นกระเป๋าข้างลายตารางสีเทา",
+    "description": "Grey plaid shorts with side flap pockets and an elastic back waist.",
+    "descriptionTh": "กางเกงขาสั้นลายตารางสีเทา มีกระเป๋าฝาด้านข้างและเอวยางยืดด้านหลัง",
+    "images": [
+      {
+        "src": "/media/products/tm/short-31.webp",
+        "alt": "Grey plaid cargo shorts — full product view",
+        "th": "กางเกงขาสั้นกระเป๋าข้างลายตารางสีเทา — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/short-32.webp",
+        "alt": "Grey plaid cargo shorts — additional view 2",
+        "th": "กางเกงขาสั้นกระเป๋าข้างลายตารางสีเทา — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-short-33",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Charcoal tailored shorts",
+    "th": "กางเกงขาสั้นทรงเรียบสีเทาเข้ม",
+    "description": "Charcoal shorts with a button waist and side pockets.",
+    "descriptionTh": "กางเกงขาสั้นสีเทาเข้ม เอวติดกระดุมและกระเป๋าข้าง",
+    "images": [
+      {
+        "src": "/media/products/tm/short-33.webp",
+        "alt": "Charcoal tailored shorts — full product view",
+        "th": "กางเกงขาสั้นทรงเรียบสีเทาเข้ม — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/short-34.webp",
+        "alt": "Charcoal tailored shorts — additional view 2",
+        "th": "กางเกงขาสั้นทรงเรียบสีเทาเข้ม — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-short-35",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Tropical-print beach shorts",
+    "th": "กางเกงขาสั้นชายหาดลายทรอปิคอล",
+    "description": "White, blue and orange printed beach shorts with a drawstring waist.",
+    "descriptionTh": "กางเกงขาสั้นชายหาดพิมพ์ลายสีขาว ฟ้า และส้ม เอวผูกเชือก",
+    "images": [
+      {
+        "src": "/media/products/tm/short-35.webp",
+        "alt": "Tropical-print beach shorts — full product view",
+        "th": "กางเกงขาสั้นชายหาดลายทรอปิคอล — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/short-36.webp",
+        "alt": "Tropical-print beach shorts — additional view 2",
+        "th": "กางเกงขาสั้นชายหาดลายทรอปิคอล — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-short-37",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Grey beach shorts",
+    "th": "กางเกงขาสั้นชายหาดสีเทา",
+    "description": "Grey drawstring shorts with a printed pocket detail.",
+    "descriptionTh": "กางเกงขาสั้นสีเทา เอวผูกเชือกและรายละเอียดลายพิมพ์ที่กระเป๋า",
+    "images": [
+      {
+        "src": "/media/products/tm/short-37.webp",
+        "alt": "Grey beach shorts — full product view",
+        "th": "กางเกงขาสั้นชายหาดสีเทา — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/short-38.webp",
+        "alt": "Grey beach shorts — additional view 2",
+        "th": "กางเกงขาสั้นชายหาดสีเทา — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/short-39.webp",
+        "alt": "Grey beach shorts — additional view 3",
+        "th": "กางเกงขาสั้นชายหาดสีเทา — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-short-40",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Navy flat-front shorts",
+    "th": "กางเกงขาสั้นเอวเรียบสีกรมท่า",
+    "description": "Navy shorts with a flat front waist and side pockets.",
+    "descriptionTh": "กางเกงขาสั้นสีกรมท่า เอวด้านหน้าเรียบและกระเป๋าข้าง",
+    "images": [
+      {
+        "src": "/media/products/tm/short-40.webp",
+        "alt": "Navy flat-front shorts — full product view",
+        "th": "กางเกงขาสั้นเอวเรียบสีกรมท่า — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/short-41.webp",
+        "alt": "Navy flat-front shorts — additional view 2",
+        "th": "กางเกงขาสั้นเอวเรียบสีกรมท่า — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/short-42.webp",
+        "alt": "Navy flat-front shorts — additional view 3",
+        "th": "กางเกงขาสั้นเอวเรียบสีกรมท่า — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-short-43",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Olive botanical shorts",
+    "th": "กางเกงขาสั้นลายพฤกษาสีเขียวมะกอก",
+    "description": "Botanical-print shorts with an elastic waist.",
+    "descriptionTh": "กางเกงขาสั้นพิมพ์ลายพฤกษา เอวยางยืด",
+    "images": [
+      {
+        "src": "/media/products/tm/short-43.webp",
+        "alt": "Olive botanical shorts — full product view",
+        "th": "กางเกงขาสั้นลายพฤกษาสีเขียวมะกอก — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/short-44.webp",
+        "alt": "Olive botanical shorts — additional view 2",
+        "th": "กางเกงขาสั้นลายพฤกษาสีเขียวมะกอก — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-short-45",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Black side-stripe sports shorts",
+    "th": "กางเกงกีฬาขาสั้นสีดำแถบข้าง",
+    "description": "Black sports shorts with a light side stripe and a drawstring waist.",
+    "descriptionTh": "กางเกงกีฬาขาสั้นสีดำ มีแถบสีอ่อนด้านข้างและเอวผูกเชือก",
+    "images": [
+      {
+        "src": "/media/products/tm/short-45.webp",
+        "alt": "Black side-stripe sports shorts — full product view",
+        "th": "กางเกงกีฬาขาสั้นสีดำแถบข้าง — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/short-46.webp",
+        "alt": "Black side-stripe sports shorts — additional view 2",
+        "th": "กางเกงกีฬาขาสั้นสีดำแถบข้าง — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/short-47.webp",
+        "alt": "Black side-stripe sports shorts — additional view 3",
+        "th": "กางเกงกีฬาขาสั้นสีดำแถบข้าง — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-short-48",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Navy sports shorts",
+    "th": "กางเกงกีฬาขาสั้นสีกรมท่า",
+    "description": "Navy sports shorts with an elastic drawstring waist.",
+    "descriptionTh": "กางเกงกีฬาขาสั้นสีกรมท่า เอวยางยืดผูกเชือก",
+    "images": [
+      {
+        "src": "/media/products/tm/short-48.webp",
+        "alt": "Navy sports shorts — full product view",
+        "th": "กางเกงกีฬาขาสั้นสีกรมท่า — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/short-49.webp",
+        "alt": "Navy sports shorts — additional view 2",
+        "th": "กางเกงกีฬาขาสั้นสีกรมท่า — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-cargo-01",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Black drawstring cargo shorts",
+    "th": "กางเกงคาร์โก้ขาสั้นสีดำผูกเชือก",
+    "description": "Black cargo shorts with a drawstring waist and large flap pockets.",
+    "descriptionTh": "กางเกงคาร์โก้ขาสั้นสีดำ เอวผูกเชือกและกระเป๋าฝาขนาดใหญ่",
+    "images": [
+      {
+        "src": "/media/products/tm/cargo-01.webp",
+        "alt": "Black drawstring cargo shorts — full product view",
+        "th": "กางเกงคาร์โก้ขาสั้นสีดำผูกเชือก — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/cargo-02.webp",
+        "alt": "Black drawstring cargo shorts — additional view 2",
+        "th": "กางเกงคาร์โก้ขาสั้นสีดำผูกเชือก — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/cargo-03.webp",
+        "alt": "Black drawstring cargo shorts — additional view 3",
+        "th": "กางเกงคาร์โก้ขาสั้นสีดำผูกเชือก — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-cargo-04",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "cargo-outdoor",
+    "shape": "trousers",
+    "title": "Olive belted cargo trousers",
+    "th": "กางเกงคาร์โก้ขายาวสีเขียวมะกอกพร้อมเข็มขัด",
+    "description": "Olive cargo trousers with a belt and side flap pockets.",
+    "descriptionTh": "กางเกงคาร์โก้ขายาวสีเขียวมะกอก พร้อมเข็มขัดและกระเป๋าฝาด้านข้าง",
+    "images": [
+      {
+        "src": "/media/products/tm/cargo-04.webp",
+        "alt": "Olive belted cargo trousers — full product view",
+        "th": "กางเกงคาร์โก้ขายาวสีเขียวมะกอกพร้อมเข็มขัด — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/cargo-05.webp",
+        "alt": "Olive belted cargo trousers — additional view 2",
+        "th": "กางเกงคาร์โก้ขายาวสีเขียวมะกอกพร้อมเข็มขัด — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-cargo-06",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "cargo-outdoor",
+    "shape": "trousers",
+    "title": "Black wide-leg cargo trousers",
+    "th": "กางเกงคาร์โก้ขายาวขากว้างสีดำ",
+    "description": "Black wide-leg trousers with a button waist and cargo pockets.",
+    "descriptionTh": "กางเกงขายาวขากว้างสีดำ เอวติดกระดุมและกระเป๋าคาร์โก้",
+    "images": [
+      {
+        "src": "/media/products/tm/cargo-06.webp",
+        "alt": "Black wide-leg cargo trousers — full product view",
+        "th": "กางเกงคาร์โก้ขายาวขากว้างสีดำ — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/cargo-07.webp",
+        "alt": "Black wide-leg cargo trousers — additional view 2",
+        "th": "กางเกงคาร์โก้ขายาวขากว้างสีดำ — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/cargo-08.webp",
+        "alt": "Black wide-leg cargo trousers — additional view 3",
+        "th": "กางเกงคาร์โก้ขายาวขากว้างสีดำ — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-cargo-09",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "cargo-outdoor",
+    "shape": "trousers",
+    "title": "Cream cargo trousers",
+    "th": "กางเกงคาร์โก้ขายาวสีครีม",
+    "description": "Cream trousers with a button waist and cargo pockets.",
+    "descriptionTh": "กางเกงขายาวสีครีม เอวติดกระดุมและกระเป๋าคาร์โก้",
+    "images": [
+      {
+        "src": "/media/products/tm/cargo-09.webp",
+        "alt": "Cream cargo trousers — full product view",
+        "th": "กางเกงคาร์โก้ขายาวสีครีม — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/cargo-10.webp",
+        "alt": "Cream cargo trousers — additional view 2",
+        "th": "กางเกงคาร์โก้ขายาวสีครีม — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/cargo-11.webp",
+        "alt": "Cream cargo trousers — additional view 3",
+        "th": "กางเกงคาร์โก้ขายาวสีครีม — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-cargo-12",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "cargo-outdoor",
+    "shape": "trousers",
+    "title": "Olive drawstring cargo trousers",
+    "th": "กางเกงคาร์โก้ขายาวสีเขียวมะกอกผูกเชือก",
+    "description": "Olive trousers with a drawstring waist and cargo pockets.",
+    "descriptionTh": "กางเกงขายาวสีเขียวมะกอก เอวผูกเชือกและกระเป๋าคาร์โก้",
+    "images": [
+      {
+        "src": "/media/products/tm/cargo-12.webp",
+        "alt": "Olive drawstring cargo trousers — full product view",
+        "th": "กางเกงคาร์โก้ขายาวสีเขียวมะกอกผูกเชือก — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/cargo-13.webp",
+        "alt": "Olive drawstring cargo trousers — additional view 2",
+        "th": "กางเกงคาร์โก้ขายาวสีเขียวมะกอกผูกเชือก — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/cargo-14.webp",
+        "alt": "Olive drawstring cargo trousers — additional view 3",
+        "th": "กางเกงคาร์โก้ขายาวสีเขียวมะกอกผูกเชือก — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-cargo-15",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "cargo-outdoor",
+    "shape": "trousers",
+    "title": "Grey cargo joggers",
+    "th": "กางเกงคาร์โก้จ็อกเกอร์สีเทา",
+    "description": "Grey cargo trousers with an elastic waist and gathered cuffs.",
+    "descriptionTh": "กางเกงคาร์โก้ขายาวสีเทา เอวยางยืดและปลายขาจั๊ม",
+    "images": [
+      {
+        "src": "/media/products/tm/cargo-15.webp",
+        "alt": "Grey cargo joggers — full product view",
+        "th": "กางเกงคาร์โก้จ็อกเกอร์สีเทา — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/cargo-16.webp",
+        "alt": "Grey cargo joggers — additional view 2",
+        "th": "กางเกงคาร์โก้จ็อกเกอร์สีเทา — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/cargo-17.webp",
+        "alt": "Grey cargo joggers — additional view 3",
+        "th": "กางเกงคาร์โก้จ็อกเกอร์สีเทา — ภาพเพิ่มเติม 3"
+      },
+      {
+        "src": "/media/products/tm/cargo-18.webp",
+        "alt": "Grey cargo joggers — additional view 4",
+        "th": "กางเกงคาร์โก้จ็อกเกอร์สีเทา — ภาพเพิ่มเติม 4"
+      }
+    ]
+  },
+  {
+    "id": "tm-cargo-19",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "cargo-outdoor",
+    "shape": "trousers",
+    "title": "Mint wide-leg cargo trousers",
+    "th": "กางเกงคาร์โก้ขายาวขากว้างสีมิ้นต์",
+    "description": "Mint trousers with an elastic waist and large cargo pockets.",
+    "descriptionTh": "กางเกงขายาวสีมิ้นต์ เอวยางยืดและกระเป๋าคาร์โก้ขนาดใหญ่",
+    "images": [
+      {
+        "src": "/media/products/tm/cargo-19.webp",
+        "alt": "Mint wide-leg cargo trousers — full product view",
+        "th": "กางเกงคาร์โก้ขายาวขากว้างสีมิ้นต์ — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/cargo-20.webp",
+        "alt": "Mint wide-leg cargo trousers — additional view 2",
+        "th": "กางเกงคาร์โก้ขายาวขากว้างสีมิ้นต์ — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-cargo-21",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "cargo-outdoor",
+    "shape": "trousers",
+    "title": "Navy button-waist cargo trousers",
+    "th": "กางเกงคาร์โก้ขายาวสีกรมท่าเอวติดกระดุม",
+    "description": "Navy cargo trousers with a button waist and side flap pockets.",
+    "descriptionTh": "กางเกงคาร์โก้ขายาวสีกรมท่า เอวติดกระดุมและกระเป๋าฝาด้านข้าง",
+    "images": [
+      {
+        "src": "/media/products/tm/cargo-21.webp",
+        "alt": "Navy button-waist cargo trousers — full product view",
+        "th": "กางเกงคาร์โก้ขายาวสีกรมท่าเอวติดกระดุม — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/cargo-22.webp",
+        "alt": "Navy button-waist cargo trousers — additional view 2",
+        "th": "กางเกงคาร์โก้ขายาวสีกรมท่าเอวติดกระดุม — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/cargo-23.webp",
+        "alt": "Navy button-waist cargo trousers — additional view 3",
+        "th": "กางเกงคาร์โก้ขายาวสีกรมท่าเอวติดกระดุม — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-cargo-24",
+    "audience": "adults",
+    "category": "skirts",
+    "shape": "skirt",
+    "title": "Olive drawstring cargo skirt",
+    "th": "กระโปรงคาร์โก้สีเขียวมะกอกผูกเชือก",
+    "description": "A long olive skirt with a drawstring waist and gathered cargo pockets.",
+    "descriptionTh": "กระโปรงยาวสีเขียวมะกอก เอวผูกเชือกและกระเป๋าคาร์โก้แบบรูด",
+    "images": [
+      {
+        "src": "/media/products/tm/cargo-24.webp",
+        "alt": "Olive drawstring cargo skirt — full product view",
+        "th": "กระโปรงคาร์โก้สีเขียวมะกอกผูกเชือก — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/cargo-25.webp",
+        "alt": "Olive drawstring cargo skirt — additional view 2",
+        "th": "กระโปรงคาร์โก้สีเขียวมะกอกผูกเชือก — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/cargo-26.webp",
+        "alt": "Olive drawstring cargo skirt — additional view 3",
+        "th": "กระโปรงคาร์โก้สีเขียวมะกอกผูกเชือก — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-sleep-01",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "set",
+    "title": "Pastel blue printed pyjama set",
+    "th": "ชุดนอนพิมพ์ลายสีฟ้าพาสเทล",
+    "description": "A printed short-sleeve pyjama shirt and matching shorts.",
+    "descriptionTh": "ชุดนอนเสื้อแขนสั้นพิมพ์ลาย พร้อมกางเกงขาสั้นเข้าชุด",
+    "images": [
+      {
+        "src": "/media/products/tm/sleep-01.webp",
+        "alt": "Pastel blue printed pyjama set — full product view",
+        "th": "ชุดนอนพิมพ์ลายสีฟ้าพาสเทล — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/sleep-02.webp",
+        "alt": "Pastel blue printed pyjama set — additional view 2",
+        "th": "ชุดนอนพิมพ์ลายสีฟ้าพาสเทล — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/sleep-03.webp",
+        "alt": "Pastel blue printed pyjama set — additional view 3",
+        "th": "ชุดนอนพิมพ์ลายสีฟ้าพาสเทล — ภาพเพิ่มเติม 3"
+      },
+      {
+        "src": "/media/products/tm/sleep-04.webp",
+        "alt": "Pastel blue printed pyjama set — additional view 4",
+        "th": "ชุดนอนพิมพ์ลายสีฟ้าพาสเทล — ภาพเพิ่มเติม 4"
+      }
+    ]
+  },
+  {
+    "id": "tm-sleep-05",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "set",
+    "title": "Mint checked pyjama set",
+    "th": "ชุดนอนลายตารางสีมิ้นต์",
+    "description": "A mint checked short-sleeve pyjama shirt and matching shorts.",
+    "descriptionTh": "ชุดนอนเสื้อแขนสั้นลายตารางสีมิ้นต์ พร้อมกางเกงขาสั้นเข้าชุด",
+    "images": [
+      {
+        "src": "/media/products/tm/sleep-05.webp",
+        "alt": "Mint checked pyjama set — full product view",
+        "th": "ชุดนอนลายตารางสีมิ้นต์ — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/sleep-06.webp",
+        "alt": "Mint checked pyjama set — additional view 2",
+        "th": "ชุดนอนลายตารางสีมิ้นต์ — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/sleep-07.webp",
+        "alt": "Mint checked pyjama set — additional view 3",
+        "th": "ชุดนอนลายตารางสีมิ้นต์ — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-sleep-08",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "set",
+    "title": "Blue polka-dot pyjama set",
+    "th": "ชุดนอนลายจุดสีฟ้า",
+    "description": "A blue and white polka-dot pyjama shirt and matching shorts.",
+    "descriptionTh": "ชุดนอนเสื้อลายจุดสีฟ้าและขาว พร้อมกางเกงขาสั้นเข้าชุด",
+    "images": [
+      {
+        "src": "/media/products/tm/sleep-08.webp",
+        "alt": "Blue polka-dot pyjama set — full product view",
+        "th": "ชุดนอนลายจุดสีฟ้า — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/sleep-09.webp",
+        "alt": "Blue polka-dot pyjama set — additional view 2",
+        "th": "ชุดนอนลายจุดสีฟ้า — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-sleep-10",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "set",
+    "title": "Pink long-sleeve pyjama set",
+    "th": "ชุดนอนเสื้อแขนยาวสีชมพู",
+    "description": "A pink printed long-sleeve pyjama shirt and matching shorts.",
+    "descriptionTh": "ชุดนอนเสื้อแขนยาวพิมพ์ลายสีชมพู พร้อมกางเกงขาสั้นเข้าชุด",
+    "images": [
+      {
+        "src": "/media/products/tm/sleep-10.webp",
+        "alt": "Pink long-sleeve pyjama set — full product view",
+        "th": "ชุดนอนเสื้อแขนยาวสีชมพู — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/sleep-11.webp",
+        "alt": "Pink long-sleeve pyjama set — additional view 2",
+        "th": "ชุดนอนเสื้อแขนยาวสีชมพู — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/sleep-12.webp",
+        "alt": "Pink long-sleeve pyjama set — additional view 3",
+        "th": "ชุดนอนเสื้อแขนยาวสีชมพู — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-sleep-13",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "set",
+    "title": "Yellow printed pyjama set",
+    "th": "ชุดนอนพิมพ์ลายสีเหลือง",
+    "description": "A pale yellow short-sleeve pyjama shirt and matching shorts.",
+    "descriptionTh": "ชุดนอนเสื้อแขนสั้นสีเหลืองอ่อน พร้อมกางเกงขาสั้นเข้าชุด",
+    "images": [
+      {
+        "src": "/media/products/tm/sleep-13.webp",
+        "alt": "Yellow printed pyjama set — full product view",
+        "th": "ชุดนอนพิมพ์ลายสีเหลือง — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/sleep-14.webp",
+        "alt": "Yellow printed pyjama set — additional view 2",
+        "th": "ชุดนอนพิมพ์ลายสีเหลือง — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/sleep-15.webp",
+        "alt": "Yellow printed pyjama set — additional view 3",
+        "th": "ชุดนอนพิมพ์ลายสีเหลือง — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-sleep-16",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "shirt",
+    "title": "Blue cartoon-print sleep shirt",
+    "th": "เสื้อนอนลายการ์ตูนสีฟ้า",
+    "description": "A short-sleeve blue sleep shirt with a cartoon print.",
+    "descriptionTh": "เสื้อนอนแขนสั้นสีฟ้าพิมพ์ลายการ์ตูน",
+    "images": [
+      {
+        "src": "/media/products/tm/sleep-16.webp",
+        "alt": "Blue cartoon-print sleep shirt — full product view",
+        "th": "เสื้อนอนลายการ์ตูนสีฟ้า — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-sleep-17",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "shirt",
+    "title": "Cherry-print sleep shirt",
+    "th": "เสื้อนอนลายเชอร์รี",
+    "description": "A white cherry-print sleep shirt with a rounded collar and two pockets.",
+    "descriptionTh": "เสื้อนอนสีขาวลายเชอร์รี คอปกมนและกระเป๋าสองข้าง",
+    "images": [
+      {
+        "src": "/media/products/tm/sleep-17.webp",
+        "alt": "Cherry-print sleep shirt — full product view",
+        "th": "เสื้อนอนลายเชอร์รี — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-sleep-18",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "shirt",
+    "title": "Pink gingham sleep shirt",
+    "th": "เสื้อนอนลายตารางสีชมพู",
+    "description": "A pink gingham sleep shirt with a rounded collar and two pockets.",
+    "descriptionTh": "เสื้อนอนลายตารางสีชมพู คอปกมนและกระเป๋าสองข้าง",
+    "images": [
+      {
+        "src": "/media/products/tm/sleep-18.webp",
+        "alt": "Pink gingham sleep shirt — full product view",
+        "th": "เสื้อนอนลายตารางสีชมพู — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-sleep-19",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "shirt",
+    "title": "Cream dotted sleep shirt",
+    "th": "เสื้อนอนลายจุดสีครีม",
+    "description": "A cream dotted sleep shirt with a rounded collar and two pockets.",
+    "descriptionTh": "เสื้อนอนลายจุดสีครีม คอปกมนและกระเป๋าสองข้าง",
+    "images": [
+      {
+        "src": "/media/products/tm/sleep-19.webp",
+        "alt": "Cream dotted sleep shirt — full product view",
+        "th": "เสื้อนอนลายจุดสีครีม — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-sleep-20",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "shirt",
+    "title": "Pink plaid sleep shirt",
+    "th": "เสื้อนอนลายสก็อตสีชมพู",
+    "description": "A pink plaid sleep shirt with a rounded collar and two pockets.",
+    "descriptionTh": "เสื้อนอนลายสก็อตสีชมพู คอปกมนและกระเป๋าสองข้าง",
+    "images": [
+      {
+        "src": "/media/products/tm/sleep-20.webp",
+        "alt": "Pink plaid sleep shirt — full product view",
+        "th": "เสื้อนอนลายสก็อตสีชมพู — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-sleep-21",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "set",
+    "title": "Cherry camisole pyjama set",
+    "th": "ชุดนอนสายเดี่ยวลายเชอร์รี",
+    "description": "A pink cherry-print camisole and matching shorts.",
+    "descriptionTh": "ชุดนอนเสื้อสายเดี่ยวสีชมพูลายเชอร์รี พร้อมกางเกงขาสั้นเข้าชุด",
+    "images": [
+      {
+        "src": "/media/products/tm/sleep-21.webp",
+        "alt": "Cherry camisole pyjama set — full product view",
+        "th": "ชุดนอนสายเดี่ยวลายเชอร์รี — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/sleep-22.webp",
+        "alt": "Cherry camisole pyjama set — additional view 2",
+        "th": "ชุดนอนสายเดี่ยวลายเชอร์รี — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-elephant-01",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "shirt",
+    "title": "White elephant-motif shirt",
+    "th": "เสื้อสีขาวลายช้างที่อก",
+    "description": "A white short-sleeve shirt with a split neckline and small chest motif.",
+    "descriptionTh": "เสื้อแขนสั้นสีขาว คอผ่าหน้าและลายช้างขนาดเล็กที่อก",
+    "images": [
+      {
+        "src": "/media/products/tm/elephant-01.webp",
+        "alt": "White elephant-motif shirt — full product view",
+        "th": "เสื้อสีขาวลายช้างที่อก — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/elephant-02.webp",
+        "alt": "White elephant-motif shirt — additional view 2",
+        "th": "เสื้อสีขาวลายช้างที่อก — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-elephant-03",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "shirt",
+    "title": "Navy elephant-print shirt",
+    "th": "เสื้อพิมพ์ลายช้างสีกรมท่า",
+    "description": "A navy and white elephant-print short-sleeve collared shirt.",
+    "descriptionTh": "เสื้อเชิ้ตแขนสั้นพิมพ์ลายช้างสีกรมท่าและขาว",
+    "images": [
+      {
+        "src": "/media/products/tm/elephant-03.webp",
+        "alt": "Navy elephant-print shirt — full product view",
+        "th": "เสื้อพิมพ์ลายช้างสีกรมท่า — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-elephant-04",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "shirt",
+    "title": "White elephant-print shirt",
+    "th": "เสื้อพิมพ์ลายช้างสีขาว",
+    "description": "A white and grey elephant-print short-sleeve collared shirt.",
+    "descriptionTh": "เสื้อเชิ้ตแขนสั้นพิมพ์ลายช้างสีขาวและเทา",
+    "images": [
+      {
+        "src": "/media/products/tm/elephant-04.webp",
+        "alt": "White elephant-print shirt — full product view",
+        "th": "เสื้อพิมพ์ลายช้างสีขาว — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-elephant-05",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "shirt",
+    "title": "Navy cropped elephant shirt",
+    "th": "เสื้อครอปลายช้างสีกรมท่า",
+    "description": "A cropped navy elephant-print shirt, shown from the front and back.",
+    "descriptionTh": "เสื้อครอปพิมพ์ลายช้างสีกรมท่า มีภาพด้านหน้าและด้านหลัง",
+    "images": [
+      {
+        "src": "/media/products/tm/elephant-05.webp",
+        "alt": "Navy cropped elephant shirt — full product view",
+        "th": "เสื้อครอปลายช้างสีกรมท่า — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/elephant-06.webp",
+        "alt": "Navy cropped elephant shirt — additional view 2",
+        "th": "เสื้อครอปลายช้างสีกรมท่า — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-elephant-07",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "shirt",
+    "title": "Pink cropped elephant shirt",
+    "th": "เสื้อครอปลายช้างสีชมพู",
+    "description": "A cropped pink elephant-print shirt, shown from the front and back.",
+    "descriptionTh": "เสื้อครอปพิมพ์ลายช้างสีชมพู มีภาพด้านหน้าและด้านหลัง",
+    "images": [
+      {
+        "src": "/media/products/tm/elephant-07.webp",
+        "alt": "Pink cropped elephant shirt — full product view",
+        "th": "เสื้อครอปลายช้างสีชมพู — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/elephant-08.webp",
+        "alt": "Pink cropped elephant shirt — additional view 2",
+        "th": "เสื้อครอปลายช้างสีชมพู — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-elephant-09",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "set",
+    "title": "Black elephant co-ord set",
+    "th": "ชุดเสื้อและกางเกงขาสั้นลายช้างสีดำ",
+    "description": "A black and white elephant-print shirt and matching shorts.",
+    "descriptionTh": "เสื้อพิมพ์ลายช้างสีดำและขาว พร้อมกางเกงขาสั้นเข้าชุด",
+    "images": [
+      {
+        "src": "/media/products/tm/elephant-09.webp",
+        "alt": "Black elephant co-ord set — full product view",
+        "th": "ชุดเสื้อและกางเกงขาสั้นลายช้างสีดำ — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-elephant-10",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "set",
+    "title": "Blue elephant co-ord set",
+    "th": "ชุดเสื้อและกางเกงขาสั้นลายช้างสีฟ้า",
+    "description": "A blue and white elephant-print shirt and matching shorts.",
+    "descriptionTh": "เสื้อพิมพ์ลายช้างสีฟ้าและขาว พร้อมกางเกงขาสั้นเข้าชุด",
+    "images": [
+      {
+        "src": "/media/products/tm/elephant-10.webp",
+        "alt": "Blue elephant co-ord set — full product view",
+        "th": "ชุดเสื้อและกางเกงขาสั้นลายช้างสีฟ้า — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-elephant-11",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "shorts",
+    "title": "Ochre elephant-print shorts",
+    "th": "กางเกงขาสั้นลายช้างสีเหลืองน้ำตาล",
+    "description": "Ochre, black and white elephant-print shorts with an elastic waist.",
+    "descriptionTh": "กางเกงขาสั้นลายช้างสีเหลืองน้ำตาล ดำ และขาว เอวยางยืด",
+    "images": [
+      {
+        "src": "/media/products/tm/elephant-11.webp",
+        "alt": "Ochre elephant-print shorts — full product view",
+        "th": "กางเกงขาสั้นลายช้างสีเหลืองน้ำตาล — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-elephant-12",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "trousers",
+    "title": "Navy geometric elephant trousers",
+    "th": "กางเกงขายาวลายช้างเรขาคณิตสีกรมท่า",
+    "description": "Navy and cream elephant-print trousers with geometric borders.",
+    "descriptionTh": "กางเกงขายาวลายช้างสีกรมท่าและครีม พร้อมลายขอบเรขาคณิต",
+    "images": [
+      {
+        "src": "/media/products/tm/elephant-12.webp",
+        "alt": "Navy geometric elephant trousers — full product view",
+        "th": "กางเกงขายาวลายช้างเรขาคณิตสีกรมท่า — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/elephant-13.webp",
+        "alt": "Navy geometric elephant trousers — additional view 2",
+        "th": "กางเกงขายาวลายช้างเรขาคณิตสีกรมท่า — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/elephant-14.webp",
+        "alt": "Navy geometric elephant trousers — additional view 3",
+        "th": "กางเกงขายาวลายช้างเรขาคณิตสีกรมท่า — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-elephant-15",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "trousers",
+    "title": "Black and white elephant trousers",
+    "th": "กางเกงขายาวลายช้างสีดำและขาว",
+    "description": "Black and white elephant-print trousers with an elastic waist.",
+    "descriptionTh": "กางเกงขายาวพิมพ์ลายช้างสีดำและขาว เอวยางยืด",
+    "images": [
+      {
+        "src": "/media/products/tm/elephant-15.webp",
+        "alt": "Black and white elephant trousers — full product view",
+        "th": "กางเกงขายาวลายช้างสีดำและขาว — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/elephant-16.webp",
+        "alt": "Black and white elephant trousers — additional view 2",
+        "th": "กางเกงขายาวลายช้างสีดำและขาว — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-elephant-17",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "trousers",
+    "title": "Black and tan elephant trousers",
+    "th": "กางเกงขายาวลายช้างสีดำและน้ำตาลอ่อน",
+    "description": "Black and tan elephant-print trousers with an elastic waist.",
+    "descriptionTh": "กางเกงขายาวพิมพ์ลายช้างสีดำและน้ำตาลอ่อน เอวยางยืด",
+    "images": [
+      {
+        "src": "/media/products/tm/elephant-17.webp",
+        "alt": "Black and tan elephant trousers — full product view",
+        "th": "กางเกงขายาวลายช้างสีดำและน้ำตาลอ่อน — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/elephant-18.webp",
+        "alt": "Black and tan elephant trousers — additional view 2",
+        "th": "กางเกงขายาวลายช้างสีดำและน้ำตาลอ่อน — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-elephant-19",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "trousers",
+    "title": "Navy and tan elephant trousers",
+    "th": "กางเกงขายาวลายช้างสีกรมท่าและน้ำตาลอ่อน",
+    "description": "Navy and tan elephant-print trousers with an elastic waist.",
+    "descriptionTh": "กางเกงขายาวพิมพ์ลายช้างสีกรมท่าและน้ำตาลอ่อน เอวยางยืด",
+    "images": [
+      {
+        "src": "/media/products/tm/elephant-19.webp",
+        "alt": "Navy and tan elephant trousers — full product view",
+        "th": "กางเกงขายาวลายช้างสีกรมท่าและน้ำตาลอ่อน — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/elephant-20.webp",
+        "alt": "Navy and tan elephant trousers — additional view 2",
+        "th": "กางเกงขายาวลายช้างสีกรมท่าและน้ำตาลอ่อน — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-elephant-21",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "trousers",
+    "title": "Pink geometric elephant trousers",
+    "th": "กางเกงขายาวลายช้างเรขาคณิตสีชมพู",
+    "description": "Pink elephant-print trousers with geometric bands and a drawstring waist.",
+    "descriptionTh": "กางเกงขายาวลายช้างสีชมพู มีลายแถบเรขาคณิตและเอวผูกเชือก",
+    "images": [
+      {
+        "src": "/media/products/tm/elephant-21.webp",
+        "alt": "Pink geometric elephant trousers — full product view",
+        "th": "กางเกงขายาวลายช้างเรขาคณิตสีชมพู — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-elephant-22",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "trousers",
+    "title": "Plum elephant-print trousers",
+    "th": "กางเกงขายาวลายช้างสีม่วงพลัม",
+    "description": "Plum and white elephant-print trousers with an elastic waist.",
+    "descriptionTh": "กางเกงขายาวพิมพ์ลายช้างสีม่วงพลัมและขาว เอวยางยืด",
+    "images": [
+      {
+        "src": "/media/products/tm/elephant-22.webp",
+        "alt": "Plum elephant-print trousers — full product view",
+        "th": "กางเกงขายาวลายช้างสีม่วงพลัม — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/elephant-23.webp",
+        "alt": "Plum elephant-print trousers — additional view 2",
+        "th": "กางเกงขายาวลายช้างสีม่วงพลัม — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-elephant-25",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "trousers",
+    "title": "Pink medallion elephant trousers",
+    "th": "กางเกงขายาวลายช้างเมดัลเลียนสีชมพู",
+    "description": "Pink wide-leg elephant-print trousers with a tie waist and medallion borders.",
+    "descriptionTh": "กางเกงขายาวขากว้างลายช้างสีชมพู เอวผูกและลายขอบเมดัลเลียน",
+    "images": [
+      {
+        "src": "/media/products/tm/elephant-25.webp",
+        "alt": "Pink medallion elephant trousers — full product view",
+        "th": "กางเกงขายาวลายช้างเมดัลเลียนสีชมพู — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/elephant-24.webp",
+        "alt": "Pink medallion elephant trousers — additional view 2",
+        "th": "กางเกงขายาวลายช้างเมดัลเลียนสีชมพู — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-elephant-26",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "trousers",
+    "title": "Pink diamond elephant trousers",
+    "th": "กางเกงขายาวลายช้างข้าวหลามตัดสีชมพู",
+    "description": "Pink elephant-print trousers with diamond motifs and a tie waist.",
+    "descriptionTh": "กางเกงขายาวลายช้างสีชมพู มีลายข้าวหลามตัดและเอวผูก",
+    "images": [
+      {
+        "src": "/media/products/tm/elephant-26.webp",
+        "alt": "Pink diamond elephant trousers — full product view",
+        "th": "กางเกงขายาวลายช้างข้าวหลามตัดสีชมพู — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/elephant-27.webp",
+        "alt": "Pink diamond elephant trousers — additional view 2",
+        "th": "กางเกงขายาวลายช้างข้าวหลามตัดสีชมพู — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-elephant-28",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "shirt",
+    "title": "Ivory and blue elephant shirt",
+    "th": "เสื้อพิมพ์ลายช้างสีงาช้างและฟ้า",
+    "description": "An ivory and blue elephant-print collared shirt with short sleeves.",
+    "descriptionTh": "เสื้อเชิ้ตแขนสั้นพิมพ์ลายช้างสีงาช้างและฟ้า",
+    "images": [
+      {
+        "src": "/media/products/tm/elephant-28.webp",
+        "alt": "Ivory and blue elephant shirt — full product view",
+        "th": "เสื้อพิมพ์ลายช้างสีงาช้างและฟ้า — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/elephant-29.webp",
+        "alt": "Ivory and blue elephant shirt — additional view 2",
+        "th": "เสื้อพิมพ์ลายช้างสีงาช้างและฟ้า — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-elephant-30",
+    "audience": "adults",
+    "category": "skirts",
+    "shape": "skirt",
+    "title": "Ivory and blue elephant skirt",
+    "th": "กระโปรงพิมพ์ลายช้างสีงาช้างและฟ้า",
+    "description": "A long ivory and blue elephant-print skirt with an elastic waist and patterned border.",
+    "descriptionTh": "กระโปรงยาวลายช้างสีงาช้างและฟ้า เอวยางยืดและลายขอบ",
+    "images": [
+      {
+        "src": "/media/products/tm/elephant-30.webp",
+        "alt": "Ivory and blue elephant skirt — full product view",
+        "th": "กระโปรงพิมพ์ลายช้างสีงาช้างและฟ้า — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/elephant-31.webp",
+        "alt": "Ivory and blue elephant skirt — additional view 2",
+        "th": "กระโปรงพิมพ์ลายช้างสีงาช้างและฟ้า — ภาพเพิ่มเติม 2"
+      },
+      {
+        "src": "/media/products/tm/elephant-32.webp",
+        "alt": "Ivory and blue elephant skirt — additional view 3",
+        "th": "กระโปรงพิมพ์ลายช้างสีงาช้างและฟ้า — ภาพเพิ่มเติม 3"
+      }
+    ]
+  },
+  {
+    "id": "tm-dress-01",
+    "audience": "adults",
+    "category": "dresses",
+    "shape": "dress",
+    "title": "Olive botanical sleeveless dress",
+    "th": "เดรสแขนกุดลายพฤกษาสีเขียวมะกอก",
+    "description": "A long sleeveless botanical-print dress, shown from the front and back.",
+    "descriptionTh": "เดรสยาวแขนกุดพิมพ์ลายพฤกษา มีภาพด้านหน้าและด้านหลัง",
+    "images": [
+      {
+        "src": "/media/products/tm/dress-01.webp",
+        "alt": "Olive botanical sleeveless dress — full product view",
+        "th": "เดรสแขนกุดลายพฤกษาสีเขียวมะกอก — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/dress-02.webp",
+        "alt": "Olive botanical sleeveless dress — additional view 2",
+        "th": "เดรสแขนกุดลายพฤกษาสีเขียวมะกอก — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-dress-03",
+    "audience": "adults",
+    "category": "dresses",
+    "shape": "dress",
+    "title": "Patchwork-print sleeveless dress",
+    "th": "เดรสแขนกุดพิมพ์ลายแพตช์เวิร์ก",
+    "description": "A long sleeveless dress with a multicolour patchwork print.",
+    "descriptionTh": "เดรสยาวแขนกุด พิมพ์ลายแพตช์เวิร์กหลายสี",
+    "images": [
+      {
+        "src": "/media/products/tm/dress-03.webp",
+        "alt": "Patchwork-print sleeveless dress — full product view",
+        "th": "เดรสแขนกุดพิมพ์ลายแพตช์เวิร์ก — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/dress-04.webp",
+        "alt": "Patchwork-print sleeveless dress — additional view 2",
+        "th": "เดรสแขนกุดพิมพ์ลายแพตช์เวิร์ก — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-dress-05",
+    "audience": "adults",
+    "category": "dresses",
+    "shape": "dress",
+    "title": "Blue floral shirt dress",
+    "th": "เดรสเชิ้ตลายดอกสีฟ้า",
+    "description": "A blue floral collared shirt dress with a waist tie.",
+    "descriptionTh": "เดรสเชิ้ตคอปกลายดอกสีฟ้า พร้อมสายผูกเอว",
+    "images": [
+      {
+        "src": "/media/products/tm/dress-05.webp",
+        "alt": "Blue floral shirt dress — full product view",
+        "th": "เดรสเชิ้ตลายดอกสีฟ้า — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-dress-06",
+    "audience": "adults",
+    "category": "dresses",
+    "shape": "dress",
+    "title": "Black geometric shirt dress",
+    "th": "เดรสเชิ้ตลายเรขาคณิตสีดำ",
+    "description": "A black and white geometric shirt dress with short sleeves and a collar.",
+    "descriptionTh": "เดรสเชิ้ตลายเรขาคณิตสีดำและขาว แขนสั้นและคอปก",
+    "images": [
+      {
+        "src": "/media/products/tm/dress-06.webp",
+        "alt": "Black geometric shirt dress — full product view",
+        "th": "เดรสเชิ้ตลายเรขาคณิตสีดำ — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/dress-07.webp",
+        "alt": "Black geometric shirt dress — additional view 2",
+        "th": "เดรสเชิ้ตลายเรขาคณิตสีดำ — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-hawaiian-01",
+    "audience": "adults",
+    "category": "shirts",
+    "subcategory": "hawaiian-shirts",
+    "shape": "shirt",
+    "title": "Warm floral Hawaiian shirt",
+    "th": "เสื้อฮาวายลายดอกโทนสีอุ่น",
+    "description": "A short-sleeve open-collar shirt with a multicolour floral print.",
+    "descriptionTh": "เสื้อแขนสั้นคอปกเปิด พิมพ์ลายดอกหลายสี",
+    "images": [
+      {
+        "src": "/media/products/tm/hawaiian-01.webp",
+        "alt": "Warm floral Hawaiian shirt — full product view",
+        "th": "เสื้อฮาวายลายดอกโทนสีอุ่น — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-hawaiian-02",
+    "audience": "adults",
+    "category": "shirts",
+    "subcategory": "hawaiian-shirts",
+    "shape": "shirt",
+    "title": "Blue and yellow Hawaiian shirt",
+    "th": "เสื้อฮาวายลายดอกสีฟ้าและเหลือง",
+    "description": "A white open-collar shirt with blue leaves and yellow flowers.",
+    "descriptionTh": "เสื้อคอปกเปิดสีขาว พิมพ์ลายใบไม้สีฟ้าและดอกสีเหลือง",
+    "images": [
+      {
+        "src": "/media/products/tm/hawaiian-02.webp",
+        "alt": "Blue and yellow Hawaiian shirt — full product view",
+        "th": "เสื้อฮาวายลายดอกสีฟ้าและเหลือง — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-hawaiian-03",
+    "audience": "adults",
+    "category": "shirts",
+    "subcategory": "hawaiian-shirts",
+    "shape": "shirt",
+    "title": "Pale blue tropical Hawaiian shirt",
+    "th": "เสื้อฮาวายลายทรอปิคอลสีฟ้าอ่อน",
+    "description": "A pale blue short-sleeve shirt with a tropical print and open collar.",
+    "descriptionTh": "เสื้อแขนสั้นสีฟ้าอ่อน พิมพ์ลายทรอปิคอลและคอปกเปิด",
+    "images": [
+      {
+        "src": "/media/products/tm/hawaiian-03.webp",
+        "alt": "Pale blue tropical Hawaiian shirt — full product view",
+        "th": "เสื้อฮาวายลายทรอปิคอลสีฟ้าอ่อน — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-hawaiian-04",
+    "audience": "adults",
+    "category": "shirts",
+    "subcategory": "hawaiian-shirts",
+    "shape": "shirt",
+    "title": "Green floral Hawaiian shirt",
+    "th": "เสื้อฮาวายลายดอกสีเขียว",
+    "description": "A green and yellow floral short-sleeve shirt with an open collar.",
+    "descriptionTh": "เสื้อแขนสั้นลายดอกสีเขียวและเหลือง คอปกเปิด",
+    "images": [
+      {
+        "src": "/media/products/tm/hawaiian-04.webp",
+        "alt": "Green floral Hawaiian shirt — full product view",
+        "th": "เสื้อฮาวายลายดอกสีเขียว — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-hawaiian-05",
+    "audience": "adults",
+    "category": "shirts",
+    "subcategory": "hawaiian-shirts",
+    "shape": "shirt",
+    "title": "Brown floral Hawaiian shirt",
+    "th": "เสื้อฮาวายลายดอกสีน้ำตาล",
+    "description": "A brown and white floral short-sleeve shirt with an open collar.",
+    "descriptionTh": "เสื้อแขนสั้นลายดอกสีน้ำตาลและขาว คอปกเปิด",
+    "images": [
+      {
+        "src": "/media/products/tm/hawaiian-05.webp",
+        "alt": "Brown floral Hawaiian shirt — full product view",
+        "th": "เสื้อฮาวายลายดอกสีน้ำตาล — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  },
+  {
+    "id": "tm-jacket-01",
+    "audience": "adults",
+    "category": "shirts",
+    "subcategory": "jackets",
+    "shape": "jacket",
+    "title": "Cream cropped zip jacket",
+    "th": "แจ็กเก็ตครอปสีครีมซิปหน้า",
+    "description": "A cream cropped jacket with a front zip and collar.",
+    "descriptionTh": "แจ็กเก็ตครอปสีครีม มีซิปด้านหน้าและคอปก",
+    "images": [
+      {
+        "src": "/media/products/tm/jacket-01.webp",
+        "alt": "Cream cropped zip jacket — full product view",
+        "th": "แจ็กเก็ตครอปสีครีมซิปหน้า — ภาพสินค้าทั้งตัว"
+      },
+      {
+        "src": "/media/products/tm/jacket-02.webp",
+        "alt": "Cream cropped zip jacket — additional view 2",
+        "th": "แจ็กเก็ตครอปสีครีมซิปหน้า — ภาพเพิ่มเติม 2"
+      }
+    ]
+  },
+  {
+    "id": "tm-shirt-01",
+    "audience": "adults",
+    "category": "shirts",
+    "shape": "shirt",
+    "title": "Pink checked cropped shirt",
+    "th": "เสื้อเชิ้ตครอปลายตารางสีชมพู",
+    "description": "A pink checked cropped shirt with a contrasting collar and patch pocket.",
+    "descriptionTh": "เสื้อเชิ้ตครอปลายตารางสีชมพู คอปกสีตัดและกระเป๋าปะ",
+    "images": [
+      {
+        "src": "/media/products/tm/shirt-01.webp",
+        "alt": "Pink checked cropped shirt — full product view",
+        "th": "เสื้อเชิ้ตครอปลายตารางสีชมพู — ภาพสินค้าทั้งตัว"
+      }
+    ]
+  }
+]

@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { guides, guidePath } from "../src/content/guides.ts";
 const base = process.env.SITE_URL ?? "http://127.0.0.1:3000";
 const paths = [
   "/",
@@ -9,6 +10,7 @@ const paths = [
   "/technical-insights",
   "/start-your-project",
   "/contact",
+  ...guides.map((guide) => guidePath(guide.slug)),
 ];
 const routes = ["th", "en"].flatMap((locale) =>
   paths.map((path) => `/${locale}${path === "/" ? "" : path}`),
@@ -80,14 +82,20 @@ const crossOrigin = await fetch(base + "/api/enquiries", {
   body: valid,
 });
 assert.equal(crossOrigin.status, 403);
-// This check is intentionally limited to an unconfigured local delivery endpoint.
+// Run only against local mock mode or an unconfigured live delivery endpoint.
 const delivery = await fetch(base + "/api/enquiries", {
   method: "POST",
   headers: { Origin: new URL(base).origin },
   body: valid,
 });
-assert.equal(delivery.status, 503);
-assert.match((await delivery.json()).message, /has not been sent/);
+const outcome = await delivery.json();
+if (delivery.status === 200) {
+  assert.equal(outcome.mock, true);
+  assert.equal(outcome.delivered, false);
+} else {
+  assert.equal(delivery.status, 503);
+}
+assert.match(outcome.message, /(?:No enquiry has been sent|has not been sent)/);
 console.log(
-  `Verified ${routes.length} routes, ${links.size} internal links, ${media.size} rendered assets, 404 handling, validation, origin checks, and explicit unconfigured delivery.`,
+  `Verified ${routes.length} routes, ${links.size} internal links, ${media.size} rendered assets, 404 handling, validation, origin checks, and explicit mock/unconfigured delivery.`,
 );

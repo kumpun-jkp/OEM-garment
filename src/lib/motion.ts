@@ -1,11 +1,6 @@
-// Animate existing content without changing its server-rendered structure.
-// Nothing is hidden before hydration or when browser animation APIs are absent.
-
-/* ── reveal targets ─────────────────────────────────────────────────── */
-
+﻿// Motion enhances visible server content. Never hide a whole section or move
+// both a card and its children; interaction feedback remains independent.
 const revealTargets = [
-  ".hero-ribbon",
-  ".hero-columns > *",
   ".section-header",
   ".why-copy > *",
   ".home-facts > div",
@@ -29,234 +24,340 @@ const revealTargets = [
   ".split-label",
   ".faq-list",
 ].join(",");
-
-/* ── helpers ────────────────────────────────────────────────────────── */
-
-function getRevealDirection(
-  element: HTMLElement,
-): [number, number, number, number] {
-  // [startOpacity, startX, startY, startScale]
-  const parent = element.parentElement;
-  if (!parent) return [0, 0, 24, 1];
-
-  const siblings = Array.from(parent.children);
-  const index = siblings.indexOf(element);
-  const total = siblings.length;
-
-  // Grid items: alternate slide directions for visual interest
-  const isGridChild =
-    parent.classList.contains("home-reason-grid") ||
-    parent.classList.contains("home-quality-grid") ||
-    parent.classList.contains("stage-grid") ||
-    parent.classList.contains("showcase-grid") ||
-    parent.classList.contains("home-facts");
-
-  if (isGridChild) {
-    // Gentle sway: even items from left, odd from right
-    const sway = index % 2 === 0 ? -16 : 16;
-    return [0, sway, 16, 1];
-  }
-
-  // Metrics / facts: scale up gently
-  if (
-    parent.classList.contains("metrics") ||
-    parent.classList.contains("customer-logos")
-  ) {
-    return [0, 0, 12, 0.97];
-  }
-
-  // Default: gentle rise
-  return [0, 0, 24, 1];
-}
-
-/* ── easing curves ──────────────────────────────────────────────────── */
-
 const SILK_EASE = "cubic-bezier(0.22, 1, 0.36, 1)";
-const SILK_SETTLE = "cubic-bezier(0.25, 0.46, 0.45, 0.94)";
 
-/* ── parallax ──────────────────────────────────────────────────────── */
+const clamp = (value: number, min = 0, max = 1) =>
+  Math.max(min, Math.min(value, max));
 
-function attachParallax(surface: HTMLElement): () => void {
-  const heroImg = surface.querySelector<HTMLElement>(
-    ".home-hero .hero-background",
+// Keep every photo's maximum shift inside its scaled, clipped image area.
+export function silkPhotoDepth(
+  progress: number,
+  height: number,
+  compact: boolean,
+) {
+  const travel = Math.min(
+    compact ? 18 : 36,
+    Math.max(0, height) * (compact ? 0.04 : 0.07),
   );
-  if (!heroImg) return () => {};
-
-  let ticking = false;
-  const onScroll = () => {
-    if (ticking) return;
-    ticking = true;
-    requestAnimationFrame(() => {
-      const scrollY = window.scrollY;
-      const heroSection = heroImg.closest(".home-hero") as HTMLElement | null;
-      if (heroSection) {
-        const heroBottom =
-          heroSection.offsetTop + heroSection.offsetHeight;
-        if (scrollY < heroBottom) {
-          // Subtle parallax: image moves slower than scroll
-          const shift = scrollY * 0.15;
-          heroImg.style.transform = `translate3d(0, ${shift}px, 0) scale(1.05)`;
-        }
-      }
-      ticking = false;
-    });
-  };
-
-  window.addEventListener("scroll", onScroll, { passive: true });
-  onScroll();
-  return () => {
-    window.removeEventListener("scroll", onScroll);
-    heroImg.style.transform = "";
-  };
+  return { y: (clamp(progress) * 2 - 1) * travel, scale: compact ? 1.1 : 1.16 };
 }
 
-/* ── counter animation for stats ───────────────────────────────────── */
-
-function animateCounter(element: HTMLElement) {
-  const text = element.textContent?.trim() || "";
-  // Match numbers like "35+", "500,000+", "130", etc.
-  const match = text.match(/^([\d,]+)(\+?)$/);
-  if (!match) return;
-
-  const rawTarget = match[1].replace(/,/g, "");
-  const target = parseInt(rawTarget, 10);
-  const suffix = match[2] || "";
-  if (isNaN(target) || target <= 0) return;
-
-  const hasCommas = match[1].includes(",");
-  const duration = 1400;
-  const start = performance.now();
-
-  const format = (n: number) => {
-    if (hasCommas) return n.toLocaleString();
-    return String(n);
-  };
-
-  const step = (now: number) => {
-    const elapsed = now - start;
-    const progress = Math.min(elapsed / duration, 1);
-    // Ease out quart for a satisfying deceleration
-    const eased = 1 - Math.pow(1 - progress, 4);
-    const current = Math.round(eased * target);
-    element.textContent = format(current) + suffix;
-    if (progress < 1) requestAnimationFrame(step);
-  };
-
-  requestAnimationFrame(step);
+export function silkHeroDepth(
+  progress: number,
+  height: number,
+  compact: boolean,
+) {
+  const travel = Math.min(
+    compact ? 36 : 72,
+    Math.max(0, height) * (compact ? 0.055 : 0.085),
+  );
+  return { y: clamp(progress) * travel, scale: compact ? 1.12 : 1.18 };
 }
 
-/* ── section reveal (scroll-triggered fade of entire sections) ──── */
-
-function attachSectionReveals(surface: HTMLElement): () => void {
-  const sections = surface.querySelectorAll<HTMLElement>("section");
-  if (!sections.length) return () => {};
-
-  const observer = new IntersectionObserver(
-    (entries) => {
-      for (const entry of entries) {
-        const el = entry.target as HTMLElement;
-        if (entry.isIntersecting) {
-          el.classList.add("silk-section-visible");
-          observer.unobserve(el);
-        }
-      }
-    },
-    { rootMargin: "0px 0px -60px 0px", threshold: 0.01 },
+// Time-based easing keeps the same response across different refresh rates.
+// Only decorative layers trail the scroll; the document always scrolls natively.
+export function easeSilkScroll(
+  current: number,
+  target: number,
+  elapsed: number,
+  viewport: number,
+) {
+  if (Math.abs(target - current) > viewport || Math.abs(target - current) < 0.1)
+    return target;
+  return (
+    current + (target - current) * (1 - Math.exp(-Math.max(0, elapsed) / 95))
   );
-
-  sections.forEach((section) => {
-    if (!section.classList.contains("home-hero")) {
-      section.classList.add("silk-section");
-      observer.observe(section);
-    }
-  });
-
-  return () => observer.disconnect();
 }
 
-/* ── scroll-linked journey progress bar ────────────────────────────── */
+type ScrollLayer = {
+  element: HTMLElement;
+  box: HTMLElement;
+  kind: "photo" | "accent";
+  top: number;
+  height: number;
+  original: {
+    translate: string;
+    scale: string;
+    willChange: string;
+    flow: string;
+    marker: string | null;
+  };
+};
 
-function attachJourneyProgress(surface: HTMLElement): () => void {
-  const journey = document.querySelector<HTMLElement>(".home-journey");
-  if (!journey) return () => {};
-
-  // Create progress indicator
-  let progressBar = journey.querySelector<HTMLElement>(
-    ".journey-progress",
-  );
-  if (!progressBar) {
-    progressBar = document.createElement("div");
-    progressBar.className = "journey-progress";
-    journey.appendChild(progressBar);
+// One passive listener and a frame loop that stops as soon as movement settles.
+// Geometry reads are batched before writes, and cached between surface changes.
+function attachScrollEffects(surface: HTMLElement): {
+  stop: () => void;
+  refresh: () => void;
+} {
+  const hero = surface.querySelector<HTMLElement>(".home-hero");
+  const image = hero?.querySelector<HTMLElement>(".hero-background");
+  const foreground = hero?.querySelector<HTMLElement>(".hero-columns");
+  const header = document.querySelector<HTMLElement>(".site-header");
+  const journey = surface.querySelector<HTMLElement>(".home-journey");
+  const progress = journey ? document.createElement("div") : undefined;
+  if (progress) {
+    progress.className = "journey-progress";
+    progress.setAttribute("aria-hidden", "true");
+    journey!.appendChild(progress);
   }
+  const originalTransform = image?.style.transform ?? "";
+  const originalForeground = foreground?.style.transform ?? "";
+  const originalScrolled = header?.getAttribute("data-scrolled") ?? null;
+  const layers = new Map<HTMLElement, ScrollLayer>();
+  let frame: number | undefined;
+  let needsMeasure = true;
+  let heroTop = 0;
+  let heroHeight = 0;
+  let documentRange = 0;
+  let viewportHeight = window.innerHeight;
+  let compact = window.innerWidth <= 700;
+  let easedScroll = window.scrollY;
+  let lastTime = 0;
 
-  let ticking = false;
-  const onScroll = () => {
-    if (ticking) return;
-    ticking = true;
-    requestAnimationFrame(() => {
-      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-      const progress = Math.min(window.scrollY / docHeight, 1);
-      progressBar!.style.transform = `scaleX(${progress})`;
-      ticking = false;
-    });
+  const restoreLayer = (layer: ScrollLayer) => {
+    const { element, original, kind } = layer;
+    element.style.translate = original.translate;
+    element.style.scale = original.scale;
+    element.style.willChange = original.willChange;
+    if (original.flow) element.style.setProperty("--silk-flow", original.flow);
+    else element.style.removeProperty("--silk-flow");
+    const marker = kind === "photo" ? "data-silk-depth" : "data-silk-flow";
+    if (original.marker === null) element.removeAttribute(marker);
+    else element.setAttribute(marker, original.marker);
   };
 
-  window.addEventListener("scroll", onScroll, { passive: true });
-  onScroll();
-  return () => window.removeEventListener("scroll", onScroll);
+  const render = (time: number) => {
+    frame = undefined;
+    const scrollY = window.scrollY;
+    if (needsMeasure) {
+      viewportHeight = window.innerHeight;
+      compact = window.innerWidth <= 700;
+      heroTop = hero ? hero.getBoundingClientRect().top + scrollY : 0;
+      heroHeight = hero?.offsetHeight ?? 0;
+      documentRange = document.documentElement.scrollHeight - viewportHeight;
+      const present = new Set<HTMLElement>();
+      const measure = (
+        element: HTMLElement,
+        box: HTMLElement,
+        kind: ScrollLayer["kind"],
+      ) => {
+        present.add(element);
+        const bounds = box.getBoundingClientRect();
+        let layer = layers.get(element);
+        if (!layer) {
+          layer = {
+            element,
+            box,
+            kind,
+            top: 0,
+            height: 0,
+            original: {
+              translate: element.style.translate,
+              scale: element.style.scale,
+              willChange: element.style.willChange,
+              flow: element.style.getPropertyValue("--silk-flow"),
+              marker: element.getAttribute(
+                kind === "photo" ? "data-silk-depth" : "data-silk-flow",
+              ),
+            },
+          };
+          layers.set(element, layer);
+        }
+        layer.top = bounds.top + scrollY;
+        layer.height = bounds.height;
+      };
+      surface.querySelectorAll<HTMLElement>(".photo img").forEach((element) => {
+        // Horizontal shelves already have native motion. Keep off-screen shelf
+        // images out of the vertical parallax loop and preserve their framing.
+        if (element.closest(".shelf-track")) return;
+        const box = element.closest<HTMLElement>(".photo");
+        if (box) measure(element, box, "photo");
+      });
+      surface
+        .querySelectorAll<HTMLElement>(".section-header")
+        .forEach((element) => measure(element, element, "accent"));
+      // Start writes only after all measurements above have completed.
+      layers.forEach((layer, element) => {
+        if (!present.has(element)) {
+          restoreLayer(layer);
+          layers.delete(element);
+        } else
+          element.setAttribute(
+            layer.kind === "photo" ? "data-silk-depth" : "data-silk-flow",
+            "",
+          );
+      });
+      easedScroll = scrollY;
+      needsMeasure = false;
+    }
+    easedScroll = easeSilkScroll(
+      easedScroll,
+      scrollY,
+      lastTime ? Math.min(time - lastTime, 64) : 16,
+      viewportHeight,
+    );
+    lastTime = time;
+    if (image && heroHeight) {
+      const visible =
+        scrollY < heroTop + heroHeight && scrollY + viewportHeight > heroTop;
+      image.style.willChange = visible ? "transform" : "";
+      if (foreground) foreground.style.willChange = visible ? "transform" : "";
+      if (visible) {
+        const ratio = clamp((easedScroll - heroTop) / heroHeight);
+        const depth = silkHeroDepth(ratio, heroHeight, compact);
+        image.style.transform = `translate3d(0, ${depth.y}px, 0) scale(${depth.scale})`;
+        if (foreground)
+          foreground.style.transform = `translate3d(0, ${-ratio * (compact ? 18 : 36)}px, 0)`;
+      }
+    }
+    layers.forEach((layer) => {
+      const { element, kind, top, height } = layer;
+      const visible = scrollY < top + height && scrollY + viewportHeight > top;
+      if (kind === "photo") {
+        element.style.willChange = visible
+          ? "translate, scale, transform"
+          : layer.original.willChange;
+        if (!visible) return;
+        const ratio =
+          (easedScroll + viewportHeight - top) / (viewportHeight + height);
+        const depth = silkPhotoDepth(ratio, height, compact);
+        // Individual translate/scale compose with the existing CSS hover zoom.
+        element.style.translate = `0 ${depth.y}px`;
+        element.style.scale = String(depth.scale);
+      } else if (visible) {
+        element.style.setProperty(
+          "--silk-flow",
+          String(
+            clamp(
+              (easedScroll + viewportHeight - top) / (viewportHeight * 0.7),
+            ),
+          ),
+        );
+      }
+    });
+    if (header) header.toggleAttribute("data-scrolled", scrollY > 16);
+    if (progress) {
+      const ratio = documentRange > 0 ? clamp(easedScroll / documentRange) : 0;
+      progress.style.transform = `scaleX(${ratio})`;
+    }
+    if (Math.abs(easedScroll - scrollY) >= 0.1) schedule();
+  };
+  const schedule = () => {
+    if (frame === undefined) frame = requestAnimationFrame(render);
+  };
+  const resize = () => {
+    needsMeasure = true;
+    schedule();
+  };
+  const observer =
+    typeof ResizeObserver === "undefined"
+      ? undefined
+      : new ResizeObserver(resize);
+  observer?.observe(surface);
+  if (hero) observer?.observe(hero);
+  window.addEventListener("scroll", schedule, { passive: true });
+  window.addEventListener("resize", resize, { passive: true });
+  schedule();
+  const stop = () => {
+    window.removeEventListener("scroll", schedule);
+    window.removeEventListener("resize", resize);
+    observer?.disconnect();
+    if (frame !== undefined) cancelAnimationFrame(frame);
+    progress?.remove();
+    if (image) {
+      image.style.transform = originalTransform;
+      image.style.willChange = "";
+    }
+    if (foreground) {
+      foreground.style.transform = originalForeground;
+      foreground.style.willChange = "";
+    }
+    layers.forEach(restoreLayer);
+    if (header) {
+      if (originalScrolled === null) header.removeAttribute("data-scrolled");
+      else header.setAttribute("data-scrolled", originalScrolled);
+    }
+  };
+  return { stop, refresh: resize };
 }
 
-/* ── main motion attachment ────────────────────────────────────────── */
+export function animateCounter(element: HTMLElement): () => void {
+  const text = element.textContent?.trim() || "";
+  const match = text.match(/^([\d,]+)(\+?)$/);
+  if (!match) return () => {};
+  const target = parseInt(match[1].replace(/,/g, ""), 10);
+  if (isNaN(target) || target <= 0) return () => {};
+  const suffix = match[2] || "";
+  const hasCommas = match[1].includes(",");
+  const start = performance.now();
+  let frame: number | undefined;
+  let cancelled = false;
+  const step = (now: number) => {
+    if (cancelled) return;
+    const progress = Math.min((now - start) / 1100, 1);
+    const current = Math.round((1 - Math.pow(1 - progress, 4)) * target);
+    element.textContent =
+      (hasCommas ? current.toLocaleString() : String(current)) + suffix;
+    if (progress < 1) frame = requestAnimationFrame(step);
+    else {
+      frame = undefined;
+      element.textContent = text;
+    }
+  };
+  frame = requestAnimationFrame(step);
+  return () => {
+    cancelled = true;
+    if (frame !== undefined) cancelAnimationFrame(frame);
+    frame = undefined;
+    element.textContent = text;
+  };
+}
 
 export function attachSilkMotion(surface: HTMLElement) {
   if (!surface || !window.IntersectionObserver || !Element.prototype.animate)
     return;
-
-  const preference = window.matchMedia("(prefers-reduced-motion: reduce)");
   const animations = new Map<HTMLElement, Animation>();
   const observed = new Set<HTMLElement>();
+  const revealed = new WeakSet<HTMLElement>();
   const countersAnimated = new WeakSet<HTMLElement>();
+  const counters = new Map<HTMLElement, () => void>();
   let reveals: IntersectionObserver | undefined;
   let additions: MutationObserver | undefined;
-  let cleanupParallax: (() => void) | undefined;
-  let cleanupSections: (() => void) | undefined;
-  let cleanupJourney: (() => void) | undefined;
+  let scrollEffects: ReturnType<typeof attachScrollEffects> | undefined;
+  let scanFrame: number | undefined;
+  let running = false;
+  const pendingRoots = new Set<Element>();
 
   const settle = (element: HTMLElement) => {
     animations.get(element)?.cancel();
     animations.delete(element);
+    revealed.add(element);
     element.dataset.silkReveal = "settled";
   };
-
   const reveal = (element: HTMLElement) => {
     reveals?.unobserve(element);
-    // A focused control must be usable immediately, even during a reveal.
-    if (element.contains(document.activeElement)) return settle(element);
-
+    if (element.contains(document.activeElement) || !surface.contains(element))
+      return settle(element);
     const siblings = element.parentElement?.children;
     const index = siblings ? Array.from(siblings).indexOf(element) : 0;
-    const [startOpacity, startX, startY, startScale] =
-      getRevealDirection(element);
-
-    const fromTransform =
-      startScale !== 1
-        ? `translate3d(${startX}px, ${startY}px, 0) scale(${startScale})`
-        : `translate3d(${startX}px, ${startY}px, 0)`;
-
-    const toTransform =
-      startScale !== 1
-        ? "translate3d(0, 0, 0) scale(1)"
-        : "translate3d(0, 0, 0)";
-
+    // Individual translate leaves the card's CSS hover transform independent.
+    const distance = window.innerWidth <= 700 ? 20 : 36;
+    const card = element.matches(
+      "article, li, .project-card, .showcase-card, .capability-card",
+    );
     const animation = element.animate(
       [
-        { opacity: startOpacity, transform: fromTransform },
-        { opacity: 1, transform: toTransform },
+        {
+          opacity: 0.3,
+          translate: `0 ${distance}px`,
+          scale: card ? "0.985" : "1",
+        },
+        { opacity: 1, translate: "0 0", scale: "1" },
       ],
       {
-        duration: 800,
-        delay: Math.min(index, 4) * 80,
+        duration: 780,
+        delay: Math.min(Math.max(index, 0), 4) * 55,
         easing: SILK_EASE,
         fill: "backwards",
       },
@@ -264,97 +365,115 @@ export function attachSilkMotion(surface: HTMLElement) {
     element.dataset.silkReveal = "entering";
     animations.set(element, animation);
     animation.onfinish = () => settle(element);
+    const h2 = element.querySelector("h2");
+    if (
+      h2 &&
+      (element.parentElement?.classList.contains("home-facts") ||
+        element.parentElement?.classList.contains("metrics")) &&
+      !countersAnimated.has(h2)
+    ) {
+      countersAnimated.add(h2);
+      counters.set(h2, animateCounter(h2));
+    }
   };
-
   const stop = () => {
+    running = false;
     reveals?.disconnect();
     additions?.disconnect();
-    cleanupParallax?.();
-    cleanupSections?.();
-    cleanupJourney?.();
+    scrollEffects?.stop();
+    scrollEffects = undefined;
+    if (scanFrame !== undefined) cancelAnimationFrame(scanFrame);
+    scanFrame = undefined;
+    pendingRoots.clear();
+    counters.forEach((cancel) => cancel());
+    counters.clear();
     animations.forEach((_, element) => settle(element));
   };
-
-  const start = () => {
+  const sync = () => {
+    const enabled = !document.hidden;
+    if (enabled === running) return;
     stop();
-    if (preference.matches) return;
-
-    // Set up section-level reveals
-    cleanupSections = attachSectionReveals(surface);
-
-    // Set up parallax
-    cleanupParallax = attachParallax(surface);
-
-    // Set up journey progress
-    cleanupJourney = attachJourneyProgress(surface);
-
+    if (!enabled) {
+      surface
+        .getAnimations({ subtree: true })
+        .forEach((animation) => animation.cancel());
+      return;
+    }
+    running = true;
+    scrollEffects = attachScrollEffects(surface);
     reveals = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {
-          if (entry.isIntersecting) {
-            const el = entry.target as HTMLElement;
-            reveal(el);
-
-            // Animate counters for stats
-            if (el.tagName === "DIV") {
-              const h2 = el.querySelector("h2");
-              if (
-                h2 &&
-                (el.parentElement?.classList.contains("home-facts") ||
-                  el.parentElement?.classList.contains("metrics")) &&
-                !countersAnimated.has(h2)
-              ) {
-                countersAnimated.add(h2);
-                animateCounter(h2);
-              }
-            }
-          }
+          if (!entry.isIntersecting) continue;
+          const element = entry.target as HTMLElement;
+          // A large scroll jump must not hide content already above the viewport.
+          if (entry.boundingClientRect.bottom <= 0) settle(element);
+          else reveal(element);
         }
       },
-      { rootMargin: "0px 0px -24px 0px", threshold: 0 },
+      { rootMargin: "0px 0px 48px 0px", threshold: 0 },
     );
-
-    const scan = () => {
-      surface
-        .querySelectorAll<HTMLElement>(revealTargets)
-        .forEach((element) => {
-          // Keep each card atomic; nested photos should not move twice.
-          if (
-            observed.has(element) ||
-            element.parentElement?.closest(revealTargets)
-          )
-            return;
-          observed.add(element);
-          const bounds = element.getBoundingClientRect();
-          if (bounds.bottom <= 0 || element.contains(document.activeElement))
-            return settle(element);
-          if (bounds.top < window.innerHeight - 24) {
-            if (window.scrollY < 8) reveal(element);
-            else settle(element);
-          } else reveals?.observe(element);
-        });
+    const register = (element: HTMLElement) => {
+      if (
+        observed.has(element) ||
+        element.parentElement?.closest(revealTargets)
+      )
+        return;
+      observed.add(element);
+      if (revealed.has(element)) return;
+      const bounds = element.getBoundingClientRect();
+      // Already-visible content stays visible after hydration and mode changes.
+      if (
+        bounds.top < window.innerHeight ||
+        element.contains(document.activeElement)
+      )
+        settle(element);
+      else reveals?.observe(element);
+    };
+    const scan = (root: Element) => {
+      if (root !== surface && !surface.contains(root)) return;
+      if (root instanceof HTMLElement && root.matches(revealTargets))
+        register(root);
+      root.querySelectorAll<HTMLElement>(revealTargets).forEach(register);
     };
     observed.clear();
-    scan();
-    // Query filters and client navigation can replace cards without a new path.
-    additions = new MutationObserver(scan);
+    scan(surface);
+    additions = new MutationObserver((changes) => {
+      for (const change of changes) {
+        for (const node of change.addedNodes)
+          if (node instanceof Element) pendingRoots.add(node);
+      }
+      if (!pendingRoots.size || scanFrame !== undefined) return;
+      scanFrame = requestAnimationFrame(() => {
+        scanFrame = undefined;
+        for (const element of observed) {
+          if (surface.contains(element)) continue;
+          reveals?.unobserve(element);
+          animations.get(element)?.cancel();
+          animations.delete(element);
+          observed.delete(element);
+        }
+        pendingRoots.forEach(scan);
+        pendingRoots.clear();
+        scrollEffects?.refresh();
+      });
+    });
     additions.observe(surface, { childList: true, subtree: true });
   };
-
   const onInteract = (event: Event) => {
     if (!(event.target instanceof Element)) return;
     const element = event.target.closest<HTMLElement>("[data-silk-reveal]");
     if (element) settle(element);
   };
-  start();
-  preference.addEventListener("change", start);
+  sync();
+  document.addEventListener("visibilitychange", sync);
   surface.addEventListener("focusin", onInteract);
-  surface.addEventListener("pointerover", onInteract);
+  surface.addEventListener("pointerdown", onInteract);
   return () => {
     stop();
-    preference.removeEventListener("change", start);
+    document.removeEventListener("visibilitychange", sync);
     surface.removeEventListener("focusin", onInteract);
-    surface.removeEventListener("pointerover", onInteract);
+    surface.removeEventListener("pointerdown", onInteract);
     observed.forEach((element) => delete element.dataset.silkReveal);
   };
 }

@@ -3,15 +3,24 @@ import { AppIcon } from "@/components/app-icon";
 import { EnquiryForm } from "@/components/enquiry-form";
 import { Photo, DataRows } from "@/components/primitives";
 import { assets, company } from "@/content/site";
+import { garmentReferences } from "@/content/products";
+import {
+  enquiryDeliveryAvailable,
+  enquiryMockMode,
+  privacyPolicyHref,
+} from "@/lib/site-config";
 export const generateMetadata = pageMetadata("Start Your Project");
 export default async function Start({
   searchParams,
 }: {
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
-  const { t } = await getTranslations();
+  const { t, isThai } = await getTranslations();
 
   const params = await searchParams;
+  const reference = garmentReferences.find(
+    (item) => item.id === params.productId,
+  );
   return (
     <div className="start-page dark">
       <div className="container">
@@ -39,6 +48,17 @@ export default async function Start({
         <div className="start-grid">
           <EnquiryForm
             kind="project"
+            available={enquiryDeliveryAvailable()}
+            mock={enquiryMockMode()}
+            privacyHref={privacyPolicyHref()}
+            productReference={
+              reference
+                ? {
+                    id: reference.id,
+                    title: isThai ? reference.th : reference.title,
+                  }
+                : undefined
+            }
             initialStage={
               typeof params.stage === "string" ? params.stage : undefined
             }

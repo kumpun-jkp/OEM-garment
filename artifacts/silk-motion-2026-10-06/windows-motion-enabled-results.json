@@ -1,0 +1,88 @@
+{
+  "scope": "Owner enabled Windows Animation effects; approved Edge follow-up",
+  "browser": "Edge",
+  "chromeConnected": false,
+  "sourceChanges": false,
+  "checks": [
+    {
+      "check": "Reload after owner enabled Windows Animation effects",
+      "at": "2026-10-05T18:32:49.249Z",
+      "result": {
+        "horizontalOverflow": 0,
+        "motionButtonPressed": "true",
+        "osReducedMotion": false,
+        "progressElements": 1,
+        "scrollBehavior": "smooth",
+        "siteMotion": "smooth",
+        "transitionDurations": "0.18s, 0.18s, 0.18s, 0.26s, 0.22s",
+        "url": "http://127.0.0.1:3003/th",
+        "viewport": {
+          "height": 938,
+          "width": 2040
+        }
+      }
+    },
+    {
+      "check": "PageDown scroll feedback",
+      "at": "2026-10-05T18:33:03.433Z",
+      "result": {
+        "heroTransform": "translate3d(0px, 18.2471px, 0px) scale(1.08)",
+        "horizontalOverflow": 0,
+        "osReducedMotion": false,
+        "progressTransform": "scaleX(0.118306)",
+        "scrollY": 692.7999877929688,
+        "siteMotion": "smooth"
+      }
+    },
+    {
+      "check": "Settled process chapter navigation",
+      "at": "2026-10-05T18:33:12.179Z",
+      "result": {
+        "activeChapter": "#home-process",
+        "hiddenSections": 0,
+        "horizontalOverflow": 0,
+        "osReducedMotion": false,
+        "processTop": 155.6125030517578,
+        "scrollY": 4103.2001953125,
+        "siteMotion": "smooth",
+        "stickyNavigationBottom": 132.79999923706055
+      }
+    },
+    {
+      "check": "Rapid End/Home/End recovery",
+      "at": "2026-10-05T18:33:27.246Z",
+      "result": {
+        "hiddenSections": 0,
+        "horizontalOverflow": 0,
+        "osReducedMotion": false,
+        "progressElements": 1,
+        "siteMotion": "smooth"
+      }
+    },
+    {
+      "check": "Explicit reduced mode by keyboard with Windows effects enabled",
+      "at": "2026-10-05T18:33:27.453Z",
+      "result": {
+        "osReducedMotion": false,
+        "pressed": "false",
+        "progressElements": 0,
+        "scrollBehavior": "auto",
+        "siteMotion": "reduced"
+      }
+    },
+    {
+      "check": "Restored Smooth mode final state",
+      "at": "2026-10-05T18:33:37.414Z",
+      "result": {
+        "horizontalOverflow": 0,
+        "osReducedMotion": false,
+        "pressed": "true",
+        "progressElements": 1,
+        "scrollBehavior": "smooth",
+        "scrollY": 0,
+        "siteMotion": "smooth",
+        "url": "http://127.0.0.1:3003/th#home-process"
+      }
+    }
+  ]
+}

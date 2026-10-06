@@ -1,0 +1,331 @@
+{
+  "checkedAt": "2026-10-05T18:22:13.149Z",
+  "browser": "Microsoft Edge, explicitly approved for this Windows motion check",
+  "base": "http://127.0.0.1:3003",
+  "baseline": {
+    "reducedByWindows": true,
+    "buttonTransition": "0s"
+  },
+  "observations": [
+    {
+      "test": "reduced setting survives reload",
+      "mode": "smooth",
+      "scroll": "smooth"
+    },
+    {
+      "test": "home header responsiveness",
+      "actionRight": 1592.2000732421875,
+      "bodyScroll": "auto",
+      "buttonTransition": "0.16s",
+      "clientWidth": 1905,
+      "mode": "reduced",
+      "overflow": 0,
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "test": "home header responsiveness",
+      "actionRight": 1352.2000122070312,
+      "bodyScroll": "auto",
+      "buttonTransition": "0.16s",
+      "clientWidth": 1425,
+      "mode": "reduced",
+      "overflow": 0,
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "test": "home header responsiveness",
+      "actionRight": 1216.7999877929688,
+      "bodyScroll": "auto",
+      "buttonTransition": "0.16s",
+      "clientWidth": 1265,
+      "mode": "reduced",
+      "overflow": 0,
+      "viewport": [
+        1280,
+        800
+      ]
+    },
+    {
+      "test": "home header responsiveness",
+      "actionRight": 720.8000183105469,
+      "bodyScroll": "auto",
+      "buttonTransition": "0.16s",
+      "clientWidth": 753,
+      "mode": "reduced",
+      "overflow": 0,
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "test": "home header responsiveness",
+      "actionRight": 355.2000045776367,
+      "bodyScroll": "auto",
+      "buttonTransition": "0.16s",
+      "clientWidth": 375,
+      "mode": "reduced",
+      "overflow": 0,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "test": "home header responsiveness",
+      "actionRight": 284.7999954223633,
+      "bodyScroll": "auto",
+      "buttonTransition": "0.16s",
+      "clientWidth": 305,
+      "mode": "reduced",
+      "overflow": 0,
+      "viewport": [
+        320,
+        740
+      ]
+    },
+    {
+      "test": "final preference toggle and reload",
+      "before": {
+        "mode": "smooth",
+        "pressed": "true"
+      },
+      "after": {
+        "mode": "reduced",
+        "pressed": "false"
+      },
+      "reload": {
+        "mode": "reduced",
+        "pressed": "false"
+      }
+    },
+    {
+      "test": "reduced effect cleanup",
+      "result": {
+        "heroTransform": "matrix(1, 0, 0, 1, 0, 0)",
+        "mode": "reduced",
+        "pressed": "false",
+        "progress": 0,
+        "properties": "color, background-color, border-color, box-shadow, opacity",
+        "scroll": "auto"
+      }
+    },
+    {
+      "test": "final smooth responsive check",
+      "actionsInsideViewport": true,
+      "mode": "smooth",
+      "overflow": 0,
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "test": "final smooth responsive check",
+      "actionsInsideViewport": true,
+      "mode": "smooth",
+      "overflow": 0,
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "test": "final smooth responsive check",
+      "actionsInsideViewport": true,
+      "mode": "smooth",
+      "overflow": 0,
+      "viewport": [
+        1280,
+        800
+      ]
+    },
+    {
+      "test": "final smooth responsive check",
+      "actionsInsideViewport": true,
+      "mode": "smooth",
+      "overflow": 0,
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "test": "final smooth responsive check",
+      "actionsInsideViewport": true,
+      "mode": "smooth",
+      "overflow": 0,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "test": "final smooth responsive check",
+      "actionsInsideViewport": true,
+      "mode": "smooth",
+      "overflow": 0,
+      "viewport": [
+        320,
+        740
+      ]
+    },
+    {
+      "test": "mobile menu motion control",
+      "buttonSize": [
+        44,
+        44
+      ],
+      "menuOpen": "true",
+      "motionVisible": "flex",
+      "overflow": 0
+    },
+    {
+      "test": "scroll effects",
+      "heroStyle": "position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent; will-change: transform; transform: translate3d(0px, 18.05px, 0px) scale(1.08);",
+      "hiddenSections": 0,
+      "progress": 1,
+      "scrollY": 657.5999755859375
+    },
+    {
+      "test": "chapter anchor arrival",
+      "current": "#home-partner",
+      "headerBottom": 80,
+      "hiddenSections": 0,
+      "journeyBottom": 160.79999923706055,
+      "sectionTop": 3414.387451171875
+    },
+    {
+      "test": "rapid scroll changes",
+      "hiddenSections": 0,
+      "mode": "smooth",
+      "overflow": 0,
+      "scrollY": 5724
+    },
+    {
+      "test": "settled chapter anchor",
+      "current": "#home-process",
+      "focused": [],
+      "headerBottom": 80,
+      "hiddenSections": 0,
+      "journeyBottom": 132.79999923706055,
+      "sectionTop": 155.9875030517578
+    },
+    {
+      "test": "fabric shelf next control",
+      "mode": "smooth",
+      "pageOverflow": 0,
+      "tracks": [
+        {
+          "label": "Explore techniques",
+          "left": 0,
+          "overflow": 3502,
+          "width": 1192
+        },
+        {
+          "label": "Explore fabrics",
+          "left": 314.3999938964844,
+          "overflow": 1304,
+          "width": 1192
+        }
+      ]
+    },
+    {
+      "test": "fabric shelf keyboard response",
+      "focused": "Explore fabrics",
+      "left": 0
+    },
+    {
+      "test": "technique shelf in reduced mode",
+      "mode": "reduced",
+      "pageOverflow": 0,
+      "tracks": [
+        {
+          "label": "Explore techniques",
+          "left": 314.3999938964844
+        },
+        {
+          "label": "Explore fabrics",
+          "left": 628
+        }
+      ]
+    },
+    {
+      "test": "product next image",
+      "image": "Beige wrap skorts — additional view 2",
+      "loaded": true,
+      "mode": "smooth",
+      "pageOverflow": 0,
+      "position": "2 / 2",
+      "selected": "View image 2",
+      "stage": {
+        "bottom": 690.4500122070312,
+        "height": 393.0625,
+        "left": 121.20000457763672,
+        "right": 514.2625045776367,
+        "top": 297.38751220703125,
+        "width": 393.0625,
+        "x": 121.20000457763672,
+        "y": 297.38751220703125
+      }
+    },
+    {
+      "test": "product keyboard image response",
+      "image": "Beige wrap skorts — full product view",
+      "opacity": "1",
+      "position": "1 / 2",
+      "selected": "View image 1"
+    },
+    {
+      "test": "rapid gallery changes",
+      "loaded": true,
+      "opacity": "1",
+      "pageOverflow": 0,
+      "position": "2 / 2"
+    },
+    {
+      "test": "empty form immediate focus",
+      "focused": "name",
+      "formBusy": "false",
+      "sectionOpacity": "1"
+    },
+    {
+      "test": "mock form feedback",
+      "buttonDisabled": false,
+      "focused": "form-status",
+      "formBusy": "false",
+      "nameRetained": "Mock Motion QA",
+      "notice": "Mock submission checked. No enquiry has been sent.",
+      "overflow": 0
+    },
+    {
+      "test": "mobile keyboard reduced toggle",
+      "mode": "reduced",
+      "pressed": "false",
+      "scroll": "auto"
+    },
+    {
+      "test": "mobile keyboard restore and Escape",
+      "focused": "menu-toggle",
+      "menuOpen": "false",
+      "mode": "smooth",
+      "overflow": 0,
+      "progressBars": 1
+    },
+    {
+      "test": "final default preview",
+      "mode": "smooth",
+      "overflow": 0,
+      "progressBars": 1,
+      "reducedByWindows": false,
+      "scroll": "smooth",
+      "transition": "0.18s, 0.18s, 0.18s, 0.26s, 0.22s"
+    }
+  ]
+}

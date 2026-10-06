@@ -4,6 +4,8 @@ import {
   readEnquiryBody,
   validateEnquiry,
 } from "@/lib/enquiries";
+import { garmentReferences } from "@/content/products";
+import { enquiryDeliveryAvailable, enquiryMockMode } from "@/lib/site-config";
 
 export const runtime = "nodejs";
 export async function POST(request: NextRequest) {
@@ -57,8 +59,28 @@ export async function POST(request: NextRequest) {
       { message: "Please review the highlighted fields.", errors },
       { status: 422 },
     );
+  if (fields.productId) {
+    const reference = garmentReferences.find(
+      (item) => item.id === fields.productId,
+    );
+    if (!reference || fields.kind !== "project")
+      return NextResponse.json(
+        {
+          message: "Please review the highlighted fields.",
+          errors: { productId: "Choose a valid product reference." },
+        },
+        { status: 422 },
+      );
+    fields.productTitle = reference.title;
+  }
+  if (enquiryMockMode())
+    return NextResponse.json({
+      mock: true,
+      delivered: false,
+      message: "Mock submission checked. No enquiry has been sent.",
+    });
   const endpoint = process.env.ENQUIRY_WEBHOOK_URL;
-  if (!endpoint)
+  if (!endpoint || !enquiryDeliveryAvailable())
     return NextResponse.json(
       {
         message:

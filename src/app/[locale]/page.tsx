@@ -151,6 +151,14 @@ export default async function Home() {
             <ButtonLink href={href("/oem-journey")} variant="dark">
               {text("processCta")}
             </ButtonLink>
+            <ButtonLink
+              href={href("/technical-insights#guidelines")}
+              variant="secondary"
+            >
+              {locale === "th"
+                ? "อ่านแนวทางวางแผนการผลิต"
+                : "Read production planning guidelines"}
+            </ButtonLink>
           </div>
         </div>
       </section>

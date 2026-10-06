@@ -12,6 +12,51 @@ import type { Dictionary } from "../lib/locale";
 // Display copy only: OEM, QC, CAD, BOM, GSM, fabric standards and production
 // techniques retain their established English terminology in the Thai locale.
 const pairs: readonly (readonly [string, string])[] = [
+  ["Mock preview", "แบบฟอร์มจำลอง"],
+  [
+    "Use test details only. Submissions are validated without sending an enquiry.",
+    "โปรดใช้ข้อมูลทดสอบเท่านั้น ระบบจะตรวจสอบข้อมูลโดยไม่ส่งคำสอบถามจริง",
+  ],
+  [
+    "I understand that this is a mock submission and no enquiry will be sent.",
+    "ฉันเข้าใจว่าการส่งแบบฟอร์มนี้เป็นการจำลอง และจะไม่มีการส่งคำสอบถามจริง",
+  ],
+  [
+    "Mock submission checked. No enquiry has been sent.",
+    "ตรวจสอบข้อมูลจำลองเรียบร้อยแล้ว ยังไม่ได้ส่งคำสอบถามจริง",
+  ],
+  ["All planning excerpts ({count})", "แนวทางวางแผนทั้งหมด ({count})"],
+  ["Talk to our team", "พูดคุยกับทีมงาน"],
+  ["Call our team", "โทรหาทีมงาน"],
+  ["Product reference", "แบบเสื้อผ้าอ้างอิง"],
+  ["productId", "แบบเสื้อผ้าอ้างอิง"],
+  [
+    "Choose a valid product reference.",
+    "กรุณาเลือกแบบเสื้อผ้าอ้างอิงที่มีอยู่ในรายการ",
+  ],
+  [
+    "Online enquiries are temporarily unavailable. Please call our team to discuss your project, arrange a visit or request policy information.",
+    "ขณะนี้ยังไม่เปิดรับข้อมูลผ่านแบบฟอร์มออนไลน์ กรุณาโทรหาทีมงานเพื่อพูดคุยเรื่องโปรเจกต์ นัดหมายเยี่ยมชม หรือขอข้อมูลนโยบาย",
+  ],
+  [
+    "Without JavaScript, submitting this form opens the delivery response on a new page. Please call our team if you need help.",
+    "หากไม่ได้เปิด JavaScript หลังส่งแบบฟอร์ม ระบบจะแสดงผลการส่งในหน้าใหม่ หากต้องการความช่วยเหลือ กรุณาโทรหาทีมงาน",
+  ],
+  ["All products", "สินค้าทั้งหมด"],
+  ["Product", "สินค้า"],
+  ["product", "สินค้า"],
+  ["products", "สินค้า"],
+  ["{count} views", "{count} ภาพ"],
+  ["1 view", "1 ภาพ"],
+  ["Product images", "ภาพสินค้า"],
+  ["Previous image", "ภาพก่อนหน้า"],
+  ["Next image", "ภาพถัดไป"],
+  ["View image {number}", "ดูภาพที่ {number}"],
+  ["Image {current} of {total}", "ภาพที่ {current} จาก {total} ภาพ"],
+  [
+    "Explore TM Apparel products by garment type. Browse the full garment, alternative views and close-up details, then discuss your own collection with our team.",
+    "เลือกดูสินค้า TM Apparel ตามประเภทเสื้อผ้า พร้อมภาพสินค้าทั้งตัว มุมอื่น ๆ และรายละเอียดเพิ่มเติม แล้วพูดคุยกับทีมเพื่อพัฒนาคอลเลกชันของคุณ",
+  ],
   [
     "Wide view of a garment factory production floor",
     "ภาพมุมกว้างของพื้นที่ผลิตเสื้อผ้าในโรงงาน",

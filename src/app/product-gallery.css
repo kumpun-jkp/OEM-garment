@@ -1,0 +1,100 @@
+/* The existing catalogue card/grid stays intact. Every source board is shown
+   uncropped in the same square stage; controls reserve the same row height. */
+.product-gallery {
+  min-width: 0;
+  background: var(--brand-white);
+  border-block: 1px solid var(--border);
+}
+.product-gallery-stage {
+  position: relative;
+  aspect-ratio: 1;
+  isolation: isolate;
+  touch-action: pan-y pinch-zoom;
+}
+.product-gallery-image {
+  object-fit: contain;
+}
+.product-gallery-arrow {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--border);
+  background: var(--brand-white);
+  color: var(--brand-navy);
+  cursor: pointer;
+  transition:
+    background 180ms ease,
+    color 180ms ease;
+}
+.product-gallery-arrow--previous {
+  left: 8px;
+}
+.product-gallery-arrow--next {
+  right: 8px;
+}
+.product-gallery-arrow svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+}
+.product-gallery-arrow:hover {
+  background: var(--brand-navy);
+  color: var(--brand-white);
+}
+.product-gallery-browse {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  min-height: 78px;
+  height: 78px;
+  border-top: 1px solid var(--border);
+}
+.product-gallery-thumbnails {
+  position: relative;
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 3px;
+  scrollbar-width: thin;
+  gap: 4px;
+}
+.product-gallery-thumbnails button {
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  padding: 2px;
+  border: 1px solid var(--border);
+  background: var(--brand-white);
+  cursor: pointer;
+}
+.product-gallery-thumbnails img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.product-gallery-thumbnails button[aria-pressed="true"] {
+  border: 2px solid var(--brand-navy);
+}
+.product-gallery-position {
+  color: var(--brand-navy);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  margin-left: auto;
+  white-space: nowrap;
+}
+.product-gallery :focus-visible {
+  outline: 3px solid var(--brand-blue);
+  outline-offset: 2px;
+}

@@ -1,0 +1,28 @@
+{
+  "auditDate": "2026-10-05",
+  "timeZone": "Asia/Bangkok",
+  "baselineCommit": "9f9c1c049b7a5e3eb30cabd4dddd0571f9e6e88f",
+  "candidateIncludesExistingUncommittedCatalogueChanges": true,
+  "target": "http://127.0.0.1:3002",
+  "serverMode": "next start after successful production build",
+  "sourceFixesApplied": false,
+  "checks": {
+    "build": {"status": "pass"},
+    "typecheck": {"status": "pass"},
+    "lint": {"status": "pass_with_warnings", "errors": 0, "warnings": 3, "file": "src/lib/motion.ts"},
+    "unitTests": {"status": "pass", "tests": 15},
+    "checkSite": {"status": "pass", "routes": 16, "internalLinks": 92, "assets": 259},
+    "checkProducts": {"status": "pass", "renderedTaxonomyDestinations": 30, "servedProductImages": 185},
+    "checkLocales": {"status": "pass", "pageLocaleCombinations": 16},
+    "additionalServerAudit": {"status": "pass_for_expected_assertions", "internalDestinations": 99, "apiCases": 12, "evidence": "server-results.json"},
+    "dependencyAudit": {"status": "pass", "vulnerabilities": 0, "scope": "production dependencies", "registry": "https://registry.npmjs.org", "initialAttempt": "restricted network failure", "approvedRetry": "success"},
+    "diffWhitespace": {"status": "pass", "notes": "Git LF to CRLF conversion notices only"},
+    "chromeVisual": {"status": "not_run", "reason": "Only Edge is exposed by the connected browser controls; Chrome connection or authorised alternate controller pending"},
+    "chromeResponsive": {"status": "not_run"},
+    "chromeMotion": {"status": "not_run"},
+    "coreWebVitals": {"status": "not_measured"},
+    "externalMaps": {"status": "unverified", "reason": "URL structurally matched to the supplied address; web tool unable to access Maps"}
+  },
+  "configuration": {"enquiryWebhookConfigured": false, "webhookTokenConfigured": false, "canonicalOriginConfigured": false},
+  "releaseDecision": "NO_GO"
+}

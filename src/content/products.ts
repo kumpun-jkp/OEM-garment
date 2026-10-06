@@ -1,3 +1,5 @@
+import tmProducts from "./tm-products.json" with { type: "json" };
+
 export type GarmentShape =
   "shirt" | "jacket" | "trousers" | "shorts" | "set" | "dress" | "skirt";
 export type ProductNode = {
@@ -183,61 +185,28 @@ export type GarmentReference = {
   category: string;
   subcategory?: string;
   title: string;
+  th: string;
   description: string;
+  descriptionTh: string;
   shape: GarmentShape;
-  image?: string;
-  alt?: string;
+  images: readonly { src: string; alt: string; th: string }[];
 };
 
-// Style illustrations describe the supplied range; they are not factory project photos.
-export const garmentReferences: readonly GarmentReference[] = [
-  ...productTaxonomy.flatMap((audience) =>
-    (audience.children ?? []).flatMap((category) =>
-      (category.children ?? [category]).map((style) => ({
-        id: style.id,
-        audience: audience.id,
-        category: category.id,
-        subcategory: category.children ? style.id : undefined,
-        title: style.label,
-        description: style.description,
-        shape: style.shape,
-      })),
-    ),
-  ),
-  {
-    id: "blue-shirt",
-    audience: "adults",
-    category: "shirts",
-    title: "Workwear shirt reference",
-    description:
-      "A shirt reference for discussing collars, pockets and garment construction.",
-    shape: "shirt",
-    image: "/media/64fb4e9e0b1a8da6.jpeg",
-    alt: "Blue workwear shirt reference",
-  },
-  {
-    id: "polo-shirt",
-    audience: "adults",
-    category: "shirts",
-    title: "Polo shirt reference",
-    description:
-      "A shirt reference for discussing collars, plackets and short sleeves.",
-    shape: "shirt",
-    image: "/media/3381904ee8b51958.jpeg",
-    alt: "Beige polo shirt reference",
-  },
-  {
-    id: "t-shirt",
-    audience: "adults",
-    category: "shirts",
-    title: "T-shirt reference",
-    description:
-      "A shirt reference for discussing necklines, fit and decoration placement.",
-    shape: "shirt",
-    image: "/media/d4255ca03b962fd1.jpeg",
-    alt: "Black T-shirt reference",
-  },
-];
+// Generated from the reviewed source map by scripts/import-tm-products.mjs.
+// The first image is the representative full-garment view. Coverage, taxonomy
+// and bilingual fields are reconciled against the originals in products tests.
+export const garmentReferences: readonly GarmentReference[] =
+  tmProducts as readonly GarmentReference[];
+
+export function projectReferenceHref(item: GarmentReference) {
+  const query = new URLSearchParams({
+    stage: "reference",
+    category:
+      item.subcategory === "sports-team-shirts" ? "Sportswear" : "Other",
+    productId: item.id,
+  });
+  return `/start-your-project?${query}`;
+}
 
 export function filterGarmentReferences(selection: ProductSelection) {
   const filters = resolveProductSelection(selection);

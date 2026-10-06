@@ -1,0 +1,111 @@
+{
+  "galleryChecks": [
+    {
+      "check": "next wraps last to first",
+      "position": "1 / 6"
+    },
+    {
+      "check": "previous wraps first to last",
+      "position": "6 / 6"
+    },
+    {
+      "check": "Home selects first",
+      "position": "1 / 6"
+    },
+    {
+      "check": "End selects last",
+      "position": "6 / 6"
+    },
+    {
+      "check": "ArrowRight selects next",
+      "position": "1 / 6"
+    },
+    {
+      "check": "ArrowLeft selects previous",
+      "position": "6 / 6"
+    }
+  ],
+  "responsiveChecks": [
+    {
+      "width": 1440,
+      "height": 1100,
+      "columns": 3,
+      "pageOverflow": 0,
+      "galleryRowHeight": 78
+    },
+    {
+      "columns": 2,
+      "galleryRowHeights": [
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78
+      ],
+      "height": 1024,
+      "pageOverflow": 0,
+      "width": 768
+    },
+    {
+      "columns": 1,
+      "galleryRowHeights": [
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78
+      ],
+      "height": 844,
+      "locale": "th",
+      "pageOverflow": 0,
+      "url": "http://127.0.0.1:3001/th/oem-products?audience=adults&category=trousers&subcategory=shorts",
+      "width": 390
+    },
+    {
+      "activeThumbnailVisible": true,
+      "columns": 1,
+      "galleryRowHeight": 78,
+      "height": 780,
+      "pageOverflow": 0,
+      "width": 320
+    }
+  ],
+  "localeSwitchPreservedFilters": true,
+  "mobileArrowAndThumbnailSelection": true,
+  "modifiedPageShortcutPreserved": true,
+  "nativeTouchGestureTested": false
+}

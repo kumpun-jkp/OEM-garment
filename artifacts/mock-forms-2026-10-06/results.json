@@ -1,0 +1,139 @@
+{
+  "checkedAt": "2026-10-05T18:42:38.902Z",
+  "base": "http://127.0.0.1:3003",
+  "scope": "Server-rendered forms and HTTP validation; no Chrome interaction or visual coverage claimed.",
+  "results": [
+    {
+      "path": "/th/contact",
+      "kind": "contact",
+      "status": 200,
+      "nativePost": true,
+      "mockLabel": true
+    },
+    {
+      "path": "/th/start-your-project",
+      "kind": "project",
+      "status": 200,
+      "nativePost": true,
+      "mockLabel": true
+    },
+    {
+      "path": "/en/contact",
+      "kind": "contact",
+      "status": 200,
+      "nativePost": true,
+      "mockLabel": true
+    },
+    {
+      "path": "/en/start-your-project",
+      "kind": "project",
+      "status": 200,
+      "nativePost": true,
+      "mockLabel": true
+    },
+    {
+      "path": "/en/contact?inquiry=visit&subject=Mock%20factory%20visit",
+      "kind": "contact",
+      "status": 200,
+      "nativePost": true,
+      "mockLabel": true
+    },
+    {
+      "path": "/en/start-your-project?stage=reference&category=Other&productId=tm-skirt-01",
+      "kind": "project",
+      "status": 200,
+      "nativePost": true,
+      "mockLabel": true
+    },
+    {
+      "label": "valid contact mock",
+      "status": 200,
+      "outcome": {
+        "mock": true,
+        "delivered": false,
+        "message": "Mock submission checked. No enquiry has been sent."
+      }
+    },
+    {
+      "label": "valid project mock with product reference and attachment",
+      "status": 200,
+      "outcome": {
+        "mock": true,
+        "delivered": false,
+        "message": "Mock submission checked. No enquiry has been sent."
+      }
+    },
+    {
+      "label": "repeat contact mock",
+      "status": 200,
+      "outcome": {
+        "mock": true,
+        "delivered": false,
+        "message": "Mock submission checked. No enquiry has been sent."
+      }
+    },
+    {
+      "label": "client cannot enable live delivery",
+      "status": 200,
+      "outcome": {
+        "mock": true,
+        "delivered": false,
+        "message": "Mock submission checked. No enquiry has been sent."
+      }
+    },
+    {
+      "label": "invalid phone",
+      "status": 422,
+      "outcome": {
+        "message": "Please review the highlighted fields.",
+        "errors": {
+          "phone": "Enter a phone number with country code."
+        }
+      }
+    },
+    {
+      "label": "missing consent",
+      "status": 422,
+      "outcome": {
+        "message": "Please review the highlighted fields.",
+        "errors": {
+          "consent": "Consent is required to process your enquiry."
+        }
+      }
+    },
+    {
+      "label": "unknown product reference",
+      "status": 422,
+      "outcome": {
+        "message": "Please review the highlighted fields.",
+        "errors": {
+          "productId": "Choose a valid product reference."
+        }
+      }
+    },
+    {
+      "label": "unsupported attachment",
+      "status": 422,
+      "outcome": {
+        "message": "Please review the highlighted fields.",
+        "errors": {
+          "files": "Supported files: PDF, AI, DXF, ZIP, XLSX, and PNG."
+        }
+      }
+    },
+    {
+      "label": "honeypot",
+      "status": 400,
+      "outcome": {
+        "message": "The enquiry could not be accepted."
+      }
+    },
+    {
+      "label": "cross-origin",
+      "status": 403,
+      "outcome": {
+        "message": "This form must be submitted from the website."
+      }
+    }
+  ]
+}

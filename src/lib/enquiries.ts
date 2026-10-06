@@ -83,6 +83,7 @@ export function validateEnquiry(data: FormData) {
     "handover",
     "nda",
     "consent",
+    "productId",
   ]);
   for (const [key, value] of data.entries())
     if (typeof value === "string" && allowedFields.has(key))
@@ -106,8 +107,14 @@ export function validateEnquiry(data: FormData) {
     errors.company = "Enter your company or select pre-incorporation / studio.";
   if (fields.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(fields.email))
     errors.email = "Enter a valid email address.";
-  if (fields.phone && !/^[+()\d\s.-]{6,40}$/.test(fields.phone))
+  if (
+    fields.phone &&
+    (!/^[+()\d\s.-]{6,40}$/.test(fields.phone) ||
+      !/^\d{6,15}$/.test(fields.phone.replace(/\D/g, "")))
+  )
     errors.phone = "Enter a phone number with country code.";
+  if (fields.productId && !/^[a-z0-9-]{1,64}$/.test(fields.productId))
+    errors.productId = "Choose a valid product reference.";
   if (
     kind === "contact" &&
     !enquiryTypes.includes(fields.inquiry as (typeof enquiryTypes)[number])

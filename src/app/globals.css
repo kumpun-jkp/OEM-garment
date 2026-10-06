@@ -1356,7 +1356,7 @@ tbody th span {
   --eco-dark: #0a2618;
   --eco-mid: #14492d;
   --eco-accent: #4ade80;
-  
+
   min-height: 785px;
   background: linear-gradient(135deg, var(--eco-dark), var(--eco-mid));
   color: #fff;
@@ -1370,7 +1370,11 @@ tbody th span {
   left: -10%;
   width: 60vw;
   height: 60vw;
-  background: radial-gradient(circle, rgba(74, 222, 128, 0.12) 0%, transparent 60%);
+  background: radial-gradient(
+    circle,
+    rgba(74, 222, 128, 0.12) 0%,
+    transparent 60%
+  );
   border-radius: 50%;
   pointer-events: none;
 }
@@ -1381,7 +1385,11 @@ tbody th span {
   right: -10%;
   width: 50vw;
   height: 50vw;
-  background: radial-gradient(circle, rgba(255, 188, 0, 0.08) 0%, transparent 60%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 188, 0, 0.08) 0%,
+    transparent 60%
+  );
   border-radius: 50%;
   pointer-events: none;
 }
@@ -1435,7 +1443,10 @@ tbody th span {
   border-radius: 16px;
   color: #fff;
   padding: 24px;
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s ease, border-color 0.3s ease;
+  transition:
+    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 0.3s ease,
+    border-color 0.3s ease;
 }
 .ethics-grid article:hover {
   transform: translateY(-4px);
@@ -4209,18 +4220,6 @@ tbody th span {
     font-size: 10px;
   }
 }
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-  *,
-  *:before,
-  *:after {
-    transition: none !important;
-    animation: none !important;
-  }
-}
-
 .header-actions {
   display: flex;
   align-items: center;
@@ -4839,7 +4838,7 @@ tbody th span {
 }
 .disclosure-icon {
   margin-left: auto;
-  transition: transform 0.15s ease;
+  transition: transform 420ms var(--silk-ease);
 }
 details[open] > summary > .disclosure-icon {
   transform: rotate(180deg);

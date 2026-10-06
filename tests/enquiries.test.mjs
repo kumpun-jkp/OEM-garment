@@ -102,3 +102,40 @@ test("unexpected webhook fields are not forwarded", () => {
   data.set("unexpected", "value");
   assert.equal(validateEnquiry(data).fields.unexpected, undefined);
 });
+
+test("phone validation rejects punctuation-only and excessive digits but permits formatted international numbers", () => {
+  for (const phone of [
+    "------",
+    "......",
+    "++++++",
+    "12345",
+    "1234567890123456",
+  ]) {
+    const data = contact();
+    data.set("phone", phone);
+    assert.equal(
+      validateEnquiry(data).errors.phone,
+      "Enter a phone number with country code.",
+    );
+  }
+  for (const phone of [
+    "+66 81 123 4567",
+    "+44 (0)20 1234 5678",
+    "02-893-5951",
+  ]) {
+    const data = contact();
+    data.set("phone", phone);
+    assert.equal(validateEnquiry(data).errors.phone, undefined);
+  }
+});
+
+test("product references are forwarded as bounded identifiers and reject malformed values", () => {
+  const data = contact();
+  data.set("productId", "tm-001");
+  assert.equal(validateEnquiry(data).fields.productId, "tm-001");
+  data.set("productId", "<script>");
+  assert.equal(
+    validateEnquiry(data).errors.productId,
+    "Choose a valid product reference.",
+  );
+});

@@ -4,6 +4,11 @@ import Link from "next/link";
 import { EnquiryForm } from "@/components/enquiry-form";
 import { Photo, SectionHeader } from "@/components/primitives";
 import { assets, company } from "@/content/site";
+import {
+  enquiryDeliveryAvailable,
+  enquiryMockMode,
+  privacyPolicyHref,
+} from "@/lib/site-config";
 export const generateMetadata = pageMetadata("Contact Us");
 export default async function Contact({
   searchParams,
@@ -44,6 +49,9 @@ export default async function Contact({
         <div className="container grid-two contact-columns">
           <EnquiryForm
             kind="contact"
+            available={enquiryDeliveryAvailable()}
+            mock={enquiryMockMode()}
+            privacyHref={privacyPolicyHref()}
             initialInquiry={
               typeof params.inquiry === "string" ? params.inquiry : undefined
             }

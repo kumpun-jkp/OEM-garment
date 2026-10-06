@@ -1,0 +1,25 @@
+{
+  "browser": "Codex In-app Browser",
+  "thai": {
+    "body": "เตรียมแบบ ไซซ์ สี และจำนวน เลือกผ้าและวัสดุตกแต่ง แล้วตรวจความพอดี ทรง และการตกแต่งของตัวอย่างก่อนอนุมัติผลิตจริง",
+    "count": 9,
+    "footer": "ยืนยันไซซ์และความพอดีอนุมัติก่อนผลิตจริงพูดคุยเรื่องรายละเอียดตัวอย่าง พูดคุยเรื่องความต้องการและการอนุมัติตัวอย่างกับทีมงานพูดคุยเรื่องบรีฟ",
+    "status": "แสดงแนวทาง 9 รายการ",
+    "title": "จากบรีฟถึงตัวอย่างที่อนุมัติ: รายละเอียดที่ต้องยืนยันก่อนผลิต"
+  },
+  "english": {
+    "all": "All planning excerpts (9)",
+    "body": "Prepare your design, sizes, colours and quantities. Select fabric and trims, then review sample fit, shape and decoration before approving the details for bulk production.",
+    "count": 9,
+    "footer": "Confirm sizes & fitApprove before productionDiscuss sample details Discuss the sample requirements and approval details with our team.Discuss your brief",
+    "status": "Showing 9 guides",
+    "title": "From garment brief to approved sample: details to confirm before production",
+    "url": "http://127.0.0.1:3003/en/technical-insights"
+  },
+  "mobile": {
+    "columns": "335.2px",
+    "count": 9,
+    "overflow": 0
+  },
+  "filterReset": 9
+}

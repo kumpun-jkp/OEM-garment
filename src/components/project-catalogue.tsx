@@ -6,10 +6,11 @@ import {
   productTaxonomy,
   selectionNodes,
   resolveProductSelection,
+  projectReferenceHref,
   type ProductSelection,
 } from "@/content/products";
-import { ButtonLink, Photo } from "./primitives";
-import { GarmentIllustration } from "./garment-illustration";
+import { ButtonLink } from "./primitives";
+import { ProductGallery } from "./product-gallery";
 import { AppIcon } from "./app-icon";
 
 export async function ProjectCatalogue({
@@ -19,7 +20,7 @@ export async function ProjectCatalogue({
   full?: boolean;
   selection?: ProductSelection;
 }) {
-  const { t, href: localHref } = await getTranslations();
+  const { t, isThai, href: localHref } = await getTranslations();
 
   const filters = resolveProductSelection(selection);
   const { audience, category, subcategory } = selectionNodes(filters);
@@ -108,14 +109,13 @@ export async function ProjectCatalogue({
             [audience?.label, category?.label, subcategory?.label]
               .filter(Boolean)
               .map((label) => t(label))
-              .join(" / ") || "All garment references",
+              .join(" / ") || "All products",
           )}
         </p>
         <Link href={localHref(productHref())}>{t("Clear filters")}</Link>
       </div>
       <p className="catalogue-count" role="status">
-        {t(entries.length)}{" "}
-        {t(entries.length === 1 ? "reference" : "references")}
+        {t(entries.length)} {t(entries.length === 1 ? "product" : "products")}
         {t(
           !full && entries.length > visible.length
             ? t(" · Showing {count}", { count: visible.length })
@@ -127,40 +127,44 @@ export async function ProjectCatalogue({
           <article
             className="project-card"
             key={item.id}
+            data-product-id={item.id}
             data-category={item.category}
             data-subcategory={item.subcategory}
           >
             <div className="project-card-label split-label micro">
-              <strong>
-                {t(item.image ? "Garment reference" : "Style overview")}
-              </strong>
+              <strong>{t("Product")}</strong>
               <span className="export-tag">
-                {t(item.image ? "Photo" : "Illustration")}
+                {t(item.images.length === 1 ? "1 view" : "{count} views", {
+                  count: item.images.length,
+                })}
               </span>
             </div>
-            {item.image ? (
-              <Photo
-                src={item.image}
-                alt={t(item.alt ?? item.title)}
-                sizes="(max-width: 700px) 100vw, (max-width: 1000px) 50vw, 33vw"
-              />
-            ) : (
-              <div className="reference-illustration">
-                <GarmentIllustration shape={item.shape} variant={item.id} />
-                <span className="micro">
-                  {t("Illustrative style reference")}
-                </span>
-              </div>
-            )}
+            <ProductGallery
+              title={isThai ? item.th : item.title}
+              images={item.images.map((image) => ({
+                src: image.src,
+                alt: isThai ? image.th : image.alt,
+              }))}
+              labels={{
+                region: t("Product images"),
+                previous: t("Previous image"),
+                next: t("Next image"),
+                view: t("View image {number}"),
+                position: t("Image {current} of {total}"),
+              }}
+            />
             <div className="project-card-copy">
               <p className="eyebrow">
                 {t(selectionNodes(item).audience?.label)}
                 {t("/")}
                 {t(" ")}
-                {t(selectionNodes(item).category?.label)}
+                {t(
+                  selectionNodes(item).subcategory?.label ??
+                    selectionNodes(item).category?.label,
+                )}
               </p>
-              <h3>{t(item.title)}</h3>
-              <p>{t(item.description)}</p>
+              <h3>{isThai ? item.th : item.title}</h3>
+              <p>{isThai ? item.descriptionTh : item.description}</p>
               <p className="reference-note">
                 {t(
                   "Fabric, decoration, sizing and production details are agreed for your project.",
@@ -168,9 +172,7 @@ export async function ProjectCatalogue({
               </p>
             </div>
             <ButtonLink
-              href={localHref(
-                `/start-your-project?stage=reference&category=${item.subcategory === "sports-team-shirts" ? "Sportswear" : "Other"}`,
-              )}
+              href={localHref(projectReferenceHref(item))}
               variant="secondary"
               className="card-link"
             >

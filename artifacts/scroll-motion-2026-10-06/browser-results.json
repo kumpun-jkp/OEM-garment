@@ -1,0 +1,299 @@
+{
+  "recordedAt": "2026-10-06T02:11:08.929Z",
+  "browser": "Edge (approved Windows motion checks)",
+  "chromeConnected": false,
+  "checks": [
+    {
+      "check": "Rebuilt home baseline",
+      "result": {
+        "foregroundTransform": "translate3d(0px, 0px, 0px)",
+        "heroTransform": "translate3d(0px, 0px, 0px) scale(1.18)",
+        "legacyMotionAttribute": null,
+        "osReduced": false,
+        "overflow": 0,
+        "progressCount": 1,
+        "removedControlCount": 0,
+        "scrollBehavior": "smooth",
+        "viewport": {
+          "height": 938,
+          "width": 2040
+        }
+      }
+    },
+    {
+      "check": "Desktop PageDown opposing hero depth",
+      "result": {
+        "foregroundTransform": "translate3d(0px, -27.2948px, 0px)",
+        "headerShadow": "rgba(0, 35, 81, 0.1) 0px 8px 28px 0px",
+        "heroTransform": "translate3d(0px, 51.9435px, 0px) scale(1.18)",
+        "overflow": 0,
+        "progress": "scaleX(0.118016)",
+        "scrollY": 691.2000122070312
+      }
+    },
+    {
+      "check": "Responsive home controls",
+      "result": {
+        "actionsRight": 1532.2000732421875,
+        "headerHeight": 80,
+        "height": 1080,
+        "heroTransform": "translate3d(0px, 0px, 0px) scale(1.18)",
+        "motionControls": 0,
+        "overflow": 0,
+        "progressCount": 1,
+        "width": 1920
+      }
+    },
+    {
+      "check": "Responsive home controls",
+      "result": {
+        "actionsRight": 1292.2000122070312,
+        "headerHeight": 80,
+        "height": 900,
+        "heroTransform": "translate3d(0px, 0px, 0px) scale(1.18)",
+        "motionControls": 0,
+        "overflow": 0,
+        "progressCount": 1,
+        "width": 1440
+      }
+    },
+    {
+      "check": "Responsive home controls",
+      "result": {
+        "actionsRight": 1219.7999877929688,
+        "headerHeight": 80,
+        "height": 800,
+        "heroTransform": "translate3d(0px, 0px, 0px) scale(1.18)",
+        "motionControls": 0,
+        "overflow": 0,
+        "progressCount": 1,
+        "width": 1280
+      }
+    },
+    {
+      "check": "Responsive home controls",
+      "result": {
+        "actionsRight": 720.8000183105469,
+        "headerHeight": 80,
+        "height": 1024,
+        "heroTransform": "translate3d(0px, 0px, 0px) scale(1.18)",
+        "motionControls": 0,
+        "overflow": 0,
+        "progressCount": 1,
+        "width": 768
+      }
+    },
+    {
+      "check": "Responsive home controls",
+      "result": {
+        "actionsRight": 355.2000045776367,
+        "headerHeight": 72,
+        "height": 844,
+        "heroTransform": "translate3d(0px, 0px, 0px) scale(1.12)",
+        "motionControls": 0,
+        "overflow": 0,
+        "progressCount": 1,
+        "width": 390
+      }
+    },
+    {
+      "check": "Responsive home controls",
+      "result": {
+        "actionsRight": 284.7999954223633,
+        "headerHeight": 72,
+        "height": 740,
+        "heroTransform": "translate3d(0px, 0px, 0px) scale(1.12)",
+        "motionControls": 0,
+        "overflow": 0,
+        "progressCount": 1,
+        "width": 320
+      }
+    },
+    {
+      "check": "Narrow mobile menu without motion control",
+      "result": {
+        "menuVisible": true,
+        "motionControls": 0,
+        "overflow": 0
+      }
+    },
+    {
+      "check": "Mobile PageDown depth",
+      "result": {
+        "foregroundTransform": "translate3d(0px, -15.0625px, 0px)",
+        "heroTransform": "translate3d(0px, 24.8992px, 0px) scale(1.12)",
+        "overflow": 0,
+        "scrollY": 524.7999877929688,
+        "width": 320
+      }
+    },
+    {
+      "check": "Settled mobile Process anchor and scroll accent",
+      "result": {
+        "flow": "1",
+        "overflow": 0,
+        "processTop": 148.1125030517578,
+        "progressCount": 1,
+        "sectionAccent": "matrix(1, 0, 0, 1, 0, 0)",
+        "stickyBottom": 132
+      }
+    },
+    {
+      "check": "Mobile rapid End/Home/End",
+      "result": {
+        "hiddenSections": 0,
+        "overflow": 0,
+        "progressCount": 1,
+        "scrollY": 9529.599609375
+      }
+    },
+    {
+      "check": "Editorial photo before scroll",
+      "result": {
+        "alt": "01. ตรวจผ้าและสี",
+        "clip": "hidden",
+        "frameHeight": 286.8625183105469,
+        "frameTop": 373.6000061035156,
+        "hoverTransform": "matrix(1.03494, 0, 0, 1.03494, 0, 0)",
+        "loaded": true,
+        "scale": "1.16",
+        "translate": "0px -1.57781px"
+      }
+    },
+    {
+      "check": "Editorial photo after four ArrowDown inputs",
+      "result": {
+        "clip": "hidden",
+        "frameHeight": 286.8625183105469,
+        "frameTop": 213.6000061035156,
+        "hoverTransform": "none",
+        "loaded": true,
+        "scale": "1.16",
+        "translate": "0px 3.66816px"
+      }
+    },
+    {
+      "check": "Fabric shelf after Next button",
+      "result": {
+        "depthPhotos": 8,
+        "overflow": 0,
+        "scrollLeft": 314.3999938964844
+      }
+    },
+    {
+      "check": "Final build fabric Next; shelf excluded from vertical depth",
+      "result": {
+        "depthPhotos": 0,
+        "overflow": 0,
+        "photoScale": "1",
+        "scrollLeft": 314.3999938964844
+      }
+    },
+    {
+      "check": "Final fabric ArrowRight",
+      "result": {
+        "depthPhotos": 0,
+        "scrollLeft": 628
+      }
+    },
+    {
+      "check": "Final gallery: Next, stage ArrowLeft, three rapid Next inputs",
+      "result": {
+        "imageFit": "contain",
+        "loaded": true,
+        "opacity": "1",
+        "overflow": 0,
+        "position": "2 / 2",
+        "stage": {
+          "height": 393.0625,
+          "width": 393.0625
+        }
+      }
+    },
+    {
+      "check": "Catalogue filter updates under active motion",
+      "result": {
+        "cards": 44,
+        "hiddenCards": 0,
+        "oldProgress": 0,
+        "overflow": 0,
+        "url": "http://127.0.0.1:3003/en/oem-products?audience=adults&category=trousers"
+      }
+    },
+    {
+      "check": "Empty mock form remains immediately usable under motion",
+      "result": {
+        "activeName": "name",
+        "formBusy": "false",
+        "formOpacity": "1",
+        "mockNotice": true,
+        "overflow": 0,
+        "progressCount": 0
+      }
+    },
+    {
+      "check": "Final return to Home; cleanup and single progress element",
+      "result": {
+        "controls": 0,
+        "headerShadow": "rgba(0, 35, 81, 0.07) 0px 5.5307px 19.3575px 0px",
+        "heroTransform": "translate3d(0px, 3.12485px, 0px) scale(1.18)",
+        "overflow": 0,
+        "progressCount": 1,
+        "scrollBehavior": "smooth",
+        "url": "http://127.0.0.1:3003/en"
+      }
+    },
+    {
+      "check": "Intermediate Thai capture showed About rather than the intended Home",
+      "result": {
+        "heroTransform": "",
+        "legacyMotionAttribute": null,
+        "osReduced": false,
+        "overflow": 0,
+        "progressCount": 0,
+        "removedControlCount": 0,
+        "scrollY": 2187.199951171875,
+        "url": "http://127.0.0.1:3003/th/about",
+        "viewport": {
+          "height": 938,
+          "width": 2040
+        }
+      }
+    },
+    {
+      "check": "Home EN and TH transitions keep the home route",
+      "result": {
+        "heading": "เปลี่ยนไอเดียของคุณ ให้เป็นสินค้าพร้อมขาย",
+        "motionControlCount": 0,
+        "overflow": 0,
+        "progressCount": 1,
+        "url": "http://127.0.0.1:3003/th"
+      }
+    },
+    {
+      "check": "Final verified Thai Home preview",
+      "result": {
+        "controls": 0,
+        "foregroundTransform": "translate3d(0px, 0px, 0px)",
+        "heading": "เปลี่ยนไอเดียของคุณ ให้เป็นสินค้าพร้อมขาย",
+        "heroTransform": "translate3d(0px, 0px, 0px) scale(1.18)",
+        "legacyMotionAttribute": null,
+        "osReduced": false,
+        "overflow": 0,
+        "progressCount": 1,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:3003/th",
+        "viewport": {
+          "height": 938,
+          "width": 2040
+        }
+      }
+    }
+  ],
+  "consoleWarningsAndErrors": [],
+  "notes": [
+    "Earlier shelf record includes eight vertical depth targets; the final build excludes shelf images and verifies zero.",
+    "A gallery keyboard attempt targeted a non-focusable region; the final check uses its documented focusable image stage.",
+    "An intermediate intended Home capture showed About; subsequent observed Home EN/TH transitions preserved Home. The intermediate route change was not reproduced and its cause was not established."
+  ]
+}

@@ -1,0 +1,2874 @@
+[
+  {
+    "id": "tm-skirt-01",
+    "audience": "adults",
+    "category": "skirts",
+    "shape": "skirt",
+    "title": "Black dotted tiered skirt",
+    "th": "กระโปรงระบายลายจุดสีดำ",
+    "description": "A long tiered skirt with a small dotted print.",
+    "descriptionTh": "กระโปรงยาวต่อระบาย พิมพ์ลายจุดขนาดเล็ก",
+    "sources": [
+      {
+        "code": "skirt-01",
+        "source": "กระโปรง.png",
+        "sha256": "43a76aac076c05d3b48a3b1fc8477095f6ba2e91cad6dea4e5170771bcf96493",
+        "src": "/media/products/tm/skirt-01.webp",
+        "primary": true,
+        "webSha256": "3c38252fb76f8b096b134ab8bf2403e784854e5671dd15334dd6cb6a7fc01a70",
+        "webBytes": 60376
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-skirt-02",
+    "audience": "adults",
+    "category": "skirts",
+    "shape": "skirt",
+    "title": "Gingham tiered skirt",
+    "th": "กระโปรงระบายลายตาราง",
+    "description": "A long tiered skirt with a black and white gingham print.",
+    "descriptionTh": "กระโปรงยาวต่อระบาย ลายตารางสีดำและขาว",
+    "sources": [
+      {
+        "code": "skirt-02",
+        "source": "กระโปรง (2).png",
+        "sha256": "9409b521a8676a00d8adf59bea2e8e75c37187b6ddb2ef6c4e609f5fec7d0ad8",
+        "src": "/media/products/tm/skirt-02.webp",
+        "primary": true,
+        "webSha256": "1078fd05158d360c2f15bf374c50adeb3173945f132f4356c29c1316ad4f214b",
+        "webBytes": 104016
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-skirt-03",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Pink plaid pocket skorts",
+    "th": "กางเกงกระโปรงลายตารางสีชมพู",
+    "description": "Skorts with a front overlay, side buckle and two flap pockets.",
+    "descriptionTh": "กางเกงกระโปรงมีผ้าปิดด้านหน้า หัวเข็มขัดด้านข้าง และกระเป๋าฝาสองข้าง",
+    "sources": [
+      {
+        "code": "skirt-03",
+        "source": "กระโปรง (3).png",
+        "sha256": "bacf64d87c26d52c247ccf171e0783313e68b0015ac6387e395c1d3963f50453",
+        "src": "/media/products/tm/skirt-03.webp",
+        "primary": true,
+        "webSha256": "3ae1b1a6108d0574129b02c4f3e2da463eeda23d53cc0f18f6ad525d85e839c7",
+        "webBytes": 56050
+      }
+    ],
+    "note": "Source label explicitly says Skorts. Assigned to Shorts by construction. Distinct from short-31/32: overlay, buckle and front pockets differ."
+  },
+  {
+    "id": "tm-skirt-04",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Beige wrap skorts",
+    "th": "กางเกงกระโปรงแบบป้ายสีเบจ",
+    "description": "Wrap-style skorts with a side tie.",
+    "descriptionTh": "กางเกงกระโปรงแบบป้าย มีเชือกผูกด้านข้าง",
+    "sources": [
+      {
+        "code": "skirt-04",
+        "source": "กระโปรง (4).png",
+        "sha256": "c311d42b318e7539a5905cbf67e0485694b3b6c8bb3ce8ff72c9b92f15ce0432",
+        "src": "/media/products/tm/skirt-04.webp",
+        "primary": true,
+        "webSha256": "b47f2b205a0950b68bb30a0254829c2d89be39b44d6b5853edb3207a377e80b0",
+        "webBytes": 40988
+      },
+      {
+        "code": "skirt-05",
+        "source": "กระโปรง (5).png",
+        "sha256": "a6b6fe43457e86c9552b64d0f2afd7f17088bd1e1165f3773db0515b08ccc480",
+        "src": "/media/products/tm/skirt-05.webp",
+        "primary": false,
+        "webSha256": "a55eeeed1c51a634307835bc2e0026d6c57b7efb106396bf8072ca0a5efa4763",
+        "webBytes": 109070
+      }
+    ],
+    "note": "Source label explicitly says Skorts. Full garment and matching tie detail; assigned to Shorts."
+  },
+  {
+    "id": "tm-skirt-06",
+    "audience": "adults",
+    "category": "skirts",
+    "shape": "skirt",
+    "title": "Blue pocket skirt",
+    "th": "กระโปรงกระเป๋าสีฟ้า",
+    "description": "A short A-line skirt with two front flap pockets.",
+    "descriptionTh": "กระโปรงสั้นทรงเอ มีกระเป๋าฝาด้านหน้าสองข้าง",
+    "sources": [
+      {
+        "code": "skirt-06",
+        "source": "กระโปรง (6).png",
+        "sha256": "60fb8d1cd97ca9be851fae43b1a90494dea5bbd99df6392fae0d4181ac0b26ea",
+        "src": "/media/products/tm/skirt-06.webp",
+        "primary": true,
+        "webSha256": "75ead06d7026d2f6073695baa80e9ea63330cae21a4bcf88766f3edb23e9bf13",
+        "webBytes": 66586
+      },
+      {
+        "code": "skirt-07",
+        "source": "กระโปรง (7).png",
+        "sha256": "8b9c5db082d19d808189190da9b2e0d1081ba2f7d6f13936b04f152b22218f44",
+        "src": "/media/products/tm/skirt-07.webp",
+        "primary": false,
+        "webSha256": "f6622c842dfd7516d6a3ae6d7158ec10e025a404a940b77ba56bac3e95a7908c",
+        "webBytes": 231914
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-skirt-08",
+    "audience": "adults",
+    "category": "skirts",
+    "shape": "skirt",
+    "title": "Polka-dot pocket skirt",
+    "th": "กระโปรงกระเป๋าลายจุด",
+    "description": "A short white skirt with black dots and two front flap pockets.",
+    "descriptionTh": "กระโปรงสั้นสีขาวลายจุดสีดำ มีกระเป๋าฝาด้านหน้าสองข้าง",
+    "sources": [
+      {
+        "code": "skirt-08",
+        "source": "กระโปรง (8).png",
+        "sha256": "7283267e834c4dd0ae7f246a64a6756074c8e69a927c66033ec894e932120583",
+        "src": "/media/products/tm/skirt-08.webp",
+        "primary": true,
+        "webSha256": "e4b2c9caa0409a05d5f4e56a340f0d5c6c721cc80a6bf7ae38e9401dde919d90",
+        "webBytes": 36854
+      },
+      {
+        "code": "skirt-09",
+        "source": "กระโปรง (9).png",
+        "sha256": "0fa8a79e03b7cda61834e4b8485322ab21b2abdda252d089057899f416b58aad",
+        "src": "/media/products/tm/skirt-09.webp",
+        "primary": false,
+        "webSha256": "89d8df759caadf93a34f0eb29259b6c36a064462abaecaccb526b37821912216",
+        "webBytes": 67124
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-long-01",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Striped drawstring trousers",
+    "th": "กางเกงขายาวลายทางผูกเชือก",
+    "description": "Striped trousers with an elastic drawstring waist and side pockets.",
+    "descriptionTh": "กางเกงขายาวลายทาง เอวยางยืดผูกเชือกและกระเป๋าด้านข้าง",
+    "sources": [
+      {
+        "code": "long-01",
+        "source": "กางเกงขายาว.png",
+        "sha256": "1f4faed9e1ebac9ea27a03556632c372e75445342b0bac5e392880a373e279d2",
+        "src": "/media/products/tm/long-01.webp",
+        "primary": true,
+        "webSha256": "1fb6f6eb0990e6719fa837d8bf9343e36ada8add913852cbcb1ef15b6d160bcc",
+        "webBytes": 76128
+      },
+      {
+        "code": "long-02",
+        "source": "กางเกงขายาว (2).png",
+        "sha256": "9a177bba538406a62c1da623b36793fe93384d8315b663bbf7ada96440bc388e",
+        "src": "/media/products/tm/long-02.webp",
+        "primary": false,
+        "webSha256": "4e7e223cdbc019e88583b6472947312de2032bae503816c020938c968b036c05",
+        "webBytes": 230134
+      },
+      {
+        "code": "long-03",
+        "source": "กางเกงขายาว (3).png",
+        "sha256": "a21ae09c8a5b786364fcbb46a9dc6851750da11be5526be80d62a129343c7053",
+        "src": "/media/products/tm/long-03.webp",
+        "primary": false,
+        "webSha256": "c221c40bcb0af4e6a8ff189ee978958863b45fea7ef5a264ff1fc055d03553dd",
+        "webBytes": 241520
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-long-04",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "White drawstring trousers",
+    "th": "กางเกงขายาวสีขาวผูกเชือก",
+    "description": "White straight-leg trousers with an elastic drawstring waist.",
+    "descriptionTh": "กางเกงขายาวสีขาวทรงตรง เอวยางยืดผูกเชือก",
+    "sources": [
+      {
+        "code": "long-04",
+        "source": "กางเกงขายาว (4).png",
+        "sha256": "ed2c12728ea1dc3ba4e370b080c03d6515bf6ecadce76adb5a57ffce71ae0807",
+        "src": "/media/products/tm/long-04.webp",
+        "primary": true,
+        "webSha256": "9f1d997daca23690afe37dcf4e03a52c5f49265263ee3a299da56a9fe630ccde",
+        "webBytes": 30314
+      },
+      {
+        "code": "long-05",
+        "source": "กางเกงขายาว (5).png",
+        "sha256": "9a240e2eefc1f20fd1e2c8716e4cdc6b2dab1f844a8a2cb35f74e32cbf095b95",
+        "src": "/media/products/tm/long-05.webp",
+        "primary": false,
+        "webSha256": "898a0fe00e153760b3887bae65c7d8cc7f455c3e2dcf69313ef0ac0f499fa0c7",
+        "webBytes": 87526
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-long-06",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Black contrast-tip drawstring trousers",
+    "th": "กางเกงขายาวสีดำเชือกปลายสีตัด",
+    "description": "Black trousers with a drawstring waist and contrasting cord tips.",
+    "descriptionTh": "กางเกงขายาวสีดำ เอวผูกเชือกพร้อมปลายเชือกสีตัด",
+    "sources": [
+      {
+        "code": "long-06",
+        "source": "กางเกงขายาว (6).png",
+        "sha256": "44fe4f18b6370a01657ec44488fe44e0729fc3864b145baba521a10b8abb506d",
+        "src": "/media/products/tm/long-06.webp",
+        "primary": true,
+        "webSha256": "edb03c1e37d53f53e651b3033ad2d53fba6fd45be4bdfbe9a7594a88cd4597f5",
+        "webBytes": 28046
+      },
+      {
+        "code": "long-07",
+        "source": "กางเกงขายาว (7).png",
+        "sha256": "708ae82947f16d01b717bc56236eb945b9d9c716a8a4c690385caca15cf65241",
+        "src": "/media/products/tm/long-07.webp",
+        "primary": false,
+        "webSha256": "b6575ed05e57bd6df4167f6aa6c112d850d44df2f9711d2fad4a1b3075a18b05",
+        "webBytes": 97126
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-long-08",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Medallion-print trousers",
+    "th": "กางเกงขายาวลายเมดัลเลียน",
+    "description": "Printed trousers with an elastic waist and a repeating medallion pattern.",
+    "descriptionTh": "กางเกงขายาวเอวยางยืด พิมพ์ลายเมดัลเลียนซ้ำ",
+    "sources": [
+      {
+        "code": "long-08",
+        "source": "กางเกงขายาว (8).png",
+        "sha256": "c5293327cfdcbbe8ba06ed791f53153c0cc5a277fe3eb27c32a7f5638dd201db",
+        "src": "/media/products/tm/long-08.webp",
+        "primary": true,
+        "webSha256": "5339e95b319fff62dcf489333571aef44e22057095b7641504894fc5cc4250b8",
+        "webBytes": 98396
+      },
+      {
+        "code": "long-09",
+        "source": "กางเกงขายาว (9).png",
+        "sha256": "19ba40557208e2fdc80ad91ec92d2d483f774dc80a2ffb4d6817df9eadf5d0f2",
+        "src": "/media/products/tm/long-09.webp",
+        "primary": false,
+        "webSha256": "9946bf1ea48627583603e34cb6d847073707be23141b1db69d87bd5da4249679",
+        "webBytes": 163862
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-long-10",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Navy elastic-waist trousers",
+    "th": "กางเกงขายาวเอวยางยืดสีกรมท่า",
+    "description": "Navy trousers with a gathered elastic waist.",
+    "descriptionTh": "กางเกงขายาวสีกรมท่า เอวยางยืด",
+    "sources": [
+      {
+        "code": "long-10",
+        "source": "กางเกงขายาว (10).png",
+        "sha256": "2b46bc764b56325d1853ab84f729be98e8b92f71bd5d954b155580e37f93b7c2",
+        "src": "/media/products/tm/long-10.webp",
+        "primary": true,
+        "webSha256": "ab0eca02d386799291bce45ab828ec766d30279fac02575d27c80949ca3587ac",
+        "webBytes": 29480
+      },
+      {
+        "code": "long-11",
+        "source": "กางเกงขายาว (11).png",
+        "sha256": "fa3186d92a3d61275e98ebb61209515a77b38666e1499bf72f37c19c8a372271",
+        "src": "/media/products/tm/long-11.webp",
+        "primary": false,
+        "webSha256": "6a613538158ec21bcd5d22231c43af63b27353fa77648c25d46c2d4f00cd68c5",
+        "webBytes": 72716
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-long-12",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Black elastic-waist trousers",
+    "th": "กางเกงขายาวเอวยางยืดสีดำ",
+    "description": "Black trousers with a gathered elastic waist and drawstring.",
+    "descriptionTh": "กางเกงขายาวสีดำ เอวยางยืดพร้อมเชือกผูก",
+    "sources": [
+      {
+        "code": "long-12",
+        "source": "กางเกงขายาว (12).png",
+        "sha256": "61b875e5c8c0160be15b1aa0a0b8e5ab123eba9feedd419d8c062c5593747c03",
+        "src": "/media/products/tm/long-12.webp",
+        "primary": true,
+        "webSha256": "7205ea36ecaf3aa15840c0f8931a8cf8f6042316b4b8c80e761b2f767a00d92c",
+        "webBytes": 32270
+      },
+      {
+        "code": "long-13",
+        "source": "กางเกงขายาว (13).png",
+        "sha256": "b8e5abf0f8d7740c35ddff0eb42a3d9146a7522d8ca3c8d350d61853e0d68ef1",
+        "src": "/media/products/tm/long-13.webp",
+        "primary": false,
+        "webSha256": "501d1dfa81fd7c36684afd14ec4f209c0b932f2b466968e0c55be32c15a4c2a7",
+        "webBytes": 71376
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-long-14",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Navy striped easy linen trousers",
+    "th": "กางเกงขายาวอีซี่ลินินลายทางสีกรมท่า",
+    "description": "Navy pinstriped trousers with a drawstring waist, labelled Easy Linen Pants in the supplied images.",
+    "descriptionTh": "กางเกงขายาวลายทางสีกรมท่า เอวผูกเชือก ระบุชื่อ Easy Linen Pants ในภาพต้นฉบับ",
+    "sources": [
+      {
+        "code": "long-14",
+        "source": "กางเกงขายาว (14).png",
+        "sha256": "9ed16ea2121e1418fd1b475611fee9154e49c828e0b76235da568160561270ca",
+        "src": "/media/products/tm/long-14.webp",
+        "primary": true,
+        "webSha256": "be6ce27cd788863e99720a732c53da8eab3b841fd694cad53df278b23fcf90bd",
+        "webBytes": 62770
+      },
+      {
+        "code": "long-15",
+        "source": "กางเกงขายาว (15).png",
+        "sha256": "56d6afb7dfde786f06828f2b7d661ffa74a366054bd1a1b2c009d48845babc54",
+        "src": "/media/products/tm/long-15.webp",
+        "primary": false,
+        "webSha256": "4b9fcdb75da6bc1b3c8b59c28b2b300cf4a1d7e5bde872c591c8e3a7d6aa0ff9",
+        "webBytes": 162738
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-long-16",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Beige striped easy linen trousers",
+    "th": "กางเกงขายาวอีซี่ลินินลายทางสีเบจ",
+    "description": "Beige pinstriped trousers with a drawstring waist, labelled Easy Linen Pants in the supplied images.",
+    "descriptionTh": "กางเกงขายาวลายทางสีเบจ เอวผูกเชือก ระบุชื่อ Easy Linen Pants ในภาพต้นฉบับ",
+    "sources": [
+      {
+        "code": "long-16",
+        "source": "กางเกงขายาว (16).png",
+        "sha256": "4e1dad15da5ad309713e7b3433af4632a27054a554da194a08184508bbc442b7",
+        "src": "/media/products/tm/long-16.webp",
+        "primary": true,
+        "webSha256": "a22de7f77957a82de45521dbee9ffb975c157bf1457c2b75daf2661fb814d80e",
+        "webBytes": 44326
+      },
+      {
+        "code": "long-17",
+        "source": "กางเกงขายาว (17).png",
+        "sha256": "d0c2d056a65fabe95286987e93cfc3a4daf0830d4f83da5394fc19c558c6e60d",
+        "src": "/media/products/tm/long-17.webp",
+        "primary": false,
+        "webSha256": "ac0e23b9611bfefb00cf02cfebeb3ab48882d20f444829cbd525e78df78bef16",
+        "webBytes": 155716
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-long-18",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Beige unisex trousers",
+    "th": "กางเกงขายาวยูนิเซ็กซ์สีเบจ",
+    "description": "Beige trousers with side pockets and an elastic waist, labelled Unisex in the supplied images.",
+    "descriptionTh": "กางเกงขายาวสีเบจ มีกระเป๋าข้างและเอวยางยืด ระบุ Unisex ในภาพต้นฉบับ",
+    "sources": [
+      {
+        "code": "long-18",
+        "source": "กางเกงขายาว (18).png",
+        "sha256": "84f1b0f93659c56ef604789c1abe6ea26ed1ce3daa323d3e661b803aaf39642f",
+        "src": "/media/products/tm/long-18.webp",
+        "primary": true,
+        "webSha256": "2108ce642cd5244a9b15cd8c59ab12746dedf819ed833ed51cfaa7c408be385a",
+        "webBytes": 32808
+      },
+      {
+        "code": "long-19",
+        "source": "กางเกงขายาว (19).png",
+        "sha256": "77503dc0455fa25b061899527aa129bc58d880cda0f69c3bca97aea72bec3070",
+        "src": "/media/products/tm/long-19.webp",
+        "primary": false,
+        "webSha256": "eb01114ab4bc1b6b645284bf605f4d02dd83bcc8559084621c0fde756635e95d",
+        "webBytes": 123894
+      },
+      {
+        "code": "long-20",
+        "source": "กางเกงขายาว (20).png",
+        "sha256": "6d900ae8ee852751dcae86d62d06497c201f0e33913c8ce15e8c53162c1b299b",
+        "src": "/media/products/tm/long-20.webp",
+        "primary": false,
+        "webSha256": "90b7f29684aaa553282236bd4dd3d92c769bee9fac05370de3f82bafc73ba719",
+        "webBytes": 80152
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-long-21",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Ivory pleated trousers",
+    "th": "กางเกงขายาวจับจีบสีงาช้าง",
+    "description": "Ivory straight-leg trousers with front pleats and a button waist.",
+    "descriptionTh": "กางเกงขายาวสีงาช้างทรงตรง จับจีบด้านหน้าและเอวติดกระดุม",
+    "sources": [
+      {
+        "code": "long-21",
+        "source": "กางเกงขายาว (21).png",
+        "sha256": "e2457ed3b025a4902088f120e84ae9d840e8c18a207a1f602391882b51c105de",
+        "src": "/media/products/tm/long-21.webp",
+        "primary": true,
+        "webSha256": "072d52944c43d6cb987ecd6f7aeca56be2f0e28de348b340f849ba004c9949e9",
+        "webBytes": 24068
+      },
+      {
+        "code": "long-22",
+        "source": "กางเกงขายาว (22).png",
+        "sha256": "e6a68660f064d4c344cf8d0986859bd7c1bef436017879587a290399cfd075ff",
+        "src": "/media/products/tm/long-22.webp",
+        "primary": false,
+        "webSha256": "f0f617ac93f808e0ae4e94a10b510ef72f394ac77a33dbd4516b5cfeded08945",
+        "webBytes": 61730
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-long-23",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Beige straight-leg trousers",
+    "th": "กางเกงขายาวทรงตรงสีเบจ",
+    "description": "Beige straight-leg trousers with front pleats and side pockets.",
+    "descriptionTh": "กางเกงขายาวสีเบจทรงตรง จับจีบด้านหน้าและมีกระเป๋าข้าง",
+    "sources": [
+      {
+        "code": "long-23",
+        "source": "กางเกงขายาว (23).png",
+        "sha256": "0a79462c856a5d0809cf41dd6d7d07eca96ce962e5a6c68c61e98b3524bdcd7c",
+        "src": "/media/products/tm/long-23.webp",
+        "primary": true,
+        "webSha256": "8aa79c0a1203a98c5f947ba7a4aa08de488e2488fca16fa2809c9e9b479d1f3d",
+        "webBytes": 48374
+      },
+      {
+        "code": "long-24",
+        "source": "กางเกงขายาว (24).png",
+        "sha256": "907a865b6ee6ce77582c100e967035fcdd3221051e4d9bd37e13c575293818b8",
+        "src": "/media/products/tm/long-24.webp",
+        "primary": false,
+        "webSha256": "8d1c59f70b86cf78409ed7eccd01d8fe1085517b2ae103eceee0e56982174f60",
+        "webBytes": 159732
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-long-25",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Camel pleated trousers",
+    "th": "กางเกงขายาวจับจีบสีน้ำตาลอ่อน",
+    "description": "Camel-coloured trousers with front pleats and a button waist.",
+    "descriptionTh": "กางเกงขายาวสีน้ำตาลอ่อน จับจีบด้านหน้าและเอวติดกระดุม",
+    "sources": [
+      {
+        "code": "long-25",
+        "source": "กางเกงขายาว (25).png",
+        "sha256": "78182bc8202f062c4a0cde7f4fc9b501e390e234d2e3d66b94785c997568f502",
+        "src": "/media/products/tm/long-25.webp",
+        "primary": true,
+        "webSha256": "6e911fd66c981176c9cfb2ec1e4da5ad60494c070291c7252f129be7d668b895",
+        "webBytes": 25964
+      },
+      {
+        "code": "long-26",
+        "source": "กางเกงขายาว (26).png",
+        "sha256": "f3b1e0488e314b719e18e0d313c0d6a1b062b25615153b1d101cb5fe9c748841",
+        "src": "/media/products/tm/long-26.webp",
+        "primary": false,
+        "webSha256": "27fc22d020f2cbce6d6ea8709c32042c52487455b62b1b22f097875e36b482a1",
+        "webBytes": 83208
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-long-27",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Charcoal pinstriped trousers",
+    "th": "กางเกงขายาวลายทางสีเทาเข้ม",
+    "description": "Charcoal pinstriped trousers with a tailored front waist.",
+    "descriptionTh": "กางเกงขายาวลายทางสีเทาเข้ม เอวด้านหน้าแบบเรียบ",
+    "sources": [
+      {
+        "code": "long-27",
+        "source": "กางเกงขายาว (27).png",
+        "sha256": "ee8f830ec3841786dc514dc17f4460f635d93ad124c02c1216f4b86f00fab665",
+        "src": "/media/products/tm/long-27.webp",
+        "primary": true,
+        "webSha256": "4fe7fefae9ab7c30aa6f8d13ce6381f1626db9b2897736faf2517c6f0e303870",
+        "webBytes": 42790
+      },
+      {
+        "code": "long-28",
+        "source": "กางเกงขายาว (28).png",
+        "sha256": "75aa5567746ae8b34611859e0fb2e2fc2f2e5a51f6c0e3901001abe717c4166e",
+        "src": "/media/products/tm/long-28.webp",
+        "primary": false,
+        "webSha256": "e8ebf6ed85fda7269462ceadf2444ba3d1e4d2da229404ee8929cc7cf78b8bf8",
+        "webBytes": 189290
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-long-29",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Brown formal trousers",
+    "th": "กางเกงขายาวแบบทางการสีน้ำตาล",
+    "description": "Brown formal trousers with belt loops and a button fastening.",
+    "descriptionTh": "กางเกงขายาวแบบทางการสีน้ำตาล มีหูเข็มขัดและกระดุมเอว",
+    "sources": [
+      {
+        "code": "long-29",
+        "source": "กางเกงขายาว (29).png",
+        "sha256": "b650a4b33023574207bef0bb0a862be41935fd00790422c1fecc76307654bd22",
+        "src": "/media/products/tm/long-29.webp",
+        "primary": true,
+        "webSha256": "13db5f087abe04bc0ed638e0abc9eae51eb579f68255fa44da3ffe501b1fe3ff",
+        "webBytes": 24494
+      },
+      {
+        "code": "long-30",
+        "source": "กางเกงขายาว (30).png",
+        "sha256": "db4e7ac0c0099a6df083981dd7d56db3bfcdf10daf92e6107e5e7839ad3fd6eb",
+        "src": "/media/products/tm/long-30.webp",
+        "primary": false,
+        "webSha256": "96301aeb6b1671427ff4bac07f3b625fe8e36860afc364e0c2c41ab5b03ff4ee",
+        "webBytes": 49900
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-long-31",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "long-trousers",
+    "shape": "trousers",
+    "title": "Charcoal formal trousers",
+    "th": "กางเกงขายาวแบบทางการสีเทาเข้ม",
+    "description": "Charcoal formal trousers with belt loops and a button fastening.",
+    "descriptionTh": "กางเกงขายาวแบบทางการสีเทาเข้ม มีหูเข็มขัดและกระดุมเอว",
+    "sources": [
+      {
+        "code": "long-31",
+        "source": "กางเกงขายาว (31).png",
+        "sha256": "2a347f532398257c66dfeae38e684678b4789f024941ed293d6be4df091a7d64",
+        "src": "/media/products/tm/long-31.webp",
+        "primary": true,
+        "webSha256": "1d3e6b61e9da44dbb021b698c6d8240d20b3e011b7a26a9d2a2518f20036be00",
+        "webBytes": 31718
+      },
+      {
+        "code": "long-32",
+        "source": "กางเกงขายาว (32).png",
+        "sha256": "14ac6842d97d483375aa86229593ee2d305d1674441df76e013517a018ff933a",
+        "src": "/media/products/tm/long-32.webp",
+        "primary": false,
+        "webSha256": "a178df5cec53c1f1de832a767636e9ad5f8c0141a2a4d69e4b6c86a77efc287c",
+        "webBytes": 134820
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-short-01",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Cuffed denim shorts",
+    "th": "กางเกงขาสั้นเดนิมพับปลายขา",
+    "description": "Indigo denim shorts with turned-up hems, shown flat and on a model.",
+    "descriptionTh": "กางเกงขาสั้นเดนิมสีคราม พับปลายขา มีภาพวางสินค้าและภาพสวมใส่",
+    "sources": [
+      {
+        "code": "short-01",
+        "source": "กางเกงขาสั้น.png",
+        "sha256": "f9ded5335d36444645f154f61083f66a2f7541c96fcc5e30ca0b66251462864f",
+        "src": "/media/products/tm/short-01.webp",
+        "primary": true,
+        "webSha256": "42b75fbdc51e4903a4dbfb40599f8b8fb96f2db6e761a7d9d582ef916b81cd5c",
+        "webBytes": 86710
+      },
+      {
+        "code": "short-02",
+        "source": "กางเกงขาสั้น (2).png",
+        "sha256": "5c6a21e5ae2023fe34281cace04b05891db9436bb426b6e6a4ed2308ea7911d2",
+        "src": "/media/products/tm/short-02.webp",
+        "primary": false,
+        "webSha256": "0b433b27a80232929ad7e5387b76dde5af787c1bc4148822687d4b1c239c2020",
+        "webBytes": 84684
+      },
+      {
+        "code": "short-03",
+        "source": "กางเกงขาสั้น (3).png",
+        "sha256": "abe57b581479b64b03cd3ad1f5a948874130074053bbc430181c20136ef64674",
+        "src": "/media/products/tm/short-03.webp",
+        "primary": false,
+        "webSha256": "ccfbcc2f7809868be99b4cddd1d8855dd0b1c58fdb017ba780dad312f889a7e6",
+        "webBytes": 63204
+      },
+      {
+        "code": "short-04",
+        "source": "กางเกงขาสั้น (4).png",
+        "sha256": "7190ddf94798bd4877f9e8dad587f18165cb27b9decc0520459ade9a8dd9ece4",
+        "src": "/media/products/tm/short-04.webp",
+        "primary": false,
+        "webSha256": "0759bd11c228d0c88d968309a1af88203a86693c863de05f5d5bf97996ea0351",
+        "webBytes": 81556
+      },
+      {
+        "code": "short-05",
+        "source": "กางเกงขาสั้น (5).png",
+        "sha256": "9fe8ba3ead624a1b714a86e43d9c72616c9929e7302aa352be615f11e951b41f",
+        "src": "/media/products/tm/short-05.webp",
+        "primary": false,
+        "webSha256": "7707f64b60eb8a7b47fd0ca0adf045e2627e525a3123b17e52f5bfd1ab8a5948",
+        "webBytes": 63640
+      },
+      {
+        "code": "short-06",
+        "source": "กางเกงขาสั้น (6).png",
+        "sha256": "a7ef78aac5d9db4e02ffa1c568c08f395d11d80d830ebed94fb14ad71448d4c0",
+        "src": "/media/products/tm/short-06.webp",
+        "primary": false,
+        "webSha256": "832ec00938f0bea8debeee81fbaa99ed1f925f59d1df49aee55e57c68562ed77",
+        "webBytes": 54242
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-short-07",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Navy patch-pocket shorts",
+    "th": "กางเกงขาสั้นกระเป๋าปะสีกรมท่า",
+    "description": "Navy shorts with an elastic waist and front patch pockets.",
+    "descriptionTh": "กางเกงขาสั้นสีกรมท่า เอวยางยืดและกระเป๋าปะด้านหน้า",
+    "sources": [
+      {
+        "code": "short-07",
+        "source": "กางเกงขาสั้น (7).png",
+        "sha256": "959cf5335d59a8f1fcfa93edb850d47593f4061782e2ef5eb700bca900cdb4b9",
+        "src": "/media/products/tm/short-07.webp",
+        "primary": true,
+        "webSha256": "5c03ac18a5c35f6338e1dd65e7298e9954b4242d333bc8689e28c62dadc2390d",
+        "webBytes": 52884
+      },
+      {
+        "code": "short-08",
+        "source": "กางเกงขาสั้น (8).png",
+        "sha256": "e2667429563853cc2b0741be5ca59adab24457f524f73b89c99c9e7768daaf46",
+        "src": "/media/products/tm/short-08.webp",
+        "primary": false,
+        "webSha256": "df9e8af45f8f6c8378f47efa34a439e58e54bad8cab7f1556090a0b013e5f83f",
+        "webBytes": 85878
+      },
+      {
+        "code": "short-09",
+        "source": "กางเกงขาสั้น (9).png",
+        "sha256": "bccb096d8dabfba2375af829120884ef0c72f5cd56c4dbc08d41e16fe51aa144",
+        "src": "/media/products/tm/short-09.webp",
+        "primary": false,
+        "webSha256": "eff32221c683b13558b5817717da1d0a036a0a794cde8c8fa31045e161a53f9d",
+        "webBytes": 133512
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-short-10",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Mustard patch-pocket shorts",
+    "th": "กางเกงขาสั้นกระเป๋าปะสีมัสตาร์ด",
+    "description": "Mustard shorts with an elastic waist and patch pockets.",
+    "descriptionTh": "กางเกงขาสั้นสีมัสตาร์ด เอวยางยืดและกระเป๋าปะ",
+    "sources": [
+      {
+        "code": "short-10",
+        "source": "กางเกงขาสั้น (10).png",
+        "sha256": "7cf19473dfdd80e69b350755e92888722a2ff1063305b7e17eb5238adcf73601",
+        "src": "/media/products/tm/short-10.webp",
+        "primary": true,
+        "webSha256": "3d8ccda2bc555c2f1f5f65293f3832770d3c92df503285582242dbaade5c7c8e",
+        "webBytes": 58698
+      },
+      {
+        "code": "short-11",
+        "source": "กางเกงขาสั้น (11).png",
+        "sha256": "cc5d59988daf0214a3c22bfd641b50cfdfc19ff654fb5ad33b5b02ac308fec63",
+        "src": "/media/products/tm/short-11.webp",
+        "primary": false,
+        "webSha256": "4c251af12287a49014239b77de3adced70b7a8944dd07f898e0c0f133d543ac2",
+        "webBytes": 122744
+      },
+      {
+        "code": "short-12",
+        "source": "กางเกงขาสั้น (12).png",
+        "sha256": "d0a0f88b46af9620e738cfb4d5610cdc2c7363c1de83e86635fc9afd7cabc26e",
+        "src": "/media/products/tm/short-12.webp",
+        "primary": false,
+        "webSha256": "ab5f55588f9ee61925f38ab46cbf09b0968fb1dc30822aac5abda81150a229e3",
+        "webBytes": 87656
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-short-13",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Cream pinstriped shorts",
+    "th": "กางเกงขาสั้นลายทางสีครีม",
+    "description": "Cream pinstriped shorts with an elastic waist.",
+    "descriptionTh": "กางเกงขาสั้นลายทางสีครีม เอวยางยืด",
+    "sources": [
+      {
+        "code": "short-13",
+        "source": "กางเกงขาสั้น (13).png",
+        "sha256": "5e76f82e4d69accd382c6cf24bef99fec46ee97a5f1b47de4f202a51068bd38c",
+        "src": "/media/products/tm/short-13.webp",
+        "primary": true,
+        "webSha256": "81c0ca21c3b3d1f3498d025b0ae85b4031a3a74b14466550044bb19db7c82999",
+        "webBytes": 72996
+      },
+      {
+        "code": "short-14",
+        "source": "กางเกงขาสั้น (14).png",
+        "sha256": "7c522656485392a9d500c89b50a115efdfcedacd9179bd2c63efb8b76701d2ab",
+        "src": "/media/products/tm/short-14.webp",
+        "primary": false,
+        "webSha256": "8f051d5b3d71fff81c235313aa1a7391334e2742eee6d751e24b920cf26f3651",
+        "webBytes": 100170
+      },
+      {
+        "code": "short-15",
+        "source": "กางเกงขาสั้น (15).png",
+        "sha256": "88383a85bdf87544a06cf8b66997b486374f00aa36e48a4fe0a5eb0871f3b7cb",
+        "src": "/media/products/tm/short-15.webp",
+        "primary": false,
+        "webSha256": "30f211230d4ca6a267335bd6fbc74df5a6289214b92655db32a99c0ef15d86d0",
+        "webBytes": 136272
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-short-16",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Ivory tailored shorts",
+    "th": "กางเกงขาสั้นจับจีบสีงาช้าง",
+    "description": "Ivory shorts with front pleats and a button waist.",
+    "descriptionTh": "กางเกงขาสั้นสีงาช้าง จับจีบด้านหน้าและเอวติดกระดุม",
+    "sources": [
+      {
+        "code": "short-16",
+        "source": "กางเกงขาสั้น (16).png",
+        "sha256": "fca3111626f3cd1375aada2e7f79cd85d25a126b66176610955ea5b6671f1250",
+        "src": "/media/products/tm/short-16.webp",
+        "primary": true,
+        "webSha256": "ac9e7dc5a7ae866ae9283314ab5c006a2ec18d6aa073d77e934aff160596b454",
+        "webBytes": 36650
+      },
+      {
+        "code": "short-17",
+        "source": "กางเกงขาสั้น (17).png",
+        "sha256": "098867891a415d06d504533bde663c7705207fdf59729d9e3fea3899ae5928ca",
+        "src": "/media/products/tm/short-17.webp",
+        "primary": false,
+        "webSha256": "a5854ccadb9f587fd8a01724ec3778cc35be26e1078c40d06456b0d842a5d839",
+        "webBytes": 121596
+      },
+      {
+        "code": "short-18",
+        "source": "กางเกงขาสั้น (18).png",
+        "sha256": "4ddaa11428ea8fc0b8a00660a7a94cd0475c8b76b9ba0e9e1d7f3b8466c15c7a",
+        "src": "/media/products/tm/short-18.webp",
+        "primary": false,
+        "webSha256": "5895c6651180214d2f173d21135135e5ba7c27126d43d85588b123b7c426f15b",
+        "webBytes": 169832
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-short-19",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Ivory longline shorts",
+    "th": "กางเกงขาสั้นทรงยาวสีงาช้าง",
+    "description": "Longer-cut ivory shorts with pleats and belt loops.",
+    "descriptionTh": "กางเกงขาสั้นทรงยาวสีงาช้าง จับจีบและมีหูเข็มขัด",
+    "sources": [
+      {
+        "code": "short-19",
+        "source": "กางเกงขาสั้น (19).png",
+        "sha256": "dd2e4f048a2015de6617aa748df84e1782c2968c7b3b5d0c2552b23d30a0392e",
+        "src": "/media/products/tm/short-19.webp",
+        "primary": true,
+        "webSha256": "33de5a865803526d8eb0ee6027c72ea017385e9c16440aa395aa8dec295de00e",
+        "webBytes": 28686
+      },
+      {
+        "code": "short-20",
+        "source": "กางเกงขาสั้น (20).png",
+        "sha256": "84b5eafb30541df76b49ee2c6ad4dbb82cecccf0428d74b622e1d21942be1558",
+        "src": "/media/products/tm/short-20.webp",
+        "primary": false,
+        "webSha256": "f06eaf8631680f8f142124984987192a2830fb628e87bcae9bd3b0682b0047c5",
+        "webBytes": 55550
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-short-21",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Olive pleated shorts",
+    "th": "กางเกงขาสั้นจับจีบสีเขียวมะกอก",
+    "description": "Olive shorts with front pleats and a button waist.",
+    "descriptionTh": "กางเกงขาสั้นสีเขียวมะกอก จับจีบด้านหน้าและเอวติดกระดุม",
+    "sources": [
+      {
+        "code": "short-21",
+        "source": "กางเกงขาสั้น (21).png",
+        "sha256": "43b5d9fa02b0282b4eabd2d55fb361ded1fcc817d8aee53862e4dc5b47d5cb84",
+        "src": "/media/products/tm/short-21.webp",
+        "primary": true,
+        "webSha256": "30838f68347ef6fcfe155bcdeb1e3c87169e4c2cb23640147b163cb1395deccf",
+        "webBytes": 40214
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-short-22",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Navy tie-belt shorts",
+    "th": "กางเกงขาสั้นผูกเอวสีกรมท่า",
+    "description": "Navy shorts with a matching tie belt.",
+    "descriptionTh": "กางเกงขาสั้นสีกรมท่า พร้อมสายผูกเอวสีเดียวกัน",
+    "sources": [
+      {
+        "code": "short-22",
+        "source": "กางเกงขาสั้น (22).png",
+        "sha256": "952c8993ad102cd45c5d20866dcf02a51692e9a84026d5142ee65130b9545520",
+        "src": "/media/products/tm/short-22.webp",
+        "primary": true,
+        "webSha256": "d1c42bd7b4b5627c79778619941d6f29035e1f8547dc975bf29c019c260fe5e6",
+        "webBytes": 32538
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-short-23",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Pastel striped shorts",
+    "th": "กางเกงขาสั้นลายทางสีพาสเทล",
+    "description": "Pastel striped shorts with an elastic waist and front patch pockets.",
+    "descriptionTh": "กางเกงขาสั้นลายทางสีพาสเทล เอวยางยืดและกระเป๋าปะด้านหน้า",
+    "sources": [
+      {
+        "code": "short-23",
+        "source": "กางเกงขาสั้น (23).png",
+        "sha256": "a397ad52b2166359cabf96fa5cd87ab11fb744bba27c3a016474905edfbb879c",
+        "src": "/media/products/tm/short-23.webp",
+        "primary": true,
+        "webSha256": "e0d895b7daee4f1649cb1aac79219aed3fce911aa1219d09e50da31a38aadacc",
+        "webBytes": 79170
+      },
+      {
+        "code": "short-24",
+        "source": "กางเกงขาสั้น (24).png",
+        "sha256": "38840ee94d79c764052e90ecf0fd61c611a021dec3bbabf96a31b1ef57e7b9c4",
+        "src": "/media/products/tm/short-24.webp",
+        "primary": false,
+        "webSha256": "a7d24abd242a86177cec852574132f839c40a3171815758a98e4fe64a7950776",
+        "webBytes": 207798
+      },
+      {
+        "code": "short-25",
+        "source": "กางเกงขาสั้น (25).png",
+        "sha256": "71b1f49ee0642d8c1366f7ac5bf71afcabb2c93462d9789e02e96ee5afb587ee",
+        "src": "/media/products/tm/short-25.webp",
+        "primary": false,
+        "webSha256": "85f25c24009aa02b782e4c243218715d4407ab57961dce07f120ee19df25a63a",
+        "webBytes": 221186
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-short-26",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Geometric printed shorts",
+    "th": "กางเกงขาสั้นพิมพ์ลายเรขาคณิต",
+    "description": "Geometric printed shorts shown in blue and purple colourways.",
+    "descriptionTh": "กางเกงขาสั้นพิมพ์ลายเรขาคณิต มีภาพสีฟ้าและสีม่วง",
+    "sources": [
+      {
+        "code": "short-26",
+        "source": "กางเกงขาสั้น (26).png",
+        "sha256": "f84768af46fe2ae12e3d23dbbee7ab2cbd7ee26e1fe7b6df7326ef371453179e",
+        "src": "/media/products/tm/short-26.webp",
+        "primary": true,
+        "webSha256": "14e027d5b48a6f150bcda54e7848d189a238b4c53958eb7d6155a82344404f87",
+        "webBytes": 92326
+      },
+      {
+        "code": "short-27",
+        "source": "กางเกงขาสั้น (27).png",
+        "sha256": "2cacd6db43800e3265f4d26adc3dc79d9492d29c107f846b1b2447ae5f3787db",
+        "src": "/media/products/tm/short-27.webp",
+        "primary": false,
+        "webSha256": "b13a0a222a03ce2000e0348614ff6278b154131341989cefbf4e7feb07f6a8f5",
+        "webBytes": 171916
+      },
+      {
+        "code": "short-28",
+        "source": "กางเกงขาสั้น (28).png",
+        "sha256": "99463e2299be7fd55a2955dad09853945c7ed11c9838006ba939ee08f5318130",
+        "src": "/media/products/tm/short-28.webp",
+        "primary": false,
+        "webSha256": "ab175f12754ea2053d47cf5028aaedf03074aec5657b6aaef71560d63d396cd3",
+        "webBytes": 205588
+      }
+    ],
+    "note": "The primary source board presents both colourways together; matching on-model views remain one product gallery."
+  },
+  {
+    "id": "tm-short-29",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Slate-blue drawstring shorts",
+    "th": "กางเกงขาสั้นผูกเชือกสีฟ้าเทา",
+    "description": "Slate-blue shorts with front pleats and a drawstring waist.",
+    "descriptionTh": "กางเกงขาสั้นสีฟ้าเทา จับจีบด้านหน้าและเอวผูกเชือก",
+    "sources": [
+      {
+        "code": "short-29",
+        "source": "กางเกงขาสั้น (29).png",
+        "sha256": "8eb334abcbee4dfec41dda45374a9d98b4a593289ed9cd7468bdc753ab7ef6b7",
+        "src": "/media/products/tm/short-29.webp",
+        "primary": true,
+        "webSha256": "973b30ddce42378d12ee5a365a1bf2a656158d3fd1ff2856e1219e77d6544ef1",
+        "webBytes": 68778
+      },
+      {
+        "code": "short-30",
+        "source": "กางเกงขาสั้น (30).png",
+        "sha256": "80a405a94eb1e7c8f0534237e273fd643a32caf4ef6146525a7055261ed165bd",
+        "src": "/media/products/tm/short-30.webp",
+        "primary": false,
+        "webSha256": "32b78df906e656ed56780305216751e3a7e058f875398311c6ad3dd0e7d1832f",
+        "webBytes": 176446
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-short-31",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Grey plaid cargo shorts",
+    "th": "กางเกงขาสั้นกระเป๋าข้างลายตารางสีเทา",
+    "description": "Grey plaid shorts with side flap pockets and an elastic back waist.",
+    "descriptionTh": "กางเกงขาสั้นลายตารางสีเทา มีกระเป๋าฝาด้านข้างและเอวยางยืดด้านหลัง",
+    "sources": [
+      {
+        "code": "short-31",
+        "source": "กางเกงขาสั้น (31).png",
+        "sha256": "baa2fec42a7843fa1d7dd486d5766cdf3da996db9d226d4b7ea35a8b05f379b7",
+        "src": "/media/products/tm/short-31.webp",
+        "primary": true,
+        "webSha256": "6d4dd8af57b71f34a9280872fbeffb6a0302fdc3dd33836151e2e76ebaa37d72",
+        "webBytes": 103310
+      },
+      {
+        "code": "short-32",
+        "source": "กางเกงขาสั้น (32).png",
+        "sha256": "c723fe9848f2f744a44a4966e23bf7e4be7bdd3e1f3caf80fa99be83f646a7b7",
+        "src": "/media/products/tm/short-32.webp",
+        "primary": false,
+        "webSha256": "ba59055de849ae443f76dfef5741e6997f8cbfce5ccb4b0acbb11c7cbb6fc719",
+        "webBytes": 96660
+      }
+    ],
+    "note": "Matching front and back views. Distinct from skirt-03 skorts: no front overlay or buckle, side pockets and grey colour."
+  },
+  {
+    "id": "tm-short-33",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Charcoal tailored shorts",
+    "th": "กางเกงขาสั้นทรงเรียบสีเทาเข้ม",
+    "description": "Charcoal shorts with a button waist and side pockets.",
+    "descriptionTh": "กางเกงขาสั้นสีเทาเข้ม เอวติดกระดุมและกระเป๋าข้าง",
+    "sources": [
+      {
+        "code": "short-33",
+        "source": "กางเกงขาสั้น (33).png",
+        "sha256": "d50301caac7308ed32cd4f51f94e5caffb5aeb8969f0a3b2182151663301775a",
+        "src": "/media/products/tm/short-33.webp",
+        "primary": true,
+        "webSha256": "34d0b0f61f5d416f2e37395b88e78084c1970ab7689ddcc87575f9f0bfb6a6b2",
+        "webBytes": 48612
+      },
+      {
+        "code": "short-34",
+        "source": "กางเกงขาสั้น (34).png",
+        "sha256": "54dfd56aa6a2e59e5b3b4f8f0abd0236f349ad2d92cfe89ee4eeed0e7958b8a3",
+        "src": "/media/products/tm/short-34.webp",
+        "primary": false,
+        "webSha256": "e2df832521181e3e691af20bbeee4d14a1129a752d7e2df2ae56860689f2b8b9",
+        "webBytes": 81908
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-short-35",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Tropical-print beach shorts",
+    "th": "กางเกงขาสั้นชายหาดลายทรอปิคอล",
+    "description": "White, blue and orange printed beach shorts with a drawstring waist.",
+    "descriptionTh": "กางเกงขาสั้นชายหาดพิมพ์ลายสีขาว ฟ้า และส้ม เอวผูกเชือก",
+    "sources": [
+      {
+        "code": "short-35",
+        "source": "กางเกงขาสั้น (35).png",
+        "sha256": "430f49043a2aca8c000e95d36c7bdb11dabf927f11184dc7cae079d0a64ad484",
+        "src": "/media/products/tm/short-35.webp",
+        "primary": true,
+        "webSha256": "2eca4cb83b98e0934529dd2465dafba0ea4c49d6a51e503efbf4190c13130a3f",
+        "webBytes": 142532
+      },
+      {
+        "code": "short-36",
+        "source": "กางเกงขาสั้น (36).png",
+        "sha256": "ea9a54b6b89ca70669ab33e1894118f23ab481f35889f54ac20a675c1ae243f9",
+        "src": "/media/products/tm/short-36.webp",
+        "primary": false,
+        "webSha256": "c20a1288f8a309b0c596f62dcac48e1195b758eb0af1a750ef71e71321588e4f",
+        "webBytes": 204378
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-short-37",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Grey beach shorts",
+    "th": "กางเกงขาสั้นชายหาดสีเทา",
+    "description": "Grey drawstring shorts with a printed pocket detail.",
+    "descriptionTh": "กางเกงขาสั้นสีเทา เอวผูกเชือกและรายละเอียดลายพิมพ์ที่กระเป๋า",
+    "sources": [
+      {
+        "code": "short-37",
+        "source": "กางเกงขาสั้น (37).png",
+        "sha256": "55ce12f03ffc6d8c68d70ce5d6c0e5b9eb99942b1d11074c235f22555f66b420",
+        "src": "/media/products/tm/short-37.webp",
+        "primary": true,
+        "webSha256": "2d8293a0443a5d87d18ea9f4c9c9f0eab8fe0094c91878409518c64795f39b7d",
+        "webBytes": 50726
+      },
+      {
+        "code": "short-38",
+        "source": "กางเกงขาสั้น (38).png",
+        "sha256": "c7a75762d3880102f2f1e67d9e5e8d93c63d0ded91ae4de8389cad8c1074f3ec",
+        "src": "/media/products/tm/short-38.webp",
+        "primary": false,
+        "webSha256": "795efc9d69d71945702cbd3a0f1ae0e649f36bc9951c953d7e9dfe9af557527b",
+        "webBytes": 74796
+      },
+      {
+        "code": "short-39",
+        "source": "กางเกงขาสั้น (39).png",
+        "sha256": "13406796b8862d3c49f76b5fd48e10f50e780c411c09cf19feefe1473156a014",
+        "src": "/media/products/tm/short-39.webp",
+        "primary": false,
+        "webSha256": "ab9bbdd2232264d62c5ebdd8506bf947a65e482c2c9e9c602655b0c4da4a1784",
+        "webBytes": 168430
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-short-40",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Navy flat-front shorts",
+    "th": "กางเกงขาสั้นเอวเรียบสีกรมท่า",
+    "description": "Navy shorts with a flat front waist and side pockets.",
+    "descriptionTh": "กางเกงขาสั้นสีกรมท่า เอวด้านหน้าเรียบและกระเป๋าข้าง",
+    "sources": [
+      {
+        "code": "short-40",
+        "source": "กางเกงขาสั้น (40).png",
+        "sha256": "bfe4f841ec83501c1b379813df9854989766f83841c8ed8483507a626b9e53fd",
+        "src": "/media/products/tm/short-40.webp",
+        "primary": true,
+        "webSha256": "ab1b79880cb40e2f59cfc09e53b958899b5dc29242d2e0bd560955b130c4ce70",
+        "webBytes": 36416
+      },
+      {
+        "code": "short-41",
+        "source": "กางเกงขาสั้น (41).png",
+        "sha256": "31871171023bef7cacf19c22b0e7faf60df38a99bee2acf05d87b6c91f280284",
+        "src": "/media/products/tm/short-41.webp",
+        "primary": false,
+        "webSha256": "44ab6da753d9f5704871854ea70393175ce55b41df6f828e29ac1ecea2164f35",
+        "webBytes": 57668
+      },
+      {
+        "code": "short-42",
+        "source": "กางเกงขาสั้น (42).png",
+        "sha256": "e7b2bad9ba71c08832a05243f718028fc69b6dfa6c88d3713cf12ce8bf3c8f6a",
+        "src": "/media/products/tm/short-42.webp",
+        "primary": false,
+        "webSha256": "2de4277260c5c48e5d1548a6248d5dabf29845485d48dd68c9e8d736cff5fb17",
+        "webBytes": 75296
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-short-43",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Olive botanical shorts",
+    "th": "กางเกงขาสั้นลายพฤกษาสีเขียวมะกอก",
+    "description": "Botanical-print shorts with an elastic waist.",
+    "descriptionTh": "กางเกงขาสั้นพิมพ์ลายพฤกษา เอวยางยืด",
+    "sources": [
+      {
+        "code": "short-43",
+        "source": "กางเกงขาสั้น (43).png",
+        "sha256": "4e77e6c155d2afb80135ab3f572a02262098d35111790ff21e430b768191c656",
+        "src": "/media/products/tm/short-43.webp",
+        "primary": true,
+        "webSha256": "db4a98fa9e118f93377dbff0ff0401ab23bae364ce06b84fe31e550347ca1a68",
+        "webBytes": 79700
+      },
+      {
+        "code": "short-44",
+        "source": "กางเกงขาสั้น (44).png",
+        "sha256": "c19030c87e65122bde68acf656147aee8281b3c79f934ad0bd68d7d4b765cd86",
+        "src": "/media/products/tm/short-44.webp",
+        "primary": false,
+        "webSha256": "303f0969c6db2e0b66cd8902635cc0f141f82beca077660b6fc7ec5fcc952907",
+        "webBytes": 137782
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-short-45",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Black side-stripe sports shorts",
+    "th": "กางเกงกีฬาขาสั้นสีดำแถบข้าง",
+    "description": "Black sports shorts with a light side stripe and a drawstring waist.",
+    "descriptionTh": "กางเกงกีฬาขาสั้นสีดำ มีแถบสีอ่อนด้านข้างและเอวผูกเชือก",
+    "sources": [
+      {
+        "code": "short-45",
+        "source": "กางเกงขาสั้น (45).png",
+        "sha256": "0789969608c1af9131c60d92682faaeef6d64c6a2dd1e99f3fa032e937cedeac",
+        "src": "/media/products/tm/short-45.webp",
+        "primary": true,
+        "webSha256": "b8ad511aa0b78757d7ddd462e86bd31732cc336eac14faae98dd223d01b8fe10",
+        "webBytes": 49048
+      },
+      {
+        "code": "short-46",
+        "source": "กางเกงขาสั้น (46).png",
+        "sha256": "43c071af3933d1b7ce5ec82bcbd76eda1d0c823a0b0b669d0c121ee4a7eb99d7",
+        "src": "/media/products/tm/short-46.webp",
+        "primary": false,
+        "webSha256": "34c96959ed545ee03478d230e293603ff455ac33f0ea02b29d270de38eb1077b",
+        "webBytes": 116012
+      },
+      {
+        "code": "short-47",
+        "source": "กางเกงขาสั้น (47).png",
+        "sha256": "ae6a34da7879e8a591ed46a67226c34593cb0e39af724920f5ab2747230e6990",
+        "src": "/media/products/tm/short-47.webp",
+        "primary": false,
+        "webSha256": "2c9f6fc7415ec089c9da6a1f11c9a022a3a6e6b736b2b65741bc1974df55d421",
+        "webBytes": 170362
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-short-48",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Navy sports shorts",
+    "th": "กางเกงกีฬาขาสั้นสีกรมท่า",
+    "description": "Navy sports shorts with an elastic drawstring waist.",
+    "descriptionTh": "กางเกงกีฬาขาสั้นสีกรมท่า เอวยางยืดผูกเชือก",
+    "sources": [
+      {
+        "code": "short-48",
+        "source": "กางเกงขาสั้น (48).png",
+        "sha256": "ae9d4b3ebe63447d35ba42c9a4d27fd5ef9d27fed5ad345ee59d37e2184d36d4",
+        "src": "/media/products/tm/short-48.webp",
+        "primary": true,
+        "webSha256": "5dbdc14b4e47c9b4310fd51182cff3f5534615112335a285780a8a68ff81304d",
+        "webBytes": 36446
+      },
+      {
+        "code": "short-49",
+        "source": "กางเกงขาสั้น (49).png",
+        "sha256": "9fd1415f16414e2ec4bb32f46bc42921d2507cc020d55e25754c7959d8371ce7",
+        "src": "/media/products/tm/short-49.webp",
+        "primary": false,
+        "webSha256": "e546d02491c6181c82a6b047cd63e760c3ef037a3f54c697fdd662fc98ce2f0d",
+        "webBytes": 53292
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-cargo-01",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "shorts",
+    "shape": "shorts",
+    "title": "Black drawstring cargo shorts",
+    "th": "กางเกงคาร์โก้ขาสั้นสีดำผูกเชือก",
+    "description": "Black cargo shorts with a drawstring waist and large flap pockets.",
+    "descriptionTh": "กางเกงคาร์โก้ขาสั้นสีดำ เอวผูกเชือกและกระเป๋าฝาขนาดใหญ่",
+    "sources": [
+      {
+        "code": "cargo-01",
+        "source": "คาโก้.png",
+        "sha256": "80b70ceb75ca24d0d13ecbe5dfa0fef000eaa94a4cd4f18645a9cbd0bc98e0b4",
+        "src": "/media/products/tm/cargo-01.webp",
+        "primary": true,
+        "webSha256": "53e6f147ce473ff69686e332b848d7182119d31b1b3d7c2b0db815c47f85cfc0",
+        "webBytes": 53422
+      },
+      {
+        "code": "cargo-02",
+        "source": "คาโก้ (2).png",
+        "sha256": "9ae9c6fb777a4deb9aff3a18966d729a44e7ff1c6697c34ed03d59a7880de37d",
+        "src": "/media/products/tm/cargo-02.webp",
+        "primary": false,
+        "webSha256": "62577d7e6ebe874d6b8503b8aacf8dabac701c3d336c7ea42e163a1d7a96e329",
+        "webBytes": 94722
+      },
+      {
+        "code": "cargo-03",
+        "source": "คาโก้ (3).png",
+        "sha256": "e1ed66a07947e0582fa09ec0dc1643449297d6ef329f9d02c1bd26d13d5d13ce",
+        "src": "/media/products/tm/cargo-03.webp",
+        "primary": false,
+        "webSha256": "200df95206174d075ac0b334ed9ec3d54618f59dc6235dccc5a356658f3568b0",
+        "webBytes": 72988
+      }
+    ],
+    "note": "Explicit Cargo Shorts label and short leg length. Assigned to Shorts; cargo-outdoor is the existing full-length trousers branch."
+  },
+  {
+    "id": "tm-cargo-04",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "cargo-outdoor",
+    "shape": "trousers",
+    "title": "Olive belted cargo trousers",
+    "th": "กางเกงคาร์โก้ขายาวสีเขียวมะกอกพร้อมเข็มขัด",
+    "description": "Olive cargo trousers with a belt and side flap pockets.",
+    "descriptionTh": "กางเกงคาร์โก้ขายาวสีเขียวมะกอก พร้อมเข็มขัดและกระเป๋าฝาด้านข้าง",
+    "sources": [
+      {
+        "code": "cargo-04",
+        "source": "คาโก้ (4).png",
+        "sha256": "6781f628000d3f6afa4df9c65f1e8d0858ac32464aaf04d82824b54e9fb98bb4",
+        "src": "/media/products/tm/cargo-04.webp",
+        "primary": true,
+        "webSha256": "88565c73ffa7e780528d2918e8562b18fbe3b3c08e4c262b0992643ec8279fc2",
+        "webBytes": 39700
+      },
+      {
+        "code": "cargo-05",
+        "source": "คาโก้ (5).png",
+        "sha256": "f8848ecac9e41e74a4c39e4a4283b37b7d3ce064cdee8aa1d0f0372d53720432",
+        "src": "/media/products/tm/cargo-05.webp",
+        "primary": false,
+        "webSha256": "c496fce32e3fce377f7f4c372b6406679072c2b0dbcc55820f7e40d0b3f910cd",
+        "webBytes": 117044
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-cargo-06",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "cargo-outdoor",
+    "shape": "trousers",
+    "title": "Black wide-leg cargo trousers",
+    "th": "กางเกงคาร์โก้ขายาวขากว้างสีดำ",
+    "description": "Black wide-leg trousers with a button waist and cargo pockets.",
+    "descriptionTh": "กางเกงขายาวขากว้างสีดำ เอวติดกระดุมและกระเป๋าคาร์โก้",
+    "sources": [
+      {
+        "code": "cargo-06",
+        "source": "คาโก้ (6).png",
+        "sha256": "ddce1246eca66ed3df43bd429d20d34de15e133bbe79157cfedb78bb4111af0b",
+        "src": "/media/products/tm/cargo-06.webp",
+        "primary": true,
+        "webSha256": "59d51692228ed2dc0c6a77d36088cc9eebdfa42cd562fd0047bc5635aed93a74",
+        "webBytes": 27594
+      },
+      {
+        "code": "cargo-07",
+        "source": "คาโก้ (7).png",
+        "sha256": "b871ea59abb6cce0f5d9ad94386bbaf82bebe7cb2d278be4c9e3ef183e63209b",
+        "src": "/media/products/tm/cargo-07.webp",
+        "primary": false,
+        "webSha256": "053402e41add5aad3c9fb514365f550fcfafd8df192dcb04753a764b60a0246a",
+        "webBytes": 48128
+      },
+      {
+        "code": "cargo-08",
+        "source": "คาโก้ (8).png",
+        "sha256": "ac613fb16a56477891636cfea08efffc88db30b02e9099f15a9f337447d8bef3",
+        "src": "/media/products/tm/cargo-08.webp",
+        "primary": false,
+        "webSha256": "f871f82b4e4e1ee1375911344cc2ea19d1902e0649d2268bd3450a701eab4234",
+        "webBytes": 70314
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-cargo-09",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "cargo-outdoor",
+    "shape": "trousers",
+    "title": "Cream cargo trousers",
+    "th": "กางเกงคาร์โก้ขายาวสีครีม",
+    "description": "Cream trousers with a button waist and cargo pockets.",
+    "descriptionTh": "กางเกงขายาวสีครีม เอวติดกระดุมและกระเป๋าคาร์โก้",
+    "sources": [
+      {
+        "code": "cargo-09",
+        "source": "คาโก้ (9).png",
+        "sha256": "51a4596364e2acd3f2553ac5d4179dd46d43170b210694b0676f3402d1cda924",
+        "src": "/media/products/tm/cargo-09.webp",
+        "primary": true,
+        "webSha256": "14baf0d70fab59c39fc1ff8e7861edd3f57e1a981ac3fea5dd102402faf51021",
+        "webBytes": 34132
+      },
+      {
+        "code": "cargo-10",
+        "source": "คาโก้ (10).png",
+        "sha256": "83bacda2f823d698656593d586f6ec9a7c33b4fd8076cbbcaed569f0bc8e8bc1",
+        "src": "/media/products/tm/cargo-10.webp",
+        "primary": false,
+        "webSha256": "960419d2cc87f8b2e2b115d67005a0ea86db9f69c61d4836d5e20e7b5802d298",
+        "webBytes": 135212
+      },
+      {
+        "code": "cargo-11",
+        "source": "คาโก้ (11).png",
+        "sha256": "d6e9f5d61e3fe16a6fa9922b43fd8121541ad7228f6c2639340d892868bad525",
+        "src": "/media/products/tm/cargo-11.webp",
+        "primary": false,
+        "webSha256": "750162e66cc42e2ceed21f9064dbfed35dd8c6d7535d1bb7f1aee94813a52459",
+        "webBytes": 104128
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-cargo-12",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "cargo-outdoor",
+    "shape": "trousers",
+    "title": "Olive drawstring cargo trousers",
+    "th": "กางเกงคาร์โก้ขายาวสีเขียวมะกอกผูกเชือก",
+    "description": "Olive trousers with a drawstring waist and cargo pockets.",
+    "descriptionTh": "กางเกงขายาวสีเขียวมะกอก เอวผูกเชือกและกระเป๋าคาร์โก้",
+    "sources": [
+      {
+        "code": "cargo-12",
+        "source": "คาโก้ (12).png",
+        "sha256": "78df07b2ae015c638588962d9cd5c6f7d7145452aedf1b1bbef70ca4b1ea5295",
+        "src": "/media/products/tm/cargo-12.webp",
+        "primary": true,
+        "webSha256": "9e90ee98ff9ccaf94375ab210dae9e9c8ba193d63c25fa99f4c4643d77608b60",
+        "webBytes": 43716
+      },
+      {
+        "code": "cargo-13",
+        "source": "คาโก้ (13).png",
+        "sha256": "1cc5efe05c5eada22f896dc530828144b077983bb603530f68cbc512c8d27ec6",
+        "src": "/media/products/tm/cargo-13.webp",
+        "primary": false,
+        "webSha256": "624f1713d063bf953f67419759754b4c7116c92f7f6a02e2e4f66190cfb5f3af",
+        "webBytes": 100468
+      },
+      {
+        "code": "cargo-14",
+        "source": "คาโก้ (14).png",
+        "sha256": "6ddac86ad929a97a79fdb3505b297bf8a17146ec0f5a2da76ca0475effb4e88e",
+        "src": "/media/products/tm/cargo-14.webp",
+        "primary": false,
+        "webSha256": "5cdc2e398be4ad0529367bc6c37b94e113087ecb8b82d83d31dddb7986395716",
+        "webBytes": 82276
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-cargo-15",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "cargo-outdoor",
+    "shape": "trousers",
+    "title": "Grey cargo joggers",
+    "th": "กางเกงคาร์โก้จ็อกเกอร์สีเทา",
+    "description": "Grey cargo trousers with an elastic waist and gathered cuffs.",
+    "descriptionTh": "กางเกงคาร์โก้ขายาวสีเทา เอวยางยืดและปลายขาจั๊ม",
+    "sources": [
+      {
+        "code": "cargo-15",
+        "source": "คาโก้ (15).png",
+        "sha256": "8eb2c48e37776196d27fd3d839aa44d8df82ae94997bdbde85ddfd243b83eb21",
+        "src": "/media/products/tm/cargo-15.webp",
+        "primary": true,
+        "webSha256": "04158f1ad229e09a17814c6081a56d2666feb61c688519acedea84fbd265d995",
+        "webBytes": 51402
+      },
+      {
+        "code": "cargo-16",
+        "source": "คาโก้ (16).png",
+        "sha256": "6c986b225e8cacbdd4f8986fc65fca9cbd2dca851cb74fcb9bc7d138b301c2f8",
+        "src": "/media/products/tm/cargo-16.webp",
+        "primary": false,
+        "webSha256": "936c156cb87c419081ce2770fce05df83fbafa33b8f43d2155150e9e262fd825",
+        "webBytes": 170876
+      },
+      {
+        "code": "cargo-17",
+        "source": "คาโก้ (17).png",
+        "sha256": "2c8016867325f0244e09c14f5c0ece96fa7e7f79a3dcdf4341c84d9047ec8da5",
+        "src": "/media/products/tm/cargo-17.webp",
+        "primary": false,
+        "webSha256": "52a01429e53ccb9d9dbe60e6619b4051812989e199a00b8c286daaaf24e0eac0",
+        "webBytes": 137686
+      },
+      {
+        "code": "cargo-18",
+        "source": "คาโก้ (18).png",
+        "sha256": "8d6dd16e26a5b37a364cc70813e8b60fd62718080207abdd09024007e572d4a1",
+        "src": "/media/products/tm/cargo-18.webp",
+        "primary": false,
+        "webSha256": "68014c68e7602dfff7cc26f08dd87bbf083c5cf3eb4ae5f5df27efae7b54837c",
+        "webBytes": 90624
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-cargo-19",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "cargo-outdoor",
+    "shape": "trousers",
+    "title": "Mint wide-leg cargo trousers",
+    "th": "กางเกงคาร์โก้ขายาวขากว้างสีมิ้นต์",
+    "description": "Mint trousers with an elastic waist and large cargo pockets.",
+    "descriptionTh": "กางเกงขายาวสีมิ้นต์ เอวยางยืดและกระเป๋าคาร์โก้ขนาดใหญ่",
+    "sources": [
+      {
+        "code": "cargo-19",
+        "source": "คาโก้ (19).png",
+        "sha256": "831a05265e578061ad8a8604eb4c954351bc94a1ab959815418517eb66224f72",
+        "src": "/media/products/tm/cargo-19.webp",
+        "primary": true,
+        "webSha256": "cbf3f44cb4ac479b02fe4c6bf999e779c0b2244171d9c81d97da9adc84594988",
+        "webBytes": 40816
+      },
+      {
+        "code": "cargo-20",
+        "source": "คาโก้ (20).png",
+        "sha256": "a9d0dfa4b16b46846a33220e0c6e965cb3c1f63daf871f85bec58cf90c36ade9",
+        "src": "/media/products/tm/cargo-20.webp",
+        "primary": false,
+        "webSha256": "338af998aab31872218a4ceca038ecad1f0f1f4720dc072ca2f290794ab103ef",
+        "webBytes": 96414
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-cargo-21",
+    "audience": "adults",
+    "category": "trousers",
+    "subcategory": "cargo-outdoor",
+    "shape": "trousers",
+    "title": "Navy button-waist cargo trousers",
+    "th": "กางเกงคาร์โก้ขายาวสีกรมท่าเอวติดกระดุม",
+    "description": "Navy cargo trousers with a button waist and side flap pockets.",
+    "descriptionTh": "กางเกงคาร์โก้ขายาวสีกรมท่า เอวติดกระดุมและกระเป๋าฝาด้านข้าง",
+    "sources": [
+      {
+        "code": "cargo-21",
+        "source": "คาโก้ (21).png",
+        "sha256": "89c3aa1f8324d4f83875379ae5770f64fa23bff1c09106699d46a04a869fd310",
+        "src": "/media/products/tm/cargo-21.webp",
+        "primary": true,
+        "webSha256": "ddab71e4052c7108657b7d67f1c8f46a14aae3f211ed8f37f03ec68f5d9e16be",
+        "webBytes": 32486
+      },
+      {
+        "code": "cargo-22",
+        "source": "คาโก้ (22).png",
+        "sha256": "8697665e794cbeeade7453a21024b7c1c97a8c475452c7ce412c06e02cf2142f",
+        "src": "/media/products/tm/cargo-22.webp",
+        "primary": false,
+        "webSha256": "29fbd919e87cda334992606a57e52258f9ec5169dcab64cd1d769d0d01cd839d",
+        "webBytes": 52900
+      },
+      {
+        "code": "cargo-23",
+        "source": "คาโก้ (23).png",
+        "sha256": "dc94bdbf75636e2e3f31aee340fd5925267ccc4bb956de5f760a03804fc9413f",
+        "src": "/media/products/tm/cargo-23.webp",
+        "primary": false,
+        "webSha256": "0650ece87f76271411b4fce402ad31bab8c6e5468ff3f9141832ef5d59554a3c",
+        "webBytes": 75856
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-cargo-24",
+    "audience": "adults",
+    "category": "skirts",
+    "shape": "skirt",
+    "title": "Olive drawstring cargo skirt",
+    "th": "กระโปรงคาร์โก้สีเขียวมะกอกผูกเชือก",
+    "description": "A long olive skirt with a drawstring waist and gathered cargo pockets.",
+    "descriptionTh": "กระโปรงยาวสีเขียวมะกอก เอวผูกเชือกและกระเป๋าคาร์โก้แบบรูด",
+    "sources": [
+      {
+        "code": "cargo-24",
+        "source": "คาโก้ (24).png",
+        "sha256": "501f95e0cc4a08ae59c2300562fea7f11b7cc41135f7da6be580ce5d571ea4a8",
+        "src": "/media/products/tm/cargo-24.webp",
+        "primary": true,
+        "webSha256": "7b72e07b61fdeb6e97e0992662a173e864c6949804d440ea3e7d303b0f39ac88",
+        "webBytes": 46718
+      },
+      {
+        "code": "cargo-25",
+        "source": "คาโก้ (25).png",
+        "sha256": "cc62600c92d3c2f2f37f84000581f2d1e42a5741afcdc0f59a1de0e9ce5a88b0",
+        "src": "/media/products/tm/cargo-25.webp",
+        "primary": false,
+        "webSha256": "d3f7f3de35f71889ebb5a76baa7bc13b880b6325333d0755f9db59ae1af309b6",
+        "webBytes": 112766
+      },
+      {
+        "code": "cargo-26",
+        "source": "คาโก้ (26).png",
+        "sha256": "5e5831db31fd8265ba4a0c1418bc7d2300bf8f00e094ee54c26a87f0ae2f92bb",
+        "src": "/media/products/tm/cargo-26.webp",
+        "primary": false,
+        "webSha256": "9abb7a68db366aed4da4b929ac2841070fc28accf64ef56868fef6feae255257",
+        "webBytes": 79642
+      }
+    ],
+    "note": "Source label explicitly says Cargo Skirt; categorised by garment type under Skirts rather than cargo trousers."
+  },
+  {
+    "id": "tm-sleep-01",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "set",
+    "title": "Pastel blue printed pyjama set",
+    "th": "ชุดนอนพิมพ์ลายสีฟ้าพาสเทล",
+    "description": "A printed short-sleeve pyjama shirt and matching shorts.",
+    "descriptionTh": "ชุดนอนเสื้อแขนสั้นพิมพ์ลาย พร้อมกางเกงขาสั้นเข้าชุด",
+    "sources": [
+      {
+        "code": "sleep-01",
+        "source": "ชุดนอน.png",
+        "sha256": "252b68c2fede98bfc6548f6445f458a10c9d7b17d1e1c02e75a96f52bfc4b8c5",
+        "src": "/media/products/tm/sleep-01.webp",
+        "primary": true,
+        "webSha256": "6cb1425810428c0c300829d38131e6b0ba8b11278f10842e80878cf208f092c0",
+        "webBytes": 60972
+      },
+      {
+        "code": "sleep-02",
+        "source": "ชุดนอน (2).png",
+        "sha256": "9b85b0934adf17e58434793aa11b07028e4b4bd0d9c2b89213444578da020e85",
+        "src": "/media/products/tm/sleep-02.webp",
+        "primary": false,
+        "webSha256": "75a0f7fb2900a36b104901181576907201a4e6e37de4df2cfeded166b54c8f00",
+        "webBytes": 72374
+      },
+      {
+        "code": "sleep-03",
+        "source": "ชุดนอน (3).png",
+        "sha256": "fe5754e32603c93aecfe81eabc903f5d0dda9f4e0cdae97b770a74b194d2439d",
+        "src": "/media/products/tm/sleep-03.webp",
+        "primary": false,
+        "webSha256": "42026ae955706e88fd9d2872d50d5ba234a5837be558638d4c508d04ca1cca97",
+        "webBytes": 92630
+      },
+      {
+        "code": "sleep-04",
+        "source": "ชุดนอน (4).png",
+        "sha256": "a7bca30eebfd9bd12b98195ea96483911ce0451027b4d6d3469ecf94419e70c6",
+        "src": "/media/products/tm/sleep-04.webp",
+        "primary": false,
+        "webSha256": "3c331307a677bc941e5820215075c91e904a01d5a0054a807016c1f6a5a9a4bf",
+        "webBytes": 92118
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-sleep-05",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "set",
+    "title": "Mint checked pyjama set",
+    "th": "ชุดนอนลายตารางสีมิ้นต์",
+    "description": "A mint checked short-sleeve pyjama shirt and matching shorts.",
+    "descriptionTh": "ชุดนอนเสื้อแขนสั้นลายตารางสีมิ้นต์ พร้อมกางเกงขาสั้นเข้าชุด",
+    "sources": [
+      {
+        "code": "sleep-05",
+        "source": "ชุดนอน (5).png",
+        "sha256": "e74702a99b7afe09da227a13a71470ea1e96da14cf162a34e4bc08c441311918",
+        "src": "/media/products/tm/sleep-05.webp",
+        "primary": true,
+        "webSha256": "c0b7568f855b9773a2c30d34e2fcac5cc85bb80feb561c5140e4d4ea6789b4bb",
+        "webBytes": 99636
+      },
+      {
+        "code": "sleep-06",
+        "source": "ชุดนอน (6).png",
+        "sha256": "74cbcbe56a89f52eee3854640c3cd98d5aa29a075ca4736a0eaf24b0c2f59e83",
+        "src": "/media/products/tm/sleep-06.webp",
+        "primary": false,
+        "webSha256": "60a98726430e5fe409ad4e6f55d6e573ce66541ad6a80e37b141f8cd68d66b2e",
+        "webBytes": 103690
+      },
+      {
+        "code": "sleep-07",
+        "source": "ชุดนอน (7).png",
+        "sha256": "fdb2a7b4f4ad925bbe709694ef61faadc59fe70a1e816e201b2941225a71379f",
+        "src": "/media/products/tm/sleep-07.webp",
+        "primary": false,
+        "webSha256": "f325e69dc21453b9887c8a34c596651ca9a89493a48d92a84d17f563399df6ec",
+        "webBytes": 87654
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-sleep-08",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "set",
+    "title": "Blue polka-dot pyjama set",
+    "th": "ชุดนอนลายจุดสีฟ้า",
+    "description": "A blue and white polka-dot pyjama shirt and matching shorts.",
+    "descriptionTh": "ชุดนอนเสื้อลายจุดสีฟ้าและขาว พร้อมกางเกงขาสั้นเข้าชุด",
+    "sources": [
+      {
+        "code": "sleep-08",
+        "source": "ชุดนอน (8).png",
+        "sha256": "26b319686d23d254ec18d618abd498e8cb203ceb21bbc1e1eaf86be1c0d98de2",
+        "src": "/media/products/tm/sleep-08.webp",
+        "primary": true,
+        "webSha256": "08ca1fcac0b6ebe6c0d3c2a2915d174197f87ed13e3be6caf23f757de9fd48f6",
+        "webBytes": 57298
+      },
+      {
+        "code": "sleep-09",
+        "source": "ชุดนอน (9).png",
+        "sha256": "409eecf86a115c9de513b1de6302a3196356e0dc2cfab45c7c73e53e10b6c347",
+        "src": "/media/products/tm/sleep-09.webp",
+        "primary": false,
+        "webSha256": "c0d04dd41e5b5a496f7c07fe33ca8127523117fda65a06d06c3f92410fb9dc2f",
+        "webBytes": 83528
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-sleep-10",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "set",
+    "title": "Pink long-sleeve pyjama set",
+    "th": "ชุดนอนเสื้อแขนยาวสีชมพู",
+    "description": "A pink printed long-sleeve pyjama shirt and matching shorts.",
+    "descriptionTh": "ชุดนอนเสื้อแขนยาวพิมพ์ลายสีชมพู พร้อมกางเกงขาสั้นเข้าชุด",
+    "sources": [
+      {
+        "code": "sleep-10",
+        "source": "ชุดนอน (10).png",
+        "sha256": "2a848b1cc10613e40e14a2d39bc7c5a006bc9cb5c279e276b161a85a8b13e857",
+        "src": "/media/products/tm/sleep-10.webp",
+        "primary": true,
+        "webSha256": "7bd4589caddcc4ec7eeeb70791d37da02b1bbfdbc7d62a89b5612fca696c2df6",
+        "webBytes": 49712
+      },
+      {
+        "code": "sleep-11",
+        "source": "ชุดนอน (11).png",
+        "sha256": "cf283ea37949dbbafa1ad022490c35b2a618d1c59dcd47630266ec901ea29a14",
+        "src": "/media/products/tm/sleep-11.webp",
+        "primary": false,
+        "webSha256": "3dfbd71e24bcaf02e8f3e88bd1657c24871743fc07be4df1c7ebc32c14ac9879",
+        "webBytes": 50372
+      },
+      {
+        "code": "sleep-12",
+        "source": "ชุดนอน (12).png",
+        "sha256": "d471bd8e647ad112a77795f0c46f562d1c2f9233fc6837712680319918a72cf1",
+        "src": "/media/products/tm/sleep-12.webp",
+        "primary": false,
+        "webSha256": "ab6236e893f0f4764275d70aef4873a22d316346e63929d5c892ba064b3ca8f7",
+        "webBytes": 53296
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-sleep-13",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "set",
+    "title": "Yellow printed pyjama set",
+    "th": "ชุดนอนพิมพ์ลายสีเหลือง",
+    "description": "A pale yellow short-sleeve pyjama shirt and matching shorts.",
+    "descriptionTh": "ชุดนอนเสื้อแขนสั้นสีเหลืองอ่อน พร้อมกางเกงขาสั้นเข้าชุด",
+    "sources": [
+      {
+        "code": "sleep-13",
+        "source": "ชุดนอน (13).png",
+        "sha256": "e9bdc04b07625a070e31c22ff1b7c4bedd7cca1f37df937d9bc26709e9abcd7e",
+        "src": "/media/products/tm/sleep-13.webp",
+        "primary": true,
+        "webSha256": "f26a46e1ac8aaa5441baade8fa66089d4a5b64b5fe8bb8b4d099a5ca9053709b",
+        "webBytes": 55796
+      },
+      {
+        "code": "sleep-14",
+        "source": "ชุดนอน (14).png",
+        "sha256": "e659065c94aab5fef16464fe9ecc5234a98f7a2f1d1df67a50039e17031b435d",
+        "src": "/media/products/tm/sleep-14.webp",
+        "primary": false,
+        "webSha256": "a216ce4c05031b117fc0c787b01792fa328c3c5862fc5663621a9f9daed44778",
+        "webBytes": 78822
+      },
+      {
+        "code": "sleep-15",
+        "source": "ชุดนอน (15).png",
+        "sha256": "ecb45ec6f8031e6d6a42643d291840d81eda2147d2c46295ee6351fc3b5cc1d1",
+        "src": "/media/products/tm/sleep-15.webp",
+        "primary": false,
+        "webSha256": "bae3136672f3b2695b709eadb51afd1d6b3e782d45b589e351c65cb5a5399c38",
+        "webBytes": 72532
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-sleep-16",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "shirt",
+    "title": "Blue cartoon-print sleep shirt",
+    "th": "เสื้อนอนลายการ์ตูนสีฟ้า",
+    "description": "A short-sleeve blue sleep shirt with a cartoon print.",
+    "descriptionTh": "เสื้อนอนแขนสั้นสีฟ้าพิมพ์ลายการ์ตูน",
+    "sources": [
+      {
+        "code": "sleep-16",
+        "source": "ชุดนอน (16).png",
+        "sha256": "6da2ea337c608d38d727a5df9e6282a9a70b6d36b921f7466f3f3193d7d9ae81",
+        "src": "/media/products/tm/sleep-16.webp",
+        "primary": true,
+        "webSha256": "b8ac8cf08ea0b75e54732659f156978325494072fdb9a75c9e5a65f22be4d04f",
+        "webBytes": 74428
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-sleep-17",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "shirt",
+    "title": "Cherry-print sleep shirt",
+    "th": "เสื้อนอนลายเชอร์รี",
+    "description": "A white cherry-print sleep shirt with a rounded collar and two pockets.",
+    "descriptionTh": "เสื้อนอนสีขาวลายเชอร์รี คอปกมนและกระเป๋าสองข้าง",
+    "sources": [
+      {
+        "code": "sleep-17",
+        "source": "ชุดนอน (17).png",
+        "sha256": "a2e7e569e20fb55bdd312e8f95f55cac1f92496047100c004f9a38eca98fc455",
+        "src": "/media/products/tm/sleep-17.webp",
+        "primary": true,
+        "webSha256": "e87b12e0596cfba238e5ab385e323532ee8c19af7f57b63d3fee2c210a601312",
+        "webBytes": 83612
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-sleep-18",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "shirt",
+    "title": "Pink gingham sleep shirt",
+    "th": "เสื้อนอนลายตารางสีชมพู",
+    "description": "A pink gingham sleep shirt with a rounded collar and two pockets.",
+    "descriptionTh": "เสื้อนอนลายตารางสีชมพู คอปกมนและกระเป๋าสองข้าง",
+    "sources": [
+      {
+        "code": "sleep-18",
+        "source": "ชุดนอน (18).png",
+        "sha256": "3f39508463b51b80e7d9a909dbbbe7891bc5a6730eb42c12b01545ad2f9c7c36",
+        "src": "/media/products/tm/sleep-18.webp",
+        "primary": true,
+        "webSha256": "549d716460a786b149ba53a2a8c3341d49dd20e0e295308825a716c0997c3837",
+        "webBytes": 101210
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-sleep-19",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "shirt",
+    "title": "Cream dotted sleep shirt",
+    "th": "เสื้อนอนลายจุดสีครีม",
+    "description": "A cream dotted sleep shirt with a rounded collar and two pockets.",
+    "descriptionTh": "เสื้อนอนลายจุดสีครีม คอปกมนและกระเป๋าสองข้าง",
+    "sources": [
+      {
+        "code": "sleep-19",
+        "source": "ชุดนอน (19).png",
+        "sha256": "7a561b9876d20b61647b236570b825b0a4841e7a159537887250026ee092ed97",
+        "src": "/media/products/tm/sleep-19.webp",
+        "primary": true,
+        "webSha256": "f16df76defff78d842d5ae91d6fffef676924570fca5486cf00619b4f48da8d2",
+        "webBytes": 60304
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-sleep-20",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "shirt",
+    "title": "Pink plaid sleep shirt",
+    "th": "เสื้อนอนลายสก็อตสีชมพู",
+    "description": "A pink plaid sleep shirt with a rounded collar and two pockets.",
+    "descriptionTh": "เสื้อนอนลายสก็อตสีชมพู คอปกมนและกระเป๋าสองข้าง",
+    "sources": [
+      {
+        "code": "sleep-20",
+        "source": "ชุดนอน (20).png",
+        "sha256": "8b55ba5f6b6535a94a020d4691abfa1e78b00b730d9c8ef5c8b6ecc21c4c287e",
+        "src": "/media/products/tm/sleep-20.webp",
+        "primary": true,
+        "webSha256": "3741f00b6786dea0b985594e3b00ef0545980b3a6c4a1027473faebfb1ca6325",
+        "webBytes": 61512
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-sleep-21",
+    "audience": "adults",
+    "category": "sleepwear",
+    "shape": "set",
+    "title": "Cherry camisole pyjama set",
+    "th": "ชุดนอนสายเดี่ยวลายเชอร์รี",
+    "description": "A pink cherry-print camisole and matching shorts.",
+    "descriptionTh": "ชุดนอนเสื้อสายเดี่ยวสีชมพูลายเชอร์รี พร้อมกางเกงขาสั้นเข้าชุด",
+    "sources": [
+      {
+        "code": "sleep-21",
+        "source": "ชุดนอน (21).png",
+        "sha256": "24177e998a26a5131b6c1023eb2353d5b35fdf7dac20c0ab9515e6ba70a3fafe",
+        "src": "/media/products/tm/sleep-21.webp",
+        "primary": true,
+        "webSha256": "c3d82db3953dab22e083c8780c0d49890d4364f34b5d892622f797227b26f72d",
+        "webBytes": 64026
+      },
+      {
+        "code": "sleep-22",
+        "source": "ชุดนอน (22).png",
+        "sha256": "f186343b9412418c4828963d579899741fb1a9be7c765946a777d463ff12576c",
+        "src": "/media/products/tm/sleep-22.webp",
+        "primary": false,
+        "webSha256": "b6147b21e1ea133433a70fe4a2caa6822fa774beb05746dd03a556a95c9ef662",
+        "webBytes": 91576
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-elephant-01",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "shirt",
+    "title": "White elephant-motif shirt",
+    "th": "เสื้อสีขาวลายช้างที่อก",
+    "description": "A white short-sleeve shirt with a split neckline and small chest motif.",
+    "descriptionTh": "เสื้อแขนสั้นสีขาว คอผ่าหน้าและลายช้างขนาดเล็กที่อก",
+    "sources": [
+      {
+        "code": "elephant-01",
+        "source": "รวมเสื้อช้าง กางเกงช้าง.png",
+        "sha256": "cbfee2d7a1413d939ba26c1ef21cd724708f538ea850fd15edbf3e99d3342a52",
+        "src": "/media/products/tm/elephant-01.webp",
+        "primary": true,
+        "webSha256": "8112e1e9f08dcc8a075b4d8b4fbbf804fad50649148293cd8a58c2d57f1d6ce5",
+        "webBytes": 35610
+      },
+      {
+        "code": "elephant-02",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (2).png",
+        "sha256": "5e5065819789577d8ef0795f41b5fa393917cf71ecd52faae8a68bf4ccb3bbe4",
+        "src": "/media/products/tm/elephant-02.webp",
+        "primary": false,
+        "webSha256": "e992cb1db7cb21e13a17df24606f987eea84fa45866348b2d1deded66ccc6359",
+        "webBytes": 86494
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-elephant-03",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "shirt",
+    "title": "Navy elephant-print shirt",
+    "th": "เสื้อพิมพ์ลายช้างสีกรมท่า",
+    "description": "A navy and white elephant-print short-sleeve collared shirt.",
+    "descriptionTh": "เสื้อเชิ้ตแขนสั้นพิมพ์ลายช้างสีกรมท่าและขาว",
+    "sources": [
+      {
+        "code": "elephant-03",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (3).png",
+        "sha256": "b64fe60e8f8a63d504ba092034a9db6ceb87daedea8917b0c75ee0586c939e8b",
+        "src": "/media/products/tm/elephant-03.webp",
+        "primary": true,
+        "webSha256": "a5844f89341f8251ef9742a90b9d72673c44252c23589e27c94b4d1df2870339",
+        "webBytes": 124112
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-elephant-04",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "shirt",
+    "title": "White elephant-print shirt",
+    "th": "เสื้อพิมพ์ลายช้างสีขาว",
+    "description": "A white and grey elephant-print short-sleeve collared shirt.",
+    "descriptionTh": "เสื้อเชิ้ตแขนสั้นพิมพ์ลายช้างสีขาวและเทา",
+    "sources": [
+      {
+        "code": "elephant-04",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (4).png",
+        "sha256": "f06ad38cddc799265ad6e16adb658e09a0d00ffdf71594d5685ec22dc2149d47",
+        "src": "/media/products/tm/elephant-04.webp",
+        "primary": true,
+        "webSha256": "75ede6568f2c008dd048e1a31510931ba6ff0398fcb2bb9ef93c64d6f04b47e9",
+        "webBytes": 147292
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-elephant-05",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "shirt",
+    "title": "Navy cropped elephant shirt",
+    "th": "เสื้อครอปลายช้างสีกรมท่า",
+    "description": "A cropped navy elephant-print shirt, shown from the front and back.",
+    "descriptionTh": "เสื้อครอปพิมพ์ลายช้างสีกรมท่า มีภาพด้านหน้าและด้านหลัง",
+    "sources": [
+      {
+        "code": "elephant-05",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (5).png",
+        "sha256": "9278a774422ded248668046e55589f05c8ef4ffe36cff4e7ab8c8594a23d9fbd",
+        "src": "/media/products/tm/elephant-05.webp",
+        "primary": true,
+        "webSha256": "b0b79636b33f6b2b047ab747097bca8a80d17796bd65d5a6fd77b01de51e904f",
+        "webBytes": 138812
+      },
+      {
+        "code": "elephant-06",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (6).png",
+        "sha256": "f45fe8be6221f81bf4d166d06fc53c7e715048c2067be8e5671978bf4f796035",
+        "src": "/media/products/tm/elephant-06.webp",
+        "primary": false,
+        "webSha256": "11553631862667b65c834f668a4a58817ab06d73aee0091ae395aeb15fe36f04",
+        "webBytes": 147638
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-elephant-07",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "shirt",
+    "title": "Pink cropped elephant shirt",
+    "th": "เสื้อครอปลายช้างสีชมพู",
+    "description": "A cropped pink elephant-print shirt, shown from the front and back.",
+    "descriptionTh": "เสื้อครอปพิมพ์ลายช้างสีชมพู มีภาพด้านหน้าและด้านหลัง",
+    "sources": [
+      {
+        "code": "elephant-07",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (7).png",
+        "sha256": "5f7f8903737dee3d8162d0a576e568bfbc44ab627bd6e63a49bf7030df84e082",
+        "src": "/media/products/tm/elephant-07.webp",
+        "primary": true,
+        "webSha256": "1e0b89e75a32f2cf0e711ad13c510bc37e94e06f3c8d49c985a7bc91c9dd85a5",
+        "webBytes": 92024
+      },
+      {
+        "code": "elephant-08",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (8).png",
+        "sha256": "3ead4a7016a95e9bd0dc2a971591421903b7849de7190606be6b2624571db609",
+        "src": "/media/products/tm/elephant-08.webp",
+        "primary": false,
+        "webSha256": "2436f2cb513f713b378686b8120511326c968a518ad3847cd0e8dc98a6885169",
+        "webBytes": 98814
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-elephant-09",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "set",
+    "title": "Black elephant co-ord set",
+    "th": "ชุดเสื้อและกางเกงขาสั้นลายช้างสีดำ",
+    "description": "A black and white elephant-print shirt and matching shorts.",
+    "descriptionTh": "เสื้อพิมพ์ลายช้างสีดำและขาว พร้อมกางเกงขาสั้นเข้าชุด",
+    "sources": [
+      {
+        "code": "elephant-09",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (9).png",
+        "sha256": "11130ca55777edda64cef2eadc0d618ca7a19613077e9b018871d4bff4c53d90",
+        "src": "/media/products/tm/elephant-09.webp",
+        "primary": true,
+        "webSha256": "5d114de6ada91dc224860e0a3756c86cdb982e3bca1b71755e87c1743e07bef5",
+        "webBytes": 141330
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-elephant-10",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "set",
+    "title": "Blue elephant co-ord set",
+    "th": "ชุดเสื้อและกางเกงขาสั้นลายช้างสีฟ้า",
+    "description": "A blue and white elephant-print shirt and matching shorts.",
+    "descriptionTh": "เสื้อพิมพ์ลายช้างสีฟ้าและขาว พร้อมกางเกงขาสั้นเข้าชุด",
+    "sources": [
+      {
+        "code": "elephant-10",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (10).png",
+        "sha256": "80c499da7eff25ae28403d2ca55eb91d06eb1d6ee5a44a625dc910270fc48ede",
+        "src": "/media/products/tm/elephant-10.webp",
+        "primary": true,
+        "webSha256": "f1edd8db4471b79b380a531b364681dd6da03773ac4ed128d19e6b9962a8f85c",
+        "webBytes": 155818
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-elephant-11",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "shorts",
+    "title": "Ochre elephant-print shorts",
+    "th": "กางเกงขาสั้นลายช้างสีเหลืองน้ำตาล",
+    "description": "Ochre, black and white elephant-print shorts with an elastic waist.",
+    "descriptionTh": "กางเกงขาสั้นลายช้างสีเหลืองน้ำตาล ดำ และขาว เอวยางยืด",
+    "sources": [
+      {
+        "code": "elephant-11",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (11).png",
+        "sha256": "167a9f5eef695fdae109083909a16bed9fdce77faa47c07a6a300766b2358691",
+        "src": "/media/products/tm/elephant-11.webp",
+        "primary": true,
+        "webSha256": "e58ad405e16ac6d911dc31e0bdca9278d53c24e9dfe658b9df57f52ad2e3d4b4",
+        "webBytes": 158672
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-elephant-12",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "trousers",
+    "title": "Navy geometric elephant trousers",
+    "th": "กางเกงขายาวลายช้างเรขาคณิตสีกรมท่า",
+    "description": "Navy and cream elephant-print trousers with geometric borders.",
+    "descriptionTh": "กางเกงขายาวลายช้างสีกรมท่าและครีม พร้อมลายขอบเรขาคณิต",
+    "sources": [
+      {
+        "code": "elephant-12",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (12).png",
+        "sha256": "2f46fa96939f6a0ae57f49da44fd4c53db75883dfdc6cc96a43bd8e17531dc65",
+        "src": "/media/products/tm/elephant-12.webp",
+        "primary": true,
+        "webSha256": "77273ce80da6da94176da6a856a92a39ca8dd1afd89c561e151113bbba2d9ade",
+        "webBytes": 133284
+      },
+      {
+        "code": "elephant-13",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (13).png",
+        "sha256": "fed56255a0f374b6d3fe33f85b7756b4d21d6bb78af5ba0d836648cfa2a940ef",
+        "src": "/media/products/tm/elephant-13.webp",
+        "primary": false,
+        "webSha256": "908290f3780d4cb4ada115e7939c05e7e9e8c7bd408fa556460fc896a74f7f1d",
+        "webBytes": 216566
+      },
+      {
+        "code": "elephant-14",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (14).png",
+        "sha256": "96a4ed0e08abd025b11e1db5bc76ad6326de04dee6c460e83b781a7e0ff5a699",
+        "src": "/media/products/tm/elephant-14.webp",
+        "primary": false,
+        "webSha256": "61484b302c8f24cb82f6617d2164b2b878dc6ba69a2973da9804dbcae1827d79",
+        "webBytes": 187650
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-elephant-15",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "trousers",
+    "title": "Black and white elephant trousers",
+    "th": "กางเกงขายาวลายช้างสีดำและขาว",
+    "description": "Black and white elephant-print trousers with an elastic waist.",
+    "descriptionTh": "กางเกงขายาวพิมพ์ลายช้างสีดำและขาว เอวยางยืด",
+    "sources": [
+      {
+        "code": "elephant-15",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (15).png",
+        "sha256": "6777d9170f948d3d309034950126e53f42ce2cb512865460cf00955c48ee8233",
+        "src": "/media/products/tm/elephant-15.webp",
+        "primary": true,
+        "webSha256": "1ad1fe01097298f85dadb6437f0139284f86fde4e25886b692731de521daaf65",
+        "webBytes": 101380
+      },
+      {
+        "code": "elephant-16",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (16).png",
+        "sha256": "8bf3863d6f0b26929f074a062cf29db1f99aa94aefdf8cd71c07ee62b9ba2a1a",
+        "src": "/media/products/tm/elephant-16.webp",
+        "primary": false,
+        "webSha256": "c1e333a8137fb952dd3439d6ae1006e7c16245a5491c736e658f6865b16d0ba2",
+        "webBytes": 272300
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-elephant-17",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "trousers",
+    "title": "Black and tan elephant trousers",
+    "th": "กางเกงขายาวลายช้างสีดำและน้ำตาลอ่อน",
+    "description": "Black and tan elephant-print trousers with an elastic waist.",
+    "descriptionTh": "กางเกงขายาวพิมพ์ลายช้างสีดำและน้ำตาลอ่อน เอวยางยืด",
+    "sources": [
+      {
+        "code": "elephant-17",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (17).png",
+        "sha256": "cc130f1138bc73e675a3e032af66e2f2db33739f7d60d0670b4dad229925d816",
+        "src": "/media/products/tm/elephant-17.webp",
+        "primary": true,
+        "webSha256": "7fea7c3917905d0fd12753093edf5d32bd58e73a38268da3c3cff99eb6a112d7",
+        "webBytes": 109032
+      },
+      {
+        "code": "elephant-18",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (18).png",
+        "sha256": "f14b2b3c59be05ea994af826ac5ddbc8fd5b6e6abed940821e28385c0cc30bba",
+        "src": "/media/products/tm/elephant-18.webp",
+        "primary": false,
+        "webSha256": "70de2c332bb414bbcb72cbb08cd3147f168f366c4c192cd3af9a4b4f192288e5",
+        "webBytes": 220564
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-elephant-19",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "trousers",
+    "title": "Navy and tan elephant trousers",
+    "th": "กางเกงขายาวลายช้างสีกรมท่าและน้ำตาลอ่อน",
+    "description": "Navy and tan elephant-print trousers with an elastic waist.",
+    "descriptionTh": "กางเกงขายาวพิมพ์ลายช้างสีกรมท่าและน้ำตาลอ่อน เอวยางยืด",
+    "sources": [
+      {
+        "code": "elephant-19",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (19).png",
+        "sha256": "2d31ceaae8849e63bf3d39853d00c1df7a442dfbf83f5339219a9d89f6080bd4",
+        "src": "/media/products/tm/elephant-19.webp",
+        "primary": true,
+        "webSha256": "935182e4ce67b15a0b8d7a639b6611d071a7b9c5148c6bc7218e7eabdf293e2f",
+        "webBytes": 116498
+      },
+      {
+        "code": "elephant-20",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (20).png",
+        "sha256": "27bea1379a575d9a818a5b75ac0a73a19cb40d32e0049fd1770a51aa9bf1cd29",
+        "src": "/media/products/tm/elephant-20.webp",
+        "primary": false,
+        "webSha256": "85f5f70531ee01172bf472777d5f4df62e8204b438652a0e7fdda6658af762c1",
+        "webBytes": 245372
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-elephant-21",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "trousers",
+    "title": "Pink geometric elephant trousers",
+    "th": "กางเกงขายาวลายช้างเรขาคณิตสีชมพู",
+    "description": "Pink elephant-print trousers with geometric bands and a drawstring waist.",
+    "descriptionTh": "กางเกงขายาวลายช้างสีชมพู มีลายแถบเรขาคณิตและเอวผูกเชือก",
+    "sources": [
+      {
+        "code": "elephant-21",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (21).png",
+        "sha256": "b11ef8d8fa52207726957e1da8458f78f3b159e1502fa3eef81f966e70661859",
+        "src": "/media/products/tm/elephant-21.webp",
+        "primary": true,
+        "webSha256": "34d762feda0e68ad0b0070ab477c1206c7b9e921d7b999767603a77bf02549ec",
+        "webBytes": 88462
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-elephant-22",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "trousers",
+    "title": "Plum elephant-print trousers",
+    "th": "กางเกงขายาวลายช้างสีม่วงพลัม",
+    "description": "Plum and white elephant-print trousers with an elastic waist.",
+    "descriptionTh": "กางเกงขายาวพิมพ์ลายช้างสีม่วงพลัมและขาว เอวยางยืด",
+    "sources": [
+      {
+        "code": "elephant-22",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (22).png",
+        "sha256": "cd7590a27709c60217dd6fcbd833fb8bd685c7af2e23be84b7dba707986b4120",
+        "src": "/media/products/tm/elephant-22.webp",
+        "primary": true,
+        "webSha256": "db571dd1b0d57cc20e2b735a41e2cfaf72349b9670095f0bc1b45f1e4ef984e5",
+        "webBytes": 117702
+      },
+      {
+        "code": "elephant-23",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (23).png",
+        "sha256": "8f1bbaab90c3b61aa67a9f976b10a35f9820e7a15aa39781679fea31f0f85e86",
+        "src": "/media/products/tm/elephant-23.webp",
+        "primary": false,
+        "webSha256": "b9fe3a9c128777fd8b64dbf40093460fedd0d28347cfeaee217c1b3fd8a77c5c",
+        "webBytes": 311316
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-elephant-25",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "trousers",
+    "title": "Pink medallion elephant trousers",
+    "th": "กางเกงขายาวลายช้างเมดัลเลียนสีชมพู",
+    "description": "Pink wide-leg elephant-print trousers with a tie waist and medallion borders.",
+    "descriptionTh": "กางเกงขายาวขากว้างลายช้างสีชมพู เอวผูกและลายขอบเมดัลเลียน",
+    "sources": [
+      {
+        "code": "elephant-25",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (25).png",
+        "sha256": "0d23f69ced01d821bf185c2dd8ff4c6d47d5a24dbf64df5571c0ba35873148fc",
+        "src": "/media/products/tm/elephant-25.webp",
+        "primary": true,
+        "webSha256": "fd1eb18cfbf7625087f9971d9edab3a49d15b89a78c3f457264304a3c70d10ce",
+        "webBytes": 83068
+      },
+      {
+        "code": "elephant-24",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (24).png",
+        "sha256": "928810936d390b20f1e5a263cd0cab45c2dc3022382addf80bb7d79fcc37908c",
+        "src": "/media/products/tm/elephant-24.webp",
+        "primary": false,
+        "webSha256": "609f4bb34642b3806b76b4151c590ad967ff79b76a4de8a8be31b12f8aaeaf0d",
+        "webBytes": 58756
+      }
+    ],
+    "note": "Same print and cut, front tie-waist view (25) selected before back elastic-waist view (24). Distinct print from elephant-21 and elephant-26."
+  },
+  {
+    "id": "tm-elephant-26",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "trousers",
+    "title": "Pink diamond elephant trousers",
+    "th": "กางเกงขายาวลายช้างข้าวหลามตัดสีชมพู",
+    "description": "Pink elephant-print trousers with diamond motifs and a tie waist.",
+    "descriptionTh": "กางเกงขายาวลายช้างสีชมพู มีลายข้าวหลามตัดและเอวผูก",
+    "sources": [
+      {
+        "code": "elephant-26",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (26).png",
+        "sha256": "d988e248736c6360c3d274e54f4d4fa1592918d6c0b1914ef44768549c0c4ce7",
+        "src": "/media/products/tm/elephant-26.webp",
+        "primary": true,
+        "webSha256": "54d4de0333d0e51338e448fb27ba4c336c2b32a919fc72106b0cb30bc5cab66e",
+        "webBytes": 97926
+      },
+      {
+        "code": "elephant-27",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (27).png",
+        "sha256": "44b5237f8b5b81d85b66c42e136963bad27a1eb168dbf0c8c7435341bf98aa81",
+        "src": "/media/products/tm/elephant-27.webp",
+        "primary": false,
+        "webSha256": "36473813991607ec6ec15078d4a99547dfbae1034ddeee41a9077ff7feb3096e",
+        "webBytes": 205796
+      }
+    ],
+    "note": "Image 26 is incorrectly labelled Elephant Shirt; the garment is visibly trousers. Matching waistband detail (27) grouped with it."
+  },
+  {
+    "id": "tm-elephant-28",
+    "audience": "adults",
+    "category": "elephant-sets",
+    "shape": "shirt",
+    "title": "Ivory and blue elephant shirt",
+    "th": "เสื้อพิมพ์ลายช้างสีงาช้างและฟ้า",
+    "description": "An ivory and blue elephant-print collared shirt with short sleeves.",
+    "descriptionTh": "เสื้อเชิ้ตแขนสั้นพิมพ์ลายช้างสีงาช้างและฟ้า",
+    "sources": [
+      {
+        "code": "elephant-28",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (28).png",
+        "sha256": "a3ab456bce5417fd2a7e4602b35d153fa4d9b0d541f7771da602e698f8440e0a",
+        "src": "/media/products/tm/elephant-28.webp",
+        "primary": true,
+        "webSha256": "d670d5d47d65414fe10dbf7a131a12028e6b2e87c376bfa3c63efce03ea4e9b6",
+        "webBytes": 89956
+      },
+      {
+        "code": "elephant-29",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (29).png",
+        "sha256": "a6bdda4a51fc000833bf822a8fdffe2363d4c2ca818542c382ea755881b6c752",
+        "src": "/media/products/tm/elephant-29.webp",
+        "primary": false,
+        "webSha256": "0429660407ced441f14523f9716c9a1b4a1351ad955dbee2203bb8a30a2c0195",
+        "webBytes": 185146
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-elephant-30",
+    "audience": "adults",
+    "category": "skirts",
+    "shape": "skirt",
+    "title": "Ivory and blue elephant skirt",
+    "th": "กระโปรงพิมพ์ลายช้างสีงาช้างและฟ้า",
+    "description": "A long ivory and blue elephant-print skirt with an elastic waist and patterned border.",
+    "descriptionTh": "กระโปรงยาวลายช้างสีงาช้างและฟ้า เอวยางยืดและลายขอบ",
+    "sources": [
+      {
+        "code": "elephant-30",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (30).png",
+        "sha256": "f549d5e7dcf14bfa934982efb5e2fb8a797cb75a1b43a5a8454a8aa4d13cc052",
+        "src": "/media/products/tm/elephant-30.webp",
+        "primary": true,
+        "webSha256": "9051f3104c74bcdea7c80e87d7425c3e3a1d4f553f90208debec4a53486f1c81",
+        "webBytes": 81458
+      },
+      {
+        "code": "elephant-31",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (31).png",
+        "sha256": "daa25df759148a7eeb5c1a2a326671f025fac0e2668915dea314041549124afe",
+        "src": "/media/products/tm/elephant-31.webp",
+        "primary": false,
+        "webSha256": "6303c039f439078fc81d2f09984e2a12181fd19342a167543440b44f0898b858",
+        "webBytes": 262832
+      },
+      {
+        "code": "elephant-32",
+        "source": "รวมเสื้อช้าง กางเกงช้าง (32).png",
+        "sha256": "26af247e04c0d0e50622b73e1841de0a9485d274c11f5d29d123de9158f889b7",
+        "src": "/media/products/tm/elephant-32.webp",
+        "primary": false,
+        "webSha256": "5a9e09cc71bed6dd0515d230db630c3ca05d94bbd99a7e8302d08eee9431b1d2",
+        "webBytes": 112816
+      }
+    ],
+    "note": "Visible skirt and matching detail shots. Existing elephant category names shirts and trousers, so assigned once to Skirts. Separate garment from the coordinating shirt (28/29)."
+  },
+  {
+    "id": "tm-dress-01",
+    "audience": "adults",
+    "category": "dresses",
+    "shape": "dress",
+    "title": "Olive botanical sleeveless dress",
+    "th": "เดรสแขนกุดลายพฤกษาสีเขียวมะกอก",
+    "description": "A long sleeveless botanical-print dress, shown from the front and back.",
+    "descriptionTh": "เดรสยาวแขนกุดพิมพ์ลายพฤกษา มีภาพด้านหน้าและด้านหลัง",
+    "sources": [
+      {
+        "code": "dress-01",
+        "source": "เดรส.png",
+        "sha256": "1d645f02128286d9ef6d10bd7ed439f4193712840e864bf650d9212486db27a9",
+        "src": "/media/products/tm/dress-01.webp",
+        "primary": true,
+        "webSha256": "fdbe0fc6265717f051dc9246ea171533d042325c10d7b650ef4c56665a1610bd",
+        "webBytes": 58308
+      },
+      {
+        "code": "dress-02",
+        "source": "เดรส (2).png",
+        "sha256": "be470baf81552bdc892247f764c28bf4d647f0b503da71f11f89b659b63c653b",
+        "src": "/media/products/tm/dress-02.webp",
+        "primary": false,
+        "webSha256": "049ec6b2d4741ba1c45a1818daf917e0cd619c2c95265a350d2cc3fdcce7e996",
+        "webBytes": 55780
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-dress-03",
+    "audience": "adults",
+    "category": "dresses",
+    "shape": "dress",
+    "title": "Patchwork-print sleeveless dress",
+    "th": "เดรสแขนกุดพิมพ์ลายแพตช์เวิร์ก",
+    "description": "A long sleeveless dress with a multicolour patchwork print.",
+    "descriptionTh": "เดรสยาวแขนกุด พิมพ์ลายแพตช์เวิร์กหลายสี",
+    "sources": [
+      {
+        "code": "dress-03",
+        "source": "เดรส (3).png",
+        "sha256": "8d0104d80ea2767984641df6646d32bb5ed02b1ff3ed8a3c5cc49b9f9d95152a",
+        "src": "/media/products/tm/dress-03.webp",
+        "primary": true,
+        "webSha256": "9c15d61ea840e94d2fca9a0a19670785180f74a54309fb1ecb41aba29317f98d",
+        "webBytes": 81296
+      },
+      {
+        "code": "dress-04",
+        "source": "เดรส (4).png",
+        "sha256": "e5b9b9692e8e1c5aed2f609bb8fd8ab6d4702e70f8c9ea0e6de35dd7f4075a6a",
+        "src": "/media/products/tm/dress-04.webp",
+        "primary": false,
+        "webSha256": "f20a6b58ea7d3d37844cd0fd57d0196dcacce91a8f441f1251de99548bc1a1ff",
+        "webBytes": 68584
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-dress-05",
+    "audience": "adults",
+    "category": "dresses",
+    "shape": "dress",
+    "title": "Blue floral shirt dress",
+    "th": "เดรสเชิ้ตลายดอกสีฟ้า",
+    "description": "A blue floral collared shirt dress with a waist tie.",
+    "descriptionTh": "เดรสเชิ้ตคอปกลายดอกสีฟ้า พร้อมสายผูกเอว",
+    "sources": [
+      {
+        "code": "dress-05",
+        "source": "เดรส (5).png",
+        "sha256": "8ad1e59e0d0fb2025a200b72df8698e8530dc33b5593d6230df3fb4db1d01a0f",
+        "src": "/media/products/tm/dress-05.webp",
+        "primary": true,
+        "webSha256": "b8b18d8aaaff008e85d574d58a4a9de0abb0436a7540ecf7cbeaf380446a32d6",
+        "webBytes": 87838
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-dress-06",
+    "audience": "adults",
+    "category": "dresses",
+    "shape": "dress",
+    "title": "Black geometric shirt dress",
+    "th": "เดรสเชิ้ตลายเรขาคณิตสีดำ",
+    "description": "A black and white geometric shirt dress with short sleeves and a collar.",
+    "descriptionTh": "เดรสเชิ้ตลายเรขาคณิตสีดำและขาว แขนสั้นและคอปก",
+    "sources": [
+      {
+        "code": "dress-06",
+        "source": "เดรส (6).png",
+        "sha256": "6f7b4b83e60498282265086163a6124fb4df0a60ae28150928bdf70561d87353",
+        "src": "/media/products/tm/dress-06.webp",
+        "primary": true,
+        "webSha256": "0f5f318fe2f41eceb6577d32fe76033aa955917150804369db08454e6938a3c4",
+        "webBytes": 79426
+      },
+      {
+        "code": "dress-07",
+        "source": "เดรส (7).png",
+        "sha256": "c1d50d4bc07a3a5af7353c61dc8a5f4da85dce6b3a96f92893774d3d2ec4acaf",
+        "src": "/media/products/tm/dress-07.webp",
+        "primary": false,
+        "webSha256": "92315cc25d4590ddccb0bb69a156d8753d45bde12654530998d77ccff96ba249",
+        "webBytes": 114380
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-hawaiian-01",
+    "audience": "adults",
+    "category": "shirts",
+    "subcategory": "hawaiian-shirts",
+    "shape": "shirt",
+    "title": "Warm floral Hawaiian shirt",
+    "th": "เสื้อฮาวายลายดอกโทนสีอุ่น",
+    "description": "A short-sleeve open-collar shirt with a multicolour floral print.",
+    "descriptionTh": "เสื้อแขนสั้นคอปกเปิด พิมพ์ลายดอกหลายสี",
+    "sources": [
+      {
+        "code": "hawaiian-01",
+        "source": "เสื้อ-เสื้อฮาวาย.png",
+        "sha256": "6bb91162a6cd5a03c1c2b8a73bc575a4c7211c464982f3f30777eae45979684c",
+        "src": "/media/products/tm/hawaiian-01.webp",
+        "primary": true,
+        "webSha256": "87b0520f8674088a7507462c14fe5f332ae53041c3d4fd8d1785dffc08e173ac",
+        "webBytes": 111880
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-hawaiian-02",
+    "audience": "adults",
+    "category": "shirts",
+    "subcategory": "hawaiian-shirts",
+    "shape": "shirt",
+    "title": "Blue and yellow Hawaiian shirt",
+    "th": "เสื้อฮาวายลายดอกสีฟ้าและเหลือง",
+    "description": "A white open-collar shirt with blue leaves and yellow flowers.",
+    "descriptionTh": "เสื้อคอปกเปิดสีขาว พิมพ์ลายใบไม้สีฟ้าและดอกสีเหลือง",
+    "sources": [
+      {
+        "code": "hawaiian-02",
+        "source": "เสื้อ-เสื้อฮาวาย (2).png",
+        "sha256": "df3a26caca0412cda093aace215e952f71e5a4b833d60d1e3caa5a77238125fd",
+        "src": "/media/products/tm/hawaiian-02.webp",
+        "primary": true,
+        "webSha256": "0e60613c81ac2f657770252547a74888dd08d8dab9039c8a5207133fe82708d6",
+        "webBytes": 95408
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-hawaiian-03",
+    "audience": "adults",
+    "category": "shirts",
+    "subcategory": "hawaiian-shirts",
+    "shape": "shirt",
+    "title": "Pale blue tropical Hawaiian shirt",
+    "th": "เสื้อฮาวายลายทรอปิคอลสีฟ้าอ่อน",
+    "description": "A pale blue short-sleeve shirt with a tropical print and open collar.",
+    "descriptionTh": "เสื้อแขนสั้นสีฟ้าอ่อน พิมพ์ลายทรอปิคอลและคอปกเปิด",
+    "sources": [
+      {
+        "code": "hawaiian-03",
+        "source": "เสื้อ-เสื้อฮาวาย (3).png",
+        "sha256": "7418c714456e6082c94557e4c324be1a8c993fc6a4bdc31d4478c0680086e60e",
+        "src": "/media/products/tm/hawaiian-03.webp",
+        "primary": true,
+        "webSha256": "ab7019d4fefe6c433542630d3d3b31e45fcb84a072ed43fcb08554dbf3ae6b8e",
+        "webBytes": 81660
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-hawaiian-04",
+    "audience": "adults",
+    "category": "shirts",
+    "subcategory": "hawaiian-shirts",
+    "shape": "shirt",
+    "title": "Green floral Hawaiian shirt",
+    "th": "เสื้อฮาวายลายดอกสีเขียว",
+    "description": "A green and yellow floral short-sleeve shirt with an open collar.",
+    "descriptionTh": "เสื้อแขนสั้นลายดอกสีเขียวและเหลือง คอปกเปิด",
+    "sources": [
+      {
+        "code": "hawaiian-04",
+        "source": "เสื้อ-เสื้อฮาวาย (4).png",
+        "sha256": "e3e1365253e3b40414b4f9c1e7f529f1b7eb678ef6c0c69caf3f4fb3af03ac2c",
+        "src": "/media/products/tm/hawaiian-04.webp",
+        "primary": true,
+        "webSha256": "c479e026c04040026666546b16c47564cfa233951028e4c9731a398ade8a224b",
+        "webBytes": 83514
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-hawaiian-05",
+    "audience": "adults",
+    "category": "shirts",
+    "subcategory": "hawaiian-shirts",
+    "shape": "shirt",
+    "title": "Brown floral Hawaiian shirt",
+    "th": "เสื้อฮาวายลายดอกสีน้ำตาล",
+    "description": "A brown and white floral short-sleeve shirt with an open collar.",
+    "descriptionTh": "เสื้อแขนสั้นลายดอกสีน้ำตาลและขาว คอปกเปิด",
+    "sources": [
+      {
+        "code": "hawaiian-05",
+        "source": "เสื้อ-เสื้อฮาวาย (5).png",
+        "sha256": "98c0d28543faaebb4eb875cd4b78782209cb6d072c8eba4f53e344e0a478cd4c",
+        "src": "/media/products/tm/hawaiian-05.webp",
+        "primary": true,
+        "webSha256": "6f0223cd7b4becdbc8fa14747bdbc03003039390615215af4b123874a5bf7da7",
+        "webBytes": 88072
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-jacket-01",
+    "audience": "adults",
+    "category": "shirts",
+    "subcategory": "jackets",
+    "shape": "jacket",
+    "title": "Cream cropped zip jacket",
+    "th": "แจ็กเก็ตครอปสีครีมซิปหน้า",
+    "description": "A cream cropped jacket with a front zip and collar.",
+    "descriptionTh": "แจ็กเก็ตครอปสีครีม มีซิปด้านหน้าและคอปก",
+    "sources": [
+      {
+        "code": "jacket-01",
+        "source": "เสื้อ-แจ็กเก็ต.png",
+        "sha256": "1b8f6d02b02e4cdd85b456c4c3adfc75ca880ff470f2ae7558d41a21f201c2a6",
+        "src": "/media/products/tm/jacket-01.webp",
+        "primary": true,
+        "webSha256": "84ab1619168e908afd89dc119216915200d94d5c39301e1c8510a2e848fa1e7d",
+        "webBytes": 34694
+      },
+      {
+        "code": "jacket-02",
+        "source": "เสื้อ-แจ็กเก็ต (2).png",
+        "sha256": "4ba8a726e5003e2a8956937a33a93154878cf422c1929be2eb35d2efbe84f6ee",
+        "src": "/media/products/tm/jacket-02.webp",
+        "primary": false,
+        "webSha256": "cff05a14115ecdcac3ecae607f4bceaad8b59589aaa19860a289b1ffcbbbb9b6",
+        "webBytes": 190610
+      }
+    ],
+    "note": "Matching garment, print and construction; full view followed by additional views."
+  },
+  {
+    "id": "tm-shirt-01",
+    "audience": "adults",
+    "category": "shirts",
+    "shape": "shirt",
+    "title": "Pink checked cropped shirt",
+    "th": "เสื้อเชิ้ตครอปลายตารางสีชมพู",
+    "description": "A pink checked cropped shirt with a contrasting collar and patch pocket.",
+    "descriptionTh": "เสื้อเชิ้ตครอปลายตารางสีชมพู คอปกสีตัดและกระเป๋าปะ",
+    "sources": [
+      {
+        "code": "shirt-01",
+        "source": "เสื้อ.png",
+        "sha256": "ec7cbbcfb747ffd01d09cf860f567492d37cd74eca72c537d8d5e370b93fdfb3",
+        "src": "/media/products/tm/shirt-01.webp",
+        "primary": true,
+        "webSha256": "a3dd8f71b358768bc9b115cb1e6fcd28419371f03a368f5d10e6acea9f548171",
+        "webBytes": 71600
+      }
+    ],
+    "note": "General collared shirt fits the existing Shirts parent, but none of its Hawaiian, Jacket or Sports/team leaves. No new category needed."
+  }
+]

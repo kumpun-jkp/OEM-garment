@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
 import fs from "node:fs/promises";
+import { guides, guidePath } from "../src/content/guides.ts";
 const base = process.env.SITE_URL ?? "http://127.0.0.1:3000";
 const routes = [
   "",
@@ -10,6 +11,7 @@ const routes = [
   "/technical-insights",
   "/start-your-project",
   "/contact",
+  ...guides.map((guide) => guidePath(guide.slug)),
 ];
 const results = [];
 for (const locale of ["th", "en"]) {

@@ -14,8 +14,11 @@ import { MotionSurface } from "@/components/motion-surface";
 import { dictionaries } from "@/content/translations";
 import { createTranslator, isLocale, locales } from "@/lib/locale";
 import { notFound } from "next/navigation";
+import { publicIndexingEnabled, publicSiteOrigin } from "@/lib/site-config";
 import "../globals.css";
 import "../silk-motion.css";
+import "../product-gallery.css";
+import "../guides.css";
 
 export async function generateMetadata({
   params,
@@ -25,6 +28,7 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const t = createTranslator(dictionaries[locale]);
+  const origin = publicSiteOrigin();
   return {
     title: {
       default: t("Thonburi Master | Garment Manufacturing"),
@@ -33,7 +37,33 @@ export async function generateMetadata({
     description: t(
       "Thonburi Master garment manufacturing, with OEM apparel services through TM Apparel. Explore materials, production and project enquiries.",
     ),
-    robots: { index: false, follow: false },
+    metadataBase: origin ? new URL(origin) : undefined,
+    alternates: origin
+      ? {
+          canonical: `${origin}/${locale}`,
+          languages: {
+            th: `${origin}/th`,
+            en: `${origin}/en`,
+            "x-default": `${origin}/th`,
+          },
+        }
+      : undefined,
+    openGraph: origin
+      ? {
+          title: t("Thonburi Master | Garment Manufacturing"),
+          url: `${origin}/${locale}`,
+          siteName: "Thonburi Master",
+          type: "website",
+          locale: locale === "th" ? "th_TH" : "en_GB",
+        }
+      : undefined,
+    robots: { index: publicIndexingEnabled(), follow: publicIndexingEnabled() },
+    icons: {
+      icon: [
+        { url: "/icon.svg", type: "image/svg+xml" },
+        { url: "/favicon.ico", sizes: "32x32" },
+      ],
+    },
   };
 }
 

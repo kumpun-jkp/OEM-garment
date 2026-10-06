@@ -60,9 +60,7 @@ export function ScrollShelf({
     element.scrollBy({
       left:
         direction * ((card?.offsetWidth ?? element.clientWidth * 0.85) + gap),
-      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
-        ? "instant"
-        : "smooth",
+      behavior: "smooth",
     });
   };
 

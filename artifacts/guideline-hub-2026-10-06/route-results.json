@@ -1,0 +1,168 @@
+{
+  "results": [
+    {
+      "path": "/th/guides/preparing-garment-production-brief",
+      "title": "เตรียมบรีฟผลิตเสื้อผ้าให้พร้อมก่อนขอใบเสนอราคา | Thonburi Master",
+      "description": "รวบรวมแบบอ้างอิง จำนวน ไซซ์ และกำหนดส่งมอบ เพื่อให้โรงงานประเมินความต้องการตรงกับสิ่งที่คุณวางแผนไว้",
+      "complete": true
+    },
+    {
+      "path": "/th/guides/how-to-choose-fabric",
+      "title": "เลือกผ้าให้เหมาะกับเสื้อผ้าที่ต้องการผลิต | Thonburi Master",
+      "description": "เปรียบเทียบสัมผัส โครงสร้าง ความยืดหยุ่น และการทิ้งตัว แล้วตรวจสอบ Spec และการจัดหาผ้าก่อนทำตัวอย่าง",
+      "complete": false
+    },
+    {
+      "path": "/th/guides/preparing-sample-development",
+      "title": "เตรียมรายละเอียดก่อนทำตัวอย่างเสื้อผ้ารอบแรก | Thonburi Master",
+      "description": "ตกลงวัสดุ ขนาด และรายละเอียดการประกอบที่ต้องการตรวจจากตัวอย่าง พร้อมบันทึกสิ่งที่ยังต้องยืนยัน",
+      "complete": false
+    },
+    {
+      "path": "/th/guides/sample-approval-process",
+      "title": "อนุมัติตัวอย่างเสื้อผ้าให้เป็นแบบอ้างอิงก่อนผลิตจริง | Thonburi Master",
+      "description": "ตรวจความพอดี ขนาด ผ้า และงานตกแต่งร่วมกัน แล้วสรุปการแก้ไขและการอนุมัติเป็นหลักฐานก่อนผลิตจริง",
+      "complete": true
+    },
+    {
+      "path": "/th/guides/choosing-printing-and-embroidery",
+      "title": "เลือกเทคนิคพิมพ์หรือปักให้เหมาะกับแบบและผ้า | Thonburi Master",
+      "description": "ตรวจขนาดลาย ตำแหน่ง สี และสัมผัสที่ต้องการร่วมกับโรงงาน ก่อนเลือกเทคนิคตกแต่งที่เหมาะกับชิ้นงาน",
+      "complete": false
+    },
+    {
+      "path": "/th/guides/preparing-size-specifications",
+      "title": "เตรียมตารางไซซ์และจุดวัดให้ทีมงานเข้าใจตรงกัน | Thonburi Master",
+      "description": "ระบุช่วงไซซ์ จุดวัด และหน่วยให้ชัดเจน ตกลงวิธีวัดแต่ละจุดและตัวอย่างที่จะใช้ตรวจความพอดี",
+      "complete": false
+    },
+    {
+      "path": "/th/guides/planning-moq-and-order-quantity",
+      "title": "วางแผนจำนวนผลิตและสอบถาม MOQ แยกตามแบบ สี และไซซ์ | Thonburi Master",
+      "description": "เตรียมจำนวนที่ต้องการแยกตามแบบ สี และไซซ์ แล้วสอบถามว่าผ้า อุปกรณ์ และงานตกแต่งมีผลต่อใบเสนอราคาอย่างไร",
+      "complete": false
+    },
+    {
+      "path": "/th/guides/quality-checkpoints-before-production",
+      "title": "ตกลงจุดตรวจคุณภาพก่อนเริ่มผลิตเสื้อผ้าจริง | Thonburi Master",
+      "description": "ใช้ตัวอย่างที่อนุมัติคุยเรื่องตรวจวัสดุ สุ่มตรวจระหว่างเย็บ และตรวจหลังเย็บ รวมถึงวิธีตรวจซ้ำเมื่อมีการแก้ไข",
+      "complete": false
+    },
+    {
+      "path": "/th/guides/preparing-bulk-production-and-delivery",
+      "title": "เตรียมพร้อมก่อนผลิตจริง แพ็ก และส่งมอบสินค้า | Thonburi Master",
+      "description": "ยืนยันแบบที่อนุมัติ จำนวน ป้าย วิธีแพ็ก และรายละเอียดส่งมอบ ก่อนวางแผนผลิตออร์เดอร์ร่วมกับโรงงาน",
+      "complete": false
+    },
+    {
+      "path": "/en/guides/preparing-garment-production-brief",
+      "title": "Prepare a garment production brief before requesting a quotation | Thonburi Master",
+      "description": "Bring your design references, quantities, sizes and delivery priorities together so the factory can review the same requirements you have in mind.",
+      "complete": true
+    },
+    {
+      "path": "/en/guides/how-to-choose-fabric",
+      "title": "Choose fabric around the garment you want to make | Thonburi Master",
+      "description": "Compare feel, structure, stretch and drape, then confirm the actual fabric specification and availability before developing your sample.",
+      "complete": false
+    },
+    {
+      "path": "/en/guides/preparing-sample-development",
+      "title": "Prepare the details your first garment sample needs | Thonburi Master",
+      "description": "Agree which materials, measurements and construction details the sample should demonstrate, and record any choices that still need confirmation.",
+      "complete": false
+    },
+    {
+      "path": "/en/guides/sample-approval-process",
+      "title": "Approve a garment sample with a clear production reference | Thonburi Master",
+      "description": "Review fit, measurements, fabric and finishing together. Turn revision notes into a documented decision before releasing the style for bulk production.",
+      "complete": true
+    },
+    {
+      "path": "/en/guides/choosing-printing-and-embroidery",
+      "title": "Choose printing or embroidery for your design and fabric | Thonburi Master",
+      "description": "Review artwork size, placement, colours and the desired surface feel with the factory before choosing a decoration technique.",
+      "complete": false
+    },
+    {
+      "path": "/en/guides/preparing-size-specifications",
+      "title": "Prepare a size specification the team can measure consistently | Thonburi Master",
+      "description": "List the size range, measurement points and units. Agree how each point is measured and which sample will be used to review the fit.",
+      "complete": false
+    },
+    {
+      "path": "/en/guides/planning-moq-and-order-quantity",
+      "title": "Discuss MOQ and plan quantities by style, colour and size | Thonburi Master",
+      "description": "Prepare your intended quantity breakdown and ask how fabric availability, trims and decoration affect the quotation for your particular project.",
+      "complete": false
+    },
+    {
+      "path": "/en/guides/quality-checkpoints-before-production",
+      "title": "Agree quality checkpoints before bulk production begins | Thonburi Master",
+      "description": "Use the approved sample to discuss material checks, in-line sewing checks and end-line inspection, including how corrections will be reviewed.",
+      "complete": false
+    },
+    {
+      "path": "/en/guides/preparing-bulk-production-and-delivery",
+      "title": "Prepare for bulk production, packing and delivery | Thonburi Master",
+      "description": "Confirm the approved version, quantity breakdown, labels, packing instructions and delivery details before the factory schedules your order.",
+      "complete": false
+    }
+  ],
+  "contentSummary": [
+    {
+      "slug": "preparing-garment-production-brief",
+      "complete": true,
+      "narrativeWords": 666,
+      "sections": 6
+    },
+    {
+      "slug": "how-to-choose-fabric",
+      "complete": false,
+      "narrativeWords": 116,
+      "sections": 2
+    },
+    {
+      "slug": "preparing-sample-development",
+      "complete": false,
+      "narrativeWords": 96,
+      "sections": 2
+    },
+    {
+      "slug": "sample-approval-process",
+      "complete": true,
+      "narrativeWords": 685,
+      "sections": 6
+    },
+    {
+      "slug": "choosing-printing-and-embroidery",
+      "complete": false,
+      "narrativeWords": 103,
+      "sections": 2
+    },
+    {
+      "slug": "preparing-size-specifications",
+      "complete": false,
+      "narrativeWords": 100,
+      "sections": 2
+    },
+    {
+      "slug": "planning-moq-and-order-quantity",
+      "complete": false,
+      "narrativeWords": 94,
+      "sections": 2
+    },
+    {
+      "slug": "quality-checkpoints-before-production",
+      "complete": false,
+      "narrativeWords": 92,
+      "sections": 2
+    },
+    {
+      "slug": "preparing-bulk-production-and-delivery",
+      "complete": false,
+      "narrativeWords": 97,
+      "sections": 2
+    }
+  ]
+}

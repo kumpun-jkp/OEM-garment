@@ -16,13 +16,19 @@ export function Header() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const currentPage = pathname.replace(/^\/(th|en)/, "") || "/";
+  const currentNavigation = (href: string) =>
+    currentPage === href
+      ? "page"
+      : href === "/technical-insights" && currentPage.startsWith("/guides/")
+        ? "location"
+        : undefined;
   function switchLocale(nextLocale: Locale) {
     if (nextLocale === locale) return;
     persistLocale(nextLocale);
     closeMenus();
     router.push(
       localeHref(`${pathname}${location.search}${location.hash}`, nextLocale),
-      { scroll: false },
+      { scroll: currentPage.startsWith("/guides/") && Boolean(location.hash) },
     );
   }
   const [workOpen, setWorkOpen] = useState(false);
@@ -125,7 +131,7 @@ export function Header() {
                 href={localHref(
                   `/${locale || "th"}${item.href === "/" ? "" : item.href}`,
                 )}
-                aria-current={currentPage === item.href ? "page" : undefined}
+                aria-current={currentNavigation(item.href)}
                 onClick={closeMenus}
               >
                 {t(isThai ? item.th : item.label)}
@@ -221,7 +227,7 @@ export function Header() {
                   href={localHref(
                     `/${locale || "th"}${item.href === "/" ? "" : item.href}`,
                   )}
-                  aria-current={currentPage === item.href ? "page" : undefined}
+                  aria-current={currentNavigation(item.href)}
                   onClick={closeMenus}
                 >
                   {t(isThai ? item.th : item.label)}

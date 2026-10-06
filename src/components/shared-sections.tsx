@@ -1,4 +1,5 @@
 import { getTranslations } from "@/lib/translations";
+import { privacyPolicyHref } from "@/lib/site-config";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -233,6 +234,7 @@ const footerGroups = [
 
 export async function Footer() {
   const { t, href: localHref, locale: activeLocale } = await getTranslations();
+  const policyHref = privacyPolicyHref();
 
   const isThai = activeLocale === "th";
   return (
@@ -280,11 +282,19 @@ export async function Footer() {
               ].map((item) => (
                 <li key={item}>
                   <Link
-                    href={localHref(
-                      `/contact?inquiry=policy&subject=${encodeURIComponent(item)}`,
-                    )}
+                    href={
+                      item === "Privacy Policy" && policyHref
+                        ? policyHref
+                        : localHref(
+                            `/contact?inquiry=policy&subject=${encodeURIComponent(item)}`,
+                          )
+                    }
                   >
-                    {t(item)}
+                    {t(
+                      item === "Privacy Policy" && !policyHref
+                        ? "Request privacy policy"
+                        : item,
+                    )}
                   </Link>
                 </li>
               ))}

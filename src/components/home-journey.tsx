@@ -40,16 +40,21 @@ export function HomeJourney() {
     const rail = nav.current?.querySelector<HTMLElement>(".journey-links");
     const link = rail?.querySelector<HTMLElement>('[aria-current="location"]');
     if (!rail || !link) return;
+    const left = Math.max(
+      0,
+      link.offsetLeft -
+        rail.offsetLeft -
+        (rail.clientWidth - link.clientWidth) / 2,
+    );
+    // Do not interrupt manual horizontal exploration while the link is visible.
+    if (
+      link.offsetLeft >= rail.scrollLeft &&
+      link.offsetLeft + link.clientWidth <= rail.scrollLeft + rail.clientWidth
+    )
+      return;
     rail.scrollTo({
-      left: Math.max(
-        0,
-        link.offsetLeft -
-          rail.offsetLeft -
-          (rail.clientWidth - link.clientWidth) / 2,
-      ),
-      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
-        ? "instant"
-        : "smooth",
+      left,
+      behavior: "smooth",
     });
   }, [current]);
 

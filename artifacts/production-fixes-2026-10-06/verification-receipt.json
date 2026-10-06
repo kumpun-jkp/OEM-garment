@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-06",
+  "timezone": "Asia/Bangkok",
+  "target": "http://127.0.0.1:3003",
+  "mode": "final production build served with next start",
+  "sourceFixesApplied": true,
+  "checks": {
+    "build": "pass",
+    "typecheck": "pass",
+    "lint": { "status": "pass", "errors": 0, "warnings": 0 },
+    "unitTests": { "status": "pass", "passed": 22 },
+    "site": { "status": "pass", "routes": 16, "internalLinks": 268, "renderedAssets": 259 },
+    "products": { "status": "pass", "taxonomyDestinations": 30, "productImages": 185 },
+    "locales": { "status": "pass", "pages": 16 },
+    "targetedFixResponses": { "status": "pass", "cases": 17, "evidence": "fix-verification.json" },
+    "diffWhitespace": "pass",
+    "chromeVisualResponsiveMotion": "pending_connection_or_authorised_alternate_controller"
+  },
+  "configuration": {
+    "realEnquiryReceiverConfigured": false,
+    "approvedPolicyConfigured": false,
+    "publicDomainConfigured": false,
+    "publicIndexingEnabled": false
+  },
+  "externalEnquiriesSent": false,
+  "releaseDecision": "NO_GO_PENDING_CONFIGURATION_AND_CHROME"
+}

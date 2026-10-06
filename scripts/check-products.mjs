@@ -4,6 +4,7 @@ import {
   productTaxonomy,
   productHref,
   filterGarmentReferences,
+  garmentReferences,
   selectionNodes,
 } from "../src/content/products.ts";
 
@@ -68,7 +69,20 @@ await Promise.all(
           `Selected filter missing: ${href} / ${node.label}`,
         );
       }
-      if (selection.audience === "children")
+      const expected = filterGarmentReferences(selection);
+      assert.deepEqual(
+        cards
+          .map((card) => card.match(/data-product-id="([^"]+)"/)?.[1])
+          .sort(),
+        expected.map((item) => item.id).sort(),
+        `Each product must render exactly once: ${href}`,
+      );
+      assert.equal(
+        (html.match(/class="product-gallery"/g) ?? []).length,
+        expected.length,
+        href,
+      );
+      if (expected.length === 0)
         assert.ok(
           html.includes(
             locale === "th" ? "ยังไม่มีแบบอ้างอิง" : "references published yet",
@@ -78,6 +92,23 @@ await Promise.all(
     }),
   ),
 );
+const assets = garmentReferences.flatMap((product) =>
+  product.images.map((image) => image.src),
+);
+for (let start = 0; start < assets.length; start += 12) {
+  await Promise.all(
+    assets.slice(start, start + 12).map(async (src) => {
+      const response = await fetch(base + src);
+      assert.equal(response.status, 200, src);
+      assert.match(
+        response.headers.get("content-type") ?? "",
+        /image\/webp/,
+        src,
+      );
+      assert.ok((await response.arrayBuffer()).byteLength > 0, src);
+    }),
+  );
+}
 console.log(
-  `Verified ${selections.length * 2} rendered taxonomy destinations in both locales, selected filters, reference membership and the Children empty state.`,
+  `Verified ${selections.length * 2} rendered taxonomy destinations in both locales, selected filters, exact product membership, galleries, empty states and ${assets.length} served product images.`,
 );

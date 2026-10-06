@@ -29,7 +29,7 @@ export default async function Products({
         />
         <p className="products-intro">
           {t(
-            "Explore garment groups and product types for your next collection. Style illustrations and photo references are starting points for discussing your own design.",
+            "Explore TM Apparel products by garment type. Browse the full garment, alternative views and close-up details, then discuss your own collection with our team.",
           )}
         </p>
         <ProjectCatalogue full selection={selection} />

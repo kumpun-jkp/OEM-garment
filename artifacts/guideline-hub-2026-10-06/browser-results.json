@@ -1,0 +1,204 @@
+{
+  "browser": "Codex In-app Browser",
+  "chromeConnected": false,
+  "responsive": [
+    {
+      "articleColumns": "240px 760px",
+      "h1Width": 672,
+      "height": 1080,
+      "overflow": 0,
+      "page": "preview-article",
+      "width": 1920
+    },
+    {
+      "articleColumns": "240px 760px",
+      "h1Width": 672,
+      "height": 900,
+      "overflow": 0,
+      "page": "preview-article",
+      "width": 1440
+    },
+    {
+      "articleColumns": "240px 760px",
+      "h1Width": 614.4000244140625,
+      "height": 800,
+      "overflow": 0,
+      "page": "preview-article",
+      "width": 1280
+    },
+    {
+      "articleColumns": "200px 452.8px",
+      "h1Width": 432,
+      "height": 1024,
+      "overflow": 0,
+      "page": "preview-article",
+      "width": 768
+    },
+    {
+      "articleColumns": "335.2px",
+      "h1Width": 335.20001220703125,
+      "height": 844,
+      "overflow": 0,
+      "page": "preview-article",
+      "width": 390
+    },
+    {
+      "articleColumns": "264.8px",
+      "h1Width": 264.8000183105469,
+      "height": 740,
+      "overflow": 0,
+      "page": "preview-article",
+      "width": 320
+    },
+    {
+      "cardWidth": 378.6625061035156,
+      "cards": 9,
+      "footerHeight": 64,
+      "gridColumns": "378.663px 378.663px 378.675px",
+      "height": 1080,
+      "overflow": 0,
+      "page": "hub",
+      "width": 1920
+    },
+    {
+      "cardWidth": 378.6625061035156,
+      "cards": 9,
+      "footerHeight": 64,
+      "gridColumns": "378.663px 378.663px 378.675px",
+      "height": 900,
+      "overflow": 0,
+      "page": "hub",
+      "width": 1440
+    },
+    {
+      "cardWidth": 373.6000061035156,
+      "cards": 9,
+      "footerHeight": 64,
+      "gridColumns": "373.6px 373.6px 373.6px",
+      "height": 800,
+      "overflow": 0,
+      "page": "hub",
+      "width": 1280
+    },
+    {
+      "cardWidth": 332.3999938964844,
+      "cards": 9,
+      "footerHeight": 64,
+      "gridColumns": "332.4px 332.4px",
+      "height": 1024,
+      "overflow": 0,
+      "page": "hub",
+      "width": 768
+    },
+    {
+      "cardWidth": 335.20001220703125,
+      "cards": 9,
+      "footerHeight": 64,
+      "gridColumns": "335.2px",
+      "height": 844,
+      "overflow": 0,
+      "page": "hub",
+      "width": 390
+    },
+    {
+      "cardWidth": 264.8000183105469,
+      "cards": 9,
+      "footerHeight": 64,
+      "gridColumns": "264.8px",
+      "height": 740,
+      "overflow": 0,
+      "page": "hub",
+      "width": 320
+    },
+    {
+      "bodyWidth": 760,
+      "height": 1080,
+      "overflow": 0,
+      "page": "full-article",
+      "readingColumns": "240px 760px",
+      "tocPosition": "sticky",
+      "width": 1920
+    },
+    {
+      "bodyWidth": 760,
+      "height": 900,
+      "overflow": 0,
+      "page": "full-article",
+      "readingColumns": "240px 760px",
+      "tocPosition": "sticky",
+      "width": 1440
+    },
+    {
+      "bodyWidth": 760,
+      "height": 800,
+      "overflow": 0,
+      "page": "full-article",
+      "readingColumns": "240px 760px",
+      "tocPosition": "sticky",
+      "width": 1280
+    },
+    {
+      "bodyWidth": 452.8000183105469,
+      "height": 1024,
+      "overflow": 0,
+      "page": "full-article",
+      "readingColumns": "200px 452.8px",
+      "tocPosition": "sticky",
+      "width": 768
+    },
+    {
+      "bodyWidth": 335.20001220703125,
+      "height": 844,
+      "overflow": 0,
+      "page": "full-article",
+      "readingColumns": "335.2px",
+      "tocPosition": "static",
+      "width": 390
+    },
+    {
+      "bodyWidth": 264.8000183105469,
+      "height": 740,
+      "overflow": 0,
+      "page": "full-article",
+      "readingColumns": "264.8px",
+      "tocPosition": "static",
+      "width": 320
+    }
+  ],
+  "verifiedInteractions": {
+    "filters": {
+      "planning": 3,
+      "materials": 1,
+      "sampling": 2,
+      "decoration": 1,
+      "production": 2
+    },
+    "searchSampleApproval": true,
+    "emptyStateAndReset": true,
+    "keyboardFocus": true,
+    "articleAndRelatedNavigation": true,
+    "articleStartAfterSettling": {
+      "scroll": 0,
+      "heroTop": 80
+    },
+    "languageAnchor": {
+      "h1": "Prepare a garment production brief before requesting a quotation",
+      "headerBottom": 72,
+      "overflow": 0,
+      "top": 96.3375015258789,
+      "url": "http://127.0.0.1:3003/en/guides/preparing-garment-production-brief#preparation-checklist"
+    },
+    "contactPrefilled": true,
+    "factoryQualityLink": {
+      "url": "/en/oem-journey#quality",
+      "qualitySectionPresent": true
+    }
+  },
+  "limits": [
+    "Chrome review pending",
+    "Physical touch not tested",
+    "No live indexing or form submission",
+    "No Chrome blur or compositor performance sign-off"
+  ],
+  "consoleErrorsAndWarningsObserved": []
+}

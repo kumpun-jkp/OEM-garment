@@ -2,8 +2,8 @@
   {
     "route": "/th",
     "status": 200,
-    "nativeScriptMatches": 341,
-    "internalLinks": 63
+    "nativeScriptMatches": 342,
+    "internalLinks": 64
   },
   {
     "route": "/th/about",
@@ -14,14 +14,14 @@
   {
     "route": "/th/our-work",
     "status": 200,
-    "nativeScriptMatches": 331,
+    "nativeScriptMatches": 383,
     "internalLinks": 70
   },
   {
     "route": "/th/oem-products",
     "status": 200,
-    "nativeScriptMatches": 321,
-    "internalLinks": 69
+    "nativeScriptMatches": 2434,
+    "internalLinks": 145
   },
   {
     "route": "/th/oem-journey",
@@ -32,26 +32,80 @@
   {
     "route": "/th/technical-insights",
     "status": 200,
-    "nativeScriptMatches": 289,
-    "internalLinks": 52
+    "nativeScriptMatches": 394,
+    "internalLinks": 60
   },
   {
     "route": "/th/start-your-project",
     "status": 200,
-    "nativeScriptMatches": 281,
-    "internalLinks": 46
+    "nativeScriptMatches": 288,
+    "internalLinks": 45
   },
   {
     "route": "/th/contact",
     "status": 200,
-    "nativeScriptMatches": 242,
-    "internalLinks": 49
+    "nativeScriptMatches": 250,
+    "internalLinks": 48
+  },
+  {
+    "route": "/th/guides/preparing-garment-production-brief",
+    "status": 200,
+    "nativeScriptMatches": 362,
+    "internalLinks": 61
+  },
+  {
+    "route": "/th/guides/how-to-choose-fabric",
+    "status": 200,
+    "nativeScriptMatches": 237,
+    "internalLinks": 55
+  },
+  {
+    "route": "/th/guides/preparing-sample-development",
+    "status": 200,
+    "nativeScriptMatches": 220,
+    "internalLinks": 55
+  },
+  {
+    "route": "/th/guides/sample-approval-process",
+    "status": 200,
+    "nativeScriptMatches": 354,
+    "internalLinks": 59
+  },
+  {
+    "route": "/th/guides/choosing-printing-and-embroidery",
+    "status": 200,
+    "nativeScriptMatches": 223,
+    "internalLinks": 55
+  },
+  {
+    "route": "/th/guides/preparing-size-specifications",
+    "status": 200,
+    "nativeScriptMatches": 215,
+    "internalLinks": 55
+  },
+  {
+    "route": "/th/guides/planning-moq-and-order-quantity",
+    "status": 200,
+    "nativeScriptMatches": 245,
+    "internalLinks": 55
+  },
+  {
+    "route": "/th/guides/quality-checkpoints-before-production",
+    "status": 200,
+    "nativeScriptMatches": 220,
+    "internalLinks": 55
+  },
+  {
+    "route": "/th/guides/preparing-bulk-production-and-delivery",
+    "status": 200,
+    "nativeScriptMatches": 253,
+    "internalLinks": 55
   },
   {
     "route": "/en",
     "status": 200,
     "nativeScriptMatches": 0,
-    "internalLinks": 63
+    "internalLinks": 64
   },
   {
     "route": "/en/about",
@@ -69,7 +123,7 @@
     "route": "/en/oem-products",
     "status": 200,
     "nativeScriptMatches": 0,
-    "internalLinks": 69
+    "internalLinks": 145
   },
   {
     "route": "/en/oem-journey",
@@ -81,18 +135,72 @@
     "route": "/en/technical-insights",
     "status": 200,
     "nativeScriptMatches": 0,
-    "internalLinks": 52
+    "internalLinks": 60
   },
   {
     "route": "/en/start-your-project",
     "status": 200,
     "nativeScriptMatches": 0,
-    "internalLinks": 46
+    "internalLinks": 45
   },
   {
     "route": "/en/contact",
     "status": 200,
     "nativeScriptMatches": 0,
-    "internalLinks": 49
+    "internalLinks": 48
+  },
+  {
+    "route": "/en/guides/preparing-garment-production-brief",
+    "status": 200,
+    "nativeScriptMatches": 0,
+    "internalLinks": 61
+  },
+  {
+    "route": "/en/guides/how-to-choose-fabric",
+    "status": 200,
+    "nativeScriptMatches": 0,
+    "internalLinks": 55
+  },
+  {
+    "route": "/en/guides/preparing-sample-development",
+    "status": 200,
+    "nativeScriptMatches": 0,
+    "internalLinks": 55
+  },
+  {
+    "route": "/en/guides/sample-approval-process",
+    "status": 200,
+    "nativeScriptMatches": 0,
+    "internalLinks": 59
+  },
+  {
+    "route": "/en/guides/choosing-printing-and-embroidery",
+    "status": 200,
+    "nativeScriptMatches": 0,
+    "internalLinks": 55
+  },
+  {
+    "route": "/en/guides/preparing-size-specifications",
+    "status": 200,
+    "nativeScriptMatches": 0,
+    "internalLinks": 55
+  },
+  {
+    "route": "/en/guides/planning-moq-and-order-quantity",
+    "status": 200,
+    "nativeScriptMatches": 0,
+    "internalLinks": 55
+  },
+  {
+    "route": "/en/guides/quality-checkpoints-before-production",
+    "status": 200,
+    "nativeScriptMatches": 0,
+    "internalLinks": 55
+  },
+  {
+    "route": "/en/guides/preparing-bulk-production-and-delivery",
+    "status": 200,
+    "nativeScriptMatches": 0,
+    "internalLinks": 55
   }
 ]

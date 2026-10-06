@@ -1,0 +1,148 @@
+{
+  "browser": "Codex In-app Browser",
+  "desktop": {
+    "cards": [
+      {
+        "background": "color(display-p3 0.008 0.02 0.039)",
+        "backgroundImage": "none",
+        "body": "color(display-p3 0.8 0.804 0.808)",
+        "footer": "color(display-p3 0.965 0.749 0.255)",
+        "label": "color(display-p3 0.965 0.749 0.255)",
+        "opacity": "1",
+        "title": "rgb(255, 255, 255)"
+      },
+      {
+        "background": "color(display-p3 0.008 0.02 0.039)",
+        "backgroundImage": "none",
+        "body": "color(display-p3 0.8 0.804 0.808)",
+        "footer": "color(display-p3 0.965 0.749 0.255)",
+        "label": "color(display-p3 0.965 0.749 0.255)",
+        "opacity": "1",
+        "title": "rgb(255, 255, 255)"
+      },
+      {
+        "background": "color(display-p3 0.008 0.02 0.039)",
+        "backgroundImage": "none",
+        "body": "color(display-p3 0.8 0.804 0.808)",
+        "footer": "color(display-p3 0.965 0.749 0.255)",
+        "label": "color(display-p3 0.965 0.749 0.255)",
+        "opacity": "1",
+        "title": "rgb(255, 255, 255)"
+      },
+      {
+        "background": "color(display-p3 0.008 0.02 0.039)",
+        "backgroundImage": "none",
+        "body": "color(display-p3 0.8 0.804 0.808)",
+        "footer": "color(display-p3 0.965 0.749 0.255)",
+        "label": "color(display-p3 0.965 0.749 0.255)",
+        "opacity": "1",
+        "title": "rgb(255, 255, 255)"
+      }
+    ],
+    "headingTop": 216.6000061035156,
+    "height": 900,
+    "overflow": 0,
+    "url": "http://127.0.0.1:3003/th/oem-journey#quality",
+    "width": 1440
+  },
+  "mobile": {
+    "cards": [
+      {
+        "background": "color(display-p3 0.008 0.02 0.039)",
+        "backgroundImage": "none",
+        "body": "color(display-p3 0.8 0.804 0.808)",
+        "opacity": "1",
+        "title": "rgb(255, 255, 255)",
+        "width": 161.60000610351562
+      },
+      {
+        "background": "color(display-p3 0.008 0.02 0.039)",
+        "backgroundImage": "none",
+        "body": "color(display-p3 0.8 0.804 0.808)",
+        "opacity": "1",
+        "title": "rgb(255, 255, 255)",
+        "width": 161.60000610351562
+      },
+      {
+        "background": "color(display-p3 0.008 0.02 0.039)",
+        "backgroundImage": "none",
+        "body": "color(display-p3 0.8 0.804 0.808)",
+        "opacity": "1",
+        "title": "rgb(255, 255, 255)",
+        "width": 161.60000610351562
+      },
+      {
+        "background": "color(display-p3 0.008 0.02 0.039)",
+        "backgroundImage": "none",
+        "body": "color(display-p3 0.8 0.804 0.808)",
+        "opacity": "1",
+        "title": "rgb(255, 255, 255)",
+        "width": 161.60000610351562
+      }
+    ],
+    "height": 844,
+    "overflow": -15,
+    "width": 390
+  },
+  "narrowMobile": {
+    "cards": [
+      {
+        "background": "color(display-p3 0.008 0.02 0.039)",
+        "backgroundImage": "none",
+        "width": 264.8000183105469
+      },
+      {
+        "background": "color(display-p3 0.008 0.02 0.039)",
+        "backgroundImage": "none",
+        "width": 264.8000183105469
+      },
+      {
+        "background": "color(display-p3 0.008 0.02 0.039)",
+        "backgroundImage": "none",
+        "width": 264.8000183105469
+      },
+      {
+        "background": "color(display-p3 0.008 0.02 0.039)",
+        "backgroundImage": "none",
+        "width": 264.8000183105469
+      }
+    ],
+    "height": 740,
+    "horizontalOverflow": 0,
+    "width": 320
+  },
+  "contrastRatios": {
+    "title": 20.407403235132573,
+    "body": 12.820022418434991,
+    "label": 12.161468628638096,
+    "footer": 12.161468628638096
+  },
+  "lightCardControl": {
+    "backgroundImages": [
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))",
+      "linear-gradient(145deg, rgb(255, 255, 255) 55%, color(display-p3 0.965 0.973 0.984))"
+    ],
+    "count": 23
+  }
+}

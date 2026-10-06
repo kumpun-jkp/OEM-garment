@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Thonburi Master</title>
+  <rect width="64" height="64" rx="4" fill="#002351"/>
+  <path fill="#fff" d="M8 17h21v6h-7v24h-7V23H8z"/>
+  <path fill="#ffbc00" d="M32 17h7l6 12 6-12h7v30h-7V30l-6 11-6-11v17h-7z"/>
+</svg>

@@ -1,69 +1,15 @@
 "use client";
 import { useLocale } from "@/components/locale-provider";
 import { useState } from "react";
-import { ButtonLink } from "./primitives";
 import { AppIcon } from "./app-icon";
-
-const article = {
-  title:
-    "From garment brief to approved sample: details to confirm before production",
-  body: "Prepare your design, sizes, colours and quantities. Select fabric and trims, then review sample fit, shape and decoration before approving the details for bulk production.",
-};
-function ArticleCard({ index }: { index: number }) {
-  const { t, href: localHref } = useLocale();
-
-  return (
-    <article className="article-card">
-      <div className="article-copy">
-        <div className="split-label micro">
-          <span className="brand-accent">{t("Sample preparation")}</span>
-          <span>{t("Brief / review")}</span>
-        </div>
-        <p className="micro">
-          {t("Project planning // Design & sample details")}
-        </p>
-        <h3>{t(article.title)}</h3>
-        <p>{t(article.body)}</p>
-      </div>
-      <div className="article-foot">
-        <div className="split-label micro">
-          <span>{t("Confirm sizes & fit")}</span>
-          <span>{t("Approve before production")}</span>
-        </div>
-        <details>
-          <summary>
-            {t("Discuss sample details")}
-            {t(" ")}
-            <AppIcon name="expand" className="disclosure-icon" />
-          </summary>
-          <p>
-            {t(
-              "Discuss the sample requirements and approval details with our team.",
-            )}
-          </p>
-          <ButtonLink
-            href={localHref(
-              `/contact?inquiry=general&subject=${encodeURIComponent(`Discuss sample details (${index + 1})`)}`,
-            )}
-            variant="secondary"
-          >
-            {t("Discuss your brief")}
-          </ButtonLink>
-        </details>
-      </div>
-    </article>
-  );
-}
+import { GuideCard } from "./guide-card";
+import { guides, guideTopics, filterGuides } from "@/content/guides";
 export function InsightLibrary() {
-  const { t } = useLocale();
+  const { t, locale, isThai } = useLocale();
 
   const [topic, setTopic] = useState("all");
   const [search, setSearch] = useState("");
-  const show =
-    (topic === "all" || topic === "pattern") &&
-    `${article.title} ${article.body} ${t(article.title)} ${t(article.body)} pattern tech pack sample fabric`
-      .toLowerCase()
-      .includes(search.toLowerCase());
+  const visibleGuides = filterGuides(topic, search);
   return (
     <>
       <div className="insight-filters">
@@ -72,18 +18,23 @@ export function InsightLibrary() {
           aria-label={t("Bulletin topics")}
         >
           {[
-            ["all", "All planning excerpts (9)"],
-            ["fabric", "Fabric selection"],
-            ["pattern", "Design & sample planning"],
-            ["qc", "Quality checkpoints"],
-            ["sourcing", "Material sourcing"],
-          ].map(([value, label]) => (
+            {
+              id: "all",
+              label: isThai
+                ? `แนวทางทั้งหมด (${guides.length})`
+                : `All guides (${guides.length})`,
+            },
+            ...guideTopics.map((item) => ({
+              id: item.id,
+              label: item.label[locale],
+            })),
+          ].map(({ id, label }) => (
             <button
-              key={value}
-              onClick={() => setTopic(value)}
-              aria-pressed={topic === value}
+              key={id}
+              onClick={() => setTopic(id)}
+              aria-pressed={topic === id}
             >
-              {t(label)}
+              {label}
             </button>
           ))}
           <label className="insight-search">
@@ -98,17 +49,39 @@ export function InsightLibrary() {
           </label>
         </div>
       </div>
-      <section className="section article-compendium">
+      <section
+        className="section article-compendium"
+        id="guidelines"
+        aria-labelledby="guidelines-title"
+      >
         <div className="container">
           <div className="split-label">
-            <h2 className="micro">{t("Curated technical compendium")}</h2>
+            <div>
+              <p className="eyebrow">
+                {isThai ? "จากแนวคิดสู่การผลิต" : "From idea to production"}
+              </p>
+              <h2 id="guidelines-title">
+                {isThai
+                  ? "แนวทางวางแผนการผลิต"
+                  : "Production planning guidelines"}
+              </h2>
+              <p className="guide-hub-intro">
+                {isThai
+                  ? "เลือกเรื่องที่ตรงกับขั้นตอนของคุณ แล้วอ่านแนวทางเพื่อเตรียมรายละเอียดก่อนคุยกับโรงงาน"
+                  : "Choose the topic that fits your next step, then prepare the details for your conversation with the factory."}
+              </p>
+            </div>
             <p className="micro" role="status">
-              {t("Showing {count} planning excerpts", { count: show ? 1 : 0 })}
+              {isThai
+                ? `แสดงแนวทาง ${visibleGuides.length} รายการ`
+                : `Showing ${visibleGuides.length} guides`}
             </p>
           </div>
-          {show ? (
+          {visibleGuides.length ? (
             <div className="grid-three article-grid">
-              <ArticleCard index={0} />
+              {visibleGuides.map((guide) => (
+                <GuideCard key={guide.slug} guide={guide} locale={locale} />
+              ))}
             </div>
           ) : (
             <div className="empty-state">
